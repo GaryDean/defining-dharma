@@ -1,0 +1,30 @@
+# ─────────────────────────────────────────────────────────────
+# In Search of Dharma — public repository ignore rules
+# Anything listed here is intentionally kept OUT of the public repo:
+# internal instructions, private author/method material, and local cruft.
+# ─────────────────────────────────────────────────────────────
+
+# Internal / AI-assistant instructions — never published
+CLAUDE.md
+.claude/
+
+# Private author & method scaffolding (Part 0 research + mail archive).
+# The finished, public-facing preface is 0-preface.md at the repo root;
+# only the underlying research notes and correspondence are withheld.
+0-preface/
+
+# Internal working documents
+FABLE-REVIEW-PROMPT.md
+FABLE-REVIEW.md
+copy-to-workshops.sh
+rupert-reply.md
+
+# Assets not yet cleared for publication
+images/
+
+# Local tooling / environment / OS cruft
+.venv/
+__pycache__/
+*.pyc
+scratch/
+.DS_Store
