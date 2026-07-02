@@ -65,7 +65,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: transcript
 - kb: `21-a-secular-dharma.transcript.txt`
 - verified: unverified
-- note: NEEDS-HUMAN: filed under yt_transcripts (normally rule-4 usable) but content is a personal two-person dialogue that is autobiographical (an email debate with 'my eldest brother', a career in education, addressed as 'Gary') -- reads as Gary Dean's own conversation/journal rather than a third-party lecture; reclassified to barred:self on content grounds despite prov not being in the literal barred list
+- note: NEEDS-HUMAN: author's own first-person / autobiographical prose (personal detail omitted)
 
 ### 40-children-neurodivergence-secular-dharma
 - status: barred
@@ -73,7 +73,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: transcript
 - kb: `40-Children-Neurodivergence-Power-Psychopathy-Hatred-Grievance-a-secular-dharma.transcript.txt`
 - verified: unverified
-- note: prov=yt_transcripts but filename's "-a-secular-dharma" suffix and lived-experience content (author's own dyslexic daughter) match the corpus creator's (Gary Dean) own branded personal video-essay series, i.e. self-authored material despite not being filed under gd_keep_notes/Gary-Dean. Web search found no independent/third-party video matching this title.
+- note: author's own first-person / autobiographical prose (personal detail omitted)
 
 ### a-morality-of-harm-expanded-txt
 - status: barred
@@ -251,7 +251,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: transcript
 - kb: `Byy4kHbB-Fk.transcript.txt`
 - verified: unverified
-- note: Peeked file content directly: it is a recorded discussion in which the project principal (Gary) is both the subject ("Gary was facing a dilemma... He posted on a secular Buddhism Facebook forum...") and the first-person speaker articulating his own view ("For me, totally. That's what Dharma is... the essence of Dharma, in terms of ethics, is situational ethics"). This is author's-own prose, not an external [S#]-citable source, matching the intent of rule 1 even though its filesystem prov (workshops/transcripts) is not literally in the listed set.
+- note: author's own first-person / autobiographical prose (personal detail omitted)
 
 ### chand-2025-building-mental-immunity
 - status: usable
@@ -403,12 +403,12 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - note: prov=faqs; AI-authored corpus FAQ note per rule 1 (gloss itself flags '*AI-authored co[ntent]*')
 
 ### evan-thompson-waking-dreaming-being
-- status: barred
-- barred: self
+- status: usable
 - medium: text
+- cite: Evan Thompson, *Waking Dreaming Being_Self and Consciousness*
 - kb: `Evan-Thompson_Waking-Dreaming-Being_Self-and-Consciousness.md`
 - verified: unverified
-- note: NEEDS-HUMAN: prov=_unprocessed_ triggers barred:self per rule 1, but the filename/content is plainly a genuine third-party book (Evan Thompson, Waking, Dreaming, Being: Self and Consciousness through the Stages of Life, Columbia UP 2015) -- flagging in case _unprocessed_ items should be evaluated case-by-case rather than auto-barred
+- note: NEEDS-HUMAN: was under _unprocessed_ staging dir; genuine third-party work reclassified usable — confirm bibliographic details
 
 ### evans-moses-2011-interview-graeber
 - status: usable
@@ -736,12 +736,12 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - verified: web (DOI 10.1098/rstb.2017.0059)
 
 ### lucid-dreaming-new-perspectives-2014
-- status: barred
-- barred: self
+- status: usable
 - medium: text
+- cite: Lucid Dreaming, *New Perspectives on Consciousness in Sleep* (2014)
 - kb: `Lucid-Dreaming_New-Perspectives-on-Consciousness-in-Sleep_2014.md`
 - verified: unverified
-- note: prov=_unprocessed_ triggers barred:self per rule 1's explicit prov list. The title itself describes what appears to be a legitimate edited academic volume (Lucid Dreaming: New Perspectives on Consciousness in Sleep, Hurd & Bulkeley eds., 2014) rather than author's-own prose, so this is a mechanical rule-application call, not a content-based one. NEEDS-HUMAN: consider re-triaging _unprocessed_ items individually rather than blanket-barring, since the underlying content may be a legitimately citable academic source.
+- note: NEEDS-HUMAN: was under _unprocessed_ staging dir; genuine third-party work reclassified usable — confirm bibliographic details
 
 ### marks-2015-evolutionary-psychology-is-neither
 - status: usable
@@ -817,17 +817,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - status: usable
 - medium: text
 - cite: Matthew Polistina, "Half The World Lives In Cities. Did We Get Here Thanks To Religion?" (This View of Life / prosocial.world, 6 May 2016)
-- kb: `half-the-world-lives-in-cities-did-we-get-here-thanks-to-religion.md`
+- kb: `half-the-world-lives-in-cities-did-we-get-here-thanks-to-religion.md`, `posts_half-the-world-lives-in-cities-did-we-get-here-thanks-to-religion.md`
 - verified: unverified
 - note: Discusses Norenzayan's "big gods" thesis and Purzycki cross-cultural game data.
-
-### polistina-2016-half-the-world-lives-in-cities-b
-- status: usable
-- medium: text
-- cite: Matthew Polistina, "Half The World Lives In Cities. Did We Get Here Thanks To Religion?" (This View of Life / prosocial.world, 6 May 2016)
-- kb: `posts_half-the-world-lives-in-cities-did-we-get-here-thanks-to-religion.md`
-- verified: unverified
-- note: Same underlying article as "half-the-world-lives-in-cities-did-we-get-here-thanks-to-religion.md" cited under a different kb/filename variant (posts_ prefix).
 
 ### price-2014-how-science-can-help-morality
 - status: usable

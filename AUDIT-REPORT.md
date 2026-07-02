@@ -4,11 +4,12 @@ Generated 2026-07-02. P2 of `SOURCE-CITATION-POLICY.design.md`. No research note
 
 ## Summary
 - Distinct sourcedocs cited: **207** across 303 citations in 42 notes
-- Classification: usable **174** · barred:self **27** · barred:ephemera **6** · project-file **0**
+- Classification: usable **176** · barred:self **25** · barred:ephemera **6** · project-file **0**
 - NEEDS-HUMAN (uncertain classification): **21**
-- **Barred-source violations** ([S#] citing a barred source): **46** across 26 notes
+- **Barred-source violations** ([S#] citing a barred source): **44** across 25 notes
 - Non-source citations ([S#] citing a project-file): **0** across 0 notes
-- New register entries added this pass: **201** (+5 pre-existing)
+- New register entries added this pass: **200** (+5 pre-existing)
+- Patched: 2 `_unprocessed_` docs reclassified barred→usable; 3 classification notes scrubbed of personal detail
 
 ## Violations — [S#] citing a barred source
 
@@ -37,11 +38,9 @@ P3 remediation: `self` → convert to `[A]` (author's own; seek grounding, not r
 | 2.4-transmission-institutionalization.md | S5 | `combined_dharma_keep_notes.txt` | self | → [A] |
 | 3.1-tension-resolution.md | S1 | `mydharma-ourdharma-28258.expanded.txt` | self | → [A] |
 | 3.1-tension-resolution.md | S2 | `dharmic-tribalism.expanded.txt` | self | → [A] |
-| 3.2-metacognitive-function.md | S1 | `Evan-Thompson_Waking-Dreaming-Being_Self-and-Consciousness.md` | self | → [A] |
 | 3.2-metacognitive-function.md | S3 | `gd_keep-0475.txt` | self | → [A] |
 | 3.3-grounding-problem.md | S3 | `a-morality-of-harm.expanded.txt` | self | → [A] |
 | 3.4-relativism-universalism.md | S1 | `why-is-the-concept-of-dharma-important_conversational.md` | self | → [A] |
-| 4.3-indigenous-oral-dharmas.md | S2 | `Lucid-Dreaming_New-Perspectives-on-Consciousness-in-Sleep_2014.md` | self | → [A] |
 | 5.1-neurological-basis.md | S3 | `events_examined-lives-mindfulness-session-42.md` | ephemera | → re-ground/drop |
 | 5.4-ritual-habituation.md | S2 | `what-is-dharma.md` | self | → [A] |
 | 5.6-neurodivergence.md | S23 | `is-rationalism-a-form-of-autism.expanded.txt` | self | → [A] |
@@ -79,10 +78,10 @@ P3: remove the `[S#]` or re-source to a real work.
 | `1377086-respect-for-nature-serves-baduy-in-good-stead.md` | usable | NEEDS-HUMAN: jawawa.id likely syndicates ANTARA News reporting (cf. sibling item 1757483, confirmed ANTARA sourcing) but the original outlet URL/byline/date could not be located; the jawawa.id URL now returns HTTP 410 Gone. |
 | `1510348-treating-mystic-believers.md` | usable | Content places this contemporaneous with the 1997 MPR aliran-kepercayaan debate; jawawa.id archives Jakarta Post material from that era, but exact byline/date not located via web search. NEEDS-HUMAN: confirm original outlet/date. |
 | `1684017-leiden-university-researcher-preserve-the-baduy-communitys-culture.md` | usable | NEEDS-HUMAN: likely ANTARA News syndication reporting on Jet Bakels's Baduy fieldwork (since 1983-84); original outlet URL/date/byline unconfirmed, jawawa.id URL now HTTP 410 Gone. |
-| `21-a-secular-dharma.transcript.txt` | barred:self | NEEDS-HUMAN: filed under yt_transcripts (normally rule-4 usable) but content is a personal two-person dialogue that is autobiographical (an email debate with 'my eldest brother', a career in education, addressed as 'Gary') -- reads as Gary Dean's own conversation/journal rather than a third-party lecture; reclassified to barred:self on content grounds despite prov not being in the literal barred list |
+| `21-a-secular-dharma.transcript.txt` | barred:self | NEEDS-HUMAN: author's own first-person / autobiographical prose (personal detail omitted) |
 | `EtVfoIkVSu8.transcript.txt` | usable | NEEDS-HUMAN: oEmbed confirms video ID EtVfoIkVSu8 = Stanford's "19. Aggression III" (aggression neurobiology), but the batch gloss describes Kohlberg/Piaget moral-development stages -- a topical mismatch. Verify the transcript-to-video mapping before using this citation. |
-| `Evan-Thompson_Waking-Dreaming-Being_Self-and-Consciousness.md` | barred:self | NEEDS-HUMAN: prov=_unprocessed_ triggers barred:self per rule 1, but the filename/content is plainly a genuine third-party book (Evan Thompson, Waking, Dreaming, Being: Self and Consciousness through the Stages of Life, Columbia UP 2015) -- flagging in case _unprocessed_ items should be evaluated case-by-case rather than auto-barred |
-| `Lucid-Dreaming_New-Perspectives-on-Consciousness-in-Sleep_2014.md` | barred:self | prov=_unprocessed_ triggers barred:self per rule 1's explicit prov list. The title itself describes what appears to be a legitimate edited academic volume (Lucid Dreaming: New Perspectives on Consciousness in Sleep, Hurd & Bulkeley eds., 2014) rather than author's-own prose, so this is a mechanical rule-application call, not a content-based one. NEEDS-HUMAN: consider re-triaging _unprocessed_ items individually rather than blanket-barring, since the underlying content may be a legitimately citable academic source. |
+| `Evan-Thompson_Waking-Dreaming-Being_Self-and-Consciousness.md` | usable | NEEDS-HUMAN: was under _unprocessed_ staging dir; genuine third-party work reclassified usable — confirm bibliographic details |
+| `Lucid-Dreaming_New-Perspectives-on-Consciousness-in-Sleep_2014.md` | usable | NEEDS-HUMAN: was under _unprocessed_ staging dir; genuine third-party work reclassified usable — confirm bibliographic details |
 | `Mindful-Solidarity.md` | usable | prov=Bodhi. Web search confirms Bhikkhu Bodhi's recurring "solidarity/compassion/justice" framing (e.g. MIT 2018 talk "moral vision in an age of crisis") but did not pin down the exact publication venue for an essay titled precisely "Mindful Solidarity". NEEDS-HUMAN: confirm original publication venue. |
 | `SIM_retreat.txt` | usable | Multi-speaker retreat Q&A transcript (VTT-derived: 'day_0_-_introduction_to_retreat_583.mp4.vtt'); lead voice self-identifies as 'Wynton' (political-theory/genocide-studies academic turned Buddhist teacher = Winton Higgins), but many participants speak; NEEDS-HUMAN: confirm exact retreat date/attribution if precision is required |
 | `Secondo_Natura.*.md` | usable | NEEDS-HUMAN: input filename is literally "Secondo_Natura.*.md" (unexpanded glob, not a real file). DB has four variants under staging.text/Stefano_Bettera/ (chatgpt-4o-latest.en, gpt-4o-latest.en, gpt-4o-mini.en, it) -- confirm which specific file/language was actually cited; the .en variants are LLM translations/summaries of the Italian original. |
@@ -102,7 +101,7 @@ P3: remove the `[S#]` or re-source to a real work.
 |---|---|---|---|
 | `-IlG32Pb43g.transcript.txt` | usable | einzelganger-law-of-reversed-effort | alexander-technique.md:S10 |
 | `01-Introduction-to-Human-Behavioral-Biology-2012-by-Robert-Sapolsky-at-Stanford-University.transcript.txt` | usable | sapolsky-2010-human-behavioral-biology-lec01-intro | 5.6.4-gifted-wider-spectrum.md:S25 |
-| `04-chapter.md` | usable | boehm-1999-hierarchy-in-the-forest | 2.3-pre-axial-ethics.md:S1, 7.3-dharma-and-power.md:S1 |
+| `04-chapter.md` | usable | boehm-1999-hierarchy | 2.3-pre-axial-ethics.md:S1, 7.3-dharma-and-power.md:S1 |
 | `1003199-preserving-prophet-adam-s-legacy-in-west-java.md` | usable | jawawa-preserving-prophet-adams-legacy-west-java | 4.6-badui-of-west-java.md:S4 |
 | `1075247-an-australian-reporter-s-tale-of-living-the-news.md` | usable | jakarta-post-australian-reporter-tale-of-living-the-news | 4.5-subud-and-sumarah.md:S8 |
 | `11-Sabine-Hossenfelder-Big-Bang-ASD-Robert-Sapolsky-Father-Offspring-Interviews.transcript.txt` | usable | sapolsky-father-offspring-ep11-hossenfelder | 5.6-neurodivergence.md:S26 |
@@ -132,11 +131,11 @@ P3: remove the `[S#]` or re-source to a real work.
 | `After-Buddhism.md` | usable | batchelor-2015-after-buddhism | 2.4-transmission-institutionalization.md:S4, 3.2-metacognitive-function.md:S2, 6.4-gender-and-dharma.md:S1, 7.5-orientalism.md:S7, 8.3-post-traditional-dharmas.md:S1 |
 | `After_Buddhism-a_workbook.md` | usable | higgins-2018-after-buddhism-workbook | 7.5-orientalism.md:S4 |
 | `Art_of_Solitude.md` | usable | batchelor-2020-art-of-solitude | 5.6.2-contemplative-vocation.md:S13 |
-| `Behave_the-biology-of-humans-at-our-best-and-worst.md` | usable | sapolsky-2017-behave | 1.4-cross-cultural-cognates.md:S4, 3.2-metacognitive-function.md:S4, 4.6-badui-of-west-java.md:S20, 5.1-neurological-basis.md:S1, 5.3-moral-psychology-development.md:S3, 5.5-psychopaths.md:S13, 5.5-psychopaths.md:S14, 5.5-psychopaths.md:S19, 5.5-psychopaths.md:S20, 5.5-psychopaths.md:S25, 5.5-psychopaths.md:S26, 5.6-neurodivergence.md:S12, 5.6-neurodivergence.md:S27, 5.6.1-autism.md:S13, 5.6.1-autism.md:S4, 6.4-gender-and-dharma.md:S3, 7.5-orientalism.md:S9, alexander-technique.md:S2 |
+| `Behave_the-biology-of-humans-at-our-best-and-worst.md` | usable | sapolsky-behave-2017 | 1.4-cross-cultural-cognates.md:S4, 3.2-metacognitive-function.md:S4, 4.6-badui-of-west-java.md:S20, 5.1-neurological-basis.md:S1, 5.3-moral-psychology-development.md:S3, 5.5-psychopaths.md:S13, 5.5-psychopaths.md:S14, 5.5-psychopaths.md:S19, 5.5-psychopaths.md:S20, 5.5-psychopaths.md:S25, 5.5-psychopaths.md:S26, 5.6-neurodivergence.md:S12, 5.6-neurodivergence.md:S27, 5.6.1-autism.md:S13, 5.6.1-autism.md:S4, 6.4-gender-and-dharma.md:S3, 7.5-orientalism.md:S9, alexander-technique.md:S2 |
 | `Byy4kHbB-Fk.transcript.txt` | barred:self | byy4khbb-fk-discussion-transcript | 1.3-boundary-definition.md:S6 |
-| `Christopher-Boehm_Hierarchy-in-the-Forest_The-Evolution-of-Egalitarian-Behavior_HarvardUP-1999.md` | usable | boehm-1999-hierarchy-in-the-forest | 5.5-psychopaths.md:S1, 5.5-psychopaths.md:S2, 5.5-psychopaths.md:S3, 5.5-psychopaths.md:S4, 5.5-psychopaths.md:S5, 5.5-psychopaths.md:S6, 5.5-psychopaths.md:S7 |
-| `Dawn_of_Everything-David_Graeber.md` | usable | graeber-wengrow-2021-dawn-of-everything | 2.2-urban-complexity.md:S5, 4.6-badui-of-west-java.md:S16, 7.3-dharma-and-power.md:S12 |
-| `Definition.md` | barred:self |  | 1.1-etymology.md:S9, 1.3-boundary-definition.md:S11 |
+| `Christopher-Boehm_Hierarchy-in-the-Forest_The-Evolution-of-Egalitarian-Behavior_HarvardUP-1999.md` | usable | boehm-1999-hierarchy | 5.5-psychopaths.md:S1, 5.5-psychopaths.md:S2, 5.5-psychopaths.md:S3, 5.5-psychopaths.md:S4, 5.5-psychopaths.md:S5, 5.5-psychopaths.md:S6, 5.5-psychopaths.md:S7 |
+| `Dawn_of_Everything-David_Graeber.md` | usable | graeber-wengrow-2021-dawn | 2.2-urban-complexity.md:S5, 4.6-badui-of-west-java.md:S16, 7.3-dharma-and-power.md:S12 |
+| `Definition.md` | barred:self | definition-md | 1.1-etymology.md:S9, 1.3-boundary-definition.md:S11 |
 | `Dharma-is-the-Pre-Sage-of-Philosophy_o3.md` | barred:self | dharma-is-the-pre-sage-of-philosophy | 1.4-cross-cultural-cognates.md:S1 |
 | `Donald-Robertson_How-to-Think-Like-a-Roman-Emperor.md` | usable | robertson-2019-how-to-think-like-a-roman-emperor | 6.1-secular-translation.md:S3 |
 | `Dr-Robert-Sapolskys-lecture-about-Biological-Underpinnings-of-Religiosity.transcript.txt` | usable | sapolsky-biological-underpinnings-of-religiosity | 5.6.2-contemplative-vocation.md:S10 |
@@ -144,7 +143,7 @@ P3: remove the `[S#]` or re-source to a real work.
 | `Einzelganger.txt` | usable | einzelganger-2021-wu-wei-cook-ding | alexander-technique.md:S6 |
 | `EtVfoIkVSu8.transcript.txt` | usable | sapolsky-aggression-iii-stanford | 5.3-moral-psychology-development.md:S4 |
 | `Evan-Thompson_Waking-Dreaming-Being-Self-and-Consciousness.md` | usable | thompson-2015-waking-dreaming-being | 5.1-neurological-basis.md:S2 |
-| `Evan-Thompson_Waking-Dreaming-Being_Self-and-Consciousness.md` | barred:self | evan-thompson-waking-dreaming-being | 3.2-metacognitive-function.md:S1 |
+| `Evan-Thompson_Waking-Dreaming-Being_Self-and-Consciousness.md` | usable | evan-thompson-waking-dreaming-being | 3.2-metacognitive-function.md:S1 |
 | `Evolutionary-Psychology-An-Introduction-Dr-Diana-Fleischman.transcript.txt` | usable | fleischman-evolutionary-psychology-introduction | 5.6-neurodivergence.md:S10 |
 | `GmlrEgLGozw.transcript.txt` | usable | harris-diary-of-a-ceo-2023-chatgpt-warning | 8.2-ai-and-dharma.md:S4 |
 | `Interview_with_Stephen_Batchelor_on_Mindfulness_Based_Ethical_Living_MBEL.txt` | usable | batchelor-2023-mbel-interview | 6.1-secular-translation.md:S1 |
@@ -153,7 +152,7 @@ P3: remove the `[S#]` or re-source to a real work.
 | `Kate-Crawford_The-Atlas-of-AI-Power-Politics-and-the-Planetary-Costs_2021.md` | usable | crawford-2021-atlas-of-ai | 5.6.3-technical-vocation.md:S5 |
 | `Ken-Wilber_A-Brief-History-of-Everything_1996.md` | usable | wilber-1996-brief-history-of-everything | 6.4-gender-and-dharma.md:S2 |
 | `Lisa-Feldman-Barrett_How-Emotions-Are-Made_the-secret-life-of-the-brain.md` | usable | barrett-2017-how-emotions-are-made | 5.6-neurodivergence.md:S15, 5.6-neurodivergence.md:S16, 5.6.1-autism.md:S6, 5.6.1-autism.md:S7, 5.6.3-technical-vocation.md:S4 |
-| `Lucid-Dreaming_New-Perspectives-on-Consciousness-in-Sleep_2014.md` | barred:self | lucid-dreaming-new-perspectives-2014 | 4.3-indigenous-oral-dharmas.md:S2 |
+| `Lucid-Dreaming_New-Perspectives-on-Consciousness-in-Sleep_2014.md` | usable | lucid-dreaming-new-perspectives-2014 | 4.3-indigenous-oral-dharmas.md:S2 |
 | `Mark-Pagel_Human-Tribalism_A-Curse-of-Our-Evolutionary-Past.md` | usable | pagel-2019-human-tribalism-gifford-lecture | 2.2-urban-complexity.md:S3 |
 | `Martine+Stephen-Batchelor_What-is-this.md` | usable | batchelor-batchelor-2019-what-is-this | alexander-technique.md:S3 |
 | `Max-Fisher_The-Chaos-Machine_The-Inside-Story-of-How-Social-Media_2022.md` | usable | fisher-2022-the-chaos-machine | 5.6.3-technical-vocation.md:S6 |
@@ -167,7 +166,7 @@ P3: remove the `[S#]` or re-source to a real work.
 | `SIM_retreat.txt` | usable | bodhi-college-sim-retreat-day0-introduction | 5.6.3-technical-vocation.md:S8 |
 | `Sam-Harris-and-Robert-Sapolsky-discuss-the-Psychology-of-EVIL.transcript.txt` | usable | harris-sapolsky-psychology-of-evil | 5.5-psychopaths.md:S18 |
 | `Secondo_Natura` | usable | bettera-2024-secondo-natura | 8.3-post-traditional-dharmas.md:S8 |
-| `Secondo_Natura.*.md` | usable | bettera-2024-secondo-natura | 7.1-failure-modes.md:S3 |
+| `Secondo_Natura.*.md` | usable | bettera-2024-secondo-natura-2 | 7.1-failure-modes.md:S3 |
 | `Secondo_Natura.it.md` | usable | bettera-2024-secondo-natura | 7.5-orientalism.md:S8 |
 | `Secular_Buddhism.md` | usable | batchelor-2017-secular-buddhism-imagining-the-dharma | 6.1-secular-translation.md:S2, 7.5-orientalism.md:S5 |
 | `Stephen-Bachelor_What-if-Buddhists-Ran-the-World.md` | usable | batchelor-song-2024-what-if-buddhists-ran-the-world | alexander-technique.md:S5 |
@@ -184,14 +183,14 @@ P3: remove the `[S#]` or re-source to a real work.
 | `V_Neurophilo-Robert_Sapolsky-cleaned.txt` | usable | sapolsky-neurophilosophy-determinism-talk | alexander-technique.md:S16 |
 | `VpcQVjSVqOM.transcript.txt` | usable | einzelganger-law-of-reverse-effect | alexander-technique.md:S7 |
 | `Wendell-Wallach_Moral-Machines` | usable | wallach-allen-2009-moral-machines | 8.4-encoding-dharma-machines.md:S4 |
-| `Wendell-Wallach_Moral-Machines.md` | usable | wallach-allen-2009-moral-machines | 8.2-ai-and-dharma.md:S1 |
+| `Wendell-Wallach_Moral-Machines.md` | usable | wallach-allen-2009-moral-machines-2 | 8.2-ai-and-dharma.md:S1 |
 | `What-The-Mandalorian-Gets-Right-About-Real-World-Religions.md` | usable | religionforbreakfast-mandalorian-real-world-religions | 5.2-evolutionary-psychology.md:S2 |
-| `What-if-Buddhists-Ran-the-World.md` | usable | batchelor-song-2024-what-if-buddhists-ran-the-world | alexander-technique.md:S4 |
+| `What-if-Buddhists-Ran-the-World.md` | usable | batchelor-song-2024-what-if-buddhists-ran-the-world-2 | alexander-technique.md:S4 |
 | `Z1tuu5cd6VI.transcript.txt` | usable | religionforbreakfast-most-painful-religious-rituals | 5.4-ritual-habituation.md:S3 |
-| `ZbiQns2n0qI.transcript.txt` | usable | bailey-inventing-world-3.0-evolutionary-ethics-ai | 8.2-ai-and-dharma.md:S7 |
+| `ZbiQns2n0qI.transcript.txt` | usable | bailey-inventing-world-3-0-evolutionary-ethics-ai | 8.2-ai-and-dharma.md:S7 |
 | `Zen-Mind-Beginners-Mind_Shunryu-Suzuki.md` | usable | suzuki-1970-zen-mind-beginners-mind | alexander-technique.md:S8, alexander-technique.md:S9 |
 | `_g9pdWyAaDs.transcript.txt` | usable | religionforbreakfast-no-true-scotsman-religion | 7.1-failure-modes.md:S1 |
-| `a-morality-of-harm.expanded.txt` | barred:self |  | 3.3-grounding-problem.md:S3 |
+| `a-morality-of-harm.expanded.txt` | barred:self | a-morality-of-harm-expanded-txt | 3.3-grounding-problem.md:S3 |
 | `aA0wB3d7MgE.transcript.txt` | usable | religionforbreakfast-ancient-greeks-buddhism | 7.2-appropriation.md:S1 |
 | `anarkata-move-like-mycorrhizae.md` | usable | anarkata-move-like-mycorrhizae | 4.2-ubuntu.md:S3 |
 | `bC2pQ78o754.transcript.txt` | usable | meaning-alignment-institute-moral-graphs-openai-grant-winners | 8.2-ai-and-dharma.md:S2 |
@@ -206,7 +205,7 @@ P3: remove the `[S#]` or re-source to a real work.
 | `defining-dharma_gpt41.md` | barred:self | defining-dharma-gpt41 | 1.1-etymology.md:S2 |
 | `dharmic-tribalism.expanded.txt` | barred:self | dharmic-tribalism-expanded | 3.1-tension-resolution.md:S2 |
 | `ellen-evans+jon-moses_interview-with-david-graeber.md` | usable | evans-moses-2011-interview-graeber | 6.3-economics-work-inequality.md:S1 |
-| `etymology-origins-of-dharma.md` | barred:self |  | 1.1-etymology.md:S1, 2.1-axial-age.md:S1, 6.1-secular-translation.md:S5 |
+| `etymology-origins-of-dharma.md` | barred:self | etymology-origins-of-dharma-md | 1.1-etymology.md:S1, 2.1-axial-age.md:S1, 6.1-secular-translation.md:S5 |
 | `events_examined-lives-mindfulness-session-42.md` | barred:ephemera | prosocial-events-examined-lives-session-42 | 5.1-neurological-basis.md:S3 |
 | `events_organizational-development-as-generative-entrenchment.md` | barred:ephemera | events-organizational-development-generative-entrenchment | 5.6-neurodivergence.md:S31 |
 | `events_prosocial-embodiment-workshop.md` | barred:ephemera | prosocial-world-events-embodiment-workshop | alexander-technique.md:S13 |
@@ -238,14 +237,14 @@ P3: remove the `[S#]` or re-source to a real work.
 | `posts_building-mental-immunity.md` | usable | chand-2025-building-mental-immunity | 6.2-digital-age-dharma.md:S3 |
 | `posts_climate-change-and-inter-group-cooperation` | usable | evolution-institute-climate-change-cooperation | 8.1-planetary-dharma.md:S1 |
 | `posts_conscious-multilevel-cultural-evolution-theory-practice-and-two-case-studies` | usable | wilson-styles-atkins-2024-conscious-multilevel-cultural-evolution | 8.1-planetary-dharma.md:S3 |
-| `posts_conscious-multilevel-cultural-evolution-theory-practice-and-two-case-studies.md` | usable | wilson-styles-atkins-2024-conscious-multilevel-cultural-evolution | alexander-technique.md:S15 |
+| `posts_conscious-multilevel-cultural-evolution-theory-practice-and-two-case-studies.md` | usable | wilson-styles-atkins-2024-conscious-multilevel-cultural-evolution-2 | alexander-technique.md:S15 |
 | `posts_cooperation-through-cultural-group-selection.md` | usable | prosocial-world-cooperation-through-cultural-group-selection | 1.2-universal-patterns.md:S5 |
 | `posts_dealing-with-psychopaths-in-the-internet-age.md` | usable | prosocial-dealing-with-psychopaths-internet-age | 5.5-psychopaths.md:S24 |
 | `posts_evolution-and-the-coming-interspiritual-age` | usable | wilson-evolution-coming-interspiritual-age | 8.3-post-traditional-dharmas.md:S6 |
 | `posts_evolution-of-moral-outrage-ill-punish-your-bad-behavior-to-make-me-look-good.md` | usable | jordan-2016-evolution-moral-outrage | 2.3-pre-axial-ethics.md:S4, 5.5-psychopaths.md:S27 |
 | `posts_generalizing-the-core-design-principles-...md` | usable | wilson-ostrom-cox-2013-generalizing-core-design-principles | 4.6-badui-of-west-java.md:S19 |
 | `posts_generalizing-the-core-design-principles-for-the-efficacy-of-groups.md` | usable | prosocial-world-generalizing-core-design-principles | 3.1-tension-resolution.md:S3 |
-| `posts_half-the-world-lives-in-cities-did-we-get-here-thanks-to-religion.md` | usable | polistina-2016-half-the-world-lives-in-cities-b | 2.2-urban-complexity.md:S1 |
+| `posts_half-the-world-lives-in-cities-did-we-get-here-thanks-to-religion.md` | usable | polistina-2016-half-the-world-lives-in-cities | 2.2-urban-complexity.md:S1 |
 | `posts_is-there-a-universal-morality-introduction-and-overview-of-responses.md` | usable | wilson-sloan-price-is-there-a-universal-morality-overview | 1.1-etymology.md:S6, 3.4-relativism-universalism.md:S4 |
 | `posts_is-video-chat-a-sufficient-proxy-for-face-to-face-interaction-...md` | usable | kalkhoff-serpe-pollock-2020-video-chat-proxy | 6.2-digital-age-dharma.md:S4 |
 | `posts_john-dewey-the-first-evolutionary-educational-philosopher.md` | usable | john-dewey-first-evolutionary-educational-philosopher | alexander-technique.md:S14 |
@@ -281,7 +280,7 @@ P3: remove the `[S#]` or re-source to a real work.
 | `tags_artificial-intelligence` | barred:ephemera | tags-artificial-intelligence | 8.2-ai-and-dharma.md:S6 |
 | `tags_ostrom` | barred:ephemera | prosocial-world-tags-ostrom | 8.1-planetary-dharma.md:S2 |
 | `the-controversial-science-of-iq-culture.txt` | usable | gold-cofnas-controversial-science-of-iq-culture | 5.6.4-gifted-wider-spectrum.md:S22 |
-| `the-dharama-has-many-frames-from-which-it-can-be-discerned` | barred:self |  | 8.4-encoding-dharma-machines.md:S1 |
+| `the-dharama-has-many-frames-from-which-it-can-be-discerned` | barred:self | the-dharama-has-many-frames-from-which-it-can-be-discerned | 8.4-encoding-dharma-machines.md:S1 |
 | `the-genies-are-out-of-the-bottle-and-there-s-no-putting-them-back` | barred:self | the-genies-are-out-of-the-bottle | 7.4-measurement-falsifiability.md:S8, 8.4-encoding-dharma-machines.md:S2 |
 | `the-goodness-paradox-...md` | usable | wrangham-2019-goodness-paradox | 5.5-psychopaths.md:S16 |
 | `the-goodness-paradox-the-strange-relationship-between-virtue-and-violence-in-human-evolution-...md` | usable | wrangham-2019-the-goodness-paradox | 5.5-psychopaths.md:S15 |
@@ -301,7 +300,7 @@ P3: remove the `[S#]` or re-source to a real work.
 | `what-is-dharma.md` | barred:self | what-is-dharma-md-llm-query-transcript | 1.3-boundary-definition.md:S1, 1.4-cross-cultural-cognates.md:S3, 5.4-ritual-habituation.md:S2 |
 | `why-are-dharmas-necessary.md` | barred:self | why-are-dharmas-necessary | 1.1-etymology.md:S3 |
 | `why-is-the-concept-of-dharma-important_analytical.md` | barred:self | why-is-the-concept-of-dharma-important-analytical | 1.3-boundary-definition.md:S3, 1.3-boundary-definition.md:S4 |
-| `why-is-the-concept-of-dharma-important_conversational.md` | barred:self |  | 3.4-relativism-universalism.md:S1 |
+| `why-is-the-concept-of-dharma-important_conversational.md` | barred:self | why-is-the-concept-of-dharma-important-conversational-md | 3.4-relativism-universalism.md:S1 |
 | `why-is-the-concept-of-dharma-important_technical.md` | barred:self | why-is-the-concept-of-dharma-important-technical | 1.3-boundary-definition.md:S2, 2.4-transmission-institutionalization.md:S2, 2.4-transmission-institutionalization.md:S3 |
 | `would-abandoning-moral-foundations-make-for-a-better-society.md` | usable | would-abandoning-moral-foundations-better-society | 5.3-moral-psychology-development.md:S1 |
 | `www.prosocial.world_prosocial-spirituality-active-group-engagement.md` | usable | prosocial-world-prosocial-spirituality-active-group-engagement | 6.1-secular-translation.md:S4 |
