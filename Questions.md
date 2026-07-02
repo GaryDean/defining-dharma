@@ -23,11 +23,11 @@ cited note (e.g. `4.5`).
 | 2.3 | Pre-Axial / Pre-literate Ethics         | done        | [2-historical/2.3-pre-axial-ethics.md](2-historical/2.3-pre-axial-ethics.md) |
 | 2.4 | Transmission & Institutionalization     | done        | [2-historical/2.4-transmission-institutionalization.md](2-historical/2.4-transmission-institutionalization.md) |
 | 3.1 | Tension Resolution                      | done        | [3-philosophical/3.1-tension-resolution.md](3-philosophical/3.1-tension-resolution.md) |
-| 3.2 | Metacognitive Function                  | done        | [3-philosophical/3.2-metacognitive-function.md](3-philosophical/3.2-metacognitive-function.md) |
-| 3.3 | The Grounding Problem                   | done        | [3-philosophical/3.3-grounding-problem.md](3-philosophical/3.3-grounding-problem.md) |
+| 3.2 | Metacognitive Function                  | review      | [3-philosophical/3.2-metacognitive-function.md](3-philosophical/3.2-metacognitive-function.md) |
+| 3.3 | The Grounding Problem                   | review      | [3-philosophical/3.3-grounding-problem.md](3-philosophical/3.3-grounding-problem.md) |
 | 3.4 | Relativism vs. Universalism             | done        | [3-philosophical/3.4-relativism-universalism.md](3-philosophical/3.4-relativism-universalism.md) |
 | 4.1 | Samin of Java                           | done        | [4-cultural/4.1-samin-of-java.md](4-cultural/4.1-samin-of-java.md) |
-| 4.2 | Ubuntu                                  | done        | [4-cultural/4.2-ubuntu.md](4-cultural/4.2-ubuntu.md) |
+| 4.2 | Ubuntu                                  | review      | [4-cultural/4.2-ubuntu.md](4-cultural/4.2-ubuntu.md) |
 | 4.3 | Indigenous Oral Dharmas                 | done        | [4-cultural/4.3-indigenous-oral-dharmas.md](4-cultural/4.3-indigenous-oral-dharmas.md) |
 | 4.4 | Abrahamic Ethics as Dharmic Frameworks  | done        | [4-cultural/4.4-abrahamic-frameworks.md](4-cultural/4.4-abrahamic-frameworks.md) |
 | 4.5 | Subud and Sumarah                       | review      | [4-cultural/4.5-subud-and-sumarah.md](4-cultural/4.5-subud-and-sumarah.md) |
@@ -44,12 +44,12 @@ cited note (e.g. `4.5`).
 | 5.6.4 | Giftedness, Dyslexia & Wider Spectrum | review      | [5-psychological/5.6-neurodivergence/5.6.4-gifted-wider-spectrum.md](5-psychological/5.6-neurodivergence/5.6.4-gifted-wider-spectrum.md) |
 | 6.1 | Secular Translation                     | done        | [6-contemporary/6.1-secular-translation.md](6-contemporary/6.1-secular-translation.md) |
 | 6.2 | Digital-Age Dharma                      | done        | [6-contemporary/6.2-digital-age-dharma.md](6-contemporary/6.2-digital-age-dharma.md) |
-| 6.3 | Economics, Work & Inequality            | done        | [6-contemporary/6.3-economics-work-inequality.md](6-contemporary/6.3-economics-work-inequality.md) |
+| 6.3 | Economics, Work & Inequality            | review      | [6-contemporary/6.3-economics-work-inequality.md](6-contemporary/6.3-economics-work-inequality.md) |
 | 6.4 | Gender & Dharma                         | review      | [6-contemporary/6.4-gender-and-dharma.md](6-contemporary/6.4-gender-and-dharma.md) |
 | 7.1 | Failure Modes                           | done        | [7-critical/7.1-failure-modes.md](7-critical/7.1-failure-modes.md) |
-| 7.2 | Cultural Adaptation & Appropriation     | done        | [7-critical/7.2-appropriation.md](7-critical/7.2-appropriation.md) |
-| 7.3 | Dharma & Power                          | done        | [7-critical/7.3-dharma-and-power.md](7-critical/7.3-dharma-and-power.md) |
-| 7.4 | Measurement & Falsifiability            | done        | [7-critical/7.4-measurement-falsifiability.md](7-critical/7.4-measurement-falsifiability.md) |
+| 7.2 | Cultural Adaptation & Appropriation     | review      | [7-critical/7.2-appropriation.md](7-critical/7.2-appropriation.md) |
+| 7.3 | Dharma & Power                          | review      | [7-critical/7.3-dharma-and-power.md](7-critical/7.3-dharma-and-power.md) |
+| 7.4 | Measurement & Falsifiability            | review      | [7-critical/7.4-measurement-falsifiability.md](7-critical/7.4-measurement-falsifiability.md) |
 | 7.5 | Orientalism                             | review      | [7-critical/7.5-orientalism.md](7-critical/7.5-orientalism.md) |
 | 8.1 | Planetary Dharma                        | done        | [8-future/8.1-planetary-dharma.md](8-future/8.1-planetary-dharma.md) |
 | 8.2 | AI & Dharma                             | done        | [8-future/8.2-ai-and-dharma.md](8-future/8.2-ai-and-dharma.md) |
