@@ -423,7 +423,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - kb: `events_organizational-development-as-generative-entrenchment.md`
 - verified: unverified
-- note: prosocial.world events_ page (event listing/promo), not attributable essay content.
+- note: prosocial.world events_ page (event listing/promo), not attributable essay content. P3 (2026-07-02): 5.6 [S31] re-grounded to external Boroomand & Smaldino (2021) / Smaldino et al. (2024); no live [S#] cites this.
 
 ### evolution-institute-climate-change-cooperation
 - status: usable
@@ -865,7 +865,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - kb: `events_examined-lives-mindfulness-session-42.md`
 - verified: unverified
-- note: prosocial.world events_ listing page (session/event promo), not an attributable essay.
+- note: prosocial.world events_ listing page (session/event promo), not an attributable essay. P3 (2026-07-02): 5.1 [S3] converted to a plain-text corpus-pointer (self-evidencing claim about the corpus's own mindfulness advocacy); no live [S#] cites this.
 
 ### prosocial-evolutionary-power-of-ritual
 - status: usable
@@ -905,7 +905,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - kb: `posts_prosocial-world-receives-grant-from-templeton-world-charity-foundation.md`
 - verified: unverified
-- note: Confirmed news/press-release announcement (page listed under "Category: News", no author byline) about a ProSocial World / Templeton World Charity Foundation grant -- promotional, not substantive analysis.
+- note: Confirmed news/press-release announcement (page listed under "Category: News", no author byline) about a ProSocial World / Templeton World Charity Foundation grant -- promotional, not substantive analysis. P3 (2026-07-02): 6.2 [S2] re-grounded to external Wilson, *This View of Life* (2019); no live [S#] cites this.
 
 ### prosocial-universal-morality-obscured-by-evolved-morality
 - status: usable
@@ -937,7 +937,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - kb: `events_prosocial-embodiment-workshop.md`
 - verified: unverified
-- note: prosocial.world events_ page (workshop promo/listing), not an attributable essay
+- note: prosocial.world events_ page (workshop promo/listing), not an attributable essay. P3 (2026-07-02): alexander-technique [S13] converted to a plain-text corpus-pointer (the note's subject is the corpus's near-absence of Alexander material); no live [S#] cites this.
 
 ### prosocial-world-generalizing-core-design-principles
 - status: usable
@@ -993,7 +993,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - kb: `tags_ostrom`
 - verified: unverified
-- note: prosocial.world tag-listing page, not an attributable essay
+- note: prosocial.world tag-listing page, not an attributable essay. P3 (2026-07-02): 8.1 [S2] re-grounded to external Ostrom, *Governing the Commons* (1990) + Wilson, Ostrom & Cox (2013); no live [S#] cites this.
 
 ### prosocial-world-why-immigration-drives-innovation
 - status: usable
@@ -1323,7 +1323,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - kb: `tags_artificial-intelligence`
 - verified: unverified
-- note: prosocial.world tag-index page, not attributable essay content.
+- note: prosocial.world tag-index page, not attributable essay content. P3 (2026-07-02): 8.2 [S6] converted to a plain-text corpus-pointer (the note describes the corpus's own AI framing); no live [S#] cites this.
 
 ### the-dharama-has-many-frames-from-which-it-can-be-discerned
 - status: barred

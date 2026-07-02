@@ -2,6 +2,22 @@
 
 Generated 2026-07-02. P2 of `SOURCE-CITATION-POLICY.design.md`. No research note was edited.
 
+**P3 remediation applied (2026-07-02).** All 44 barred-source violations tabulated below have
+since been remediated in the notes and verified with `scratch/verify_notes.py` ([S#] bijection
+intact — S-DANGLING 0; 0 register errors; structural signals at baseline):
+
+- **38 `barred:self` violations → `[A]` (author's-own) markers** across 21 notes, preserving
+  each claim without asserting an external `[S#]`.
+- **3 `barred:ephemera` violations re-grounded to external scholarship**: 8.1 `[S2]` → Ostrom,
+  *Governing the Commons* (1990) + Wilson, Ostrom & Cox (2013, DOI 10.1016/j.jebo.2012.12.010);
+  6.2 `[S2]` → Wilson, *This View of Life* (2019); 5.6 `[S31]` → Boroomand & Smaldino (2021,
+  *JASSS*) / Smaldino et al. (2024, *Perspectives on Psychological Science*).
+- **3 `barred:ephemera` violations converted to plain-text corpus-pointers** (self-evidencing
+  claims about the corpus's own content, per the design's carve-out; `[S#]` marker + Sources
+  entry dropped, claim kept): 5.1 `[S3]`, 8.2 `[S6]`, alexander-technique `[S13]`.
+
+The table below is retained as the read-only audit record of the **pre-remediation** state.
+
 ## Summary
 - Distinct sourcedocs cited: **207** across 303 citations in 42 notes
 - Classification: usable **176** · barred:self **25** · barred:ephemera **6** · project-file **0**
