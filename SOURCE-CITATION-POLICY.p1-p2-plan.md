@@ -259,9 +259,10 @@ Run:
 cd /var/lib/vectordbs/seculardharma/projects/DD
 grep -n 'src:<register-key>' 1-foundational/_template.md
 grep -n '\[A\] (author' 1-foundational/_template.md
-grep -c 'Prefer specific' 1-foundational/_template.md
+grep -c 'Prefer' 1-foundational/_template.md
+grep -c 'specific, attributable' 1-foundational/_template.md
 ```
-Expected: first two greps each return one line; the third returns `1` (no duplicated "Prefer").
+Expected: first two greps each return one line; the last two each return `1` (the replacement text wraps "Prefer" / "specific" across two lines, so both halves appear exactly once — no duplicated or incomplete replacement).
 
 - [ ] **Step 4: Commit**
 
