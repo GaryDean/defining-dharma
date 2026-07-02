@@ -28,3 +28,6 @@ __pycache__/
 *.pyc
 scratch/
 .DS_Store
+
+# superpowers SDD scratch (ledger, briefs, reports)
+.superpowers/
