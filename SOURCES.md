@@ -597,7 +597,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "An Australian reporter's tale of living the news," The Jakarta Post (30 September 2001)
 - kb: `1075247-an-australian-reporter-s-tale-of-living-the-news.md`
-- verified: jawawa archive (Source: JP; 2001-09-30)
+- verified: web (jawawa.id/newsitem/an-australian-reporters-tale-of-living-the-news-1447893297; JP, 2001-09-30); jawawa DB archive
 - note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jakarta-post-minister-population-family-development-baduy-mbg
@@ -613,7 +613,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "Reclusive Baduy cope with tourism and materialism," The Jakarta Post (19 January 1997)
 - kb: `1533167-reclusive-baduy-cope-with-tourism-and-materialism.md`
-- verified: jawawa archive (Source: JP; 1997-01-19)
+- verified: web (jawawa.id/newsitem/reclusive-baduy-cope-with-tourism-and-materialism-1447893297; JP, 1997-01-19); jawawa DB archive
 - note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jakarta-post-west-java-patch-of-land-where-time-stands-still
@@ -621,7 +621,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "The West Java patch of land where time stands still," The Guardian (24 December 2000)
 - kb: `1284432-the-west-java-patch-of-land-where-time-stands-still.md`
-- verified: jawawa archive (Source: GUARDIAN; 2000-12-24)
+- verified: web (jawawa.id/newsitem/the-west-java-patch-of-land-where-time-stands-still-1447893297; GUARDIAN, 2000-12-24); jawawa DB archive
 - note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jawawa-1377086-respect-for-nature-baduy
@@ -629,7 +629,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "Respect for nature serves Baduy in good stead," The Jakarta Post (5 September 1998)
 - kb: `1377086-respect-for-nature-serves-baduy-in-good-stead.md`
-- verified: jawawa archive (Source: JP; 1998-09-05)
+- verified: web (jawawa.id/newsitem/respect-for-nature-serves-baduy-in-good-stead-1447893297; JP, 1998-09-05); jawawa DB archive
 - note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jawawa-1684017-leiden-researcher-baduy-jet-bakels
@@ -653,7 +653,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "Baduy people immune from election fever," The Jakarta Post (5 April 2004)
 - kb: `1500184-baduy-people-immune-from-election-fever.md`
-- verified: jawawa archive (Source: JP; 2004-04-05)
+- verified: web (jawawa.id/newsitem/baduy-people-immune-from-election-fever-1447893297; JP, 2004-04-05); jawawa DB archive
 - note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jawawa-baduy-seba-leaders-must-be-smart
@@ -669,7 +669,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "Marriage outside the five religions illegal in Indonesia," The Jakarta Post (24 April 2005)
 - kb: `1172032-marriage-outside-the-five-religions-illegal-in-indonesia.md`
-- verified: jawawa archive (Source: JP; 2005-04-24)
+- verified: web (jawawa.id/newsitem/marriage-outside-the-five-religions-illegal-in-indonesia-1447893297; JP, 2005-04-24); jawawa DB archive
 - note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jawawa-preserving-prophet-adams-legacy-west-java
@@ -677,7 +677,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "Preserving Prophet Adam's legacy in West Java," The Jakarta Post (20 November 1994)
 - kb: `1003199-preserving-prophet-adam-s-legacy-in-west-java.md`
-- verified: jawawa archive (Source: JP; 1994-11-20)
+- verified: web (jawawa.id/newsitem/preserving-prophet-adams-legacy-in-west-java-1447893297; JP, 1994-11-20); jawawa DB archive
 - note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jawawa-search-for-soul-through-subud
@@ -685,7 +685,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "On a search for soul through Subud," The Jakarta Post (24 March 2002)
 - kb: `1242523-on-a-search-for-soul-through-subud.md`
-- verified: jawawa archive (Source: JP; 2002-03-24)
+- verified: web (jawawa.id/newsitem/on-a-search-for-soul-through-subud-1447893297; JP, 2002-03-24); jawawa DB archive
 - note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jawawa-treating-mystic-believers
@@ -693,7 +693,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "Treating mystic believers," The Jakarta Post (20 November 1997)
 - kb: `1510348-treating-mystic-believers.md`
-- verified: jawawa archive (Source: JP; 1997-11-20)
+- verified: web (jawawa.id/newsitem/treating-mystic-believers-1447893297; JP, 1997-11-20); jawawa DB archive
 - note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### john-dewey-first-evolutionary-educational-philosopher
@@ -717,7 +717,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "The missing values of harmony and plurality," The Jakarta Post (20 September 1998)
 - kb: `1378079-the-missing-values-of-harmony-and-plurality.md`
-- verified: jawawa archive (Source: JP; 1998-09-20)
+- verified: web (jawawa.id/newsitem/the-missing-values-of-harmony-and-plurality-1447893297; JP, 1998-09-20); jawawa DB archive
 - note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### kalkhoff-serpe-pollock-2020-video-chat-proxy
@@ -795,7 +795,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "Exploring Baduy settlements in ancient land," The Jakarta Post (12 June 2005)
 - kb: `1133276-exploring-baduy-settlements-in-ancient-land.md`
-- verified: jawawa archive (Source: JP; 2005-06-12)
+- verified: web (jawawa.id/newsitem/exploring-baduy-settlements-in-ancient-land-1447893297; JP, 2005-06-12); jawawa DB archive
 - note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### peluso-1992-rich-forests-poor-people
