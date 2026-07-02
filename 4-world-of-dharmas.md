@@ -2,7 +2,7 @@
 part: 4
 title: "A World of Dharmas"
 slug: world-of-dharmas
-status: review
+status: done
 words: 4361
 reading_level: year-12
 updated: 2026-07-02
