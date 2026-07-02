@@ -956,8 +956,8 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "ProSocial Spirituality Active Group Engagement (P-SAGE)," prosocial.world
 - kb: `www.prosocial.world_prosocial-spirituality-active-group-engagement.md`
-- verified: unverified
-- note: Confirmed URL: prosocial.world/prosocial-spirituality-active-group-engagement; combines Ostrom's Core Design Principles with Teasdale's Interspiritual Elements, funded by John Templeton Foundation. P3-verify (2026-07-02): that URL now returns HTTP 404 and is absent from prosocial.world/sitemap.xml (still search-indexed from an earlier crawl); web.archive.org unreachable, so left unverified.
+- verified: web (web.archive.org/web/20250118093302/https://www.prosocial.world/prosocial-spirituality-active-group-engagement)
+- note: Confirmed URL: prosocial.world/prosocial-spirituality-active-group-engagement; combines Ostrom's Core Design Principles with Teasdale's Interspiritual Elements, funded by John Templeton Foundation. P3-verify (2026-07-02): live URL now returns HTTP 404 (absent from sitemap.xml), but a Wayback Machine snapshot (18 Jan 2025, HTTP 200) exists and is used as the anchor; confirmed via the archive.org availability API.
 
 ### prosocial-world-solving-friction-with-fiction-storytelling
 - status: usable
@@ -1095,7 +1095,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - cite: Veronika Rybanska, "Addressing the Field Site Concept: A Cognitive Anthropologist's View" (prosocial.world)
 - kb: `posts_addressing-the-field-site-concept-a-cognitive-anthropologists-view.md`
 - verified: unverified
-- note: not in local seculardharma DB; resolved via prosocial.world.db frontmatter (title/author). P3-verify (2026-07-02): cited URL 404s, and the live "field site concept" essay in that prosocial.world series is authored by Harvey Whitehouse (Rybanska appears only as a research-assistant photo caption) -- likely a misattribution; left unverified pending confirmation of a genuine Rybanska piece.
+- note: author + exact title confirmed from the prosocial.world corpus post frontmatter (author: Veronika Rybanska). A genuine companion in the prosocial.world "field site concept" series (siblings live: Harvey Whitehouse, "Developing the Field Site Concept... An Anthropologist's View," 19 Oct 2016; plus a sociologist's and an evolutionary-biologist's view). CORRECTION to an earlier note: this is NOT a misattribution to Whitehouse. Its own standalone URL 404s live and has no Wayback snapshot, so left unverified (no external anchor obtainable); the attribution itself is sound.
 
 ### samin-movement-java-overview
 - status: usable
@@ -1377,10 +1377,10 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### what-can-we-learn-ubuntu-philosophy
 - status: usable
 - medium: text
-- cite: "What Can We Learn From the African Philosophy of Ubuntu?" (publication not confirmed)
+- cite: Tyson Simmons, "What We Can Learn From the African Philosophy of Ubuntu," Kaizen Culture blog (22 March 2022)
 - kb: `what-can-we-learn-from-the-african-philosophy-of-ubuntu.md`
-- verified: unverified
-- note: prov=Ubuntu (explicit usable-topic dir). NEEDS-HUMAN: exact publishing outlet/author not located via light web search; content (co-agency principle, "not a political programme...not a religious expression") is thematically consistent with genuine Ubuntu-philosophy discourse. P3-verify (2026-07-02): closest match is Tyson Simmons, "What we can learn from the African philosophy of Ubuntu," Kaizen Culture blog (22 Mar 2022), but that URL now 404s and the blog is dead -- no live source confirmable.
+- verified: web (web.archive.org/web/20230329064246/https://kaizenculture.blog/2022/03/22/what-we-can-learn-from-the-african-philosophy-of-ubuntu/)
+- note: prov=Ubuntu (explicit usable-topic dir). P3-verify (2026-07-02): the live Kaizen Culture blog is dead (404), but a Wayback Machine snapshot (29 Mar 2023, HTTP 200) exists and is used as the anchor (confirmed via the archive.org availability API). Author "Tyson Simmons" and the 22 Mar 2022 date are from web search; the archived page could not be re-fetched directly to reconfirm the byline, so treat authorship as medium-confidence.
 
 ### what-is-dharma-md-llm-query-transcript
 - status: barred
@@ -1541,10 +1541,10 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### wilson-tvol-is-there-a-universal-morality
 - status: usable
 - medium: text
-- cite: David Sloan Wilson, "Is There a Universal Morality?" This View of Life (tvol)
+- cite: David Sloan Wilson, Mark Sloan and Michael Price, "Is There a Universal Morality? Introduction and Overview of Responses" (This View of Life / prosocial.world, 23 May 2018); this DS_Wilson-directory copy (tvol_morality.md) is the series-introduction section
 - kb: `tvol_morality.md`
-- verified: unverified
-- note: distinct sourcedoc/prov (DS_Wilson dir) from item 29's prosocial.world posts_ copy of the related multi-author overview; opening text is the solo introductory essay. P3-verify (2026-07-02): no Wilson-solo article titled exactly "Is There a Universal Morality?" resolves to a distinct live URL -- the bare slug prosocial.world/posts/is-there-a-universal-morality is by Massimo Pigliucci, and the exact-title match is the 3-author overview (cf. key wilson-sloan-price-is-there-a-universal-morality-overview). Wilson's own lead piece is "Moral Universals, Moral Particulars and Tinbergen's Four Questions." Left unverified pending disambiguation.
+- verified: web (https://www.prosocial.world/posts/is-there-a-universal-morality-introduction-and-overview-of-responses; 23 May 2018)
+- note: DUPLICATE of key wilson-sloan-price-is-there-a-universal-morality-overview -- tvol_morality.md (DS_Wilson dir) is the series-introduction section of that same Wilson/Sloan/Price essay; its opening ("Our moral sense makes involuntary... Eating shrimp... Leviticus") matches the overview page verbatim. NOT a separate Wilson-solo article (Wilson's own distinct lead piece in the series is "Moral Universals, Moral Particulars and Tinbergen's Four Questions," 17 May 2018).
 
 ### would-abandoning-moral-foundations-better-society
 - status: usable
