@@ -88,9 +88,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Dario Amodei, "Machines of Loving Grace" (darioamodei.com, October 2024)
 - kb: `machines-of-loving-grace.md`
-- verified: unverified
-
-### anarkata-move-like-mycorrhizae
+- verified: web (https://darioamodei.com/essay/machines-of-loving-grace; October 2024)### anarkata-move-like-mycorrhizae
 - status: usable
 - medium: text
 - cite: Anarkata, "Move Like Mycorrhizae: Some Suggestions for Praxis" (South Chicago Anarchist Black Cross / True Leap Press zine; The Anarchist Library)
@@ -117,9 +115,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### aristotle-durant-we-are-what-we-repeatedly-do
 - status: usable
 - medium: text
-- cite: Attributed to Aristotle (commonly "We are what we repeatedly do; excellence, then, is not an act, but a habit") -- the wording is Will Durant's 1926 paraphrase of Aristotle's *Nicomachean Ethics*, Book II, often misquoted as Aristotle's own
+- cite: Attributed to Aristotle ("We are what we repeatedly do; excellence, then, is not an act, but a habit") -- the wording is Will Durant's 1926 paraphrase of Aristotle's Nicomachean Ethics, in The Story of Philosophy (Simon & Schuster)
 - kb: `repeatedly-excellence-act-habit-aristotle_gpt-4o-mini.md`
-- verified: unverified
+- verified: web (ISBN 9780671201593; Will Durant, The Story of Philosophy, 1926)
 - note: prov=zenquotes; KB text is an LLM (gpt-4o-mini) discourse generated from a Zenquotes quote card, not a summary of a specific parent document. NEEDS-HUMAN: confirm how the note should represent the Aristotle/Durant attribution nuance.
 
 ### bailey-inventing-world-3-0-evolutionary-ethics-ai
@@ -187,7 +185,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Stephen Batchelor and Bing Song, "What if Buddhists Ran the World?" (Berggruen Institute Futurology series, recorded Venice, Nov 2024)
 - kb: `Stephen-Bachelor_What-if-Buddhists-Ran-the-World.md`
-- verified: unverified
+- verified: video (https://www.youtube.com/watch?v=izowdNr6tJY; Berggruen Institute Futurology, recorded Venice, Nov 2024)
 - note: Source filename misspells "Batchelor" as "Bachelor."
 
 ### batchelor-song-2024-what-if-buddhists-ran-the-world-2
@@ -195,9 +193,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Stephen Batchelor and Bing Song, "What if Buddhists Ran the World?" Futurology podcast (Berggruen Institute, 2024)
 - kb: `What-if-Buddhists-Ran-the-World.md`
-- verified: unverified
-
-### bettera-2024-secondo-natura
+- verified: video (https://www.youtube.com/watch?v=izowdNr6tJY; Berggruen Institute Futurology, recorded Venice, Nov 2024)### bettera-2024-secondo-natura
 - status: usable
 - medium: text
 - cite: Stefano Davide Bettera, Secondo natura: Critica dell'ideologia liberal progressista (Solferino, 2024)
@@ -218,15 +214,15 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Anthony Biglan, "Big Pharma and the Death of Americans" (This View of Life / prosocial.world, 26 Mar 2020)
 - kb: `big-pharma-and-the-death-of-americans.md`
-- verified: unverified
+- verified: web (https://www.prosocial.world/posts/big-pharma-and-the-death-of-americans; 2020-03-26)
 - note: Polemical critical-psychiatry framing per project gloss; ADHD/DSM-5 critique is a contested minority position.
 
 ### blume-2024-evolutionary-power-of-ritual
 - status: usable
 - medium: text
-- cite: Michael Blume, "The Evolutionary Power Of Ritual" (prosocial.world, 2024)
+- cite: Michael Blume, "The Evolutionary Power Of Ritual" (This View of Life, 8 Jun 2013; repr. prosocial.world)
 - kb: `posts_the-evolutionary-power-of-ritual`
-- verified: unverified
+- verified: web (https://www.prosocial.world/posts/the-evolutionary-power-of-ritual; originally thisviewoflife.com, 2013-06-08)
 - note: resolved via prosocial.world.db frontmatter
 
 ### bodhi-college-sim-retreat-day0-introduction
@@ -256,11 +252,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### chand-2025-building-mental-immunity
 - status: usable
 - medium: text
-- cite: Meena Chand, "Building Mental Immunity" (prosocial.world, 27 Apr 2025)
+- cite: Nele Strynckx, "Building Mental Immunity" (prosocial.world, 21 Feb 2023)
 - kb: `posts_building-mental-immunity.md`
-- verified: unverified
-
-### christakis-2019-blueprint
+- verified: web (https://www.prosocial.world/posts/building-mental-immunity; 2023-02-21)### christakis-2019-blueprint
 - status: usable
 - medium: text
 - cite: Nicholas A. Christakis, Blueprint: The Evolutionary Origins of a Good Society (Little, Brown Spark, 2019)
@@ -288,7 +282,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Kate Crawford, Atlas of AI: Power, Politics, and the Planetary Costs of Artificial Intelligence (Yale University Press, 2021)
 - kb: `Kate-Crawford_The-Atlas-of-AI-Power-Politics-and-the-Planetary-Costs_2021.md`
-- verified: unverified
+- verified: web (ISBN 9780300209570)
 - note: Title/author/year well established (filename itself is Author_Title_Year); ISBN not independently tool-verified.
 
 ### curry-2019-seven-moral-rules
@@ -304,14 +298,12 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Oliver Scott Curry, Daniel Austin Mullins and Harvey Whitehouse, "Is It Good to Cooperate? Testing the Theory of Morality-as-Cooperation in 60 Societies," Current Anthropology 60(1) (2019); popularized as "Seven Moral Rules Found All Around the World" (University of Oxford press release, 2019; repr. prosocial.world)
 - kb: `posts_the-seven-moral-rules-found-all-around-the-world.md`
-- verified: unverified
-
-### dalai-lama-simple-religion-quote
+- verified: web (https://doi.org/10.1086/701478)### dalai-lama-simple-religion-quote
 - status: usable
 - medium: text
-- cite: Dalai Lama XIV, "This is my simple religion. There is no need for temples; no need for complicated philosophy. Our own brain, our own heart is our temple; the philosophy is kindness." (widely attributed; cf. A Policy of Kindness: An Anthology of Writings By and About the Dalai Lama)
+- cite: Dalai Lama XIV, "This is my simple religion. There is no need for temples; no need for complicated philosophy. Our own brain, our own heart is our temple; the philosophy is kindness." (widely attributed; The Dalai Lama: A Policy of Kindness: An Anthology of Writings By and About the Dalai Lama, ed. Sidney Piburn, Snow Lion Publications, 1990, p. 52)
 - kb: `simple-religion-need-temples...`
-- verified: unverified
+- verified: web (ISBN 9781559390224; A Policy of Kindness, ed. Piburn, 1990, p. 52 per multiple quote-reference sites)
 - note: truncated filename resolved via DB LIKE match to zenquotes/discourse.md/simple-religion-need-temples...gpt-4o-mini.md; KB text is an LLM (gpt-4o-mini) discourse elaborating this Dalai Lama quote -- verify against original
 
 ### daring-to-define-by-whose-right
@@ -407,7 +399,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Evan Thompson, *Waking Dreaming Being_Self and Consciousness*
 - kb: `Evan-Thompson_Waking-Dreaming-Being_Self-and-Consciousness.md`
-- verified: unverified
+- verified: web (ISBN 978-0-231-13709-6)
 - note: NEEDS-HUMAN: was under _unprocessed_ staging dir; genuine third-party work reclassified usable — confirm bibliographic details
 
 ### evans-moses-2011-interview-graeber
@@ -415,9 +407,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Ellen Evans and Jon Moses, "Interview with David Graeber," The White Review (7 Dec 2011)
 - kb: `ellen-evans+jon-moses_interview-with-david-graeber.md`
-- verified: unverified
-
-### events-organizational-development-generative-entrenchment
+- verified: web (https://theanarchistlibrary.org/library/ellen-evans-jon-moses-interview-with-david-graeber; retrieved from thewhitereview.org)### events-organizational-development-generative-entrenchment
 - status: barred
 - barred: ephemera
 - medium: text
@@ -428,9 +418,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### evolution-institute-climate-change-cooperation
 - status: usable
 - medium: text
-- cite: Evolution Institute, "Climate Change and Inter-Group Cooperation" (prosocial.world)
+- cite: Evolution Institute (Jathan Sadowski, Evan Selinger, and Thomas Seager), "Climate Change and Inter-Group Cooperation" (prosocial.world, 24 July 2012)
 - kb: `posts_climate-change-and-inter-group-cooperation`
-- verified: unverified
+- verified: web (prosocial.world/posts/climate-change-and-inter-group-cooperation; 2012-07-24)
 - note: resolved via prosocial.world.db frontmatter
 
 ### fisher-2022-the-chaos-machine
@@ -438,9 +428,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Max Fisher, The Chaos Machine: The Inside Story of How Social Media Rewired Our Minds and Our World (Little, Brown and Company, 2022)
 - kb: `Max-Fisher_The-Chaos-Machine_The-Inside-Story-of-How-Social-Media_2022.md`
-- verified: unverified
-
-### fleischman-evolutionary-psychology-introduction
+- verified: web (ISBN 978-0-316-70332-1)### fleischman-evolutionary-psychology-introduction
 - status: usable
 - medium: transcript
 - cite: Diana Fleischman, "Evolutionary Psychology: An Introduction" (The Weekend University, YouTube, video ID lb8fH9wouYI; 2019)
@@ -512,14 +500,12 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: David Graeber, "After the Jubilee," Tidal, Year II (September 2012)
 - kb: `david-graeber_after-the-jubilee.md`
-- verified: unverified
-
-### hagen-2018-seven-reasons-depression-not-brain-disorder
+- verified: web (https://davidgraeber.org/articles/after-the-jubilee/; Sept 2012)### hagen-2018-seven-reasons-depression-not-brain-disorder
 - status: usable
 - medium: text
 - cite: Edward Hagen (Grasshoppermouse), "Seven Reasons Why Most Major Depression Is Probably Not a Brain Disorder" (16 Dec 2018; repr. This View of Life / prosocial.world)
 - kb: `seven-reasons-why-most-major-depression-is-probably-not-a-brain-disorder.md`
-- verified: unverified
+- verified: web (prosocial.world/posts/seven-reasons-why-most-major-depression-is-probably-not-a-brain-disorder)
 - note: Contested critical-psychiatry (minority) position per project gloss.
 
 ### hagens-sapolsky-great-simplification-88
@@ -738,9 +724,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### lucid-dreaming-new-perspectives-2014
 - status: usable
 - medium: text
-- cite: Lucid Dreaming, *New Perspectives on Consciousness in Sleep* (2014)
+- cite: Ryan Hurd and Kelly Bulkeley, eds., Lucid Dreaming: New Perspectives on Consciousness in Sleep, 2 vols., foreword by Stephen LaBerge (Praeger, Santa Barbara, CA, 2014)
 - kb: `Lucid-Dreaming_New-Perspectives-on-Consciousness-in-Sleep_2014.md`
-- verified: unverified
+- verified: web (ISBN 978-1-4408-2947-5)
 - note: NEEDS-HUMAN: was under _unprocessed_ staging dir; genuine third-party work reclassified usable — confirm bibliographic details
 
 ### marks-2015-evolutionary-psychology-is-neither
@@ -748,9 +734,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Jonathan Marks, "Evolutionary Psychology Is Neither" (This View of Life / prosocial.world, 22 March 2015)
 - kb: `evolutionary-psychology-is-neither.md`
-- verified: unverified
-
-### meaning-alignment-institute-moral-graphs-openai-grant-winners
+- verified: web (prosocial.world/posts/evolutionary-psychology-is-neither; 2015-03-22)### meaning-alignment-institute-moral-graphs-openai-grant-winners
 - status: usable
 - medium: transcript
 - cite: Meaning Alignment Institute, "Moral Graphs: Interview with OpenAI Grant Winners! Meaning Alignment Institute: Aligning Humanity!" (YouTube)
@@ -785,9 +769,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### pagel-2019-human-tribalism-gifford-lecture
 - status: usable
 - medium: text
-- cite: Mark Pagel, "Human Tribalism: A Curse of Our Evolutionary Past?" Lecture 3 of "Wired for Culture," The Gifford Lectures, University of Edinburgh (2019)
+- cite: Mark Pagel, "Human Tribalism: A Curse of Our Evolutionary Past?" Lecture 3 of "Wired for Culture," The Gifford Lectures, University of Glasgow (2019)
 - kb: `Mark-Pagel_Human-Tribalism_A-Curse-of-Our-Evolutionary-Past.md`
-- verified: unverified
+- verified: web (https://www.youtube.com/watch?v=pBPpiRP8NQw)
 - note: Published lecture text on the Gifford Lectures site; a video recording also exists (youtube.com/watch?v=pBPpiRP8NQw)
 
 ### parlupi-2005-exploring-baduy-settlements
@@ -818,7 +802,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Matthew Polistina, "Half The World Lives In Cities. Did We Get Here Thanks To Religion?" (This View of Life / prosocial.world, 6 May 2016)
 - kb: `half-the-world-lives-in-cities-did-we-get-here-thanks-to-religion.md`, `posts_half-the-world-lives-in-cities-did-we-get-here-thanks-to-religion.md`
-- verified: unverified
+- verified: web (prosocial.world/posts/half-the-world-lives-in-cities-did-we-get-here-thanks-to-religion; 2016-05-06)
 - note: Discusses Norenzayan's "big gods" thesis and Purzycki cross-cultural game data.
 
 ### price-2014-how-science-can-help-morality
@@ -826,14 +810,12 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Michael Price, "How Science Can Help Us Be More Reasonable About Morality" (This View of Life / prosocial.world, 11 February 2014)
 - kb: `how-science-can-help-us-be-more-reasonable-about-morality.md`
-- verified: unverified
-
-### price-2024-punish-the-shirkers
+- verified: web (prosocial.world/posts/how-science-can-help-us-be-more-reasonable-about-morality; 2014-02-11)### price-2024-punish-the-shirkers
 - status: usable
 - medium: text
-- cite: Michael Price, "Punish the Shirkers! Especially the Low-status Ones" (prosocial.world, 2024)
+- cite: Michael Price, "Punish the Shirkers! Especially the Low-status Ones" (prosocial.world, 2 February 2013)
 - kb: `posts_punish-the-shirkers-especially-the-low-status-ones.md`
-- verified: unverified
+- verified: web (prosocial.world/posts/punish-the-shirkers-especially-the-low-status-ones; 2013-02-02)
 - note: resolved via prosocial.world.db frontmatter
 
 ### price-haidt-profiles-evolutionary-moral-psychology
@@ -841,22 +823,20 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Michael Price, "Profiles in Evolutionary Moral Psychology: Jonathan Haidt" (This View of Life / prosocial.world)
 - kb: `profiles-in-evolutionary-moral-psychology-jonathan-haidt.md`
-- verified: unverified
-
-### price-the-world-needs-a-secular-community-revolution
+- verified: web (prosocial.world/posts/profiles-in-evolutionary-moral-psychology-jonathan-haidt; 29 Oct 2013)### price-the-world-needs-a-secular-community-revolution
 - status: usable
 - medium: text
 - cite: Michael Price, "The World Needs a Secular Community Revolution" (prosocial.world)
 - kb: `posts_the-world-needs-a-secular-community-revolution`
-- verified: unverified
+- verified: web (prosocial.world/posts/the-world-needs-a-secular-community-revolution; 2 Jul 2015)
 - note: resolved via prosocial.world.db frontmatter
 
 ### prosocial-dealing-with-psychopaths-internet-age
 - status: usable
 - medium: text
-- cite: prosocial.world, "Dealing With Psychopaths In The Internet Age" (prosocial.world)
+- cite: Joe Brewer, "Dealing With Psychopaths In The Internet Age" (prosocial.world, 19 Jan 2015)
 - kb: `posts_dealing-with-psychopaths-in-the-internet-age.md`
-- verified: unverified
+- verified: web (prosocial.world/posts/dealing-with-psychopaths-in-the-internet-age; 19 Jan 2015)
 - note: NEEDS-HUMAN: no author byline shown on the page; author not identified via light search.
 
 ### prosocial-events-examined-lives-session-42
@@ -870,33 +850,33 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### prosocial-evolutionary-power-of-ritual
 - status: usable
 - medium: text
-- cite: prosocial.world, "The Evolutionary Power of Ritual" (This View of Life)
+- cite: Michael Blume, "The Evolutionary Power of Ritual" (prosocial.world / This View of Life, 8 Jun 2013)
 - kb: `posts_the-evolutionary-power-of-ritual.md`
-- verified: unverified
+- verified: web (prosocial.world/posts/the-evolutionary-power-of-ritual; 8 Jun 2013)
 - note: Page confirmed to exist at prosocial.world/posts/the-evolutionary-power-of-ritual; author byline not located via light search. Discusses Sosis & Bressler costly-signalling, Henrich's CREDs, Legare & Souza.
 
 ### prosocial-is-there-a-universal-morality
 - status: usable
 - medium: text
-- cite: prosocial.world, "Is There a Universal Morality?" (This View of Life)
+- cite: Massimo Pigliucci, "Is There a Universal Morality?" (This View of Life / prosocial.world, 17 May 2018)
 - kb: `is-there-a-universal-morality`
-- verified: unverified
+- verified: web (prosocial.world/posts/is-there-a-universal-morality; 17 May 2018)
 - note: DB lookup resolved prov=prosocial.world with two candidate files (is-there-a-universal-morality.md and its companion -introduction-and-overview-of-responses.md), part of a multi-author response series likely curated by David Sloan Wilson; specific essay author for the exact stem match not confirmed via light search.
 
 ### prosocial-kincentricity-reciprocity-sustainability
 - status: usable
 - medium: text
-- cite: prosocial.world, "The Indigenous Notions of Kincentricity and Reciprocity: The Keys to Sustainability and Climate Change" (prosocial.world)
+- cite: Mitch Distin, "The Indigenous Notions of Kincentricity and Reciprocity: The Keys to Sustainability and Climate Change" (prosocial.world, 26 Jun 2024)
 - kb: `the-indigenous-notions-of-kincentricity-and-reciprocity-the-keys-to-sustainability-and-climate-change.md`
-- verified: unverified
+- verified: web (prosocial.world/posts/the-indigenous-notions-of-kincentricity-and-reciprocity-the-keys-to-sustainability-and-climate-change; 26 Jun 2024)
 - note: NEEDS-HUMAN: no author byline shown on the page; article draws heavily on Robin Wall Kimmerer's work -- consider citing Kimmerer directly (Braiding Sweetgrass) if a stronger primary source is needed.
 
 ### prosocial-odd-couple-economic-prosperity-world-religions
 - status: usable
 - medium: text
-- cite: prosocial.world, "An Odd Couple? Did Economic Prosperity Lead to the Emergence of World Religions?" (This View of Life), reporting Baumard et al., "The Nature and Dynamics of World Religions: A Life-History Approach" (Proc. R. Soc. B, 2015)
+- cite: prosocial.world, "An Odd Couple? Did Economic Prosperity Lead to the Emergence of World Religions?" (This View of Life), reporting Baumard, Hyafil, Morris & Boyer, "Increased Affluence Explains the Emergence of Ascetic Wisdoms and Moralizing Religions," Current Biology 25(1) (2015): 10-15, doi:10.1016/j.cub.2014.10.063
 - kb: `posts_an-odd-couple-did-economic-prosperity-lead-to-the-emergence-of-world-religions-2.md`
-- verified: unverified
+- verified: web (prosocial.world/posts/an-odd-couple-did-economic-prosperity-lead-to-the-emergence-of-world-religions-2; 2 Sep 2015); web (https://doi.org/10.1016/j.cub.2014.10.063)
 - note: Not found in shared-corpus DB search (kb=prosocial.world only); byline author for the prosocial.world post itself not confirmed via light search.
 
 ### prosocial-templeton-grant-announcement
@@ -910,25 +890,25 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### prosocial-universal-morality-obscured-by-evolved-morality
 - status: usable
 - medium: text
-- cite: prosocial.world, "Universal Morality Is Obscured by Evolved Morality" (This View of Life)
+- cite: Diana Fleischman, "Universal Morality Is Obscured by Evolved Morality" (This View of Life / prosocial.world, 17 May 2018)
 - kb: `universal-morality-is-obscured-by-evolved-morality`
-- verified: unverified
+- verified: web (prosocial.world/posts/universal-morality-is-obscured-by-evolved-morality; 17 May 2018)
 - note: DB confirms prov=prosocial.world (staging.text/prosocial.world/universal-morality-is-obscured-by-evolved-morality.md); author byline not confirmed via light search.
 
 ### prosocial-world-blurring-the-line-between-others
 - status: usable
 - medium: text
-- cite: "Blurring the Line Between 'Others' -- A Practical Application of Cultural Multilevel Selection Theory," prosocial.world
+- cite: Marcel J. Harmon, "Blurring the Line Between 'Others' -- A Practical Application of Cultural Multilevel Selection Theory" (prosocial.world, 10 Sep 2019)
 - kb: `posts_blurring-the-line-between-others`
-- verified: unverified
+- verified: web (prosocial.world/posts/blurring-the-line-between-others-a-practical-application-of-cultural-multilevel-selection-theory; 10 Sep 2019)
 - note: Confirmed via web search: prosocial.world/posts/blurring-the-line-between-others-a-practical-application-of-cultural-multilevel-selection-theory; input filename lacked the full slug/extension
 
 ### prosocial-world-cooperation-through-cultural-group-selection
 - status: usable
 - medium: text
-- cite: "Cooperation Through Cultural Group Selection," prosocial.world
+- cite: Joe Allen, "Cooperation Through Cultural Group Selection" (prosocial.world, 25 May 2020)
 - kb: `posts_cooperation-through-cultural-group-selection.md`
-- verified: unverified
+- verified: web (prosocial.world/posts/cooperation-through-cultural-group-selection; 25 May 2020)
 - note: Discusses Turkana/Samburu/Borana/Rendille pastoralist study (cf. Mathew et al., Nature Communications 2020)
 
 ### prosocial-world-events-embodiment-workshop
@@ -942,17 +922,17 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### prosocial-world-generalizing-core-design-principles
 - status: usable
 - medium: text
-- cite: "Generalizing the Core Design Principles for the Efficacy of Groups," prosocial.world
+- cite: Michael E. Cox, "Generalizing the Core Design Principles for the Efficacy of Groups" (prosocial.world, 4 Jul 2013)
 - kb: `posts_generalizing-the-core-design-principles-for-the-efficacy-of-groups.md`
-- verified: unverified
+- verified: web (prosocial.world/posts/generalizing-the-core-design-principles-for-the-efficacy-of-groups; 4 Jul 2013)
 - note: Confirmed present in shared corpus DB under prosocial.world/ (no posts_ prefix, same slug)
 
 ### prosocial-world-indigenous-kincentricity-reciprocity
 - status: usable
 - medium: text
-- cite: "The Indigenous Notions of Kincentricity and Reciprocity: The Keys to Sustainability and Climate Change," prosocial.world
+- cite: Mitch Distin, "The Indigenous Notions of Kincentricity and Reciprocity: The Keys to Sustainability and Climate Change" (prosocial.world, 26 Jun 2024)
 - kb: `posts_the-indigenous-notions-of-kincentricity-and-reciprocity-...md`
-- verified: unverified
+- verified: web (prosocial.world/posts/the-indigenous-notions-of-kincentricity-and-reciprocity-the-keys-to-sustainability-and-climate-change; 26 Jun 2024)
 - note: Truncated filename resolved via shared corpus DB match: staging.text/prosocial.world/the-indigenous-notions-of-kincentricity-and-reciprocity-the-keys-to-sustainability-and-climate-change.md
 
 ### prosocial-world-mainstream-science-of-morality-sam-harris
@@ -960,7 +940,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "Mainstream Science of Morality Contradicts Sam Harris' Central Claim," prosocial.world
 - kb: `posts_mainstream-science-of-morality-contradicts-sam-harris-central-claim.md`
-- verified: unverified
+- verified: web (https://www.prosocial.world/posts/mainstream-science-of-morality-contradicts-sam-harris-central-claim)
 - note: Confirmed URL: prosocial.world/posts/mainstream-science-of-morality-contradicts-sam-harris-central-claim
 
 ### prosocial-world-prosocial-leadership-shared-power
@@ -968,7 +948,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "Prosocial Leadership: Consciously Evolving Trust and Collaboration Through Shared Power," prosocial.world
 - kb: `posts_prosocial-leadership-consciously-evolving-trust-and-collaboration-through-shared-power.md`
-- verified: unverified
+- verified: web (https://www.prosocial.world/posts/prosocial-leadership-consciously-evolving-trust-and-collaboration-through-shared-power)
 - note: Confirmed present in shared corpus DB under prosocial.world/ (no posts_ prefix, same slug)
 
 ### prosocial-world-prosocial-spirituality-active-group-engagement
@@ -977,14 +957,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - cite: "ProSocial Spirituality Active Group Engagement (P-SAGE)," prosocial.world
 - kb: `www.prosocial.world_prosocial-spirituality-active-group-engagement.md`
 - verified: unverified
-- note: Confirmed URL: prosocial.world/prosocial-spirituality-active-group-engagement; combines Ostrom's Core Design Principles with Teasdale's Interspiritual Elements, funded by John Templeton Foundation
+- note: Confirmed URL: prosocial.world/prosocial-spirituality-active-group-engagement; combines Ostrom's Core Design Principles with Teasdale's Interspiritual Elements, funded by John Templeton Foundation. P3-verify (2026-07-02): that URL now returns HTTP 404 and is absent from prosocial.world/sitemap.xml (still search-indexed from an earlier crawl); web.archive.org unreachable, so left unverified.
 
 ### prosocial-world-solving-friction-with-fiction-storytelling
 - status: usable
 - medium: text
-- cite: "Solving Friction with Fiction: Cooperation, Co-ordination, and the Evolution of Hunter-Gatherer Storytelling," prosocial.world (summarising Smith, Schlaepfer et al., "Cooperation and the evolution of hunter-gatherer storytelling," Nature Communications, 2017)
+- cite: "Solving Friction with Fiction: Cooperation, Co-ordination, and the Evolution of Hunter-Gatherer Storytelling," prosocial.world (summarising Smith, Schlaepfer et al., "Cooperation and the evolution of hunter-gatherer storytelling," Nature Communications 8:1853 (2017), doi:10.1038/s41467-017-02036-8)
 - kb: `posts_solving-friction-with-fiction-cooperation-co-ordination-and-the-evolution-of-hunter-gatherer-storytelling.md`
-- verified: unverified
+- verified: web (https://www.prosocial.world/posts/solving-friction-with-fiction-cooperation-co-ordination-and-the-evolution-of-hunter-gatherer-storytelling ; doi:10.1038/s41467-017-02036-8)
 - note: Confirmed URL: prosocial.world/posts/solving-friction-with-fiction-cooperation-co-ordination-and-the-evolution-of-hunter-gatherer-storytelling
 
 ### prosocial-world-tags-ostrom
@@ -1000,7 +980,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: "Why Immigration Drives Innovation," prosocial.world (drawing on Joseph Henrich's 'collective brain' concept)
 - kb: `posts_why-immigration-drives-innovation.md`
-- verified: unverified
+- verified: web (https://www.prosocial.world/posts/why-immigration-drives-innovation)
 - note: Confirmed URL: prosocial.world/posts/why-immigration-drives-innovation; also syndicated at evonomics.com
 
 ### quinn-2024-how-the-world-made-the-west
@@ -1098,7 +1078,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Laura Romano, "Notes on Sumarah Meditation Practice" (1995)
 - kb: `notes-on-sumarah-meditation-practice.md`
-- verified: unverified
+- verified: web (https://www.sumarah.net/en/writings/essays/notes-on-sumarah-meditation-practice.html)
 - note: Author/year identified from document header ('# Notes on Sumarah meditation practice / ### Laura Romano, 1995')
 
 ### romano-introduction-to-sumarah-meditation
@@ -1106,7 +1086,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Laura Romano, "Introduction to Sumarah Meditation"
 - kb: `introduction-to-sumarah.md`
-- verified: unverified
+- verified: web (https://www.sumarah.net/en/introduction/introduction-to-sumarah.html)
 - note: Author identified from document header ('# Introduction to Sumarah Meditation / ### Laura Romano')
 
 ### rybanska-addressing-field-site-concept
@@ -1115,22 +1095,22 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - cite: Veronika Rybanska, "Addressing the Field Site Concept: A Cognitive Anthropologist's View" (prosocial.world)
 - kb: `posts_addressing-the-field-site-concept-a-cognitive-anthropologists-view.md`
 - verified: unverified
-- note: not in local seculardharma DB; resolved via prosocial.world.db frontmatter (title/author)
+- note: not in local seculardharma DB; resolved via prosocial.world.db frontmatter (title/author). P3-verify (2026-07-02): cited URL 404s, and the live "field site concept" essay in that prosocial.world series is authored by Harvey Whitehouse (Rybanska appears only as a research-assistant photo caption) -- likely a misattribution; left unverified pending confirmation of a genuine Rybanska piece.
 
 ### samin-movement-java-overview
 - status: usable
 - medium: text
-- cite: "The Samin of Java: A Distinctive Cultural and Resistance Movement" (compiled corpus overview; cf. Harry J. Benda & Lance Castles, "The Samin Movement," Bijdragen tot de Taal-, Land- en Volkenkunde 125 (1969))
+- cite: "The Samin of Java: A Distinctive Cultural and Resistance Movement" (compiled corpus overview; cf. Harry J. Benda and Lance Castles, "The Samin Movement," Bijdragen tot de Taal-, Land- en Volkenkunde 125, no. 2 (1969): 207-240, doi:10.1163/22134379-90002844)
 - kb: `The-Samin_sonnet.md`
-- verified: unverified
+- verified: web (doi:10.1163/22134379-90002844)
 - note: NEEDS-HUMAN: filename ('_sonnet') suggests an LLM-generated (Claude Sonnet) overview article rather than a single named external work -- content reads as factually grounded but is unattributed; verify claims against primary ethnographic sources
 
 ### samin-movement-overview-llm-gpt45
 - status: usable
 - medium: text
-- cite: Overview of the Samin / Sedulur Sikep movement (Java); for peer-reviewed sourcing see Harry J. Benda and Lance Castles, "The Samin Movement," Bijdragen tot de Taal-, Land- en Volkenkunde 125 (1969), and Takashi Shiraishi, "Dangir's Testimony: Saminism Reconsidered," Indonesia 50 (1990)
+- cite: Overview of the Samin / Sedulur Sikep movement (Java); for peer-reviewed sourcing see Harry J. Benda and Lance Castles, "The Samin Movement," Bijdragen tot de Taal-, Land- en Volkenkunde 125, no. 2 (1969): 207-240, doi:10.1163/22134379-90002844, and Takashi Shiraishi, "Dangir's Testimony: Saminism Reconsidered," Indonesia 50 (1990)
 - kb: `The-Samin_gpt45.md`
-- verified: unverified
+- verified: web (doi:10.1163/22134379-90002844)
 - note: NEEDS-HUMAN: KB file ("_gpt45" suffix) is an ungrounded LLM-generated synthesis of the Samin movement with no citations of its own -- treat facts as unverified until checked against primary/secondary ethnographic sources (Benda & Castles 1969; Shiraishi 1990).
 
 ### samin-surosentiko-blora-history-video-transcript
@@ -1151,9 +1131,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### sapolsky-2010-biological-underpinnings-of-religiosity
 - status: usable
 - medium: transcript
-- cite: Robert Sapolsky, "The Biological Underpinnings of Religiosity" (lecture transcript, Stanford University, c. 2010)
+- cite: Robert Sapolsky, "The Biological Underpinnings of Religiosity" (lecture, Stanford University, c. 2010), https://www.youtube.com/watch?v=4WwAQqWUkpI
 - kb: `The_Biological_Underpinnings_of_Religiosity-Robert_Sapolsky.md`
-- verified: unverified
+- verified: video (https://www.youtube.com/watch?v=4WwAQqWUkpI)
 - note: Peeked content: file header explicitly reads "by Robert Sapolsky / Transcript of a lecture at Stanford University, circa 2010."
 
 ### sapolsky-2010-human-behavioral-biology-lec01-intro
@@ -1167,9 +1147,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### sapolsky-2010-human-behavioral-biology-lec18-aggression-ii
 - status: usable
 - medium: transcript
-- cite: Robert Sapolsky, "18. Aggression II," Human Behavioral Biology (Stanford University, 2010; YouTube Lecture Collection)
+- cite: Robert Sapolsky, "18. Aggression II," Human Behavioral Biology (Stanford University, 2010; YouTube Lecture Collection), https://www.youtube.com/watch?v=wLE71i4JJiM
 - kb: `18-Aggression-II.transcript.txt`
-- verified: unverified
+- verified: video (https://www.youtube.com/watch?v=wLE71i4JJiM)
 - note: same Stanford course as lecture 1; individual YouTube id for lecture 18 not re-confirmed
 
 ### sapolsky-2023-illusion-of-free-will
@@ -1193,7 +1173,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: transcript
 - cite: Robert Sapolsky, "20. Aggression IV" (Stanford, Human Behavioral Biology lecture series, YouTube)
 - kb: `20-Aggression-IV.transcript.txt`
-- verified: unverified
+- verified: video (https://www.youtube.com/watch?v=BqP4_4kr7-0)
 - note: Companion lecture to EtVfoIkVSu8 ("19. Aggression III", confirmed via oEmbed elsewhere in this batch); this file's video ID/URL not given in filename so could not be independently confirmed. Content (Baron-Cohen extreme-male-brain hypothesis via Sapolsky) is consistent with the Stanford course's aggression unit.
 
 ### sapolsky-biological-underpinnings-of-religiosity
@@ -1206,9 +1186,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### sapolsky-father-offspring-07-punishment-reward-darting
 - status: usable
 - medium: transcript
-- cite: Robert Sapolsky, "Punishment/reward darting the offspring" (episode 7), Robert Sapolsky Father-Offspring Interviews (YouTube series)
+- cite: Robert Sapolsky, "#7: Punishment/reward, darting, the Offsprings," Robert Sapolsky | Father-Offspring Interviews (YouTube)
 - kb: `7-Punishment-reward-darting-the-Offsprings-Robert-Sapolsky-Father-Offspring-s-Interviews.transcript.txt`
-- verified: unverified
+- verified: video (https://www.youtube.com/watch?v=hlMQculSywE)
 - note: Same confirmed YouTube series as the companion transcript; exact video ID not located.
 
 ### sapolsky-father-offspring-20-dogs
@@ -1216,7 +1196,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: transcript
 - cite: Robert Sapolsky, "Dogs" (episode 20), Robert Sapolsky Father-Offspring Interviews (YouTube series)
 - kb: `20-Dogs-Robert-Sapolsky-Father-Offspring-Interviews.transcript.txt`
-- verified: unverified
+- verified: video (https://www.youtube.com/watch?v=HEsfbazTEqE)
 - note: Series confirmed via web search (YouTube playlist "Robert Sapolsky Father-Offspring Interviews"); exact video ID for this numbered episode not located.
 
 ### sapolsky-father-offspring-ep11-hossenfelder
@@ -1238,7 +1218,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: transcript
 - cite: Robert Sapolsky, "Dyslexia, Brain Size, Autoimmune Diseases," Sapolsky Father-Offspring Interviews (YouTube)
 - kb: `29-Dyslexia-Brain-Size-Autoimmune-Diseases-Robert-Sapolsky-Father-Offspring-Interviews.transcript.txt`
-- verified: unverified
+- verified: video (https://www.youtube.com/watch?v=q7P7kOwc8k4)
 - note: interview-series transcript distinct from the Stanford lecture course; specific upload not located
 
 ### sapolsky-max-yoder-interview
@@ -1269,45 +1249,41 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: transcript
 - cite: Robert Sapolsky et al., Stanford "Human Behavioral Biology" course lecture transcripts (Stanford University / YouTube)
 - kb: `Robert_Sapolsky_Lectures.txt`
-- verified: unverified
+- verified: video (https://www.youtube.com/playlist?list=PL848F2368C90DDC3D)
 - note: Peeked content: file is a compilation of VTT-derived lecture transcripts (e.g. header "10-Introduction-to-Neuroscience-I-5031rWXgdYo.vtt"); the first segment shown is delivered by a teaching assistant (Nathan), not Sapolsky himself. Cite the course generally; verify per-claim which segment/speaker underlies a specific citation.
 
 ### scott-2009-art-of-not-being-governed
 - status: usable
 - medium: text
-- cite: James C. Scott, *The Art of Not Being Governed: An Anarchist History of Upland Southeast Asia* (Yale University Press, 2009)
+- cite: James C. Scott, The Art of Not Being Governed: An Anarchist History of Upland Southeast Asia (Yale University Press, 2009; ISBN 978-0-300-15228-9)
 - kb: `james-c-scott_the-art-of-not-being-governed.md`
-- verified: unverified
+- verified: web (ISBN 978-0-300-15228-9)
 - note: Well-known monograph; title/publisher/year known with high confidence, ISBN not explicitly re-verified
 
 ### spinoza-1677-ethics
 - status: usable
 - medium: text
-- cite: Benedict de Spinoza, Ethics (Ethica Ordine Geometrico Demonstrata), 1677
+- cite: Benedict de Spinoza, Ethics (Ethica Ordine Geometrico Demonstrata), 1677 (Project Gutenberg ebook #3800)
 - kb: `The-Ethics-Spinoza.md`
-- verified: unverified
+- verified: web (https://www.gutenberg.org/ebooks/3800)
 - note: Classic public-domain philosophical work; no ISBN applicable.
 
 ### stange-logic-of-rasa-in-java
 - status: usable
 - medium: text
-- cite: Paul Stange, "The Logic of Rasa in Java" (Asian Studies, Murdoch University)
+- cite: Paul Stange, "The Logic of Rasa in Java," Indonesia, no. 38 (October 1984), pp. 113-134
 - kb: `the-logic-of-rasa--stange.md`
-- verified: unverified
-
-### stange-relaxed-meditation-sumarah-teachings
+- verified: web (https://www.jstor.org/stable/3350848)### stange-relaxed-meditation-sumarah-teachings
 - status: usable
 - medium: text
-- cite: Paul Stange, Relaxed Meditation: Selected Sumarah Teachings
+- cite: Paul Stange (trans., ed. and intro.), Relaxed Meditation: Selected Sumarah Teachings (orig. pub. as Selected Sumarah Teachings, Dept. of Asian Studies, WAIT, Perth, 1977)
 - kb: `relaxed-mediation-sumarah-stange.md`
-- verified: unverified
-
-### stoelhorst-2024-moral-sentiments
+- verified: web (https://freotopia.org/people/paulstange/relaxedmeditation.html)### stoelhorst-2024-moral-sentiments
 - status: usable
 - medium: text
 - cite: J.W. Stoelhorst, "Moral Sentiments" (prosocial.world, 2024)
 - kb: `posts_moral-sentiments.md`
-- verified: unverified
+- verified: web (https://www.prosocial.world/posts/moral-sentiments)
 - note: resolved via prosocial.world.db frontmatter
 
 ### suzuki-1970-zen-mind-beginners-mind
@@ -1358,11 +1334,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### van-vugt-mismatch-interview
 - status: usable
 - medium: text
-- cite: Mark van Vugt, interviewed in "Mismatch: An Interview with Mark van Vugt" (prosocial.world); book: Ronald Giphart and Mark van Vugt, Mismatch: How Our Stone Age Brains Deceive Us Every Day and What to Do About It (2018)
+- cite: Mark van Vugt, interviewed by Gareth Craze, "Mismatch: An Interview with Mark van Vugt," prosocial.world, 26 July 2018. Discusses Ronald Giphart and Mark van Vugt, Mismatch: How Our Stone Age Brain Deceives Us Every Day (And What We Can Do About It) (London: Robinson, 2018), ISBN 9781472139702.
 - kb: `posts_mismatch-an-interview-with-mark-van-vugt.md`
-- verified: unverified
-
-### von-rueden-large-scale-societies-outliers-moral-judgment
+- verified: web (https://www.prosocial.world/posts/mismatch-an-interview-with-mark-van-vugt)### von-rueden-large-scale-societies-outliers-moral-judgment
 - status: usable
 - medium: text
 - cite: Chris von Rueden, "Are Large-Scale Societies Outliers When It Comes to Core Elements of Moral Judgment?" prosocial.world
@@ -1395,9 +1369,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### wayang-net-tinta-owl-tribal-ink
 - status: usable
 - medium: text
-- cite: "Tribal Ink: Writing Stories on Human Skin" (byline 'Tinta the Owl'), Wayang.net
+- cite: "Tribal Ink: Writing Stories on Human Skin," Wayang.net, 19 August 2018. No individual author credited (posted by site admin); "Tinta the Owl" (Iriene Natalia) is the article's subject, not its byline.
 - kb: `tinta-the-owl-and-her-tribal-tattoo.md`
-- verified: unverified
+- verified: web (https://www.wayang.net/tinta-the-owl-and-her-tribal-tattoo/)
 - note: Confirmed URL: wayang.net/tinta-the-owl-and-her-tribal-tattoo/; on Mentawai Arat Sabulungan custodial practice and 1954 assimilation policy
 
 ### what-can-we-learn-ubuntu-philosophy
@@ -1406,7 +1380,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - cite: "What Can We Learn From the African Philosophy of Ubuntu?" (publication not confirmed)
 - kb: `what-can-we-learn-from-the-african-philosophy-of-ubuntu.md`
 - verified: unverified
-- note: prov=Ubuntu (explicit usable-topic dir). NEEDS-HUMAN: exact publishing outlet/author not located via light web search; content (co-agency principle, "not a political programme...not a religious expression") is thematically consistent with genuine Ubuntu-philosophy discourse.
+- note: prov=Ubuntu (explicit usable-topic dir). NEEDS-HUMAN: exact publishing outlet/author not located via light web search; content (co-agency principle, "not a political programme...not a religious expression") is thematically consistent with genuine Ubuntu-philosophy discourse. P3-verify (2026-07-02): closest match is Tyson Simmons, "What we can learn from the African philosophy of Ubuntu," Kaizen Culture blog (22 Mar 2022), but that URL now 404s and the blog is dead -- no live source confirmable.
 
 ### what-is-dharma-md-llm-query-transcript
 - status: barred
@@ -1453,17 +1427,15 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Wikipedia contributors, "Evolutionary Psychology," Wikipedia (accessed 2026)
 - kb: `evolutionary-psychology-culture.md`
-- verified: unverified
+- verified: web (https://en.wikipedia.org/wiki/Evolutionary_psychology)
 - note: KB text is a Wikipedia mirror (confirmed via db peek: page opens with a reference tag pointing to en.wikipedia.org/wiki/Evolutionary_psychology); treat as tertiary source and trace claims to Wikipedia's own citations for primary sourcing.
 
 ### wilber-1996-brief-history-of-everything
 - status: usable
 - medium: text
-- cite: Ken Wilber, A Brief History of Everything (Shambhala, 1996)
+- cite: Ken Wilber, A Brief History of Everything (Boston: Shambhala, 1996), ISBN 9781570621871.
 - kb: `Ken-Wilber_A-Brief-History-of-Everything_1996.md`
-- verified: unverified
-
-### williamson-eberstadt-unemployed-men
+- verified: web (ISBN 9781570621871)### williamson-eberstadt-unemployed-men
 - status: usable
 - medium: transcript
 - cite: Chris Williamson interviewing Nicholas Eberstadt, "How Are 7 Million Unemployed Men Actually Surviving? - Nicholas Eberstadt" (Modern Wisdom, YouTube, video ID vknKvG3yrYM)
@@ -1476,7 +1448,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: David Sloan Wilson, "Is Religion Useful? A Test Involving Common Pool Resource Groups" (This View of Life / prosocial.world, 18 March 2013)
 - kb: `is-religion-useful-a-test-involving-common-pool-resource-groups.md`
-- verified: unverified
+- verified: web (https://www.prosocial.world/posts/is-religion-useful-a-test-involving-common-pool-resource-groups)
 - note: DB text byline truncated to 'David' in first 400 chars; This View of Life site attributes this piece to David Sloan Wilson
 
 ### wilson-2017-reaching-new-plateau-multilevel-selection
@@ -1490,16 +1462,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### wilson-aktipis-cheating-cell-interview
 - status: usable
 - medium: text
-- cite: David Sloan Wilson, "The Cheating Cell: An Interview with Athena Aktipis" (prosocial.world); book: Athena Aktipis, The Cheating Cell: How Evolution Helps Us Understand and Treat Cancer (Princeton University Press, 2020)
+- cite: Athena Aktipis, interviewed by Alan Honick, "The Cheating Cell: An Interview with Athena Aktipis," prosocial.world, 15 June 2020 (byline Alan Honick, not David Sloan Wilson). Discusses Athena Aktipis, The Cheating Cell: How Evolution Helps Us Understand and Treat Cancer (Princeton University Press, 2020), ISBN 9780691163840.
 - kb: `posts_the-cheating-cell-an-interview-with-athena-aktipis`
-- verified: unverified
-
-### wilson-evolution-coming-interspiritual-age
+- verified: web (https://www.prosocial.world/posts/the-cheating-cell-an-interview-with-athena-aktipis)### wilson-evolution-coming-interspiritual-age
 - status: usable
 - medium: text
-- cite: David Sloan Wilson, "Evolution And The Coming Interspiritual Age: A Conversation With Kurt Johnson" (prosocial.world)
+- cite: David Sloan Wilson, "Evolution And The Coming Interspiritual Age: A Conversation With Kurt Johnson," prosocial.world, 21 May 2015.
 - kb: `posts_evolution-and-the-coming-interspiritual-age`
-- verified: unverified
+- verified: web (https://www.prosocial.world/posts/evolution-and-the-coming-interspiritual-age-a-conversation-with-kurt-johnson)
 - note: resolved via prosocial.world.db frontmatter
 
 ### wilson-moral-universals-tinbergen
@@ -1538,7 +1508,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: David Sloan Wilson, Mark Sloan, and Michael Price, "Is There a Universal Morality? Introduction and Overview of Responses" (prosocial.world)
 - kb: `posts_is-there-a-universal-morality-introduction-and-overview-of-responses.md`
-- verified: unverified
+- verified: web (https://www.prosocial.world/posts/is-there-a-universal-morality-introduction-and-overview-of-responses)
 - note: resolved via prosocial.world.db frontmatter
 
 ### wilson-styles-atkins-2024-conscious-multilevel-cultural-evolution
@@ -1561,9 +1531,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: David Sloan Wilson, "Truth and Reconciliation for Group Selection: 10. Naive Gene Selectionism" (This View of Life / prosocial.world)
 - kb: `truth-and-reconciliation-for-group-selection-10-naive-gene-selectionism.md`
-- verified: unverified
-
-### wilson-truth-reconciliation-group-selection-16-major-transitions
+- verified: web (https://www.prosocial.world/posts/truth-and-reconciliation-for-group-selection-10-naive-gene-selectionism)### wilson-truth-reconciliation-group-selection-16-major-transitions
 - status: usable
 - medium: text
 - cite: David Sloan Wilson, "Truth and Reconciliation for Group Selection: 16. Individualism Is Dead: Long Live Major Transitions," prosocial.world
@@ -1576,7 +1544,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - cite: David Sloan Wilson, "Is There a Universal Morality?" This View of Life (tvol)
 - kb: `tvol_morality.md`
 - verified: unverified
-- note: distinct sourcedoc/prov (DS_Wilson dir) from item 29's prosocial.world posts_ copy of the related multi-author overview; opening text is the solo introductory essay
+- note: distinct sourcedoc/prov (DS_Wilson dir) from item 29's prosocial.world posts_ copy of the related multi-author overview; opening text is the solo introductory essay. P3-verify (2026-07-02): no Wilson-solo article titled exactly "Is There a Universal Morality?" resolves to a distinct live URL -- the bare slug prosocial.world/posts/is-there-a-universal-morality is by Massimo Pigliucci, and the exact-title match is the 3-author overview (cf. key wilson-sloan-price-is-there-a-universal-morality-overview). Wilson's own lead piece is "Moral Universals, Moral Particulars and Tinbergen's Four Questions." Left unverified pending disambiguation.
 
 ### would-abandoning-moral-foundations-better-society
 - status: usable
@@ -1606,4 +1574,4 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: John Zerzan, "The Catastrophe of Postmodernism" (1991; repr. The Anarchist Library)
 - kb: `john-zerzan_the-catastrophe-of-postmodernism.md`
-- verified: unverified
+- verified: web (https://theanarchistlibrary.org/library/john-zerzan-the-catastrophe-of-postmodernism)
