@@ -2,7 +2,7 @@
 part: 8
 title: Creating Dharmas
 slug: creating-dharmas
-status: review
+status: done
 words: 5797
 reading_level: year-12
 updated: 2026-07-02
