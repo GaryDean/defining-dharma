@@ -101,10 +101,10 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### antara-2026-badui-seba-ritual
 - status: usable
 - medium: text
-- cite: Antara News, "1,580 Badui Residents Prepare to Celebrate the 2026 Seba Ritual" (via jawawa.id, 2026)
+- cite: ANTARA News (via jawawa.id), "1,580 Badui residents prepare to celebrate the 2026 Seba ritual" (jawawa.id, 23 April 2026)
 - kb: `1696298-1-580-badui-residents-prepare-to-celebrate-the-2026-seba-ritual.md`
-- verified: unverified
-- note: not present in local jawawa DB (very recent item); web search located matching Antara News figures/report for Seba 2026
+- verified: web (jawawa.id/newsitem/1-580-badui-residents-prepare-to-celebrate-the-2026-seba-ritual-1777013684; ANTARA_ID, 23 Apr 2026)
+- note: Not in the local jawawa DB (2026 item); resolved via jawawa.id search -- live URL id (1777013684) differs from the KB filename prefix (1696298); confirmed live.
 
 ### antara-baduy-200km-sacred-journey
 - status: usable
@@ -603,10 +603,10 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### jakarta-post-minister-population-family-development-baduy-mbg
 - status: usable
 - medium: text
-- cite: "Minister of Population and Family Development Visits Baduy Community to Expand [MBG Nutrition Programme]," The Jakarta Post (via jawawa.id Indonesian news archive)
+- cite: ANTARA News (translated, via jawawa.id), "Minister of Population and Family Development visits Baduy community to expand reach of Free Nutritious Meals Programme for 3B" (jawawa.id, 30 April 2026)
 - kb: `1711255-minister-of-population-and-family-development-visits-baduy-community-to-expand.md`
-- verified: unverified
-- note: Title truncated in source filename; refers to Indonesia's real 2025-26 MBG (Makan Bergizi Gratis) nutrition programme and Minister Wihaji; exact full headline unconfirmed
+- verified: web (jawawa.id/newsitem/minister-of-population-and-family-development-visits-baduy-community-to-expand-reach-of-free-nutritious-meals-1777557285; ANTARA_ID, 30 Apr 2026)
+- note: Resolved via jawawa.id search -- live URL id (1777557285) differs from the KB filename prefix (1711255); confirmed live. Full headline recovered ("... for 3B"); outlet is ANTARA, not the Jakarta Post. Refers to Indonesia's MBG (Makan Bergizi Gratis) programme and Minister Wihaji.
 
 ### jakarta-post-reclusive-baduy-cope-with-tourism-and-materialism
 - status: usable
@@ -635,18 +635,18 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### jawawa-1684017-leiden-researcher-baduy-jet-bakels
 - status: usable
 - medium: text
-- cite: jawawa.id, "Leiden University Researcher: Preserve the Baduy Community's Culture" (jawawa.id, n.d.; features Leiden Univ. researcher Jet Bakels)
+- cite: ANTARA News (translated, via jawawa.id), "Leiden University Researcher: Preserve the Baduy Community's Culture" (jawawa.id, 17 April 2026; features Leiden Univ. researcher Jet Bakels)
 - kb: `1684017-leiden-university-researcher-preserve-the-baduy-communitys-culture.md`
-- verified: unverified
-- note: NEEDS-HUMAN: likely ANTARA News syndication reporting on Jet Bakels's Baduy fieldwork (since 1983-84); original outlet URL/date/byline unconfirmed, jawawa.id URL now HTTP 410 Gone.
+- verified: web (jawawa.id/newsitem/leiden-university-researcher-preserve-the-baduy-communitys-culture-1776423064; ANTARA_ID, 17 Apr 2026)
+- note: Resolved via jawawa.id search -- live URL id (1776423064) differs from the KB filename prefix (1684017); confirmed live. ANTARA syndication on Leiden researcher Jet Bakels's Baduy fieldwork (since 1983-84).
 
 ### jawawa-1757483-uki-baduy-adat-commodification
 - status: usable
 - medium: text
-- cite: ANTARA News (via jawawa.id), "UKI Highlights Protection of Customary Land and Risks of Adat Commodification" -- reporting on a Universitas Kristen Indonesia (UKI) Faculty of Law seminar on Baduy customary land
+- cite: ANTARA News (via jawawa.id), "UKI Highlights Protection of Customary Land and Risks of Adat Commodification" -- reporting on a Universitas Kristen Indonesia (UKI) Faculty of Law seminar on Baduy customary land (jawawa.id, 22 May 2026)
 - kb: `1757483-uki-highlights-protection-of-customary-land-and-risks-of-adat-commodification.md`
-- verified: unverified
-- note: Confirmed as ANTARA News content (Indonesian original: "UKI soroti perlindungan tanah ulayat dan risiko komodifikasi adat," antaranews.com/berita/5578156); jawawa.id English URL now returns HTTP 410 Gone.
+- verified: web (jawawa.id/newsitem/uki-highlights-protection-of-customary-land-and-risks-of-adat-commodification-1779542151; ANTARA_ID, 22 May 2026)
+- note: Resolved via jawawa.id search -- live URL id (1779542151) differs from the KB filename prefix (1757483); confirmed live. Indonesian original: "UKI soroti perlindungan tanah ulayat dan risiko komodifikasi adat," antaranews.com/berita/5578156.
 
 ### jawawa-baduy-people-immune-from-election-fever
 - status: usable
@@ -659,10 +659,10 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### jawawa-baduy-seba-leaders-must-be-smart
 - status: usable
 - medium: text
-- cite: jawawa.id, "Message From Indigenous Figures in Baduy: Seba Leaders Must Be Smart in Eradicating Corruption" (jawawa.id, 2026)
+- cite: DETIK (translated, via jawawa.id), "Message From Indigenous Figures in Baduy Seba: Leaders Must Be Smart in Eradicating Corruption" (jawawa.id, 25 April 2026)
 - kb: `1699529-message-from-indigenous-figures-in-baduy-seba-leaders-must-be-smart-in.md`
-- verified: unverified
-- note: Corresponds to April 2026 Seba Baduy coverage (cf. detik.com, "Pesan Tokoh Adat dalam Seba Baduy: Pemimpin Harus Pintar Berantas Korupsi"); anti-corruption pantun by Baduy elder Saidi. jawawa.id English aggregation not directly re-fetchable.
+- verified: web (jawawa.id/newsitem/message-from-indigenous-figures-in-baduy-seba-leaders-must-be-smart-in-eradicating-corruption-1777056640; DETIK, 25 Apr 2026)
+- note: Resolved via jawawa.id search -- live URL id (1777056640) differs from the KB filename prefix (1699529); confirmed live. Indonesian original (detik.com): "Pesan Tokoh Adat dalam Seba Baduy: Pemimpin Harus Pintar Berantas Korupsi"; anti-corruption pantun by Baduy elder Saidi Putra.
 
 ### jawawa-marriage-outside-five-religions-illegal-indonesia
 - status: usable
