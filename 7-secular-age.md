@@ -2,7 +2,7 @@
 part: 7
 title: "Dharmas in a Secular Age"
 slug: secular-age
-status: review
+status: done
 words: 4168
 reading_level: year-12
 updated: 2026-07-02
