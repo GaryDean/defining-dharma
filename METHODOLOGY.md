@@ -80,7 +80,7 @@ Use, in increasing order of weight:
 Copy `1-foundational/_template.md` to `<category-dir>/<id>-<slug>.md`. Fill
 **Synthesis** (the distilled answer) and **Findings** (the substance). Attach an
 inline provenance ref to every claim — `[S#]` (external/scholarly, matched to the
-Sources list) or `[A]` (the author's own position/synthesis) — matched to the Sources list.
+Sources list) or `[A]` (the author's own position/synthesis).
 
 ### 5. Flag bias & gaps
 Fill **Tensions, gaps & corpus bias** honestly: where sources disagree, where the
@@ -115,7 +115,7 @@ a citation. Each cited source is typed once in [`SOURCES.md`](SOURCES.md):
 
 - **Usable (`[S#]`)** — scholarly / attributable work (book, paper, named lecture or
   interview). Resolve to a proper reference and web-verify. Notes cite it as
-  `[S#] <short cite> · kb:`file:seg` [src:<key>]`.
+  `[S#] <short cite> · kb:<file>:<seg> [src:<key>]`.
 - **Author's own (`[A]`)** — the author's position, synthesis or hypothesis. Marked `[A]`
   inline, NO Sources entry, outside the `[S#]` bijection. **Never dropped for lack of an
   external source**; external grounding is *sought*, not required. If found, it gains an

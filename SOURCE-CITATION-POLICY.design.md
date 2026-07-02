@@ -92,7 +92,7 @@ verifier can catch any `[S#]` that points at one.
 - medium: text
 - cite: Christopher Boehm, *Hierarchy in the Forest: The Evolution of Egalitarian Behavior* (Harvard University Press, 1999)
 - kb: `Christopher-Boehm_Hierarchy-in-the-Forest_..._HarvardUP-1999.md`, `04-chapter.md`
-- verified: web (ISBN 978-0-674-39031-8)
+- verified: web (ISBN 978-0-674-39031-7)
 
 ### dharma-sangha-reunion-2020
 - status: barred

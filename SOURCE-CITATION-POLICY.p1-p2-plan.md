@@ -82,7 +82,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Christopher Boehm, *Hierarchy in the Forest: The Evolution of Egalitarian Behavior* (Harvard University Press, 1999)
 - kb: `Christopher-Boehm_Hierarchy-in-the-Forest_The-Evolution-of-Egalitarian-Behavior_HarvardUP-1999.md`, `04-chapter.md`
-- verified: web (ISBN 978-0-674-39031-8)
+- verified: web (ISBN 978-0-674-39031-7)
 - note: reverse dominance hierarchy; foragers as moral communities.
 
 ### graeber-wengrow-2021-dawn
@@ -122,7 +122,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 
 Run three `WebSearch` queries and confirm the ISBN-13 matches the edition in `cite:`. Correct the file if any differs.
 
-- `WebSearch`: `Boehm "Hierarchy in the Forest" Harvard University Press 1999 ISBN` → expect ISBN-13 `978-0-674-39031-8`.
+- `WebSearch`: `Boehm "Hierarchy in the Forest" Harvard University Press 1999 ISBN` → expect ISBN-13 `978-0-674-39031-7`.
 - `WebSearch`: `Graeber Wengrow "The Dawn of Everything" 2021 ISBN` → expect `978-0-374-15735-7` (FSG US ed.).
 - `WebSearch`: `Sapolsky "Behave" Penguin Press 2017 ISBN` → expect `978-1-59420-507-1`.
 
@@ -465,7 +465,7 @@ def check_register(notes_dir, register_path):
   issues = []
   # Notes live ONLY in category dirs (N-<category>/); never scan root docs
   # (METHODOLOGY.md, the design/plan docs, etc. carry example [S#] lines).
-  for cat in sorted(Path(notes_dir).glob("[0-9]*-*")):
+  for cat in sorted(Path(notes_dir).glob("[1-8]-*")):
     if not cat.is_dir():
       continue
     for note in sorted(cat.rglob("*.md")):
@@ -583,7 +583,7 @@ def extract(notes_dir):
   idx = defaultdict(list)
   # Notes live ONLY in category dirs (N-<category>/); skip root docs, which
   # carry example [S#] lines (METHODOLOGY.md, the design/plan docs, etc.).
-  for cat in sorted(Path(notes_dir).glob("[0-9]*-*")):
+  for cat in sorted(Path(notes_dir).glob("[1-8]-*")):
     if not cat.is_dir():
       continue
     for note in sorted(cat.rglob("*.md")):
