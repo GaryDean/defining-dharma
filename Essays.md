@@ -70,7 +70,7 @@ Status vocabulary is identical to the research stage:
 | 3 | The Dharmas of the Samin of Java | Establish · keystone case | done | [3-samin-of-java.md](3-samin-of-java.md) |
 | 4 | A World of Dharmas | Establish · plural | done | [4-world-of-dharmas.md](4-world-of-dharmas.md) |
 | 5 | How a Dharma Gets Under Your Skin | Establish · mechanism | done | [5-under-your-skin.md](5-under-your-skin.md) |
-| 6 | When Dharmas Go Wrong | Stress-test | review | [6-when-dharma-goes-wrong.md](6-when-dharma-goes-wrong.md) |
+| 6 | When Dharmas Go Wrong | Stress-test | done | [6-when-dharma-goes-wrong.md](6-when-dharma-goes-wrong.md) |
 | 7 | Dharmas in a Secular Age | Pivot | review | [7-secular-age.md](7-secular-age.md) |
 | 8 | Creating Dharmas | Build | review | [8-creating-dharmas.md](8-creating-dharmas.md) |
 

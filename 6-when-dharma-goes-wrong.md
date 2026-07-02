@@ -2,7 +2,7 @@
 part: 6
 title: "When Dharmas Go Wrong"
 slug: when-dharma-goes-wrong
-status: review
+status: done
 words: 4792
 reading_level: year-12
 updated: 2026-07-02
