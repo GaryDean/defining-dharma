@@ -2,7 +2,7 @@
 part: 0
 title: "Preface"
 slug: preface
-status: review
+status: done
 words: 3599
 reading_level: year-12
 updated: 2026-07-02
