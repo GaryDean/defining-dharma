@@ -36,6 +36,7 @@ cited note (e.g. `4.5`).
 | 5.2 | Evolutionary Psychology                 | done        | [5-psychological/5.2-evolutionary-psychology.md](5-psychological/5.2-evolutionary-psychology.md) |
 | 5.3 | Moral Psychology & Development          | done        | [5-psychological/5.3-moral-psychology-development.md](5-psychological/5.3-moral-psychology-development.md) |
 | 5.4 | Ritual, Practice & Habituation          | done        | [5-psychological/5.4-ritual-habituation.md](5-psychological/5.4-ritual-habituation.md) |
+| 5.4.1 | Alexander Technique & Embodied Habit  | done        | [5-psychological/5.4.1-alexander-technique.md](5-psychological/5.4.1-alexander-technique.md) |
 | 5.5 | Psychopaths & the Exploiter Limit-Case  | done      | [5-psychological/5.5-psychopaths.md](5-psychological/5.5-psychopaths.md) |
 | 5.6 | Neurodivergence (umbrella)              | done      | [5-psychological/5.6-neurodivergence/5.6-neurodivergence.md](5-psychological/5.6-neurodivergence/5.6-neurodivergence.md) |
 | 5.6.1 | Autism & the Systemising Mind         | done      | [5-psychological/5.6-neurodivergence/5.6.1-autism.md](5-psychological/5.6-neurodivergence/5.6.1-autism.md) |
@@ -181,6 +182,9 @@ vary across populations?
 ### 5.4 Ritual, Practice & Habituation
 How do dharmas install themselves behaviourally? What is the role of ritual, repeated
 practice, and habituation in turning a dharmic ideal into a lived disposition?
+
+### 5.4.1 Alexander Technique & Embodied Habit
+Explore the Alexander Technique (a.k.a. the "Alexander Method"): what is it, what are its common practices, who practises it, and does it relate to the dharma concepts in this project? *(Extension note under 5.4 — a secular somatic candidate-dharma of embodied habit: inhibition + direction as conscious habit re-education; sibling to 5.4 Ritual, Practice & Habituation.)*
 
 ### 5.5 Psychopaths & the Exploiter Limit-Case
 Examine the role of what we call *psychopaths* in human development, history, and evolution.
