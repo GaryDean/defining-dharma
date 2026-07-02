@@ -5,11 +5,11 @@ Generated 2026-07-02. P2 of `SOURCE-CITATION-POLICY.design.md`. No research note
 ## Summary
 - Distinct sourcedocs cited: **207** across 303 citations in 42 notes
 - Classification: usable **176** · barred:self **25** · barred:ephemera **6** · project-file **0**
-- NEEDS-HUMAN (uncertain classification): **21**
+- NEEDS-HUMAN (uncertain classification): **17**
 - **Barred-source violations** ([S#] citing a barred source): **44** across 25 notes
 - Non-source citations ([S#] citing a project-file): **0** across 0 notes
 - New register entries added this pass: **200** (+5 pre-existing)
-- Patched: 2 `_unprocessed_` docs reclassified barred→usable; 3 classification notes scrubbed of personal detail
+- Patched: 2 `_unprocessed_` docs reclassified barred→usable; 11 jawawa/Jakarta-Post articles resolved from the jawawa archive; 3 classification notes scrubbed of personal detail
 
 ## Violations — [S#] citing a barred source
 
@@ -73,10 +73,6 @@ P3: remove the `[S#]` or re-source to a real work.
 
 | sourcedoc | tentative status | note |
 |---|---|---|
-| `1003199-preserving-prophet-adam-s-legacy-in-west-java.md` | usable | jawawa.id is confirmed to be a Jakarta Post news archive (1994-2017+), so the outlet is very likely Jakarta Post, but the exact byline/date could not be located via web search. NEEDS-HUMAN: confirm original outlet/date for this jawawa numeric-ID article. |
-| `1242523-on-a-search-for-soul-through-subud.md` | usable | jawawa.id is a Jakarta Post news archive; exact byline/date not located via web search. NEEDS-HUMAN: confirm original outlet/date. |
-| `1377086-respect-for-nature-serves-baduy-in-good-stead.md` | usable | NEEDS-HUMAN: jawawa.id likely syndicates ANTARA News reporting (cf. sibling item 1757483, confirmed ANTARA sourcing) but the original outlet URL/byline/date could not be located; the jawawa.id URL now returns HTTP 410 Gone. |
-| `1510348-treating-mystic-believers.md` | usable | Content places this contemporaneous with the 1997 MPR aliran-kepercayaan debate; jawawa.id archives Jakarta Post material from that era, but exact byline/date not located via web search. NEEDS-HUMAN: confirm original outlet/date. |
 | `1684017-leiden-university-researcher-preserve-the-baduy-communitys-culture.md` | usable | NEEDS-HUMAN: likely ANTARA News syndication reporting on Jet Bakels's Baduy fieldwork (since 1983-84); original outlet URL/date/byline unconfirmed, jawawa.id URL now HTTP 410 Gone. |
 | `21-a-secular-dharma.transcript.txt` | barred:self | NEEDS-HUMAN: author's own first-person / autobiographical prose (personal detail omitted) |
 | `EtVfoIkVSu8.transcript.txt` | usable | NEEDS-HUMAN: oEmbed confirms video ID EtVfoIkVSu8 = Stanford's "19. Aggression III" (aggression neurobiology), but the batch gloss describes Kohlberg/Piaget moral-development stages -- a topical mismatch. Verify the transcript-to-video mapping before using this citation. |

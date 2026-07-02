@@ -595,10 +595,10 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### jakarta-post-australian-reporter-tale-of-living-the-news
 - status: usable
 - medium: text
-- cite: "An Australian Reporter's Tale of Living the News," The Jakarta Post (via jawawa.id Indonesian news archive)
+- cite: "An Australian reporter's tale of living the news," The Jakarta Post (30 September 2001)
 - kb: `1075247-an-australian-reporter-s-tale-of-living-the-news.md`
-- verified: unverified
-- note: Profile touching on Harvey Barnett's commitment to Subud; exact byline/date not confirmed, but jawawa.id is a verified Jakarta Post news archive
+- verified: jawawa archive (Source: JP; 2001-09-30)
+- note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jakarta-post-minister-population-family-development-baduy-mbg
 - status: usable
@@ -611,26 +611,26 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### jakarta-post-reclusive-baduy-cope-with-tourism-and-materialism
 - status: usable
 - medium: text
-- cite: "Reclusive Baduy Cope With Tourism and Materialism," The Jakarta Post (via jawawa.id Indonesian news archive)
+- cite: "Reclusive Baduy cope with tourism and materialism," The Jakarta Post (19 January 1997)
 - kb: `1533167-reclusive-baduy-cope-with-tourism-and-materialism.md`
-- verified: unverified
-- note: Baduy tourism feature; exact byline/date not confirmed, but jawawa.id is a verified Jakarta Post news archive
+- verified: jawawa archive (Source: JP; 1997-01-19)
+- note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jakarta-post-west-java-patch-of-land-where-time-stands-still
 - status: usable
 - medium: text
-- cite: "The West Java Patch of Land Where Time Stands Still," The Jakarta Post (via jawawa.id Indonesian news archive)
+- cite: "The West Java patch of land where time stands still," The Guardian (24 December 2000)
 - kb: `1284432-the-west-java-patch-of-land-where-time-stands-still.md`
-- verified: unverified
-- note: Feature on Baduy/Sunda Wiwitan; exact byline/date not confirmed, but jawawa.id is a verified Jakarta Post news archive
+- verified: jawawa archive (Source: GUARDIAN; 2000-12-24)
+- note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jawawa-1377086-respect-for-nature-baduy
 - status: usable
 - medium: text
-- cite: jawawa.id, "Respect for Nature Serves Baduy in Good Stead" (jawawa.id, n.d.)
+- cite: "Respect for nature serves Baduy in good stead," The Jakarta Post (5 September 1998)
 - kb: `1377086-respect-for-nature-serves-baduy-in-good-stead.md`
-- verified: unverified
-- note: NEEDS-HUMAN: jawawa.id likely syndicates ANTARA News reporting (cf. sibling item 1757483, confirmed ANTARA sourcing) but the original outlet URL/byline/date could not be located; the jawawa.id URL now returns HTTP 410 Gone.
+- verified: jawawa archive (Source: JP; 1998-09-05)
+- note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jawawa-1684017-leiden-researcher-baduy-jet-bakels
 - status: usable
@@ -651,10 +651,10 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### jawawa-baduy-people-immune-from-election-fever
 - status: usable
 - medium: text
-- cite: jawawa.id, "Baduy People Immune From Election Fever" (jawawa.id)
+- cite: "Baduy people immune from election fever," The Jakarta Post (5 April 2004)
 - kb: `1500184-baduy-people-immune-from-election-fever.md`
-- verified: unverified
-- note: Not in shared corpus DB (kb=jawawa). Same jawawa.id numeric-ID aggregator pattern confirmed for sibling items in this batch; covers Baduy 1999/2004 election opt-out (Dainah quote).
+- verified: jawawa archive (Source: JP; 2004-04-05)
+- note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jawawa-baduy-seba-leaders-must-be-smart
 - status: usable
@@ -667,34 +667,34 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### jawawa-marriage-outside-five-religions-illegal-indonesia
 - status: usable
 - medium: text
-- cite: jawawa.id, "Marriage Outside the Five Religions Illegal in Indonesia" (jawawa.id)
+- cite: "Marriage outside the five religions illegal in Indonesia," The Jakarta Post (24 April 2005)
 - kb: `1172032-marriage-outside-the-five-religions-illegal-in-indonesia.md`
-- verified: unverified
-- note: Not in shared corpus DB (kb=jawawa). Reconstructed URL jawawa.id/newsitem/marriage-outside-the-five-religions-illegal-in-indonesia-1172032 returns HTTP 410 Gone, confirming the article existed under that ID/slug on the jawawa.id Indonesian-news aggregator; original text no longer live.
+- verified: jawawa archive (Source: JP; 2005-04-24)
+- note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jawawa-preserving-prophet-adams-legacy-west-java
 - status: usable
 - medium: text
-- cite: Jakarta Post (archived via jawawa.id), "Preserving Prophet Adam's Legacy in West Java" (n.d.) - Baduy/Kanekes Prophet Adam mythology and farming as sacred obligation
+- cite: "Preserving Prophet Adam's legacy in West Java," The Jakarta Post (20 November 1994)
 - kb: `1003199-preserving-prophet-adam-s-legacy-in-west-java.md`
-- verified: unverified
-- note: jawawa.id is confirmed to be a Jakarta Post news archive (1994-2017+), so the outlet is very likely Jakarta Post, but the exact byline/date could not be located via web search. NEEDS-HUMAN: confirm original outlet/date for this jawawa numeric-ID article.
+- verified: jawawa archive (Source: JP; 1994-11-20)
+- note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jawawa-search-for-soul-through-subud
 - status: usable
 - medium: text
-- cite: Jakarta Post (archived via jawawa.id), "On a Search for Soul Through Subud" (n.d.) - Subud founder biography, latihan practice, Susila Budi Dharma gloss
+- cite: "On a search for soul through Subud," The Jakarta Post (24 March 2002)
 - kb: `1242523-on-a-search-for-soul-through-subud.md`
-- verified: unverified
-- note: jawawa.id is a Jakarta Post news archive; exact byline/date not located via web search. NEEDS-HUMAN: confirm original outlet/date.
+- verified: jawawa archive (Source: JP; 2002-03-24)
+- note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### jawawa-treating-mystic-believers
 - status: usable
 - medium: text
-- cite: Jakarta Post (archived via jawawa.id), "Treating Mystic Believers" (c. 1997) - 1997 MPR debate over aliran kepercayaan status
+- cite: "Treating mystic believers," The Jakarta Post (20 November 1997)
 - kb: `1510348-treating-mystic-believers.md`
-- verified: unverified
-- note: Content places this contemporaneous with the 1997 MPR aliran-kepercayaan debate; jawawa.id archives Jakarta Post material from that era, but exact byline/date not located via web search. NEEDS-HUMAN: confirm original outlet/date.
+- verified: jawawa archive (Source: JP; 1997-11-20)
+- note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### john-dewey-first-evolutionary-educational-philosopher
 - status: usable
@@ -715,10 +715,10 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### jp-1998-missing-values-harmony-plurality
 - status: usable
 - medium: text
-- cite: "The missing values of harmony and plurality" (review of Paul Stange, Politik Perhatian: Rasa Dalam Kebudayaan Jawa, LKiS, 1998), The Jakarta Post (20 September 1998)
+- cite: "The missing values of harmony and plurality," The Jakarta Post (20 September 1998)
 - kb: `1378079-the-missing-values-of-harmony-and-plurality.md`
-- verified: unverified
-- note: byline not visible in first 400 chars of DB text; jawawa-aggregated JP archive; date DB-confirmed
+- verified: jawawa archive (Source: JP; 1998-09-20)
+- note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### kalkhoff-serpe-pollock-2020-video-chat-proxy
 - status: usable
@@ -793,10 +793,10 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 ### parlupi-2005-exploring-baduy-settlements
 - status: usable
 - medium: text
-- cite: Bambang Parlupi, "Exploring Baduy settlements in ancient land," The Jakarta Post (12 June 2005)
+- cite: "Exploring Baduy settlements in ancient land," The Jakarta Post (12 June 2005)
 - kb: `1133276-exploring-baduy-settlements-in-ancient-land.md`
-- verified: unverified
-- note: jawawa-aggregated Jakarta Post archive article; byline/date DB-confirmed
+- verified: jawawa archive (Source: JP; 2005-06-12)
+- note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
 ### peluso-1992-rich-forests-poor-people
 - status: usable
