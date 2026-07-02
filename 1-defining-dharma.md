@@ -2,7 +2,7 @@
 part: 1
 title: "Defining Dharma"
 slug: defining-dharma
-status: review
+status: done
 words: 4424
 reading_level: year-12
 updated: 2026-07-02
