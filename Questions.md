@@ -22,6 +22,7 @@ cited note (e.g. `4.5`).
 | 2.2 | Urban Complexity                        | done        | [2-historical/2.2-urban-complexity.md](2-historical/2.2-urban-complexity.md) |
 | 2.3 | Pre-Axial / Pre-literate Ethics         | done        | [2-historical/2.3-pre-axial-ethics.md](2-historical/2.3-pre-axial-ethics.md) |
 | 2.4 | Transmission & Institutionalization     | done        | [2-historical/2.4-transmission-institutionalization.md](2-historical/2.4-transmission-institutionalization.md) |
+| 2.5 | The Life-Cycle of a Dharma              | done        | [2-historical/2.5-lifecycle-of-a-dharma.md](2-historical/2.5-lifecycle-of-a-dharma.md) |
 | 3.1 | Tension Resolution                      | done        | [3-philosophical/3.1-tension-resolution.md](3-philosophical/3.1-tension-resolution.md) |
 | 3.2 | Metacognitive Function                  | done      | [3-philosophical/3.2-metacognitive-function.md](3-philosophical/3.2-metacognitive-function.md) |
 | 3.3 | The Grounding Problem                   | done      | [3-philosophical/3.3-grounding-problem.md](3-philosophical/3.3-grounding-problem.md) |
@@ -103,6 +104,13 @@ baseline tell us about what the Axial codifications actually added?
 How did dharmas spread, ossify, and get carried across generations — by priesthoods,
 monastic and philosophical schools, scribes, and states? What happens to a dharma when
 it becomes institutionalized?
+
+### 2.5 The Life-Cycle of a Dharma
+How does a dharma form, change, and end over time — is it carved from an
+existing culture, does it carry that culture's "grain", and does it then die out, season
+into a movement, or harden into a religion that becomes fresh material for the next dharma?
+*(Extension note under 2.4 — a life-cycle model of dharma-formation that synthesises the
+project's "wood-carver" parable; sibling to 2.4 Transmission & Institutionalization.)*
 
 ---
 
