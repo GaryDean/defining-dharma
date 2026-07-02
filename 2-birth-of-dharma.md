@@ -2,7 +2,7 @@
 part: 2
 title: "The Genesis of Dharmas"
 slug: birth-of-dharma
-status: review
+status: done
 words: 4421
 reading_level: year-12
 updated: 2026-07-02

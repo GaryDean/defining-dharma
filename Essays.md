@@ -66,7 +66,7 @@ Status vocabulary is identical to the research stage:
 |------|-------|----------|--------|------|
 | 0 | Preface | — (outside the arc) | done | [0-preface.md](0-preface.md) |
 | 1 | Defining Dharma | Dissolve | done | [1-defining-dharma.md](1-defining-dharma.md) |
-| 2 | The Genesis of Dharmas | Establish · universal | review | [2-birth-of-dharma.md](2-birth-of-dharma.md) |
+| 2 | The Genesis of Dharmas | Establish · universal | done | [2-birth-of-dharma.md](2-birth-of-dharma.md) |
 | 3 | The Dharmas of the Samin of Java | Establish · keystone case | review | [3-samin-of-java.md](3-samin-of-java.md) |
 | 4 | A World of Dharmas | Establish · plural | review | [4-world-of-dharmas.md](4-world-of-dharmas.md) |
 | 5 | How a Dharma Gets Under Your Skin | Establish · mechanism | review | [5-under-your-skin.md](5-under-your-skin.md) |
