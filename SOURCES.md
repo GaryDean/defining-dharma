@@ -302,9 +302,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - status: usable
 - medium: text
 - cite: Dalai Lama XIV, "This is my simple religion. There is no need for temples; no need for complicated philosophy. Our own brain, our own heart is our temple; the philosophy is kindness." (widely attributed; The Dalai Lama: A Policy of Kindness: An Anthology of Writings By and About the Dalai Lama, ed. Sidney Piburn, Snow Lion Publications, 1990, p. 52)
-- kb: `simple-religion-need-temples...`
+- kb: `simple-religion-need-temples-need-complicated-philosophy-brain-heart-ou_gpt-4o-mini.md`
 - verified: web (ISBN 9781559390224; A Policy of Kindness, ed. Piburn, 1990, p. 52 per multiple quote-reference sites)
-- note: truncated filename resolved via DB LIKE match to zenquotes/discourse.md/simple-religion-need-temples...gpt-4o-mini.md; KB text is an LLM (gpt-4o-mini) discourse elaborating this Dalai Lama quote -- verify against original
+- note: truncated filename resolved via DB LIKE match to zenquotes/discourse.md/simple-religion-need-temples-need-complicated-philosophy-brain-heart-ou_gpt-4o-mini.mdgpt-4o-mini.md; KB text is an LLM (gpt-4o-mini) discourse elaborating this Dalai Lama quote -- verify against original
 
 ### daring-to-define-by-whose-right
 - status: barred
@@ -534,7 +534,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - status: usable
 - medium: text
 - cite: Joseph Henrich, The Secret of Our Success: How Culture Is Driving Human Evolution, Domesticating Our Species, and Making Us Smarter (Princeton University Press, 2015)
-- kb: `Joseph-Henrich_The-Secret-of-Our-Success...md`
+- kb: `Joseph-Henrich_The-Secret-of-Our-Success_How-Culture-Is-Driving-Human-Evolution-Domesticating-Our-Species.md`
 - verified: web (ISBN 9780691166858)
 - note: Full filename confirmed via DB path (staging.text/Secret_Of_Our_Success/); truncated "..." in the batch filename is the full subtitle.
 
@@ -710,7 +710,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - status: usable
 - medium: text
 - cite: Will Kalkhoff, Richard T. Serpe & Josh Pollock, "Is Video Chat a Sufficient Proxy for Face-to-Face Interaction? Biosociological Reflections on Life during the COVID-19 Pandemic" (This View of Life, 28 Jul 2020)
-- kb: `posts_is-video-chat-a-sufficient-proxy-for-face-to-face-interaction-...md`
+- kb: `posts_is-video-chat-a-sufficient-proxy-for-face-to-face-interaction-biosociological-reflections-on-life-during-the-covid-19-pandemic.md`
 - verified: web
 - note: Cites Turkle, *Alone Together* (2011) per gloss; full title truncated with "..." in the input filename.
 
@@ -786,7 +786,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - status: usable
 - medium: text
 - cite: Nancy Lee Peluso, Rich Forests, Poor People: Resource Control and Resistance in Java (University of California Press, 1992)
-- kb: `Nancy-Lee-Peluso_Rich-Forests-Poor-People_..._1994.md`
+- kb: `Nancy-Lee-Peluso_Rich-Forests-Poor-People_Resource-Control-and-Resistance-in-Java_1994.md`
 - verified: web (ISBN 9780520089310)
 - note: Full filename confirmed via DB path (staging.text/_uncategorized_/...1994.md); filename/gloss say 1994 but publisher records the first (hardcover/paperback) edition as 1992 - used the verified year.
 
@@ -931,7 +931,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - status: usable
 - medium: text
 - cite: Mitch Distin, "The Indigenous Notions of Kincentricity and Reciprocity: The Keys to Sustainability and Climate Change" (prosocial.world, 26 Jun 2024)
-- kb: `posts_the-indigenous-notions-of-kincentricity-and-reciprocity-...md`
+- kb: `posts_the-indigenous-notions-of-kincentricity-and-reciprocity-the-keys-to-sustainability-and-climate-change.md`
 - verified: web (prosocial.world/posts/the-indigenous-notions-of-kincentricity-and-reciprocity-the-keys-to-sustainability-and-climate-change; 26 Jun 2024)
 - note: Truncated filename resolved via shared corpus DB match: staging.text/prosocial.world/the-indigenous-notions-of-kincentricity-and-reciprocity-the-keys-to-sustainability-and-climate-change.md
 
@@ -1002,7 +1002,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - status: usable
 - medium: text
 - cite: "Religion through an Evolutionary Lens: A Conversation about Dominic Johnson's God Is Watching You," prosocial.world (21 Jul 2016)
-- kb: `posts_religion-through-an-evolutionary-lens-...dominic-johnsons-god-is-watching-you.md`
+- kb: `posts_religion-through-an-evolutionary-lens-a-conversation-about-dominic-johnsons-god-is-watching-you.md`
 - verified: web (prosocial.world/posts/religion-through-an-evolutionary-lens-a-conversation-about-dominic-johnsons-god-is-watching-you)
 - note: Discusses Dominic Johnson's book God Is Watching You: How the Fear of God Makes Us Human (Oxford University Press, 2016).
 
@@ -1499,7 +1499,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - status: usable
 - medium: text
 - cite: David Sloan Wilson, Elinor Ostrom and Michael E. Cox, "Generalizing the Core Design Principles for the Efficacy of Groups," Journal of Economic Behavior & Organization 90S (2013): S21-S32; reposted as "Generalizing the Core Design Principles for the Efficacy of Groups," prosocial.world
-- kb: `posts_generalizing-the-core-design-principles-...md`
+- kb: `posts_generalizing-the-core-design-principles-for-the-efficacy-of-groups.md`
 - verified: web (prosocial.world/posts/generalizing-the-core-design-principles-for-the-efficacy-of-groups)
 - note: Truncated batch filename resolved via web search.
 
@@ -1557,7 +1557,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - status: usable
 - medium: text
 - cite: Richard Wrangham, The Goodness Paradox: The Strange Relationship Between Virtue and Violence in Human Evolution (Pantheon Books, 2019)
-- kb: `the-goodness-paradox-...md`
+- kb: `the-goodness-paradox-the-strange-relationship-between-virtue-and-violence-in-human-evolution-2018028837-9781101870907-9781101870914_compress.md`
 - verified: web (ISBN 9781101870907)
 - note: Full filename resolved via DB path (staging.text/Wrangham/...9781101870907-9781101870914_compress.md), which itself embeds the ISBNs.
 
@@ -1565,7 +1565,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - status: usable
 - medium: text
 - cite: Richard Wrangham, *The Goodness Paradox: The Strange Relationship Between Virtue and Violence in Human Evolution* (Pantheon Books, 2019)
-- kb: `the-goodness-paradox-the-strange-relationship-between-virtue-and-violence-in-human-evolution-...md`
+- kb: `the-goodness-paradox-the-strange-relationship-between-virtue-and-violence-in-human-evolution-2018028837-9781101870907-9781101870914_compress.md`
 - verified: web (ISBN 978-1-101-87090-7)
 - note: Truncated filename resolved via shared corpus DB match: staging.text/Wrangham/the-goodness-paradox-...-9781101870907-9781101870914_compress.md
 
