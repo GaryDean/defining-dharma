@@ -2,7 +2,7 @@
 part: 3
 title: "The Dharmas of the Samin of Java"
 slug: samin-of-java
-status: review
+status: done
 words: 4774
 reading_level: year-12
 updated: 2026-07-02
