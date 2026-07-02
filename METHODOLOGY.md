@@ -79,7 +79,8 @@ Use, in increasing order of weight:
 ### 4. Synthesise into the template
 Copy `1-foundational/_template.md` to `<category-dir>/<id>-<slug>.md`. Fill
 **Synthesis** (the distilled answer) and **Findings** (the substance). Attach an
-inline `[S#]` ref to every claim, matched to the Sources list.
+inline provenance ref to every claim — `[S#]` (external/scholarly, matched to the
+Sources list) or `[A]` (the author's own position/synthesis) — matched to the Sources list.
 
 ### 5. Flag bias & gaps
 Fill **Tensions, gaps & corpus bias** honestly: where sources disagree, where the
@@ -96,8 +97,34 @@ Set the question's `status` in both the note frontmatter and the dashboard table
 
 ## Definition of done (per note)
 - All five template sections present and non-empty.
-- Every factual claim in Findings carries an `[S#]` ref.
+- Every factual claim in Findings carries explicit provenance: an `[S#]` (external/
+  scholarly source) or `[A]` (author's own). No unmarked claim; no `[S#]` pointing at a
+  barred register entry.
 - At least one **external** source where step 3 applied (philology, primary texts,
   oral/indigenous, non-secular angle).
 - Corpus bias explicitly addressed (even if the conclusion is "no material lean").
 - `status: done` and `updated:` set; row updated in Questions.md.
+
+---
+
+## Source citation policy (KB-internal sources)
+
+The shared corpus mixes published scholarship, recorded speech, community ephemera, and
+the author's own prose (some LLM-cleaned). A bare `filename:seg` is a *retrieval key*, not
+a citation. Each cited source is typed once in [`SOURCES.md`](SOURCES.md):
+
+- **Usable (`[S#]`)** — scholarly / attributable work (book, paper, named lecture or
+  interview). Resolve to a proper reference and web-verify. Notes cite it as
+  `[S#] <short cite> · kb:`file:seg` [src:<key>]`.
+- **Author's own (`[A]`)** — the author's position, synthesis or hypothesis. Marked `[A]`
+  inline, NO Sources entry, outside the `[S#]` bijection. **Never dropped for lack of an
+  external source**; external grounding is *sought*, not required. If found, it gains an
+  `[S#]`.
+- **Barred (no `[S#]`)** — a corpus file may never carry an `[S#]`. `barred:self`
+  (self-authored/LLM prose) → its author-originated ideas become `[A]`. `barred:ephemera`
+  (newsletters, event notices) → re-ground in a usable/external source or drop.
+
+A note may still *discuss* a barred source as its subject via a plain-text pointer (never
+an `[S#]`) — "the corpus itself hosts …" — because "the corpus contains X" is
+self-evidencing. It becomes barred only when the note leans on the source's *content* as
+evidence about the world.
