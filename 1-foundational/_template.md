@@ -18,8 +18,9 @@ be backed in Tensions — either way it carries its [S#] here.>
 
 ## Findings
 <The substantive research. Organise under sub-headings as needed. Every factual
-claim carries an inline source ref: [S1], [S2], ... matching the Sources list.
-Prefer specific, attributable statements over vague summary.>
+claim carries inline provenance — either [S1], [S2], ... (external/scholarly, matching the
+Sources list) or [A] (author's own position/synthesis; no Sources-list entry). Prefer
+specific, attributable statements over vague summary.>
 
 ## Tensions, gaps & corpus bias
 <Where sources disagree; where the knowledgebase's secular / evolutionary /
@@ -34,8 +35,12 @@ or unsupported.>
   note is fine — it marks a real connection to fill later.>
 
 ## Sources
+<Every [S#] here is an EXTERNAL/scholarly (usable) source. Author's-own claims use
+[A] inline in Synthesis/Findings and get NO entry here. No [S#] may point at a
+`status: barred` register entry (self-authored corpus prose or ephemera).>
+
 **Knowledgebase (yatti-api)**
-- [S1] seculardharma · <doc / segment id or title> — <one-line note on what it supports>
+- [S1] <Author year, *Title*, loc> · kb:`<sourcedoc>:<seg>` [src:<register-key>] — <one-line note on what it supports>
 
 **External**
 - [S2] Author, *Title* (year), p./URL — <one-line note on what it supports>
