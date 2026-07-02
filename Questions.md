@@ -45,7 +45,7 @@ cited note (e.g. `4.5`).
 | 6.1 | Secular Translation                     | done        | [6-contemporary/6.1-secular-translation.md](6-contemporary/6.1-secular-translation.md) |
 | 6.2 | Digital-Age Dharma                      | done        | [6-contemporary/6.2-digital-age-dharma.md](6-contemporary/6.2-digital-age-dharma.md) |
 | 6.3 | Economics, Work & Inequality            | done        | [6-contemporary/6.3-economics-work-inequality.md](6-contemporary/6.3-economics-work-inequality.md) |
-| 6.4 | Gender & Dharma                         | done        | [6-contemporary/6.4-gender-and-dharma.md](6-contemporary/6.4-gender-and-dharma.md) |
+| 6.4 | Gender & Dharma                         | review      | [6-contemporary/6.4-gender-and-dharma.md](6-contemporary/6.4-gender-and-dharma.md) |
 | 7.1 | Failure Modes                           | done        | [7-critical/7.1-failure-modes.md](7-critical/7.1-failure-modes.md) |
 | 7.2 | Cultural Adaptation & Appropriation     | done        | [7-critical/7.2-appropriation.md](7-critical/7.2-appropriation.md) |
 | 7.3 | Dharma & Power                          | done        | [7-critical/7.3-dharma-and-power.md](7-critical/7.3-dharma-and-power.md) |

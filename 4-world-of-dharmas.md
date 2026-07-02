@@ -3,13 +3,13 @@ part: 4
 title: "A World of Dharmas"
 slug: world-of-dharmas
 status: review
-words: 4371
+words: 4362
 reading_level: year-12
-updated: 2026-06-29
+updated: 2026-07-02
 draws_on: ["4.2", "4.3", "4.4", "1.4"]
 ---
 
-# 4 Defining Dharma: A World of Dharmas
+# 4 In Search of Dharma: A World of Dharmas
 
 > *A relational web, a rational fortress, a sung land, a commanding covenant: four ways of living that disagree about almost everything, and rhyme underneath. Including, if you have the nerve to look, your own.*
 
@@ -63,7 +63,7 @@ It has its own failure mode, of course. Push the acceptance of "what is not up t
 
 Now go to Australia, and to a dharma so old and so unlike the others that it stretches the very category, the Aboriginal tradition the English language clumsily calls the Dreaming.
 
-Begin by throwing away three things you might think a serious ethical tradition needs. There is no scripture, because there is no writing. There is no founder, no Buddha or Christ or Confucius at the origin. And there is no separate "code," no list of commandments you could copy onto a page. Instead there is the *Tjukurrpa*, a word that means, all at once, the ancestral past, the present reality, the moral law, and the structure of the world. The anthropologist WEH Stanner, reaching for a way to translate it, coined the word "everywhen": a time that is not back then but always, in which the acts of the ancestral beings that shaped the land are not history but a living present that still holds the law in place.
+Begin by throwing away three things you might think a serious ethical tradition needs. There is no scripture, because there is no writing. There is no founder, no Buddha or Christ or Confucius at the origin. And there is no separate "code," no list of commandments you could copy onto a page. Instead there is the *Tjukurrpa*, a word that means, all at once, the ancestral past, the present reality, the moral law, and the structure of the world. The anthropologist W. E. H. Stanner, reaching for a way to translate it, coined the word "everywhen": a time that is not back then but always, in which the acts of the ancestral beings that shaped the land are not history but a living present that still holds the law in place.
 
 And where is this law written, if not in a book? In the land itself, and in the songs that cross it. The famous songlines are paths through the country, and to sing the song in order is to recite the features of the landscape in order, and woven into the same performance are the law, the genealogy, the ethics, and the map. The land is the scripture, and you read it by walking and singing. It is dharma as total order, ethics and cosmos and geography and identity fused into one thing, and carried entirely in voice, movement, and place.
 
@@ -113,7 +113,7 @@ To answer that, we have to stop looking at what dharmas *say* and start looking 
 
 ---
 
-## Sources & Further Reading
+## Sources & further reading
 
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*
 
@@ -123,7 +123,7 @@ To answer that, we have to stop looking at what dharmas *say* and start looking 
 - [4.4 Abrahamic Ethics as Dharmic Frameworks](4-cultural/4.4-abrahamic-frameworks.md) — the way/path test (halakha, sharia, "the Way"), orthopraxy, covenant, the *maqasid*, caritas, and Aquinas's natural law; the non-privileging demands.
 - [1.4 Cross-cultural Cognates](1-foundational/1.4-cross-cultural-cognates.md) — the impersonal cosmic orders (*ṛta*, *Tao*, the Stoic *logos*) against which covenant grounding is set.
 
-**Key Works**
+**Key works**
 
 - Ifeanyi Menkiti, "Person and Community in African Traditional Thought" (1984), with Kwame Gyekye's moderate-communitarian reply, and Thaddeus Metz, "Toward an African Moral Theory" (2007) — achieved personhood, the place of individual choice, and the formalised ubuntu principle.
 - *S v Makwanyane* (1995) — Ubuntu as a foundational constitutional value; with Bernard Matolino & Wenceslaus Kwindingwi, "The End of Ubuntu" (2013), for the critique.

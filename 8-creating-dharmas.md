@@ -3,13 +3,13 @@ part: 8
 title: Creating Dharmas
 slug: creating-dharmas
 status: review
-words: 5721
+words: 5853
 reading_level: year-12
-updated: 2026-06-29
-draws_on: ["8.1", "8.2", "8.3", "8.4", "3.4", "7.4"]
+updated: 2026-07-02
+draws_on: ["8.1", "8.2", "8.3", "8.4", "3.4", "7.4", "7.5"]
 ---
 
-# 8 Defining Dharma: Creating Dharmas
+# 8 In Search of Dharma: Creating Dharmas
 
 > *We have always created our dharmas and told ourselves we found them. We should stop pretending, and see what becomes possible, and dangerous, the moment we do.*
 
@@ -85,6 +85,8 @@ The flattening, it turns out, is not a remote risk for an encoded ethic. It is t
 
 And that points to the third and most fundamental mechanism, the one that makes this danger intrinsic rather than incidental. A machine like this does not store *definitions* of dharma. It learns meaning by statistics, from the company each word keeps, exactly as the linguist J. R. Firth meant when he said "you shall know a word by the company it keeps." It then stores that meaning as a position in a vast space, fixed entirely by its relations to everything else, which is the linguist Ferdinand de Saussure's old insight (that in language "there are only differences") rebuilt in arithmetic. The consequence is precise and unforgiving. A word's encoded meaning is essentially the *average* of its uses, so a rare or dissenting sense, a minority dharma, is by construction a faint outlier, forever being tugged toward the majority meaning. The machine does not argue against your unusual dharma. It does something quieter and more total: it *means it away*. The flattening is not a bug you can patch with good intentions. It is the grain of the medium.
 
+There is an older charge waiting here too, one we met in Part 6, and it applies most literally at exactly this point. When a Western, secular, English-language corpus catalogues the world's dharmas and prepares to pour them into machines, it repeats, at industrial scale, the move Edward Said spent a career anatomising: assembling knowledge of other people's ways of living, from one side of an old imbalance of power, in containers the catalogued never chose. The research notes behind this series press that critique against the project by name, and they are right to press it. Good intentions do not answer it. The only answer available is the one running through everything above: keep the provenance, keep the dissent, keep the many voices audibly many, and say plainly whose shelf the collection sits on.
+
 So can the project's own goal even be coherent? Only, I think, if it gives up the usual sense of "distil." The right thing to hand a future machine is not a *resolved* ethic, a single clean answer boiled down from the mess. It is a *preserved* one: the plurality, the sources, the disagreements, and above all the *reasoning* of human dharmas, kept intact rather than cooked down to a verdict. Ground the machine in the fact that dharma is plural and in *how* dharmas form and bind and fail, not in a rulebook of what to obey. This is, not at all by accident, exactly what this project's method has been doing all along: every claim in the research notes carries its source, every note flags its own biases, and the gathering of evidence was deliberately separated from the writing of essays, so that the tensions would be preserved rather than smoothed away. The best thing a corpus like this can teach a future mind is not *what to believe* but *how human beings have come to believe, fought over, and lived their many dharmas*.
 
 There remains one self-criticism that cannot be engineered away, and honesty requires ending on it rather than hiding it. The stance this whole series takes, that all dharmas sit on the same shelf and none is privileged in advance, is *not* a view from nowhere. The phrase is the philosopher Thomas Nagel's, and it is exact: there is no neutral standpoint above the human situation from which to rank everything else. "Treat all dharmas as equal" is itself a substantive, recognisably modern, secular and liberal commitment, a thick dharma of its own, and it privileges open pluralism over, say, a tradition that claims to hold the single exclusive truth. The project cannot climb out of its own skin. It cannot encode human ethics from no point of view, because it has one. What it can do, and what I have tried to do, is be honest that it has one, name it, and refuse to install it as if it were simply the truth. Borges imagined a map so perfect it was the same size as the territory, and therefore useless. Any compression of human ethics small enough to be useful is a choice about what to leave out, and every such choice encodes a dharma. The only sin is to make that choice while pretending you are not making it.
@@ -111,7 +113,7 @@ I will leave you where the first essay quietly promised to. You do not get to op
 
 ---
 
-## Sources & Further Reading
+## Sources & further reading
 
 *This essay is built from the project's research notes, which carry the full
 inline citations. Listed here: the notes it draws on, and the key works behind
@@ -125,8 +127,9 @@ them.*
 - [8.4 Encoding Dharma into Machines](8-future/8.4-encoding-dharma-machines.md) — the project under its own microscope; the flattening as default; encode the map and the argument, not the verdict.
 - [3.4 Relativism vs. Universalism](3-philosophical/3.4-relativism-universalism.md) — pluralism is not relativism; the thin floor, thick variation; "holds without crushing."
 - [7.4 Measurement & Falsifiability](7-critical/7.4-measurement-falsifiability.md) — the is/ought wall; provenance is not truth; the project's own evidentiary bar.
+- [7.5 Orientalism](7-critical/7.5-orientalism.md) — Said's knowledge-power critique and its limits, turned on this project's own corpus-and-machine ambition; behind the Mirror's oldest charge.
 
-**Key Works**
+**Key works**
 
 - Johan Rockström, Katherine Richardson et al., the planetary-boundaries framework (2009; 2023 assessment) — six of nine boundaries transgressed.
 - Elinor Ostrom, *Governing the Commons* (1990) — polycentric self-governance of shared resources; the refutation of Garrett Hardin's "Tragedy of the Commons" (1968).

@@ -3,13 +3,13 @@ part: 1
 title: "Defining Dharma"
 slug: defining-dharma
 status: review
-words: 4466
+words: 4443
 reading_level: year-12
-updated: 2026-06-29
+updated: 2026-07-02
 draws_on: ["1.1", "1.2", "1.3", "1.4", "3.3", "3.4"]
 ---
 
-# 1 Defining Dharma
+# 1 In Search of Dharma: Defining Dharma
 
 > *Dharma: A word almost no one can really define, without a lot of hand-waving, and almost everyone uses anyway. At its root it means something very plain, "to hold"; the interesting thing is how far this plain idea reaches.*
 
@@ -95,11 +95,11 @@ We have a working definition and a plural, unprivileged field to explore. The ve
 
 ---
 
-## Sources & Further Reading
+## Sources & further reading
 
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*
 
-**Research Notes**
+**Research notes**
 
 - [1.1 Core Etymology](1-foundational/1.1-etymology.md) — *√dhṛ* "to hold," the Proto-Indo-European root, the *firmus*/*firm* cognate, *ṛta*, and the semantic broadening over three millennia. The spine of the opening.
 - [1.2 Universal Patterns](1-foundational/1.2-universal-patterns.md) — why dharma-shaped frameworks recur independently: the cooperation-without-exploitation problem, and Tinbergen's universal-function / plural-mechanism distinction.
@@ -109,7 +109,7 @@ We have a working definition and a plural, unprivileged field to explore. The ve
 - [3.4 Relativism vs. Universalism](3-philosophical/3.4-relativism-universalism.md) — the planted question of whether some dharmas are better than others (paid off in Part 8).
 - Companion essay: `defining-definition.md` — definition as a family-resemblance, power-laden, drifting tool; "map, not territory."
 
-**Key Works**
+**Key works**
 
 - Manfred Mayrhofer, *Etymologisches Wörterbuch des Altindoarischen* (1992) — the standard authority for the *√dhṛ* → Proto-Indo-European derivation (consulted via Wiktionary).
 - Oliver Scott Curry, "Morality as Cooperation" — the seven cooperative moral rules found across sixty societies with no counter-examples.

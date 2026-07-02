@@ -3,13 +3,13 @@ part: 0
 title: "Preface"
 slug: preface
 status: review
-words: 3570
+words: 3572
 reading_level: year-12
-updated: 2026-06-29
+updated: 2026-07-02
 draws_on: ["0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7"]
 ---
 
-# 0 Defining Dharma: Preface
+# 0 In Search of Dharma: Preface
 
 > *These essays were assembled in an unusual way, by an unlikely person, in an unlikely place. So before starting, you are owed an open account of all three; not as credentials, but as disclosures: where the work comes from, who helped make it, and -- most importantly -- how it was actually built.*
 
@@ -31,7 +31,7 @@ The nearest impetus for these essays was a five-day retreat in the south of Engl
 
 But the lasting thing the retreats gave me was not the teaching, but rather people; two in particular I will highlight. In that course I first met Rupert Bozeat and Elfie Klinger. The three of us kept talking long after the formal programme ended, always online, across the distance between our countries. I guess we were a *sangha* in the loosest possible sense of that word: not a congregation, just a small standing conversation that went on for years. Somewhere along the way we began recording the conversations and putting them on a [YouTube channel](https://www.youtube.com/@aseculardharma), under the deliberately unsure title 'a secular dharma?', question mark included. We made around fifty of them. They were never polished and were never going to find a wide audience, but they were the laboratory where a great deal of what is in these essays was first said out loud, argued with, and knocked into better shape. The whole endeavour to define dharma at all, which is the question this series spends eight essays chasing, was continued inside these meetings.
 
-Around that small core sits a wider circle I owe a great deal to. The secular-dharma world I had wandered into turned out to be a small, busy network with several centres of gravity rather than one. One publishing node is the [Tuwhiri Project](https://tuwhiri.org, a New Zealand house devoted to exactly this kind of post-religious, ethically serious work, with its publisher, Ramsey Margolis. Around Tuwhiri sit others working the same ground from different angles: the [Secular Buddhist Network](https://secularbuddhistnetwork.org/) and Mike Slott, whose *Mindful Solidarity* ties contemplative practice back to politics; Winton Higgins, behind the *After Buddhism* workbook; and a scatter of newsletters and reading groups, all trying to keep wisdom traditions alive without asking anyone to believe six impossible things before breakfast.
+Around that small core sits a wider circle I owe a great deal to. The secular-dharma world I had wandered into turned out to be a small, busy network with several centres of gravity rather than one. One publishing node is the [Tuwhiri Project](https://tuwhiri.org), a New Zealand house devoted to exactly this kind of post-religious, ethically serious work, with its publisher, Ramsey Margolis. Around Tuwhiri sit others working the same ground from different angles: the [Secular Buddhist Network](https://secularbuddhistnetwork.org/) and Mike Slott, whose *Mindful Solidarity* ties contemplative practice back to politics; Winton Higgins, behind the *After Buddhism* workbook; and a scatter of newsletters and reading groups, all trying to keep wisdom traditions alive without asking anyone to believe six impossible things before breakfast.
 
 I will not dress any of these people or organisations as the source of my argument, which is mine to answer for and is set out plainly further on; what they gave me was readers, counter-arguments, and the sense that the work was not merely eccentric. I am an unsociable person by temperament, and I have not always been an easy member of any of these circles.
 
@@ -95,11 +95,11 @@ So: that is where all this comes from, who helped make it, and how it was built.
 
 ---
 
-## Sources & Further Reading
+## Sources & further reading
 
 *This preface draws on the project's Part-0 research notes, which carry the full inline citations. Listed here: the notes behind it, and the people and works named above.*
 
-**Research Notes**
+**Research notes**
 
 - 0.1 Life & Formation -- Perth origins, the migration to Indonesia and citizenship, the temperament, and the personal history sketched here.
 - 0.2 Politics & Anarchism -- the Communist Party and anarchist years, and the "anarchism as plain natural history" thread.
@@ -109,7 +109,7 @@ So: that is where all this comes from, who helped make it, and how it was built.
 - 0.6 The Knowledgebase as Method -- the forty-year collection, the RAG knowledgebase, and the two-stage method.
 - 0.7 Influences & Acknowledgments -- the real network behind the essays and the knowledgebase, set in proportion: Irfan Kortschak's source-texts, Paul Stange and Java's Sumarah movement, the Bodhi College teachers and the wider cohort, and the Tuwhiri / Secular Buddhist Network cluster with Margolis as one node.
 
-**Key Works**
+**Key works**
 
 - Paul Stange, *The Logic of Rasa in Java* (1984) -- the scholarship on Java's Sumarah movement behind the preface's account of the author's earliest secular-dharma analogue.
 - David Graeber, *Fragments of an Anarchist Anthropology* (2004) -- the anthropology of self-organising mutual aid that converges with secular dharma.

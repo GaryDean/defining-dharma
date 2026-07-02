@@ -3,13 +3,13 @@ part: 7
 title: "Dharmas in a Secular Age"
 slug: secular-age
 status: review
-words: 4219
+words: 4218
 reading_level: year-12
-updated: 2026-06-29
+updated: 2026-07-02
 draws_on: ["6.1", "6.2", "3.3", "3.1", "7.2"]
 ---
 
-# 7 Defining Dharma: Dharmas in a Secular Age
+# 7 In Search of Dharma: Dharmas in a Secular Age
 
 > *Hundreds of millions of people now say they are "spiritual but not religious." That is not the absence of a dharma. It is the search for one, carried out by people who have lost the old foundations but kept the old need.*
 
@@ -85,7 +85,7 @@ That is a vertiginous question, and it is the one the whole of this series has b
 
 ---
 
-## Sources & Further Reading
+## Sources & further reading
 
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*
 
@@ -97,7 +97,7 @@ That is a vertiginous question, and it is the one the whole of this series has b
 - [3.1 Tension Resolution](3-philosophical/3.1-tension-resolution.md) — the atomised modern self and the community a dharma needs but the secular age has thinned.
 - [7.2 Cultural Adaptation & Appropriation](7-critical/7.2-appropriation.md) — dharma-as-consumer-product; the extraction critique that "McMindfulness" sharpens.
 
-**Key Works**
+**Key works**
 
 - On grounding: G. E. M. Anscombe, "Modern Moral Philosophy" (1958), for the no-lawgiver objection; Plato's *Euthyphro*; the Münchhausen trilemma; and Philippa Foot, *Natural Goodness* (2001), on flourishing for a creature of our kind.
 - Stephen Batchelor, *Secular Buddhism* / *After Buddhism* — reconstruction that keeps the practice, the ethics, and the community; with Ronald Purser, *McMindfulness* (2019), for the extraction failure mode, and the Goyal et al. (2014) meta-analysis on mindfulness's modest efficacy.

@@ -3,13 +3,13 @@ part: 5
 title: "How a Dharma Gets Under Your Skin"
 slug: under-your-skin
 status: review
-words: 4749
+words: 4746
 reading_level: year-12
-updated: 2026-06-30
+updated: 2026-07-02
 draws_on: ["5.1", "5.3", "5.4", "5.2", "5.5"]
 ---
 
-# 5 Defining Dharma: How a Dharma Gets Under Your Skin
+# 5 In Search of Dharma: How a Dharma Gets Under Your Skin
 
 > *Why does a dharma feel, from the inside, not like a belief you hold but like reality itself? Because it was never installed as a belief. It was grooved into your gut, your habits, and the wiring of your brain, below the reach of the part of you that could doubt it.*
 
@@ -69,11 +69,11 @@ This raises a question that hangs over everything still to come, and I will only
 
 The installation does not stop at habit. It goes down into the tissue, and here we reach the layer everyone is most excited about and where I most need you to keep your head.
 
-The exciting findings are real. When neuroscientists studied Tibetan monks with tens of thousands of hours of meditation behind them, they recorded patterns of high-frequency, perfectly synchronized brain activity "greater than any previously reported" in healthy people. And the lab work turned up something genuinely useful for thinking about ethics: compassion, it seems, is not the same thing in the brain as empathy, and the difference matters. When the seasoned monk Matthieu Ricard was asked simply to *feel* the suffering of others, his brain lit up the ordinary circuitry of shared pain, and he found it quickly unbearable, the way a nurse or a parent can be hollowed out by absorbing too much hurt. But when he switched to trained compassion, a warm, steady wish for others to be well, the distress circuitry went quiet and the brain's warm reward system came on instead. This is a striking vindication of something the contemplative traditions long insisted on and that the psychologist Paul Bloom has argued hard in our own day: raw empathy, the soaking up of others' pain, is actually a poor moral guide, because it is exhausting, and because it is parochial and innumerate, lavishing itself on the single near sufferer you can see while going numb to the distant millions you cannot. The dharmic move, to cultivate a calm and even-handed goodwill rather than to drown in fellow-feeling, turns out to be the one the brain rewards.
+The exciting findings are real. When neuroscientists studied Tibetan monks with tens of thousands of hours of meditation behind them, they recorded patterns of high-frequency, perfectly synchronised brain activity "greater than any previously reported" in healthy people. And the lab work turned up something genuinely useful for thinking about ethics: compassion, it seems, is not the same thing in the brain as empathy, and the difference matters. When the seasoned monk Matthieu Ricard was asked simply to *feel* the suffering of others, his brain lit up the ordinary circuitry of shared pain, and he found it quickly unbearable, the way a nurse or a parent can be hollowed out by absorbing too much hurt. But when he switched to trained compassion, a warm, steady wish for others to be well, the distress circuitry went quiet and the brain's warm reward system came on instead. This is a striking vindication of something the contemplative traditions long insisted on and that the psychologist Paul Bloom has argued hard in our own day: raw empathy, the soaking up of others' pain, is actually a poor moral guide, because it is exhausting, and because it is parochial and innumerate, lavishing itself on the single near sufferer you can see while going numb to the distant millions you cannot. The dharmic move, to cultivate a calm and even-handed goodwill rather than to drown in fellow-feeling, turns out to be the one the brain rewards.
 
 There is a small, practical corollary worth noticing, because it cuts against a sentimental assumption. You might expect that the people most overwhelmed by the sight of suffering would be the ones who help most. The opposite is closer to the truth. Sapolsky points to evidence that people exposed to another's distress tend to step in and help when their own heart rate goes *down*, when they steady themselves, rather than when it spikes in shared panic. Raw, contagious distress tends to make us flinch away or freeze, curled around our own discomfort; it is the settled, regulated compassion that frees a person to act. The traditions that teach you to breathe, to steady yourself, and only then to help, rather than to dissolve in fellow-feeling, were not being cold. They were being effective, and the physiology backs them up.
 
-Now the discipline. The popular headline, that meditation simply "rewires your brain," is considerably oversold, and the honest story is more interesting than the hype. The most eye-catching claims were about *structure*, that practice visibly thickens the cortex or grows grey matter. Early studies suggested as much. But when Richard Davidson's own laboratory, one of the founding temples of the whole field, ran the rigorous trials that the early work lacked, randomizing participants and controlling properly, the structural changes did not appear. A founding lab failed to replicate the founding claim, which is exactly the kind of self-correction that separates science from sales. The careful verdict is that sustained practice reliably changes how the brain *functions*, especially around attention and the regulation of stress, while the dramatic claims about it reshaping the brain's anatomy are, for now, unproven. And we should remember that almost any serious training changes the brain; the brains of jugglers and taxi drivers change too. That the brain adapts to what you repeatedly do is the whole point of the previous section, not a miracle.
+Now the discipline. The popular headline, that meditation simply "rewires your brain," is considerably oversold, and the honest story is more interesting than the hype. The most eye-catching claims were about *structure*, that practice visibly thickens the cortex or grows grey matter. Early studies suggested as much. But when Richard Davidson's own laboratory, one of the founding temples of the whole field, ran the rigorous trials that the early work lacked, randomising participants and controlling properly, the structural changes did not appear. A founding lab failed to replicate the founding claim, which is exactly the kind of self-correction that separates science from sales. The careful verdict is that sustained practice reliably changes how the brain *functions*, especially around attention and the regulation of stress, while the dramatic claims about it reshaping the brain's anatomy are, for now, unproven. And we should remember that almost any serious training changes the brain; the brains of jugglers and taxi drivers change too. That the brain adapts to what you repeatedly do is the whole point of the previous section, not a miracle.
 
 There is a darker finding here too, and it closes a circle this series keeps drawing. The chemistry of human bonding is often sold to us as a "love hormone," oxytocin, the warm molecule of trust and connection. It is real, and it does promote trust and warmth, but the research of Carsten De Dreu and others has shown that it is not the universal love drug of the wellness blogs. Oxytocin drives what the scientists call "tend-and-defend." The very same surge that deepens your devotion and trust toward your own group also sharpens your suspicion and aggression toward outsiders. It does not open the heart to all humanity; it bonds the in-group and braces it against the stranger, in one chemical stroke. The neural machinery that installs a dharma's warmth installs its fence in the same motion. We met that fence in the village and again in the covenant; here it is, down in the bloodstream.
 
@@ -111,7 +111,7 @@ We have spent four essays, in admiration, watching how dharmas hold us together 
 
 ---
 
-## Sources & Further Reading
+## Sources & further reading
 
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*
 
@@ -122,7 +122,7 @@ We have spent four essays, in admiration, watching how dharmas hold us together 
 - [5.2 Evolutionary Psychology](5-psychological/5.2-evolutionary-psychology.md) — the costly-signalling and parochial-altruism background to ritual and the in-group fence.
 - [5.5 Psychopaths & the Exploiter Limit-Case](5-psychological/5.5-psychopaths.md) — the ~1% in whom the affective substrate is constitutionally muted; the low-fear temperament as morally-blank raw material (fearless rescuer or cold exploiter), and why its "useful" edge is contested.
 
-**Key Works**
+**Key works**
 
 - Jonathan Haidt, *The Righteous Mind* (2012), and "The Emotional Dog and Its Rational Tail" (2001) — the elephant and rider, and Moral Foundations Theory.
 - Joseph Henrich, Steven Heine & Ara Norenzayan, "The Weirdest People in the World?" (2010) — WEIRD samples as global outliers; with Robert Sapolsky, *Behave* (2017), on intuitions as learned.

@@ -3,13 +3,13 @@ part: 6
 title: "When Dharmas Go Wrong"
 slug: when-dharma-goes-wrong
 status: review
-words: 4796
+words: 4795
 reading_level: year-12
-updated: 2026-06-30
+updated: 2026-07-02
 draws_on: ["7.1", "7.2", "7.3", "6.3", "6.4", "5.5"]
 ---
 
-# 6 Defining Dharma: When Dharmas Go Wrong
+# 6 In Search of Dharma: When Dharmas Go Wrong
 
 > *Every failure of a dharma turns out to be the dark twin of a strength. The bond that holds a group together is the fence that shuts others out; the authority that can free people is the authority that can rule them; the practice that liberates is the cage. Failure is not a bug in dharma. It is the feature, over-extended.*
 
@@ -109,7 +109,7 @@ But there is one more complication, and it sets up everything that remains. Ever
 
 ---
 
-## Sources & Further Reading
+## Sources & further reading
 
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*
 
@@ -121,7 +121,7 @@ But there is one more complication, and it sets up everything that remains. Ever
 - [7.2 Cultural Adaptation & Appropriation](7-critical/7.2-appropriation.md) — Orientalism, "McMindfulness," and the reflexive indictment of secular translation.
 - [5.5 Psychopaths & the Exploiter Limit-Case](5-psychological/5.5-psychopaths.md) — the insincere predator who games a dharma's trust; the free-rider that costly signalling and Boehm's reverse-dominance evolved to catch, and the one type built to beat the filter.
 
-**Key Works**
+**Key works**
 
 - On authentic failure: the No-True-Scotsman / internal-diversity argument (Harvard Religious Literacy Project), and Mark Juergensmeyer, *Terror in the Mind of God* — sacred violence across every tradition; with the Wirathu / Rohingya case.
 - Richard Wrangham, *The Goodness Paradox* (2019), and Muzafer Sherif's Robbers Cave experiment — the lethal boundary as cultural and movable.

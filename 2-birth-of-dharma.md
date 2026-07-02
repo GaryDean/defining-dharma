@@ -3,13 +3,13 @@ part: 2
 title: "The Genesis of Dharmas"
 slug: birth-of-dharma
 status: review
-words: 4516
+words: 4497
 reading_level: year-12
-updated: 2026-06-30
+updated: 2026-07-02
 draws_on: ["2.1", "2.2", "2.3", "5.2", "1.2", "5.5"]
 ---
 
-# 2 Defining Dharma: The Genesis of Dharmas
+# 2 In Search of Dharma: The Genesis of Dharmas
 
 > *Why does every society grow a dharma, and why did so many of the greatest ones appear, in different worlds, at almost the same moment? It starts with a problem that arrives the day your village gets too big to know.*
 
@@ -19,11 +19,11 @@ In the first, a few dozen people move together through a landscape they know by 
 
 In the second world, tens of thousands of people are packed into a single city. Most of them will never meet. The woman who sold you a loaf of bread this morning you may never lay eyes on again; the man three streets over is, for all practical purposes, a stranger to you forever. It is here that the easy moral machinery of the small band, the kind that runs on everyone knowing everyone, simply cannot reach. And yet, for the most part, the city does not dissolve into a war of all against all. Something holds it together.
 
-That something is, in large part, a "dharma" (or what ever other linguistic cognate you may prefer). Every human society grows one; but at this scale it takes a particular and demanding form, an explicit, teachable, portable account of how to live alongside people you do not know. This essay is about why. The answer is a story with a hinge in it, which is the moment our ancestors crossed from the first world to the second and discovered that the morality which had served them for a hundred thousand years was no longer fit for purpose.
+That something is, in large part, a "dharma" (or whatever other linguistic cognate you may prefer). Every human society grows one; but at this scale it takes a particular and demanding form, an explicit, teachable, portable account of how to live alongside people you do not know. This essay is about why. The answer is a story with a hinge in it, which is the moment our ancestors crossed from the first world to the second and discovered that the morality which had served them for a hundred thousand years was no longer fit for purpose.
 
 ## The Puzzle of the Simultaneous Sages
 
-The great reflective ethical systems, the ones whose descendants we still live inside, did not dribble into existence evenly across history. A remarkable number of them erupted in a single narrow window, roughly between 800 and 200 BCE, in civilizations that had little or no contact with one another. In the Indian sub-continent, the Buddha sat down under a tree and the wandering philosophers of the Upanishads asked what lay behind the self. In what we now call China, Confucius and Laozi were laying down two rival visions of "the Way". In Persia, Zoroaster split the cosmos into truth and the lie. In the small kingdoms of Palestine, the Hebrew prophets thundered that ritual without justice was worthless. And in the Hellenic city-states, the first philosophers began prising the world apart with reason.
+The great reflective ethical systems, the ones whose descendants we still live inside, did not dribble into existence evenly across history. A remarkable number of them erupted in a single narrow window, roughly between 800 and 200 BCE, in civilisations that had little or no contact with one another. In the Indian sub-continent, the Buddha sat down under a tree and the wandering philosophers of the Upanishads asked what lay behind the self. In what we now call China, Confucius and Laozi were laying down two rival visions of "the Way". In Persia, Zoroaster split the cosmos into truth and the lie. In the small kingdoms of Palestine, the Hebrew prophets thundered that ritual without justice was worthless. And in the Hellenic city-states, the first philosophers began prising the world apart with reason.
 
 German philosopher Karl Jaspers gave this window a name: the Axial Age, the age on which history turns. And the coincidence he pointed at is genuinely arresting. Why should so many of humanity's deepest ethical breakthroughs cluster into a few centuries, scattered across a continent, among peoples who could not have copied one another? Either it is an accident of staggering proportions, or something was happening to the human condition, in several places at once, that pressed people toward the same kind of answer.
 
@@ -39,7 +39,7 @@ This is morality with teeth, and it needs no scripture because it needs no stran
 
 There is a further wrinkle in how this self-policing works, and it is one of the stranger findings in the science of cooperation. People will punish a cheat even when it costs them to do it, and even when they were not the one cheated. In laboratory games, players reliably pay out of their own pockets to penalise someone they have merely watched behave unfairly to a third party, a behaviour the economists Ernst Fehr and Simon Gächter labelled "altruistic punishment." On the face of it this makes no sense, since the punisher bears a cost and pockets nothing. But it makes the group's morality very nearly self-enforcing: the cheat is risking not only the anger of the person he wrongs but the disapproval of everyone who hears the tale. There is a self-interested edge to it, too. We punish partly to be seen punishing, because coming down hard on a wrongdoer advertises that we ourselves can be trusted, which is exactly why we reserve a special contempt for the hypocrite, who preaches the rule and breaks it. The instinct that polices the band is half justice and half performance, and it works all the better for being both.
 
-How did such a society pass on its rules, with no book to write them in? Largely by telling stories. When researchers studied storytelling among the Agta, a foraging people of the Philippines, they found that a huge proportion of the tales were not idle entertainment but encoded instructions for living together: tales of the sun and the moon learning to share the sky, tales of the greedy creature who steals from the common catch and is punished for it. A good story does something a rule cannot: it tells you the norm, and at the same time it tells you that everyone else has heard the norm too, so that you all know that you all know. Tellingly, those same forager societies frequently have no moralizing high god at all, no watching deity tallying sins. They did not need one. The story did the god's later job.
+How did such a society pass on its rules, with no book to write them in? Largely by telling stories. When researchers studied storytelling among the Agta, a foraging people of the Philippines, they found that a huge proportion of the tales were not idle entertainment but encoded instructions for living together: tales of the sun and the moon learning to share the sky, tales of the greedy creature who steals from the common catch and is punished for it. A good story does something a rule cannot: it tells you the norm, and at the same time it tells you that everyone else has heard the norm too, so that you all know that you all know. Tellingly, those same forager societies frequently have no moralising high god at all, no watching deity tallying sins. They did not need one. The story did the god's later job.
 
 I want to be careful here, because it is easy to slide into a fantasy of the noble savage, the gentle egalitarian who shames us moderns. That is not the picture. The forager's equality is enforced, sometimes with violence, and the ostracism that keeps the peace can be cruel. *More importantly, the warmth was reserved for the in-group.* The same band that shared everything within could raid and kill without. The moral circle was real, and it was small, and its edge was hard.
 
@@ -103,17 +103,17 @@ It is not a revelation. It is a response. Strip the story to its bones and you f
 
 That is a genuinely different way to see the great traditions than the one most of us absorbed. We are taught to imagine ethical wisdom descending from on high, eternal and complete, for us to receive. The deeper history shows the opposite: ethical systems welling up from below, improvised and revised, shaped by coins and cities and harvests and the simple arithmetic of how many people one mind can know. They were built. And anything that was built could have been built differently, and can be built again.
 
-But I have been speaking in the grand abstractions of deep time and lost civilizations, of pressures and centuries and whole continents. It is one thing to argue, from the safe distance of two thousand years, that dharmas are made. It is another to watch it actually happen: to find a dharma whose making is close enough to see, whose founder has a name and a birth date, whose pressures we can reconstruct in detail because they fell within living memory. As it happens, there is one, in the teak forests of Java, built by an illiterate farmer barely a century ago. If dharmas are made, the Samin let us watch the hands at work.
+But I have been speaking in the grand abstractions of deep time and lost civilisations, of pressures and centuries and whole continents. It is one thing to argue, from the safe distance of two thousand years, that dharmas are made. It is another to watch it actually happen: to find a dharma whose making is close enough to see, whose founder has a name and a birth date, whose pressures we can reconstruct in detail because they fell within living memory. As it happens, there is one, in the teak forests of Java, built by an illiterate farmer barely a century ago. If dharmas are made, the Samin let us watch the hands at work.
 
 <!--audio stop-->
 
 ---
 
-## Sources & Further Reading
+## Sources & further reading
 
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*
 
-**Research Notes**
+**Research notes**
 
 - [2.3 Pre-Axial / Pre-literate Ethics](2-historical/2.3-pre-axial-ethics.md) — the moral baseline before codes: Boehm's reverse dominance hierarchy, storytelling as norm-carrier, and what codification added. The spine of the middle.
 - [2.2 Urban Complexity](2-historical/2.2-urban-complexity.md) — Dunbar's ceiling, the breakdown of face-to-face cooperation at scale, and the explicit code as a "scale-free" substitute.

@@ -12,7 +12,9 @@ updated: YYYY-MM-DD
 
 ## Synthesis
 <3-6 sentence evidence-based answer — the "so what". This is the distilled claim
-a Stage-2 essay can build on. Every assertion here must be backed in Findings.>
+a Stage-2 essay can build on. Every substantive assertion here must be backed in
+Findings; an epistemic caveat (a contested-status or limitation claim) may instead
+be backed in Tensions — either way it carries its [S#] here.>
 
 ## Findings
 <The substantive research. Organise under sub-headings as needed. Every factual

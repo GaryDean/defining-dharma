@@ -3,13 +3,13 @@ part: 3
 title: "The Dharmas of the Samin of Java"
 slug: samin-of-java
 status: review
-words: 4898
+words: 4889
 reading_level: year-12
-updated: 2026-06-29
+updated: 2026-07-02
 draws_on: ["4.1", "1.3", "7.3", "8.1"]
 ---
 
-# 3 Defining Dharma: The Dharmas of the Samin of Java
+# 3 In Search of Dharma: The Dharmas of the Samin of Java
 
 > *An illiterate farmer, a fenced-off forest, and a way of living so complete it outlasted its maker by a hundred years. What a Javanese peasant movement can show us that the great religions cannot.*
 
@@ -151,18 +151,18 @@ But the Samin are only one. Having seen a dharma assembled this clearly, in this
 
 ---
 
-## Sources & Further Reading
+## Sources & further reading
 
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*
 
-**Research Notes**
+**Research notes**
 
 - [4.1 Samin of Java](4-cultural/4.1-samin-of-java.md) — origins, the Sikep ethical code and *Agama Adam*, the dharma-fit argument, the break from mainstream Javanese culture, and the Kendeng turn. The spine of this essay.
 - [1.3 Boundary & Definition](1-foundational/1.3-boundary-definition.md) — the four-feature test (comprehensiveness, internalisation/identity, ethical orientation, reflective self-awareness) used to answer "but is it really a dharma?"
 - [7.3 Dharma & Power](7-critical/7.3-dharma-and-power.md) — Boehm's "reverse dominance hierarchy" and morality as an anti-domination device; the dharma defined by its refusal of the state.
 - [8.1 Planetary Dharma](8-future/8.1-planetary-dharma.md) — the frame for reading the Kendeng turn as a contemporary, place-based ecological dharma, developed further in Part 8.
 
-**Key Works**
+**Key works**
 
 - Harry J. Benda & Lance Castles, "The Samin Movement," *Bijdragen tot de Taal-, Land- en Volkenkunde* 125(2) (1969): 207–240 — the canonical scholarly study; the central caution that all accounts derive from outsiders because the Samin were illiterate.
 - A. P. E. Korver, "The Samin Movement and Millenarism" (1976) — the contested millenarian reading (salvation expectation; the return-of-Samin / *moksha* motif).
