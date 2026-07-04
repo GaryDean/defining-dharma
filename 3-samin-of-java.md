@@ -151,6 +151,8 @@ But the Samin are only one. Having seen a dharma assembled this clearly, in this
 
 <!--audio stop-->
 
+[« 2 The Genesis of Dharmas](/works/2-in-search-of-dhama) | [4 A World of Dharmas »](/works/4-in-search-of-dhama)
+
 ---
 
 ## Sources & further reading
@@ -172,16 +174,3 @@ But the Samin are only one. Having seen a dharma assembled this clearly, in this
 - James C. Scott, *The Moral Economy of the Peasant* (1976), *Weapons of the Weak* (1985), and *Domination and the Arts of Resistance: Hidden Transcripts* (1990) — the peasant moral economy, the "weapons of the weak," and the "hidden transcript" / "infra-politics" of below-the-radar refusal; the comparative frame for the Samin's tactics.
 - Christopher Boehm, *Hierarchy in the Forest* (1999) — egalitarian foragers and the "reverse dominance hierarchy"; morality's deep origin as a check on domination.
 - Reporting on the Kendeng resistance — the *Kartini Kendeng*, the 2016 and 2017 feet-in-cement protests at the Presidential Palace, and Patmi's death (Mongabay, 2020; *Indonesia at Melbourne*, University of Melbourne).
-
-## Chapters
-
-- [0 Preface](/works/0-defining-dharma-preface)
-- [1 Defining Dharma](/works/1-defining-dharma)
-- [2 The Genesis of Dharmas](/works/2-defining-dharma-the-genesis-of-dharmas)
-- [3 The Dharmas of the Samin of Java](/works/samin-of-java)
-- **[4 A World of Dharmas](/works/world-of-dharmas)**
-- [5 How a Dharma Gets Under Your Skin](/works/under-your-skin)
-- [6 When Dharmas Go Wrong](/works/when-dharma-goes-wrong)
-- [7 Dharmas in a Secular Age](/works/secular-age)
-- [8 Creating Dharmas](/works/creating-dharmas)
-

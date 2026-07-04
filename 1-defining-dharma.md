@@ -93,6 +93,8 @@ We have a working definition and a plural, unprivileged field to explore. The ve
 
 <!--audio stop-->
 
+[« 0 Preface](/works/0-in-search-of-dhama) | [2 The Genesis of Dharmas »](/works/2-in-search-of-dhama)
+
 ---
 
 ## Sources & further reading
@@ -119,16 +121,4 @@ We have a working definition and a plural, unprivileged field to explore. The ve
 - W. B. Gallie, "Essentially Contested Concepts" (1956) — why words like *justice*, *democracy*, and *dharma* sustain permanent, internal disagreement.
 - Plato, *Euthyphro* — the ancient form of the "can ethics stand without a divine command?" question (developed in Part 7).
 - Isaiah Berlin on value pluralism, and Martha Nussbaum and Amartya Sen on the capabilities approach — pluralism with a floor, against relativism (developed in Part 8).
-
-## Chapters
-
-- [0 Preface](/works/0-defining-dharma-preface)
-- [1 Defining Dharma](/works/1-defining-dharma)
-- **[2 The Genesis of Dharmas](/works/2-defining-dharma-the-genesis-of-dharmas)**
-- [3 The Dharmas of the Samin of Java](/works/samin-of-java)
-- [4 A World of Dharmas](/works/world-of-dharmas)
-- [5 How a Dharma Gets Under Your Skin](/works/under-your-skin)
-- [6 When Dharmas Go Wrong](/works/when-dharma-goes-wrong)
-- [7 Dharmas in a Secular Age](/works/secular-age)
-- [8 Creating Dharmas](/works/creating-dharmas)
 

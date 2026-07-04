@@ -83,6 +83,8 @@ That is a vertiginous question, and it is the one this entire inquiry has been b
 
 <!--audio stop-->
 
+[« 6 When Dharmas Go Wrong](/works/6-in-search-of-dhama) | [8 Creating Dharmas »](/works/8-in-search-of-dhama)
+
 ---
 
 ## Sources & further reading
@@ -104,16 +106,3 @@ That is a vertiginous question, and it is the one this entire inquiry has been b
 - Epictetus, *Enchiridion*, and the Stoicism-to-CBT lineage (Ellis, Beck); with Pierre Hadot, *Philosophy as a Way of Life* (1995), on ancient philosophy as practised exercise rather than doctrine; and Don Cupitt, *Taking Leave of God* (1980), for the same reconstruction performed inside Christianity.
 - James Williams, *Stand Out of Our Light* (2018); Tristan Harris and the Center for Humane Technology; Mark van Vugt on the social-media "supernormal stimulus"; Jenny Odell, *How to Do Nothing* (2019); and Cal Newport, *Digital Minimalism* (2019).
 - On the "nones" / "spiritual but not religious": Pew Research Center surveys of the religiously unaffiliated as one of the fastest-growing categories in the Western world. (Fresh external sourcing flagged at draft time; not yet captured in a DD research note.)
-
-## Chapters
-
-- [0 Preface](/works/0-defining-dharma-preface)
-- [1 Defining Dharma](/works/1-defining-dharma)
-- [2 The Genesis of Dharmas](/works/2-defining-dharma-the-genesis-of-dharmas)
-- [3 The Dharmas of the Samin of Java](/works/samin-of-java)
-- [4 A World of Dharmas](/works/world-of-dharmas)
-- [5 How a Dharma Gets Under Your Skin](/works/under-your-skin)
-- [6 When Dharmas Go Wrong](/works/when-dharma-goes-wrong)
-- [7 Dharmas in a Secular Age](/works/secular-age)
-- **[8 Creating Dharmas](/works/creating-dharmas)**
-

@@ -107,6 +107,9 @@ But there is one more complication, and it sets up everything that remains. Ever
 
 <!--audio stop-->
 
+
+[« 5 How a Dharma Gets Under Your Skin](/works/5-in-search-of-dhama) | [7 Dharmas in a Secular Age »](/works/7-in-search-of-dhama)
+
 ---
 
 ## Sources & further reading
@@ -132,16 +135,3 @@ But there is one more complication, and it sets up everything that remains. Ever
 - On gender: the *Manusmṛti*, the *garudhammas*, and the Confucian 'three obediences' (Ban Zhao); the *Therīgāthā*; the Bhakti poets Mīrābāī and Akka Mahādēvi; Galatians 3:28; Amina Wadud, *Qur'an and Woman*; and Rita Gross, *Buddhism After Patriarchy*.
 - On economics: Michael Sandel, *The Tyranny of Merit*; David Graeber, *Debt: The First 5,000 Years*; and Karl Polanyi, *The Great Transformation*.
 - On appropriation: Edward Said, *Orientalism*; Jeremy Carrette & Richard King, *Selling Spirituality*; and the colonial construction of the very category "world religions."
-
-## Chapters
-
-- [0 Preface](/works/0-defining-dharma-preface)
-- [1 Defining Dharma](/works/1-defining-dharma)
-- [2 The Genesis of Dharmas](/works/2-defining-dharma-the-genesis-of-dharmas)
-- [3 The Dharmas of the Samin of Java](/works/samin-of-java)
-- [4 A World of Dharmas](/works/world-of-dharmas)
-- [5 How a Dharma Gets Under Your Skin](/works/under-your-skin)
-- [6 When Dharmas Go Wrong](/works/when-dharma-goes-wrong)
-- **[7 Dharmas in a Secular Age](/works/secular-age)**
-- [8 Creating Dharmas](/works/creating-dharmas)
-

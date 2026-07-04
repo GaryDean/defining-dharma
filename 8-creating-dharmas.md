@@ -111,6 +111,9 @@ I will leave you where the first essay quietly promised to. You do not get to op
 
 <!--audio stop-->
 
+
+[« 7 Dharmas in a Secular Age »](/works/7-in-search-of-dhama)
+
 ---
 
 ## Sources & further reading
@@ -147,16 +150,3 @@ them.*
 - J. R. Firth (1957) and Ferdinand de Saussure (1916) — meaning as the company a word keeps, and as "differences without positive terms": why an encoding averages the plural away.
 - Thomas Nagel, *The View from Nowhere* (1986), and Jorge Luis Borges, "On Exactitude in Science" (1946) — no neutral standpoint; the map that becomes the territory.
 - Isaiah Berlin on value pluralism, and Martha Nussbaum & Amartya Sen, the capabilities approach — pluralism as the alternative to both relativism and absolutism; the floor with teeth.
-
-## Chapters
-
-- [0 Preface](/works/0-defining-dharma-preface)
-- [1 Defining Dharma](/works/1-defining-dharma)
-- [2 The Genesis of Dharmas](/works/2-defining-dharma-the-genesis-of-dharmas)
-- [3 The Dharmas of the Samin of Java](/works/samin-of-java)
-- [4 A World of Dharmas](/works/world-of-dharmas)
-- [5 How a Dharma Gets Under Your Skin](/works/under-your-skin)
-- [6 When Dharmas Go Wrong](/works/when-dharma-goes-wrong)
-- [7 Dharmas in a Secular Age](/works/secular-age)
-- [8 Creating Dharmas](/works/creating-dharmas)
-

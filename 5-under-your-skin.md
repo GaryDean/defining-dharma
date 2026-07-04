@@ -109,6 +109,8 @@ We have spent four essays, in admiration, watching how dharmas hold us together,
 
 <!--audio stop-->
 
+[« 4 A World of Dharmas](/works/4-in-search-of-dhama) | [6 When Dharmas Go Wrong »](/works/6-in-search-of-dhama)
+
 ---
 
 ## Sources & further reading
@@ -133,16 +135,3 @@ We have spent four essays, in admiration, watching how dharmas hold us together,
 - Joshua Greene, *Moral Tribes* (2013) — the tragedy of commonsense morality, the Us-versus-Them clash a dharma cannot solve.
 - Lawrence Kohlberg's stages of moral development, with Carol Gilligan, *In a Different Voice* (1982) — the care-versus-justice critique; and Richard Shweder on the ethics of autonomy, community, and divinity.
 - On the missing substrate: Hervey Cleckley, *The Mask of Sanity* (1941), and Robert Hare, *Without Conscience* (1993), on psychopathy as constitutionally muted conscience; with the "fearless dominance" / boldness research (Lilienfeld; Patrick) and its critics (Lynam & Miller) on whether the useful edge is even part of psychopathy.
-
-## Chapters
-
-- [0 Preface](/works/0-defining-dharma-preface)
-- [1 Defining Dharma](/works/1-defining-dharma)
-- [2 The Genesis of Dharmas](/works/2-defining-dharma-the-genesis-of-dharmas)
-- [3 The Dharmas of the Samin of Java](/works/samin-of-java)
-- [4 A World of Dharmas](/works/world-of-dharmas)
-- [5 How a Dharma Gets Under Your Skin](/works/under-your-skin)
-- **[6 When Dharmas Go Wrong](/works/when-dharma-goes-wrong)**
-- [7 Dharmas in a Secular Age](/works/secular-age)
-- [8 Creating Dharmas](/works/creating-dharmas)
-

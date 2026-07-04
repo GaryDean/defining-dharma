@@ -110,6 +110,9 @@ To answer that, we have to stop looking at what dharmas *say* and start looking 
 
 <!--audio stop-->
 
+
+[« 3 The Dharmas of the Samin of Java](/works/3-in-search-of-dhama) | [5 How a Dharma Gets Under Your Skin »](/works/5-in-search-of-dhama)
+
 ---
 
 ## Sources & further reading
@@ -130,16 +133,3 @@ To answer that, we have to stop looking at what dharmas *say* and start looking 
 - W. E. H. Stanner, "The Dreaming" (1953); Patrick Nunn & Nicholas Reid on 7,000–13,000-year-old coastal memories (2016); the Haudenosaunee Great Law of Peace and the Seven Generations principle; Vine Deloria Jr., *God Is Red* (1973), on "religions of space" vs "religions of time."
 - Robin Wall Kimmerer, *Braiding Sweetgrass* (2013), on kincentricity; with Shepard Krech III, *The Ecological Indian* (1999), as the corrective.
 - On the Abrahamic path-idiom and grounding: the etymologies of *halakha* and *sharia*; al-Ghazali's *maqasid al-shariah*; Paul on love fulfilling the law (Romans 13:10); and Thomas Aquinas, *Summa Theologiae*, on natural law and *synderesis*.
-
-## Chapters
-
-- [0 Preface](/works/0-defining-dharma-preface)
-- [1 Defining Dharma](/works/1-defining-dharma)
-- [2 The Genesis of Dharmas](/works/2-defining-dharma-the-genesis-of-dharmas)
-- [3 The Dharmas of the Samin of Java](/works/samin-of-java)
-- [4 A World of Dharmas](/works/world-of-dharmas)
-- **[5 How a Dharma Gets Under Your Skin](/works/under-your-skin)**
-- [6 When Dharmas Go Wrong](/works/when-dharma-goes-wrong)
-- [7 Dharmas in a Secular Age](/works/secular-age)
-- [8 Creating Dharmas](/works/creating-dharmas)
-

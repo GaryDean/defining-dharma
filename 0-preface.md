@@ -89,9 +89,11 @@ The one commitment that runs through every essay, and the one I would ask you to
 
 This refusal is not woolly relativism, and I will try to show why some dharmas genuinely fall through the floor. But it is the starting posture, and it falls out of the most basic fact about the word, which is that there was never a single ***the*** dharma to begin with. There are only dharmas -- plural -- and the first essay begins exactly there, with a word that almost no one can define and almost everyone uses anyway.
 
-So: that is where all this comes from, who helped make it, and how it was built. The throat-clearing is over. [Let's get on with it](/works/1-defining-dharma)....
+So: that is where all this comes from, who helped make it, and how it was built. The throat-clearing is over.
 
 <!--audio stop-->
+
+[1 Defining Dharma »](/works/1-in-search-of-dhama)
 
 ---
 
@@ -117,16 +119,3 @@ So: that is where all this comes from, who helped make it, and how it was built.
 - Robert Sapolsky, *Behave* (2017) -- the human behavioural biology that underpins the frame.
 - Stephen Batchelor, *After Buddhism: Rethinking the Dharma for a Secular Age* (2015) -- the dharma as task-based ethics rather than belief; the book behind the retreat.
 - Christopher Boehm, *Hierarchy in the Forest* (1999); Sarah Blaffer Hrdy, *Mothers and Others* (2009); David Sloan Wilson, *This View of Life* (2019) -- the evolution of cooperation, egalitarianism, and prosociality.
-
-## Chapters
-
-- [0 Preface](/works/0-defining-dharma-preface)
-- **[1 Defining Dharma](/works/1-defining-dharma)**
-- [2 The Genesis of Dharmas](/works/2-defining-dharma-the-genesis-of-dharmas)
-- [3 The Dharmas of the Samin of Java](/works/samin-of-java)
-- [4 A World of Dharmas](/works/world-of-dharmas)
-- [5 How a Dharma Gets Under Your Skin](/works/under-your-skin)
-- [6 When Dharmas Go Wrong](/works/when-dharma-goes-wrong)
-- [7 Dharmas in a Secular Age](/works/secular-age)
-- [8 Creating Dharmas](/works/creating-dharmas)
-
