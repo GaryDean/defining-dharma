@@ -3,7 +3,7 @@ part: 3
 title: "The Dharmas of the Samin of Java"
 slug: samin-of-java
 status: done
-words: 4774
+words: 4769
 reading_level: year-12
 updated: 2026-07-02
 draws_on: ["4.1", "1.3", "7.3", "8.1"]
@@ -23,7 +23,7 @@ I went looking for what connected them. What I found was a dharma.
 
 ## A Dharma You Can Hold in Your Hand
 
-We have already done some heavy lifting in this series. We took the word *dharma* away from the yoga studio and traced it to an old root meaning "that which holds," the thing that holds a whole way of life together. We watched, in the broadest possible strokes, why every human society seems to grow one: how the move from small bands, where everyone knows everyone, to crowded cities of strangers forced people to write down what they had once simply trusted.
+We have already done some heavy lifting. We took the word *dharma* away from the yoga studio and traced it to an old root meaning "that which holds," the thing that holds a whole way of life together. We watched, in the broadest possible strokes, why every human society seems to grow one: how the move from small bands, where everyone knows everyone, to crowded cities of strangers forced people to write down what they had once simply trusted.
 
 But that was all very large and very abstract: civilisations, millennia, the Axial Age. I wanted the opposite. I wanted a dharma I could almost touch: small enough to see all the way around, recent enough that we know the names of the people who built it, and humble enough that no one had spent two thousand years polishing it into something grand and untouchable.
 
@@ -67,9 +67,9 @@ One more thing, before we go on, about names. The followers themselves came to d
 
 ## But is it a Dharma?
 
-Now, a sceptic could stop me right here. *Plenty of villages have customs*, the sceptic says. *Lots of communities are honest, simple, and suspicious of outsiders. You have described a set of folkways with a local accent. Why dignify it with a word like "dharma"? Aren't you just doing the thing this whole series warned against, slapping an exotic label on ordinary peasant life?*
+Now, a sceptic could stop me right here. *Plenty of villages have customs*, the sceptic says. *Lots of communities are honest, simple, and suspicious of outsiders. You have described a set of folkways with a local accent. Why dignify it with a word like "dharma"? Aren't you just doing the thing these essays warned against, slapping an exotic label on ordinary peasant life?*
 
-It is a fair challenge, and answering it is the heart of this essay, because the Samin are where the series' definition gets tested against a real case. Back in the first part, we worked out what separates a dharma from mere custom or law or etiquette. Not its content (there is no single belief that makes something a dharma) but a *combination* of features. Let me run the Sedulur Sikep against that test, in plain language.
+It is a fair challenge, and answering it is the heart of this essay, because the Samin are where our definition gets tested against a real case. Back in the first part, we worked out what separates a dharma from mere custom or law or etiquette. Not its content (there is no single belief that makes something a dharma) but a *combination* of features. Let me run the Sedulur Sikep against that test, in plain language.
 
 First: is it *comprehensive*? Does it govern a whole life, or just one corner of behaviour? The Samin code clearly does the former. It tells you how to work, how to speak, what you may own, how to treat your neighbours, how to deal with authority, even how to understand death. It is an architecture for living, not a rule about one thing.
 
@@ -117,11 +117,11 @@ I have been building a case, and before I finish it I owe you two warnings, beca
 
 The first warning is about the evidence. Almost everything we "know" about Samin doctrine comes to us second-hand, and often third-hand, from outsiders: Dutch colonial officials and, later, ethnographers. The reason is the very thing that makes the movement so striking: the Samin wrote nothing down. The historians Harry Benda and Lance Castles, in the foundational scholarly study, make exactly this their central caution, and note that the accounts we do have were frequently written by hostile or baffled observers. We are watching this dharma through a series of other people's windows, some of them grimy. Even the scholars disagree about what they are looking at: some read the Samin as an ethical-religious resistance movement, some as a millenarian one waiting for salvation and the return of their founder, some as hard-headed peasants rationally defending their livelihoods. When I tell you what the Samin "believed," please hear the quotation marks. A dharma this good deserves a plain accounting of how little we can be sure of.
 
-The second warning is sharper, and it is the one this whole series has to face squarely. The Samin were *not secular*. I have spent this essay among them precisely because they look, at first, like a do-it-yourself ethic with no god in it, a practical code about honesty and forests and tax. But that is not the whole truth. They had *Agama Adam*, the religion of Adam; they believed in an eternal soul, and that their founder did not die but attained *moksha*. There is metaphysics here, and a cosmology, and a hope that reaches past this life.
+The second warning is sharper, and it is the one we have to face squarely. The Samin were *not secular*. I have spent this essay among them precisely because they look, at first, like a do-it-yourself ethic with no god in it, a practical code about honesty and forests and tax. But that is not the whole truth. They had *Agama Adam*, the religion of Adam; they believed in an eternal soul, and that their founder did not die but attained *moksha*. There is metaphysics here, and a cosmology, and a hope that reaches past this life.
 
-So why are they in a series that is, in the end, about whether we can build ethical worlds without the supernatural?
+So why are they here at all, in an inquiry that is, in the end, about whether we can build ethical worlds without the supernatural?
 
-Because they are a *boundary case*, and boundary cases are worth more than tidy examples. The Sedulur Sikep are not a world religion, with scripture and clergy and empire. But they are not a secular philosophy either, like Stoicism stripped of its gods. They sit in between: a non-scriptural, non-institutional, this-worldly, ethics-first *folk* dharma, with just enough cosmology to give it a backbone and not an ounce more. And precisely by sitting in between, they prove something important: that a dharma need not be *either* a great religion *or* a godless philosophy. There is a whole middle country of ways-of-living that are neither, and the Samin are its first sure landmark. For a series arguing that dharmas come in every form, an example that refuses our neat boxes is not an embarrassment. It is the best evidence we have.
+Because they are a *boundary case*, and boundary cases are worth more than tidy examples. The Sedulur Sikep are not a world religion, with scripture and clergy and empire. But they are not a secular philosophy either, like Stoicism stripped of its gods. They sit in between: a non-scriptural, non-institutional, this-worldly, ethics-first *folk* dharma, with just enough cosmology to give it a backbone and not an ounce more. And precisely by sitting in between, they prove something important: that a dharma need not be *either* a great religion *or* a godless philosophy. There is a whole middle country of ways-of-living that are neither, and the Samin are its first sure landmark. For an argument that dharmas come in every form, an example that refuses our neat boxes is not an embarrassment. It is the best evidence we have.
 
 ## Feet in Cement
 
