@@ -118,6 +118,9 @@ We have spent four essays, in admiration, watching how dharmas hold us together,
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*
 
 **Research notes**
+
+Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
+
 - [5.3 Moral Psychology & Development](5-psychological/5.3-moral-psychology-development.md) — Haidt's intuition-first model and moral foundations, the WEIRD critique, and "the guts learn their intuitions." The spine of the first two layers.
 - [5.4 Ritual, Practice & Habituation](5-psychological/5.4-ritual-habituation.md) — Aristotelian habituation, ritual synchrony and collective effervescence, the "ritual stance," and the morally-neutral installation machinery.
 - [5.1 Neurological Basis](5-psychological/5.1-neurological-basis.md) — gamma synchrony, compassion versus empathy, the structural-change non-replication, and oxytocin's "tend-and-defend."

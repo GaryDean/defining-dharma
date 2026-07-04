@@ -120,6 +120,9 @@ To answer that, we have to stop looking at what dharmas *say* and start looking 
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*
 
 **Research notes**
+
+Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
+
 - [4.2 Ubuntu](4-cultural/4.2-ubuntu.md) — relational/achieved personhood, Metz's moral theory, the TRC and *S v Makwanyane*, and the romanticisation/xenophobia critique.
 - [4.3 Indigenous Oral Dharmas](4-cultural/4.3-indigenous-oral-dharmas.md) — the Dreaming/*Tjukurrpa*, songlines, oral fidelity, kincentricity, Seven Generations, place-boundedness, and the "Ecological Indian" caution.
 - [4.4 Abrahamic Ethics as Dharmic Frameworks](4-cultural/4.4-abrahamic-frameworks.md) — the way/path test (halakha, sharia, "the Way"), orthopraxy, covenant, the *maqasid*, caritas, and Aquinas's natural law; the non-privileging demands.

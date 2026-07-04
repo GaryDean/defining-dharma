@@ -93,6 +93,8 @@ That is a vertiginous question, and it is the one this entire inquiry has been b
 
 **Research notes**
 
+Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
+
 - [3.3 The Grounding Problem](3-philosophical/3.3-grounding-problem.md) — whether a godless dharma can bind: the Euthyphro reframing, the trilemma of ultimate justification, and the this-worldly anchors. The spine of "Can it bind?"
 - [6.1 Secular Translation](6-contemporary/6.1-secular-translation.md) — extraction versus reconstruction; Batchelor, McMindfulness, Stoicism-to-CBT, and Hadot's "recovery." The spine of "Can it install?"
 - [6.2 Digital-Age Dharma](6-contemporary/6.2-digital-age-dharma.md) — the attention economy as an external, industrial adversary; the supernormal stimulus; and the move from self-cultivation to environment-design.

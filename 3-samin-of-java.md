@@ -161,6 +161,8 @@ But the Samin are only one. Having seen a dharma assembled this clearly, in this
 
 **Research notes**
 
+Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
+
 - [4.1 Samin of Java](4-cultural/4.1-samin-of-java.md) — origins, the Sikep ethical code and *Agama Adam*, the dharma-fit argument, the break from mainstream Javanese culture, and the Kendeng turn. The spine of this essay.
 - [1.3 Boundary & Definition](1-foundational/1.3-boundary-definition.md) — the four-feature test (comprehensiveness, internalisation/identity, ethical orientation, reflective self-awareness) used to answer "but is it really a dharma?"
 - [7.3 Dharma & Power](7-critical/7.3-dharma-and-power.md) — Boehm's "reverse dominance hierarchy" and morality as an anti-domination device; the dharma defined by its refusal of the state.

@@ -103,6 +103,8 @@ So: that is where all this comes from, who helped make it, and how it was built.
 
 **Research notes**
 
+Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
+
 - 0.1 Life & Formation -- Perth origins, the migration to Indonesia and citizenship, the temperament, and the personal history sketched here.
 - 0.2 Politics & Anarchism -- the Communist Party and anarchist years, and the "anarchism as plain natural history" thread.
 - 0.3 The Sangha & the Retreat -- Bodhi College, the 2018 retreats, Stephen Batchelor, and the 'a secular dharma?' conversations with Rupert Bozeat and Elfie Klinger.

@@ -117,6 +117,9 @@ But there is one more complication, and it sets up everything that remains. Ever
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*
 
 **Research notes**
+
+Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
+
 - [7.1 Failure Modes](7-critical/7.1-failure-modes.md) — the four failure clusters, the No-True-Scotsman refusal, and the thesis that failure-proneness is intrinsic. The spine of this essay.
 - [7.3 Dharma & Power](7-critical/7.3-dharma-and-power.md) — the double face: morality as anti-domination captured to sanctify domination; Gramsci, Bourdieu, and Ambedkar.
 - [6.4 Gender & Dharma](6-contemporary/6.4-gender-and-dharma.md) — the subordinating mainstream and the liberating counter-current; the same scripture as chains and keys.

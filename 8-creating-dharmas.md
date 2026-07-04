@@ -111,7 +111,6 @@ I will leave you where the first essay quietly promised to. You do not get to op
 
 <!--audio stop-->
 
-
 [« 7 Dharmas in a Secular Age »](/works/7-in-search-of-dharma)
 
 ---
@@ -123,6 +122,8 @@ inline citations. Listed here: the notes it draws on, and the key works behind
 them.*
 
 **Research notes**
+
+Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
 
 - [8.1 Planetary Dharma](8-future/8.1-planetary-dharma.md) — the no-out-group problem; thin-over-thick; authored not evolved; polycentric governance; the totalising temptation.
 - [8.2 AI & Dharma](8-future/8.2-ai-and-dharma.md) — orthogonality; "whose values"; pluralistic alignment; economic disempowerment, UBI and the meaning it cannot buy; value lock-in.
