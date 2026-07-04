@@ -111,7 +111,7 @@ To answer that, we have to stop looking at what dharmas *say* and start looking 
 <!--audio stop-->
 
 
-[« 3 The Dharmas of the Samin of Java](/works/3-in-search-of-dhama) | [5 How a Dharma Gets Under Your Skin »](/works/5-in-search-of-dhama)
+[« 3 The Dharmas of the Samin of Java](/works/3-in-search-of-dharma) | [5 How a Dharma Gets Under Your Skin »](/works/5-in-search-of-dharma)
 
 ---
 

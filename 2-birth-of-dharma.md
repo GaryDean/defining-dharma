@@ -107,7 +107,7 @@ But I have been speaking in the grand abstractions of deep time and lost civilis
 
 <!--audio stop-->
 
-[« 1 Defining Dharma](/works/1-in-search-of-dhama) | [3 The Dharmas of the Samin of Java »](/works/3-in-search-of-dharma)
+[« 1 Defining Dharma](/works/1-in-search-of-dharma) | [3 The Dharmas of the Samin of Java »](/works/3-in-search-of-dharma)
 
 ---
 

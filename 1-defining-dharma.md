@@ -93,7 +93,7 @@ We have a working definition and a plural, unprivileged field to explore. The ve
 
 <!--audio stop-->
 
-[« 0 Preface](/works/0-in-search-of-dhama) | [2 The Genesis of Dharmas »](/works/2-in-search-of-dhama)
+[« 0 Preface](/works/0-in-search-of-dharma) | [2 The Genesis of Dharmas »](/works/2-in-search-of-dharma)
 
 ---
 

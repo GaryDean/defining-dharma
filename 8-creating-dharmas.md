@@ -112,7 +112,7 @@ I will leave you where the first essay quietly promised to. You do not get to op
 <!--audio stop-->
 
 
-[« 7 Dharmas in a Secular Age »](/works/7-in-search-of-dhama)
+[« 7 Dharmas in a Secular Age »](/works/7-in-search-of-dharma)
 
 ---
 

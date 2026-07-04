@@ -108,7 +108,7 @@ But there is one more complication, and it sets up everything that remains. Ever
 <!--audio stop-->
 
 
-[« 5 How a Dharma Gets Under Your Skin](/works/5-in-search-of-dhama) | [7 Dharmas in a Secular Age »](/works/7-in-search-of-dhama)
+[« 5 How a Dharma Gets Under Your Skin](/works/5-in-search-of-dharma) | [7 Dharmas in a Secular Age »](/works/7-in-search-of-dharma)
 
 ---
 

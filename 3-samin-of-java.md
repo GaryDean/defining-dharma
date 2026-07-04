@@ -151,7 +151,7 @@ But the Samin are only one. Having seen a dharma assembled this clearly, in this
 
 <!--audio stop-->
 
-[« 2 The Genesis of Dharmas](/works/2-in-search-of-dhama) | [4 A World of Dharmas »](/works/4-in-search-of-dhama)
+[« 2 The Genesis of Dharmas](/works/2-in-search-of-dharma) | [4 A World of Dharmas »](/works/4-in-search-of-dharma)
 
 ---
 

@@ -83,7 +83,7 @@ That is a vertiginous question, and it is the one this entire inquiry has been b
 
 <!--audio stop-->
 
-[« 6 When Dharmas Go Wrong](/works/6-in-search-of-dhama) | [8 Creating Dharmas »](/works/8-in-search-of-dhama)
+[« 6 When Dharmas Go Wrong](/works/6-in-search-of-dharma) | [8 Creating Dharmas »](/works/8-in-search-of-dharma)
 
 ---
 
