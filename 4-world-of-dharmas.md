@@ -119,6 +119,8 @@ To answer that, we have to stop looking at what dharmas *say* and start looking 
 
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*
 
+Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
+
 **Research notes**
 
 Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
