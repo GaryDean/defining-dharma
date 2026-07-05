@@ -48,6 +48,7 @@ cited note (e.g. `4.5`).
 | 6.2 | Digital-Age Dharma                      | done        | [6-contemporary/6.2-digital-age-dharma.md](6-contemporary/6.2-digital-age-dharma.md) |
 | 6.3 | Economics, Work & Inequality            | done      | [6-contemporary/6.3-economics-work-inequality.md](6-contemporary/6.3-economics-work-inequality.md) |
 | 6.4 | Gender & Dharma                         | done      | [6-contemporary/6.4-gender-and-dharma.md](6-contemporary/6.4-gender-and-dharma.md) |
+| 6.5 | Secularization & the "Nones"            | done      | [6-contemporary/6.5-secularization-nones.md](6-contemporary/6.5-secularization-nones.md) |
 | 7.1 | Failure Modes                           | done        | [7-critical/7.1-failure-modes.md](7-critical/7.1-failure-modes.md) |
 | 7.2 | Cultural Adaptation & Appropriation     | done      | [7-critical/7.2-appropriation.md](7-critical/7.2-appropriation.md) |
 | 7.3 | Dharma & Power                          | done      | [7-critical/7.3-dharma-and-power.md](7-critical/7.3-dharma-and-power.md) |
@@ -259,6 +260,13 @@ How have dharmas justified, constrained, or critiqued economic arrangements?
 ### 6.4 Gender & Dharma
 How do dharmic systems encode, enforce, or contest gender roles? Where have dharmas been
 used to subordinate, and where to liberate, along gender lines?
+
+### 6.5 Secularization & the "Nones"
+How large and how fast-growing is the "secular age" the essays invoke — the religiously
+unaffiliated ("nones") and the "spiritual but not religious" — and is it accurate to call it
+the fastest-growing religious category? *(Demographic-grounding note for the Part 7 essay;
+external-sourced from Pew because the shared corpus carries the secularisation thesis but not
+current measurement.)*
 
 ---
 

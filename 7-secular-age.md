@@ -6,7 +6,7 @@ status: done
 words: 4089
 reading_level: year-12
 updated: 2026-07-05
-draws_on: ["6.1", "6.2", "3.3", "3.1", "7.2"]
+draws_on: ["6.1", "6.2", "3.3", "3.1", "7.2", "6.5"]
 ---
 
 # 7 In Search of Dharma: Dharmas in a Secular Age
@@ -100,6 +100,7 @@ Research notes used in this essay series are published on [github](https://githu
 - [6.2 Digital-Age Dharma](6-contemporary/6.2-digital-age-dharma.md) — the attention economy as an external, industrial adversary; the supernormal stimulus; and the move from self-cultivation to environment-design.
 - [3.1 Tension Resolution](3-philosophical/3.1-tension-resolution.md) — the atomised modern self and the community a dharma needs but the secular age has thinned.
 - [7.2 Cultural Adaptation & Appropriation](7-critical/7.2-appropriation.md) — dharma-as-consumer-product; the extraction critique that "McMindfulness" sharpens.
+- [6.5 Secularization & the "Nones"](6-contemporary/6.5-secularization-nones.md) — the Pew demographics behind the opening: the US "nones" at 29% (and plateaued), SBNR at 22%, the global 1.9 billion; why "fastest-growing" needs its time-and-place qualifier.
 
 **Key works**
 
@@ -107,4 +108,4 @@ Research notes used in this essay series are published on [github](https://githu
 - Stephen Batchelor, *Secular Buddhism* / *After Buddhism* — reconstruction that keeps the practice, the ethics, and the community; with Ronald Purser, *McMindfulness* (2019), for the extraction failure mode, and the Goyal et al. (2014) meta-analysis on mindfulness's modest efficacy.
 - Epictetus, *Enchiridion*, and the Stoicism-to-CBT lineage (Ellis, Beck); with Pierre Hadot, *Philosophy as a Way of Life* (1995), on ancient philosophy as practised exercise rather than doctrine; and Don Cupitt, *Taking Leave of God* (1980), for the same reconstruction performed inside Christianity.
 - James Williams, *Stand Out of Our Light* (2018); Tristan Harris and the Center for Humane Technology; Mark van Vugt on the social-media "supernormal stimulus"; Jenny Odell, *How to Do Nothing* (2019); and Cal Newport, *Digital Minimalism* (2019).
-- On the "nones" / "spiritual but not religious": in the US, 29% of adults are religiously unaffiliated (Pew Research Center, *Religious Landscape Study 2023–24*, released Feb 2025; the Jan 2024 survey put it at 28%), up from 16% in 2007, though Pew reports the rise has plateaued since about 2021 ("Has the rise of religious 'nones' come to an end in the U.S.?", 2024). Some 22% of US adults describe themselves as "spiritual but not religious" (Pew, *Spirituality Among Americans*, Dec 2023). Globally, the religiously unaffiliated numbered about 1.9 billion in 2020, ~24% of the world's population, up from ~1.6 billion (23%) in 2010 (Pew, *How the Global Religious Landscape Changed from 2010 to 2020*, June 2025). (Fresh external sourcing; verify against the live reports and capture in a DD note before publish.)
+- On the "nones" / "spiritual but not religious": in the US, 29% of adults are religiously unaffiliated (Pew Research Center, *2023–24 Religious Landscape Study*, released Feb 2025), up from 16% in 2007, though Pew reports the rise has levelled off since about 2021. Some 22% of US adults describe themselves as "spiritual but not religious" (Pew, *Spirituality Among Americans*, Dec 2023). Globally, the religiously unaffiliated numbered about 1.9 billion in 2020, 24.2% of the world's population, up from 1.63 billion (23.3%) in 2010 (Pew, *How the Global Religious Landscape Changed from 2010 to 2020*, June 2025). Full figures and caveats are captured in research note [6.5](6-contemporary/6.5-secularization-nones.md).
