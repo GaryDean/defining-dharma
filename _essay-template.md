@@ -36,6 +36,22 @@ with warmth or curiosity, never by hedging a firm claim into mush. Keep vivid,
 concrete words and any deliberate device (repetition as drumbeat, polysyndeton, a
 load-bearing word); softening these to sound cautious is a regression, not a fix.
 
+NARRATOR DISTANCE: the reader is a peer, not a pupil. Cut the stage-directions
+that march them through the argument: "Hold those two pictures together,
+because…", "Here is the first thing to get straight…", "notice that…", "let me
+make it as sharp as I can…", "I owe you an answer…", "worth pausing over". Trust
+the prose to do the work the instruction announces. Use the second person ("you")
+sparingly and never as a command; prefer "we" or the impersonal. The tic's worst
+form is hectoring ("you do not get to opt out…"); a rough ceiling is well under
+ten second-person pronouns in a ~5,000-word essay.
+
+SELF-REFERENCE: keep the series machinery almost invisible. Do not narrate the
+essay to the reader ("this essay", "these pages", "the whole inquiry", "this
+whole search"); a couple of light touches across a whole essay is the ceiling,
+not the norm. Refer to sibling essays by number ("in Part 7", "Part 1 raised the
+question") or with a plain "earlier", never as "the last essay". The argument
+should read as thinking, not as a guided tour of its own table of contents.
+
 RHYTHM: vary sentence length. A run of very short sentences is a tool for
 deliberate punch; use it sparingly (once or twice an essay), never as a default.
 Otherwise join short related clauses with commas, semicolons, or conjunctions so
@@ -64,10 +80,18 @@ SOURCING: name people and works in the prose ("the anthropologist James C. Scott
 called this…"). NO inline citation marks, NO [S#] tags in the body. Every
 substantive claim must trace to a draws_on note (which carries the [S#] citations)
 or to fresh external sourcing flagged at draft time. The chain is preserved in
-Sources & further reading, below.
+Sources & further reading, below. A concrete opening image taken from a real
+event must be sourced as tightly as any other claim: name the people, the place,
+the date. A vague anecdote ("in 2023 one such effort…") reads as invented and
+forfeits the very trust the opening image was meant to buy.
 
 HONESTY: where the corpus leans (secular / evolutionary / Western-academic), or
 where the sources are thin or contested, say so in passing rather than hiding it.
+Humility is shown, not announced: it comes from naming the evidence, conceding
+what the sources cannot settle, and turning the critique on the essay's own
+method. It does not come from hedges, and not from a grand closing gesture ("it
+may be the largest task our species has ever faced"). The smaller, truer landing
+beats the sweeping one.
 -->
 
 <essay body>
