@@ -31,6 +31,3 @@ scratch/
 
 # superpowers SDD scratch (ledger, briefs, reports)
 .superpowers/
-
-# generated ebook build artifact (rebuild with ./mk-book.sh)
-*.epub
