@@ -9,7 +9,7 @@ updated: 2026-07-05
 draws_on: ["4.1", "1.3", "7.3", "8.1"]
 ---
 
-# 3 In Search of Dharma: The Dharmas of the Samin of Java
+# 3: In Search of Dharma: The Dharmas of the Samin of Java
 
 <image r 40 "/images/3-defining-dharma_watercolor.webp" "The Dharmas of the Samin of Java" "">
 

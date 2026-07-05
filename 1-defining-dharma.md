@@ -9,7 +9,7 @@ updated: 2026-07-05
 draws_on: ["1.1", "1.2", "1.3", "1.4", "3.3", "3.4"]
 ---
 
-# 1 In Search of Dharma: Defining Dharma
+# 1: In Search of Dharma: Defining Dharma
 
 <image r 40 "/images/1-defining-dharma_watercolor.webp" "Defining Dharma" "">
 
