@@ -11,6 +11,8 @@ draws_on: ["6.1", "6.2", "3.3", "3.1", "7.2"]
 
 # 7 In Search of Dharma: Dharmas in a Secular Age
 
+<image r 40 "/images/7-defining-dharma_watercolor.webp" "Dharmas in a Secular Age" "">
+
 > *Hundreds of millions of people now say they are "spiritual but not religious." That is not the absence of a dharma. It is the search for one, carried out by people who have lost the old foundations but kept the old need.*
 
 There is a kind of person you almost certainly know, and may well be.

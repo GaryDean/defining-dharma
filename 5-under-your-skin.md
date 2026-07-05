@@ -11,6 +11,8 @@ draws_on: ["5.1", "5.3", "5.4", "5.2", "5.5"]
 
 # 5 In Search of Dharma: How a Dharma Gets Under Your Skin
 
+<image r 40 "/images/5-defining-dharma_watercolor.webp" "How a Dharma Gets Under Your Skin" "">
+
 > *Why does a dharma feel, from the inside, not like a belief you hold but like reality itself? Because it was never installed as a belief. It was grooved into your gut, your habits, and the wiring of your brain, below the reach of the part of you that could doubt it.*
 
 Here is a small experiment you may have run without meaning to.

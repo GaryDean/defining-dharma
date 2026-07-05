@@ -11,6 +11,8 @@ draws_on: ["8.1", "8.2", "8.3", "8.4", "3.4", "7.4", "7.5"]
 
 # 8 In Search of Dharma: Creating Dharmas
 
+<image r 40 "/images/8-defining-dharma_watercolor.webp" "Creating Dharmas" "">
+
 > *We have always created our dharmas and told ourselves we found them. We should stop pretending, and see what becomes possible, and dangerous, the moment we do.*
 
 Begin with two pictures, both true, set side by side.

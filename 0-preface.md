@@ -11,6 +11,8 @@ draws_on: ["0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7"]
 
 # 0 In Search of Dharma: Preface
 
+<image r 40 "/images/0-defining-dharma_watercolor.webp" "In Search of Dharma: Preface" "">
+
 > *These essays were assembled in an unusual way, by an unlikely person, in an unlikely place. So before starting, you are owed an open account of all three; not as credentials, but as disclosures: where the work comes from, who helped make it, and -- most importantly -- how it was actually built.*
 
 Most books that refer to the word 'dharma' come from one of two places: a monastery, or a university, or something in that vicinity. A teacher hands down a lineage received from their own teacher, or a scholar maps the territory from a careful distance. This one comes from neither. It was written by a life-long anarchist, raised in the most isolated city on Earth: a naturalised Indonesian now, writing from the Indonesian island of Bali. It was built with decades of accumulated reading and hard experience, along with a handful of friends scattered across three continents, and, latterly, dozens of different large language models.

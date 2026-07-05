@@ -11,6 +11,8 @@ draws_on: ["1.1", "1.2", "1.3", "1.4", "3.3", "3.4"]
 
 # 1 In Search of Dharma: Defining Dharma
 
+<image r 40 "/images/1-defining-dharma_watercolor.webp" "Defining Dharma" "">
+
 > *Dharma: A word almost no one can define without a lot of hand-waving, and almost everyone uses anyway. At its root it means something very plain, "to hold"; the interesting thing is how far this plain idea reaches.*
 
 The word is everywhere, once you start to notice it. There is a yoga studio in nearly every city called Dharma-something, its name set in a tasteful sans-serif over a lotus. Jack Kerouac wrote *The Dharma Bums*. A science-fiction series built a whole mystery around a sinister research outfit called the *Dharma Initiative*, and nobody in the audience needed the word explained, because we all carry a vague sense of what it conjures: something Eastern, something spiritual, something to do with inner peace and good intentions and possibly incense. The word arrived in English wearing oriental robes. It sounds like a soft gong in a quiet room.

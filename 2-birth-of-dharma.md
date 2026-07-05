@@ -11,6 +11,8 @@ draws_on: ["2.1", "2.2", "2.3", "5.2", "1.2", "5.5"]
 
 # 2 In Search of Dharma: The Genesis of Dharmas
 
+<image r 40 "/images/2-defining-dharma_watercolor.webp" "The Genesis of Dharmas" "">
+
 > *Why does every society grow a dharma, and why did so many of the greatest ones appear, in different worlds, at almost the same moment? It starts with a problem that arrives the day your village gets too big to know.*
 
 Picture two human worlds, separated by ten thousand years.

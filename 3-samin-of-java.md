@@ -11,6 +11,8 @@ draws_on: ["4.1", "1.3", "7.3", "8.1"]
 
 # 3 In Search of Dharma: The Dharmas of the Samin of Java
 
+<image r 40 "/images/3-defining-dharma_watercolor.webp" "The Dharmas of the Samin of Java" "">
+
 > *An illiterate farmer, a fenced-off forest, and a way of living so complete it outlasted its maker by a hundred years. What a Javanese peasant movement can show us that the great religions no longer can.*
 
 Sometime in the first years of the twentieth century, on a dirt road in the teak country of central Java, a Dutch colonial official stops a barefoot farmer and asks him a routine question. *Where are you from?* The farmer answers: from the forest. *Where are you going?* To the forest. Every word is true; every word is useless. The official has learned nothing he can write in a report, and nothing he can punish, because the man has not refused to answer; he has answered perfectly, and said nothing at all.

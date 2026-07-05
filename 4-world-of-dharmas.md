@@ -11,6 +11,8 @@ draws_on: ["4.2", "4.3", "4.4", "1.4"]
 
 # 4 In Search of Dharma: A World of Dharmas
 
+<image r 40 "/images/4-defining-dharma_watercolor.webp" "A World of Dharmas" "">
+
 > *A relational web, a rational fortress, a sung land, a commanding covenant: four ways of living that disagree about almost everything, and rhyme underneath. Including, if you have the nerve to look, your own.*
 
 Picture four people, in four worlds, each answering the same question: how should a person live?
