@@ -1,7 +1,16 @@
 #!/bin/bash
 # mk-book.sh - Build "In Search of Dharma" (EPUB and/or PDF) from cover.md + 0..8.
 #
-#   ./mk-book.sh [epub|pdf|all]     (default: all)
+#   ./mk-book.sh [epub|pdf|all] [--audio none|link|embed]   (defaults: all, none)
+#
+# Audio narration (one MP3 per chapter, 0..8) can be added at the top of each
+# chapter in two ways:
+#   --audio link   plain hyperlink to https://garydean.id/audio/N-...mp3
+#                  (tiny EPUB; needs a network connection at read-time)
+#   --audio embed  the MP3s are bundled inside the EPUB (~61 MB; EPUB target only,
+#                  distribute via GitHub Releases). Output gets a _with-audio suffix.
+# The canonical MP3s are read straight from the web-root; they are never copied
+# into the repository.
 #
 # Preprocesses each source Markdown file (strips YAML frontmatter, converts the
 # custom `<image r 40 "src" "alt" "cap">` shortcode into a standard Markdown
@@ -18,6 +27,16 @@ readonly LANGUAGE=en
 readonly COVER_IMAGE="$SCRIPT_DIR"/images/png/defining-dharma3_watercolor.png
 readonly OUTPUT="$SCRIPT_DIR"/In-Search-of-Dharma_Biksu-Okusi_2026.epub
 readonly OUTPUT_PDF="${OUTPUT%.epub}.pdf"
+readonly OUTPUT_AUDIO="${OUTPUT%.epub}_with-audio.epub"
+
+# Chapter narration. One MP3 per chapter, named N-<stem>.mp3 (N = 0..8), living
+# canonically under the garydean.id web-root and served from AUDIO_BASE_URL. The
+# embed build reads them via --resource-path=AUDIO_WEBROOT (so "audio/N-...mp3"
+# resolves); nothing is copied into the repo.
+readonly AUDIO_SRC_DIR=/var/www/vhosts/garydean.id/html/audio
+readonly AUDIO_WEBROOT="${AUDIO_SRC_DIR%/audio}"
+readonly AUDIO_BASE_URL=https://garydean.id/audio
+readonly AUDIO_STEM=in-search-of-dharma
 
 # Images are recompressed to JPEG at build time (source PNGs stay untouched). The
 # watercolours are painterly, so lossy JPEG is far smaller than lossless PNG at the
@@ -67,13 +86,59 @@ preprocess() {
         -e 's#\[([^]]+)\]\(/works/[^)]*\)#\1#g'
 }
 
-main() {
-  # Output format(s) to build.
-  local -- target=${1:-all}
-  case $target in
-    epub|pdf|all) ;;
-    *) die "usage: ${0##*/} [epub|pdf|all]  (default: all)" ;;
+# Emit the audio player/link for chapter n (0..8) in the requested mode, to be
+# spliced in just below the chapter's H1. Nothing is emitted for mode=none.
+#   embed -> raw XHTML <audio> whose <source src> pandoc bundles into the EPUB
+#   link  -> a plain Markdown hyperlink to the web-hosted MP3
+audio_block() {
+  local -i n=$1
+  local -- mode=$2
+  case $mode in
+    embed)
+      printf '<audio controls="controls" preload="none">\n'
+      printf '<source src="audio/%d-%s.mp3" type="audio/mpeg"/>\n' "$n" "$AUDIO_STEM"
+      printf '</audio>\n'
+      ;;
+    link)
+      printf '[Listen to this chapter (audio narration)](%s/%d-%s.mp3)\n' \
+        "$AUDIO_BASE_URL" "$n" "$AUDIO_STEM"
+      ;;
   esac
+}
+
+# Splice $block into $file immediately after its first level-1 heading (^# ),
+# surrounded by blank lines so pandoc parses a raw-HTML block cleanly. Section
+# headings (## and deeper) are not matched, and only the first H1 is touched.
+splice_after_h1() {
+  local -- file=$1 block=$2
+  local -- t="$file.tmp"
+  awk -v blk="$block" '
+    !done && /^# / { print; print ""; print blk; print ""; done=1; next }
+    { print }
+  ' "$file" >"$t" && mv -- "$t" "$file"
+}
+
+main() {
+  # Output format(s) to build and audio mode.
+  local -- target=all
+  local -- audio_mode=none
+  while [[ -n ${1:-} ]]; do
+    case $1 in
+      epub|pdf|all) target=$1 ;;
+      --audio) shift; audio_mode=${1:-} ;;
+      --audio=*) audio_mode=${1#*=} ;;
+      *) die "usage: ${0##*/} [epub|pdf|all] [--audio none|link|embed]" ;;
+    esac
+    shift
+  done
+  case $audio_mode in
+    none|link|embed) ;;
+    *) die "invalid --audio '$audio_mode' (want: none|link|embed)" ;;
+  esac
+  # Embedded audio is an EPUB-only, Releases-only artefact; a PDF cannot play it.
+  if [[ $audio_mode == embed && $target != epub ]]; then
+    die "audio embed only applies to the EPUB; use: ${0##*/} epub --audio embed"
+  fi
 
   command -v pandoc >/dev/null 2>&1 || die "pandoc not found (apt install pandoc)"
   command -v convert >/dev/null 2>&1 || die "ImageMagick 'convert' not found (apt install imagemagick)"
@@ -84,6 +149,15 @@ main() {
   for font in "${FONT_FILES[@]}"; do
     [[ -f $font ]] || die "font missing: $font (sudo apt install fonts-ebgaramond)"
   done
+  # Sanity-check the canonical MP3s exist (they back both the link URL and the
+  # embedded copy) before we bother building anything.
+  if [[ $audio_mode != none ]]; then
+    local -i an
+    for an in {0..8}; do
+      [[ -f "$AUDIO_SRC_DIR/$an-$AUDIO_STEM.mp3" ]] \
+        || die "audio missing: $AUDIO_SRC_DIR/$an-$AUDIO_STEM.mp3"
+    done
+  fi
 
   # Assemble the source list: cover first, then essays 0..8 by numeric prefix.
   local -a sources=("$SCRIPT_DIR"/cover.md)
@@ -115,12 +189,18 @@ main() {
   [[ -f $cover_jpg ]] || die "staged cover JPEG not produced: $cover_jpg"
 
   # Preprocess into ordered temp files (00-, 01-, ...) to preserve chapter order.
+  # Chapters are cover(=0), then essays 0..8 at indices 1..9, so essay index i
+  # carries audio number i-1. The cover (i=0) never gets an audio player.
   local -a inputs=()
   local -i i=0
-  local -- src dst
+  local -- src dst block
   for src in "${sources[@]}"; do
     printf -v dst '%s/%02d-%s' "$tmp" "$i" "$(basename -- "$src")"
     preprocess "$src" >"$dst"
+    if [[ $audio_mode != none && $i -ge 1 ]]; then
+      block=$(audio_block "$((i - 1))" "$audio_mode")
+      splice_after_h1 "$dst" "$block"
+    fi
     inputs+=("$dst")
     i+=1
   done
@@ -153,7 +233,15 @@ CSS
   done
 
   if [[ $target != pdf ]]; then
-    info "building EPUB from ${#inputs[@]} files -> $OUTPUT"
+    # For embedded audio, write the _with-audio output and add the web-root to the
+    # resource path so pandoc resolves (and bundles) each "audio/N-...mp3".
+    local -- epub_out=$OUTPUT
+    local -- resource_path=$img_stage
+    if [[ $audio_mode == embed ]]; then
+      epub_out=$OUTPUT_AUDIO
+      resource_path="$img_stage:$AUDIO_WEBROOT"
+    fi
+    info "building EPUB from ${#inputs[@]} files -> $epub_out"
     ( cd -- "$SCRIPT_DIR" && pandoc \
         --from=markdown \
         --to=epub3 \
@@ -165,10 +253,10 @@ CSS
         --epub-cover-image="$cover_jpg" \
         --css="$css" \
         "${font_args[@]}" \
-        --resource-path="$img_stage" \
-        -o "$OUTPUT" \
+        --resource-path="$resource_path" \
+        -o "$epub_out" \
         "${inputs[@]}" )
-    info "done: $OUTPUT ($(du -h --apparent-size "$OUTPUT" | cut -f1))"
+    info "done: $epub_out ($(du -h --apparent-size "$epub_out" | cut -f1))"
   fi
 
   if [[ $target != epub ]]; then
