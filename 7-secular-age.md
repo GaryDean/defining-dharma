@@ -9,7 +9,7 @@ updated: 2026-07-05
 draws_on: ["6.1", "6.2", "3.3", "3.1", "7.2", "6.5"]
 ---
 
-# 7: In Search of Dharma: Dharmas in a Secular Age
+# 7: Dharmas in a Secular Age
 
 <image r 40 "/images/7-defining-dharma_watercolor.webp" "Dharmas in a Secular Age" "">
 

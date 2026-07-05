@@ -9,7 +9,7 @@ updated: 2026-07-05
 draws_on: ["0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7"]
 ---
 
-# 0: In Search of Dharma: Preface
+# 0: Preface
 
 <image r 40 "/images/0-defining-dharma_watercolor.webp" "In Search of Dharma: Preface" "">
 

@@ -9,7 +9,7 @@ updated: 2026-07-05
 draws_on: ["4.2", "4.3", "4.4", "1.4"]
 ---
 
-# 4: In Search of Dharma: A World of Dharmas
+# 4: A World of Dharmas
 
 <image r 40 "/images/4-defining-dharma_watercolor.webp" "A World of Dharmas" "">
 

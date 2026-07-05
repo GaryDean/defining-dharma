@@ -9,7 +9,7 @@ updated: 2026-07-05
 draws_on: ["8.1", "8.2", "8.3", "8.4", "3.4", "7.4", "7.5"]
 ---
 
-# 8: In Search of Dharma: Creating Dharmas
+# 8: Creating Dharmas
 
 <image r 40 "/images/8-defining-dharma_watercolor.webp" "Creating Dharmas" "">
 

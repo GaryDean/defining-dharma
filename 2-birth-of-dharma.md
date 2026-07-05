@@ -9,7 +9,7 @@ updated: 2026-07-05
 draws_on: ["2.1", "2.2", "2.3", "5.2", "1.2", "5.5"]
 ---
 
-# 2: In Search of Dharma: The Genesis of Dharmas
+# 2: The Genesis of Dharmas
 
 <image r 40 "/images/2-defining-dharma_watercolor.webp" "The Genesis of Dharmas" "">
 

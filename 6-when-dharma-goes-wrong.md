@@ -9,7 +9,7 @@ updated: 2026-07-05
 draws_on: ["7.1", "7.2", "7.3", "6.3", "6.4", "5.5"]
 ---
 
-# 6: In Search of Dharma: When Dharmas Go Wrong
+# 6: When Dharmas Go Wrong
 
 <image r 40 "/images/6-defining-dharma_watercolor.webp" "When Dharmas Go Wrong" "">
 

@@ -9,7 +9,7 @@ updated: 2026-07-05
 draws_on: ["5.1", "5.3", "5.4", "5.2", "5.5"]
 ---
 
-# 5: In Search of Dharma: How a Dharma Gets Under Your Skin
+# 5: How a Dharma Gets Under Your Skin
 
 <image r 40 "/images/5-defining-dharma_watercolor.webp" "How a Dharma Gets Under Your Skin" "">
 

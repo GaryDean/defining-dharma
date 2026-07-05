@@ -107,7 +107,10 @@ main() {
 @font-face{font-family:"DejaVu Sans";font-weight:normal;font-style:normal;src:url("../fonts/DejaVuSans.ttf")}
 @font-face{font-family:"DejaVu Sans";font-weight:bold;font-style:normal;src:url("../fonts/DejaVuSans-Bold.ttf")}
 body{font-family:"EB Garamond",Georgia,serif;line-height:1.5}
-h1,h2,h3,h4,h5,h6{font-family:"DejaVu Sans",sans-serif}
+h1,h2,h3,h4,h5,h6{font-family:"DejaVu Sans",sans-serif;line-height:1.2}
+h1{font-size:2em;margin:1em 0 0.6em}
+h2{font-size:1.5em;margin:1.2em 0 0.4em}
+h3{font-size:1.2em;margin:1em 0 0.3em}
 div[data-align="center"]{text-align:center}
 .pagebreak{break-before:page;page-break-before:always}
 .copyright{font-size:0.8em}
