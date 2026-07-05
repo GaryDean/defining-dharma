@@ -14,7 +14,12 @@ readonly TITLE='In Search of Dharma'
 readonly AUTHOR='Biksu Okusi'
 readonly LANGUAGE=en
 readonly COVER_IMAGE="$SCRIPT_DIR"/images/png/defining-dharma3_watercolor.png
-readonly OUTPUT="$SCRIPT_DIR"/in-search-of-dharma.epub
+readonly OUTPUT="$SCRIPT_DIR"/In-Search-of-Dharma_Biksu-Okusi_2026.epub
+
+# Images are recompressed to JPEG at build time (source PNGs stay untouched). The
+# watercolours are painterly, so lossy JPEG is far smaller than lossless PNG at the
+# same visible quality, taking the finished EPUB from ~20 MB to ~4 MB.
+readonly JPEG_QUALITY=80
 
 # Fonts, embedded into the EPUB so it renders identically everywhere rather than
 # falling back to the reader's defaults:
@@ -37,7 +42,7 @@ info() { echo "◉ $*"; }
 #   - drop a leading YAML frontmatter block (--- ... ---)
 #   - <image ALIGN WIDTH "SRC" "ALT" "CAP"> -> ![ALT](SRC)
 #   - "/images/..." web-root path -> "images/..." on-disk path
-#   - .webp -> .png (EPUB readers handle PNG universally; WEBP is not core EPUB)
+#   - image .webp/.png refs -> .jpg (build stages JPEG copies; see main)
 #   - self-close bare <br> (raw <br> is invalid XHTML -> fatal EPUB parse error)
 #   - drop obsolete <center> tags (not valid in EPUB3 XHTML; centring is done in
 #     CSS via <div align="center"> -> [data-align="center"])
@@ -51,7 +56,7 @@ preprocess() {
     | sed -E \
         -e 's#<image[[:space:]]+[a-z]+[[:space:]]+[0-9]+[[:space:]]+"([^"]*)"[[:space:]]+"([^"]*)"[[:space:]]+"[^"]*"[[:space:]]*>#![\2](\1)#' \
         -e 's#\]\(/images/#](images/#g' \
-        -e 's#\.webp\)#.png)#g' \
+        -e 's#\.(webp|png)\)#.jpg)#g' \
         -e 's#<br[[:space:]]*/?>#<br/>#g' \
         -e 's#</?center>##g' \
         -e 's#^[[:space:]]*\\newpage[[:space:]]*$#<div class="pagebreak"></div>#' \
@@ -61,6 +66,7 @@ preprocess() {
 
 main() {
   command -v pandoc >/dev/null 2>&1 || die "pandoc not found (apt install pandoc)"
+  command -v convert >/dev/null 2>&1 || die "ImageMagick 'convert' not found (apt install imagemagick)"
   [[ -f $COVER_IMAGE ]] || die "cover image missing: $COVER_IMAGE"
   local -- font
   for font in "${FONT_FILES[@]}"; do
@@ -82,6 +88,19 @@ main() {
   tmp=$(mktemp -d)
   # shellcheck disable=SC2064
   trap "rm -rf -- '$tmp'" EXIT
+
+  # Stage JPEG copies of every source PNG under $tmp/img, mirroring the on-disk
+  # layout (images/ and images/png/) so the .png->.jpg link rewrites resolve
+  # against --resource-path. Source PNGs are never modified.
+  local -- img_stage="$tmp"/img
+  mkdir -p "$img_stage"/images/png
+  local -- png rel
+  while IFS= read -r -d '' png; do
+    rel=${png#"$SCRIPT_DIR"/}
+    convert "$png" -quality "$JPEG_QUALITY" "$img_stage/${rel%.png}.jpg"
+  done < <(find "$SCRIPT_DIR"/images -maxdepth 2 -name '*.png' -print0)
+  local -- cover_jpg="$img_stage"/images/png/defining-dharma3_watercolor.jpg
+  [[ -f $cover_jpg ]] || die "staged cover JPEG not produced: $cover_jpg"
 
   # Preprocess into ordered temp files (00-, 01-, ...) to preserve chapter order.
   local -a inputs=()
@@ -130,10 +149,10 @@ CSS
       --metadata title="$TITLE" \
       --metadata author="$AUTHOR" \
       --metadata lang="$LANGUAGE" \
-      --epub-cover-image="$COVER_IMAGE" \
+      --epub-cover-image="$cover_jpg" \
       --css="$css" \
       "${font_args[@]}" \
-      --resource-path="$SCRIPT_DIR" \
+      --resource-path="$img_stage" \
       -o "$OUTPUT" \
       "${inputs[@]}" )
 
