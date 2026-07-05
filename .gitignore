@@ -31,3 +31,6 @@ scratch/
 
 # superpowers SDD scratch (ledger, briefs, reports)
 .superpowers/
+
+# built EPUB is distributed via GitHub Releases, not tracked inline
+*.epub
