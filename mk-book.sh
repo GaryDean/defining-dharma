@@ -1,10 +1,12 @@
 #!/bin/bash
-# mk-book.sh - Build the "In Search of Dharma" EPUB from cover.md + essays 0..8.
+# mk-book.sh - Build "In Search of Dharma" (EPUB and/or PDF) from cover.md + 0..8.
+#
+#   ./mk-book.sh [epub|pdf|all]     (default: all)
 #
 # Preprocesses each source Markdown file (strips YAML frontmatter, converts the
 # custom `<image r 40 "src" "alt" "cap">` shortcode into a standard Markdown
-# image, rewrites web-root image paths to on-disk paths and .webp to .png), then
-# stitches them into a single EPUB3 with pandoc.
+# image, rewrites web-root image paths to on-disk paths and images to JPEG), then
+# stitches them into an EPUB3 with pandoc and/or a PDF via the weasyprint engine.
 set -euo pipefail
 
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
@@ -15,6 +17,7 @@ readonly AUTHOR='Biksu Okusi'
 readonly LANGUAGE=en
 readonly COVER_IMAGE="$SCRIPT_DIR"/images/png/defining-dharma3_watercolor.png
 readonly OUTPUT="$SCRIPT_DIR"/In-Search-of-Dharma_Biksu-Okusi_2026.epub
+readonly OUTPUT_PDF="${OUTPUT%.epub}.pdf"
 
 # Images are recompressed to JPEG at build time (source PNGs stay untouched). The
 # watercolours are painterly, so lossy JPEG is far smaller than lossless PNG at the
@@ -65,8 +68,17 @@ preprocess() {
 }
 
 main() {
+  # Output format(s) to build.
+  local -- target=${1:-all}
+  case $target in
+    epub|pdf|all) ;;
+    *) die "usage: ${0##*/} [epub|pdf|all]  (default: all)" ;;
+  esac
+
   command -v pandoc >/dev/null 2>&1 || die "pandoc not found (apt install pandoc)"
   command -v convert >/dev/null 2>&1 || die "ImageMagick 'convert' not found (apt install imagemagick)"
+  [[ $target == epub ]] || command -v weasyprint >/dev/null 2>&1 \
+    || die "weasyprint not found, needed for PDF (apt install weasyprint)"
   [[ -f $COVER_IMAGE ]] || die "cover image missing: $COVER_IMAGE"
   local -- font
   for font in "${FONT_FILES[@]}"; do
@@ -140,23 +152,57 @@ CSS
     font_args+=(--epub-embed-font="$font")
   done
 
-  info "building EPUB from ${#inputs[@]} files -> $OUTPUT"
-  ( cd -- "$SCRIPT_DIR" && pandoc \
-      --from=markdown \
-      --to=epub3 \
-      --toc --toc-depth=1 \
-      --split-level=1 \
-      --metadata title="$TITLE" \
-      --metadata author="$AUTHOR" \
-      --metadata lang="$LANGUAGE" \
-      --epub-cover-image="$cover_jpg" \
-      --css="$css" \
-      "${font_args[@]}" \
-      --resource-path="$img_stage" \
-      -o "$OUTPUT" \
-      "${inputs[@]}" )
+  if [[ $target != pdf ]]; then
+    info "building EPUB from ${#inputs[@]} files -> $OUTPUT"
+    ( cd -- "$SCRIPT_DIR" && pandoc \
+        --from=markdown \
+        --to=epub3 \
+        --toc --toc-depth=1 \
+        --split-level=1 \
+        --metadata title="$TITLE" \
+        --metadata author="$AUTHOR" \
+        --metadata lang="$LANGUAGE" \
+        --epub-cover-image="$cover_jpg" \
+        --css="$css" \
+        "${font_args[@]}" \
+        --resource-path="$img_stage" \
+        -o "$OUTPUT" \
+        "${inputs[@]}" )
+    info "done: $OUTPUT ($(du -h --apparent-size "$OUTPUT" | cut -f1))"
+  fi
 
-  info "done: $OUTPUT ($(du -h --apparent-size "$OUTPUT" | cut -f1))"
+  if [[ $target != epub ]]; then
+    # PDF via weasyprint: it renders HTML/CSS, so it reuses the centred cover,
+    # the .pagebreak breaks and the images. System-installed EB Garamond / DejaVu
+    # Sans resolve by family name (no @font-face needed). weasyprint resolves image
+    # URLs relative to the CWD, so this pandoc runs from the staged image dir.
+    local -- pdf_css="$tmp"/pdf.css
+    cat >"$pdf_css" <<'CSS'
+body{font-family:"EB Garamond",Georgia,serif;line-height:1.5}
+h1,h2,h3,h4,h5,h6{font-family:"DejaVu Sans",sans-serif;line-height:1.2}
+h1{font-size:2em;margin:1em 0 0.6em;break-before:page}
+h2{font-size:1.5em;margin:1.2em 0 0.4em}
+h3{font-size:1.2em;margin:1em 0 0.3em}
+div[data-align="center"]{text-align:center}
+.pagebreak{break-before:page}
+.copyright{font-size:0.8em}
+img{max-width:100%}
+@page{size:A4;margin:2.2cm}
+CSS
+    info "building PDF from ${#inputs[@]} files -> $OUTPUT_PDF"
+    ( cd -- "$img_stage" && pandoc \
+        --from=markdown \
+        --to=pdf \
+        --pdf-engine=weasyprint \
+        --toc --toc-depth=1 \
+        --metadata title="$TITLE" \
+        --metadata author="$AUTHOR" \
+        --metadata lang="$LANGUAGE" \
+        --css="$pdf_css" \
+        -o "$OUTPUT_PDF" \
+        "${inputs[@]}" )
+    info "done: $OUTPUT_PDF ($(du -h --apparent-size "$OUTPUT_PDF" | cut -f1))"
+  fi
 }
 
 main "$@"

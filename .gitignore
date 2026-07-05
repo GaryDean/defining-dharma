@@ -34,3 +34,4 @@ scratch/
 
 # built EPUB is distributed via GitHub Releases, not tracked inline
 *.epub
+*.pdf
