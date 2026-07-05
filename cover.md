@@ -14,11 +14,10 @@ updated: 2026-07-05
 
 ### The human craft of building ethical worlds
 
-*An anthropological survey*
-<br/>
-by **Biksu Okusi**
-<br/>
+*An anthropological survey*\
+by **Biksu Okusi**\
 May 2026, Bali, Indonesia
+
 </div>
 
 \newpage
