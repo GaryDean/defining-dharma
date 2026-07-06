@@ -88,21 +88,29 @@ resolution are applied consistently across all nine essays.
 
 ### ▲ Where coherence strains
 
-**The P5→P6 seam carries the series' one real content duplication.** P5's
-closing section ("The Machine Has No Conscience") and P6's second section ("The
-Dark Twin") make the same argument — the installation machinery is morally blank,
-grooves cruelty as faithfully as kindness, effervescence fuses mobs as well as
-congregations — in nearly the same terms, a few pages apart for a sequential
-reader. The standalone-but-sequential rule justifies *a* recap in P6; it does not
-require a full second performance. Compressing P6's restatement to two or three
-sentences of acknowledgment would sharpen the seam without hurting a standalone
-reader.
+**The P5→P6 seam carries the series' one real content duplication.**
+_(✓ resolved 2026-07-06 — see recommendation #1.)_ P5's closing section ("The
+Machine Has No Conscience") and P6's second section ("The Dark Twin") made the
+same argument — the installation machinery is morally blank, grooves cruelty as
+faithfully as kindness — in nearly the same terms, a few pages apart for a
+sequential reader, including a near-verbatim repeat of the thesis sentence ("not
+one of them has any moral content of its own"). P6's restatement now opens with
+a two-sentence acknowledgment that leans on P5 by number ("Part 5 ended on the
+blankness of the last of these…") instead of re-performing it; the fix also
+removed a template-violating back-reference ("as we saw last time"). The
+five-strengths enumeration and the four fresh dark-twin examples were kept —
+they are the essay's schema, not duplication.
 
-**Euthyphro is fully staged twice.** P1 explains both horns of the dilemma at
-length; P7 says "we already met" Plato's trap and then explains both horns at
-length again. The P7 version is the load-bearing one (it is where the thread pays
-off); the P1 version could be cut to the naming of the trap and the promise,
-which is all the plant requires.
+**Euthyphro is fully staged twice.** _(✓ resolved 2026-07-06 — see
+recommendation #2.)_ P1 explained both horns of the dilemma at length; P7 said
+"we already met" Plato's trap and then explained both horns at length again. P1
+is now cut to the naming of the trap and the promise ("the trap he set there for
+the divine lawgiver has never been cleanly escaped… I think there is a real
+answer… it has to be earned"), which is all the plant requires; the dilemma is
+worked exactly once, in P7 where the thread pays off. P7's back-reference was
+adjusted to match ("the first of which Part 1 named and left standing" — echoing
+P1's own "name them and deliberately leave them standing"), which also converts
+a vague "earlier we looked at" into the template-preferred by-number reference.
 
 **The cooperation thesis is expounded three times before Part 3.** P0 ("The One
 Idea"), P1 ("Why Everyone Has (at Least) One"), and P2 (the whole essay) each
@@ -189,6 +197,20 @@ default sentence shape; by P7–P8 an attentive reader can predict the second ha
 of a sentence from its first. Recommendation: a per-essay pass that keeps the
 thesis-bearing reversals (perhaps a third of them) and recasts the incidental
 ones, prioritising P4, P5, P7, P8 where density is highest.
+
+_**✓ Pass applied 2026-07-06** (recommendation #3) to the four densest essays:
+P4 12→8, P5 13→9, P7 12→7, P8 15→11 (P8's true pre-count was 15; one instance
+hid inside another's grep context). Series total ~88 → **69**. In practice the
+thesis-bearing share proved larger than the estimated third — most survivors are
+definitional contrasts, quotations, or hand-off lines — so the pass targeted
+(a) doubled sentences running the device twice (P4's "everywhen" and
+kincentricity sentences; P8's floor pair), (b) cluster spikes (P7's "New
+Terrain" had four in two paragraphs), and (c) echo-bugs (P8 ran "not sincerity
+but…" twice; the closing instance was kept). Recasts were varied — "reaches
+past", "far from", "worse than wrong:", "stops being… and becomes", active-verb
+semicolons — so no single replacement shape becomes the new tic. One incidental
+win: an "as we will see" signpost (P7) was removed in passing. The untouched
+essays (P0–P3, P6) sit at 4–9 each, already below the revised density._
 
 ### 3.3 Pet words
 
@@ -341,9 +363,9 @@ several of the "honest" clusters are load-bearing.
 
 | # | Action | Effort | Payoff |
 |---|---|---|---|
-| 1 | Compress P6's "Dark Twin" restatement of P5's closing argument to 2–3 acknowledging sentences | small | removes the series' one real duplication at its most visible seam |
-| 2 | Cut P1's Euthyphro staging to the naming + promise; keep P7's full version | small | sharpens the plant/payoff asymmetry |
-| 3 | "not X but Y" pass on P4, P5, P7, P8: keep the thesis-bearing third, recast the rest | medium | retires the most predictable habit before reviewers name it |
+| 1 | ✓ **Done 2026-07-06.** Compress P6's "Dark Twin" restatement of P5's closing argument to 2–3 acknowledging sentences | small | removes the series' one real duplication at its most visible seam |
+| 2 | ✓ **Done 2026-07-06.** Cut P1's Euthyphro staging to the naming + promise; keep P7's full version | small | sharpens the plant/payoff asymmetry |
+| 3 | ✓ **Done 2026-07-06.** "not X but Y" pass on P4, P5, P7, P8 (12→8, 13→9, 12→7, 15→11; series ~88→69) — see §3.2 note | medium | retires the most predictable habit before reviewers name it |
 | 4 | Vocabulary pass: "quietly", "precisely", "turns out", "worth X-ing", "machinery" outside P5, "sting" | small | invisible individually, decisive in aggregate |
 | 5 | Generic-you prune in P1–P5 (or formally revise the template ceiling) | medium | resolves the 5× divergence between the law and the practice |
 | 6 | Recast two of the four "So what did I find" closers (P2 and P4 are the natural candidates) | small | keeps the strongest closers (P1, P3) special |
