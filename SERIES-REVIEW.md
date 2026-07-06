@@ -71,7 +71,8 @@ resort), given its biology in P5 ("The Missing Elephant"), and lands in P6 ("The
 Wolf in the Flock") as the predator the mega-society can no longer watch. This
 three-essay slow burn is not in the `Essays.md` thread list, and it is executed
 with more patience than the listed threads. Worth adding to the blueprint so it
-is protected in future revision.
+is protected in future revision. _(✓ Done 2026-07-06, recommendation #11 — now
+the fourth entry in `Essays.md`'s planted-threads list.)_
 
 **Recurring figures deepen rather than repeat.** The Samin return in P6 (the same
 machinery refusing vs sanctifying authority) and P8 (the commons scaled to a
@@ -164,7 +165,7 @@ The series ships its own style law in `_essay-template.md`. Measured against it
 | Short-sentence runs (3+ of ≤6 words) | never | 0 found | ✓ clean |
 | Length | 5,000 ±1,000 | 4,085–5,590 (P0 exempt) | ✓ clean |
 | Self-narration ("this essay/series/search") | "a couple of light touches" | 2,1,5,1,0,1,12 for P1–P8; P0=10 | ✓ mostly (P0/P8 exempt: preface and the Mirror section are *about* the project) |
-| Stage-directions | banned list | 9 survivors: "I owe you" ×2 (P1, P3), "notice that/what/how/where" ×4 (P1, P2, P4 ×2), "Let me…" ×3 (P3 ×2, P0) | ▲ small residue |
+| Stage-directions | banned list | 9 survivors: "I owe you" ×2 (P1, P3), "notice that/what/how/where" ×4 (P1, P2, P4 ×2), "Let me…" ×3 (P3 ×2, P0) | ▲ small residue → ✓ cleared 2026-07-06 (rec #10; the two P1 "notice" hits proved false positives — observation and infinitive, not the imperative — and were left alone) |
 | Second person | "well under ten per ~5,000 words" | **19, 44, 41, 48, 58, 42, 16, 18, 7** | ✗ Parts 1–5 → ✓ resolved 2026-07-06 by amending the rule (see §3.1 note) |
 
 The second-person figure needs calibration rather than panic: the texture is
@@ -409,9 +410,13 @@ several of the "honest" clusters are load-bearing.
 | 6 | ✓ **Done 2026-07-06.** Recast two of the four "So what did I find" closers (P2 and P4) into direct assertion; P1/P3 kept | small | keeps the strongest closers (P1, P3) special |
 | 7 | ✓ **Done 2026-07-06.** P8 opens cold; the frame ("Between those two pictures…") now arrives after the scenes | small | hides the palmed card |
 | 8 | ✓ **Done 2026-07-06** (scope per author: all three Mirror mechanisms stay; length not a concern). The "the-discipline-Name" formula thinned 24→16 in P8: titles dropped on figures already introduced with them earlier in the series (Graeber, Sandel, Curry, Gallie, D. S. Wilson), on Borges, and on the second of doubled pairs (Appiah after Rawls, Saussure after Firth). All names remain in the prose; sourcing rule untouched | medium | protects the finale's momentum |
-| 9 | Trim P0's "One Idea" toolkit sentence to outline form | small | ends the triple exposition of the thesis |
-| 10 | Mechanical fixes (§5) + remaining stage-direction residue ("I owe you" ×2, "notice…" ×4, "Let me…" ×3) | small | template compliance to its own letter |
-| 11 | Add the intimidator/wolf thread (P2→P5→P6) to `Essays.md`'s planted-threads list | trivial | protects the series' best unadvertised structure |
+| 9 | ✓ **Done 2026-07-06.** P0's toolkit sentence trimmed to "a thick toolkit for the job." — P1's full list now lands fresh | small | ends the triple exposition of the thesis |
+| 10 | ✓ **Done 2026-07-06.** Seven true residue instances recast ("I owe you a boundary" → "the word needs a boundary"; "I owe you two warnings" → "two warnings are in order"; "Let me run/come back" → first-person intent; "Notice what/how/where" → assertion or direct question); the two P1 "notice" hits were false positives and stand | small | template compliance to its own letter |
+| 11 | ✓ **Done 2026-07-06.** The intimidator thread (P2 → P5 → P6) is now the fourth entry in `Essays.md`'s planted-threads list | trivial | protects the series' best unadvertised structure |
+
+_**All eleven recommendations are now applied** (2026-07-06), plus the §5
+mechanical fixes. Findings §2–§4 remain as the record of what was found and how
+each item was resolved._
 
 ---
 

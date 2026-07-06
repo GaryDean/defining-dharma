@@ -3,7 +3,7 @@ part: 3
 title: "The Dharmas of the Samin of Java"
 slug: samin-of-java
 status: done
-words: 4763
+words: 4764
 reading_level: year-12
 updated: 2026-07-05
 draws_on: ["4.1", "1.3", "7.3", "8.1"]
@@ -71,7 +71,7 @@ One more thing, before we go on, about names. The followers themselves came to d
 
 Now, a sceptic could stop me right here. *Plenty of villages have customs*, the sceptic says. *Lots of communities are honest, simple, and suspicious of outsiders. You have described a set of folkways with a local accent. Why dignify it with a word like "dharma"? Aren't you just doing the thing this project warned against, slapping an exotic label on ordinary peasant life?*
 
-It is a fair challenge, and answering it is the heart of this part, because the Samin are where our definition gets tested against a real case. Back in the first part, we worked out what separates a dharma from mere custom or law or etiquette. Not its content (there is no single belief that makes something a dharma) but a *combination* of features. Let me run the Sedulur Sikep against that test, in plain language.
+It is a fair challenge, and answering it is the heart of this part, because the Samin are where our definition gets tested against a real case. Back in the first part, we worked out what separates a dharma from mere custom or law or etiquette. Not its content (there is no single belief that makes something a dharma) but a *combination* of features. I will run the Sedulur Sikep against that test, in plain language.
 
 First: is it *comprehensive*? Does it govern a whole life, or just one corner of behaviour? The Samin code clearly does the former. It tells you how to work, how to speak, what you may own, how to treat your neighbours, how to deal with authority, even how to understand death. It is an architecture for living, not a rule about one thing.
 
@@ -105,7 +105,7 @@ A dharma, in other words, does not have to come from elsewhere. It can be grown 
 
 ## "From the Forest, to the Forest"
 
-Let me come back to that deadpan on the road, because it would be easy to file it under eccentricity, and it was nothing of the kind. It was the dharma in action.
+I want to come back to that deadpan on the road, because it would be easy to file it under eccentricity, and it was nothing of the kind. It was the dharma in action.
 
 James C. Scott, the same scholar who gave us the moral economy, spent much of his career studying how powerless people resist powerful ones without open battle, which they cannot win. He called the result the *weapons of the weak*: foot-dragging, feigned ignorance, false compliance, deliberate misunderstanding, the slow quiet sabotage of people who cannot say no out loud and so say it in a thousand other ways. He called the hidden world of grumbling and mockery, the one the powerful never get to see, the *hidden transcript*, and the whole domain of this everyday, below-the-radar resistance *infra-politics*. (Scott never studied the Samin himself; but his frame describes them exactly.)
 
@@ -115,7 +115,7 @@ And there is a deeper current running underneath, which I can only gesture at he
 
 ## An Honest Pause
 
-I have been building a case, and before I finish it I owe you two warnings, because a dharma is exactly the kind of thing it is easy to romanticise, and I have been as charmed by this one as anyone.
+I have been building a case, and before I finish it, two warnings are in order, because a dharma is exactly the kind of thing it is easy to romanticise, and I have been as charmed by this one as anyone.
 
 The first warning is about the evidence. Almost everything we "know" about Samin doctrine comes to us second-hand, and often third-hand, from outsiders: Dutch colonial officials and, later, ethnographers. The reason is the very thing that makes the movement so striking: the Samin wrote nothing down. The historians Harry Benda and Lance Castles, in the foundational scholarly study, make exactly this their central caution, and note that the accounts we do have were frequently written by hostile or baffled observers. We are watching this dharma through a series of other people's windows, some of them grimy. Even the scholars disagree about what they are looking at: some read the Samin as an ethical-religious resistance movement, some as a millenarian one waiting for salvation and the return of their founder, some as hard-headed peasants rationally defending their livelihoods. When I tell you what the Samin "believed," please hear the quotation marks. A dharma this good deserves a plain accounting of how little we can be sure of.
 

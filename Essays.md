@@ -56,6 +56,11 @@ The eight Parts are not eight topics — they are one movement in five beats:
   resolved into a stance in **Part 8**.
 - *The yoga-studio image* the series opens by dissolving (Part 1) returns as a
   named failure mode — appropriation — in **Part 6**.
+- *The intimidator who cannot be shamed* — planted in **Part 2** (the figure on
+  whom the band's ridicule slides off, and against whom it held its last
+  resort), given its biology in **Part 5** ("The Missing Elephant": the
+  constitutionally muted substrate), and paid off in **Part 6** as the predator
+  the anonymous mega-society can no longer watch ("The Wolf in the Flock").
 
 ## Status dashboard
 
