@@ -165,7 +165,7 @@ The series ships its own style law in `_essay-template.md`. Measured against it
 | Length | 5,000 ±1,000 | 4,085–5,590 (P0 exempt) | ✓ clean |
 | Self-narration ("this essay/series/search") | "a couple of light touches" | 2,1,5,1,0,1,12 for P1–P8; P0=10 | ✓ mostly (P0/P8 exempt: preface and the Mirror section are *about* the project) |
 | Stage-directions | banned list | 9 survivors: "I owe you" ×2 (P1, P3), "notice that/what/how/where" ×4 (P1, P2, P4 ×2), "Let me…" ×3 (P3 ×2, P0) | ▲ small residue |
-| Second person | "well under ten per ~5,000 words" | **19, 44, 41, 48, 58, 42, 16, 18, 7** | ✗ Parts 1–5 |
+| Second person | "well under ten per ~5,000 words" | **19, 44, 41, 48, 58, 42, 16, 18, 7** | ✗ Parts 1–5 → ✓ resolved 2026-07-06 by amending the rule (see §3.1 note) |
 
 The second-person figure needs calibration rather than panic: the texture is
 mostly the companionable generic-you ("you can hear the family resemblance"),
@@ -178,6 +178,18 @@ generic-you pass (prefer "we"/impersonal, as the template says), or the template
 ceiling should be revised to match the practice the author actually wants. The
 rule and the practice currently disagree by a factor of five; one of them should
 move.
+
+_**✓ Resolved 2026-07-06 by amending the law** (recommendation #5, author's
+choice). The numeric ceiling is gone from `_essay-template.md`. The amended rule
+codifies what the essays actually do: the generic, companionable second person
+and the guide's invitations to move ("picture two worlds", "now travel back")
+carry no ceiling; what remains forbidden is the hector ("you do not get to opt
+out…") and the didactic push that orders the reader's attention or conclusions
+("notice that…", "ask yourself…"). Measured against the amended rule, all nine
+essays comply — the only textual violation, P1's "Ask yourself whether…", was
+already removed by recommendation #2's Euthyphro cut. The small residue of
+banned stage-directions ("I owe you" ×2, "notice…" ×4, "Let me…" ×3) remains
+tracked under recommendation #10._
 
 ### 3.2 The signature construction: "not X but Y"
 
@@ -380,7 +392,7 @@ several of the "honest" clusters are load-bearing.
 | 2 | ✓ **Done 2026-07-06.** Cut P1's Euthyphro staging to the naming + promise; keep P7's full version | small | sharpens the plant/payoff asymmetry |
 | 3 | ✓ **Done 2026-07-06.** "not X but Y" pass on P4, P5, P7, P8 (12→8, 13→9, 12→7, 15→11; series ~88→69) — see §3.2 note | medium | retires the most predictable habit before reviewers name it |
 | 4 | ✓ **Done 2026-07-06.** Vocabulary pass: "quietly" 24→16, "precisely" 17→10, "turns out" 13→8, "worth X-ing" 16→4, "machinery" 19→16, "sting" recast — see §3.3 note | small | invisible individually, decisive in aggregate |
-| 5 | Generic-you prune in P1–P5 (or formally revise the template ceiling) | medium | resolves the 5× divergence between the law and the practice |
+| 5 | ✓ **Done 2026-07-06** — resolved by revising the template ceiling (author's choice): qualitative rule replaces the numeric one; see §3.1 note | medium | resolves the 5× divergence between the law and the practice |
 | 6 | Recast two of the four "So what did I find" closers (P2 and P4 are the natural candidates) | small | keeps the strongest closers (P1, P3) special |
 | 7 | Vary one contrasting-vignette opening (P4 or P8) | small | hides the palmed card |
 | 8 | Thin P8's authority density; consider compressing the Mirror's three flattening mechanisms to two | medium | protects the finale's momentum |

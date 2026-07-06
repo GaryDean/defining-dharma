@@ -40,10 +40,14 @@ NARRATOR DISTANCE: the reader is a peer, not a pupil. Cut the stage-directions
 that march them through the argument: "Hold those two pictures together,
 because…", "Here is the first thing to get straight…", "notice that…", "let me
 make it as sharp as I can…", "I owe you an answer…", "worth pausing over". Trust
-the prose to do the work the instruction announces. Use the second person ("you")
-sparingly and never as a command; prefer "we" or the impersonal. The tic's worst
-form is hectoring ("you do not get to opt out…"); a rough ceiling is well under
-ten second-person pronouns in a ~5,000-word essay.
+the prose to do the work the instruction announces. The generic, companionable
+second person ("you can hear the family resemblance", "the water you were
+swimming in") is part of the guide voice and carries no ceiling, and so are the
+guide's invitations to move ("picture two worlds", "now travel back"). What the
+rule forbids is the hector and the didactic push: never scold the reader ("you
+do not get to opt out…"), and never order their attention or their conclusions
+("notice that…", "ask yourself…"). Where a sentence starts telling the reader
+what to think, recast it with "we" or the impersonal.
 
 SELF-REFERENCE: keep the series machinery almost invisible. Do not narrate the
 essay to the reader ("this essay", "these pages", "the whole inquiry", "this
