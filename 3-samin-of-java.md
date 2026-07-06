@@ -55,19 +55,19 @@ So what did the Samin actually believe? For a movement that the Dutch treated as
 
 The recurring principles, as best we can reconstruct them, are these. Be honest, *jujur*, and speak plainly. Do no violence, and be self-sufficient: live by the work of your own hands, your own farm. Keep life simple; do not chase material excess. Do not disturb or harm other people, and avoid envy, greed, and quarrelling. And do not take dishonest gain, especially in trade and commerce: the Samin were deeply suspicious of the merchant's habit of getting something for nothing.
 
-Underneath these everyday rules sits one conviction with real teeth, the one that made the movement dangerous: that *land, water and forest are common property*, to be used for the common good. Not the king's, not the colonial state's, not a company's. Everyone's. That single idea is the doctrinal root of both the tax-and-forest resistance of Samin's own day and, as we will see, the environmental struggle his descendants are still fighting now.
+Underneath these everyday rules sits one conviction with real teeth, the one that made the movement dangerous: that *land, water, and forest are common property*, to be used for the common good. Not the king's, not the colonial state's, not a company's. Everyone's. That single idea is the doctrinal root of both the tax-and-forest resistance of Samin's own day and, as we will see, the environmental struggle his descendants are still fighting now.
 
 They called their faith *Agama Adam*, "the religion of Adam." The name is a claim: that this was humanity's original religion, the simple thing we all had before the priests and the empires got to us. Its practice was correspondingly bare: prayer at dawn and dusk, and almost none of the elaborate ceremonial apparatus that surrounded Javanese village life. No grand rituals, no professional clergy, just a plain ethic for plain people.
 
 The whole thing was carried by mouth. Samin was illiterate, and so were his followers, so there was no scripture, no holy book to copy, guard, and argue over. The ethic travelled by recitation, by example, and by embodied practice, including a striking discipline called *laku jejek*, days of walking to reach a community gathering. A dharma with no text, held in nothing but memory, habit, and the soles of people's feet.
 
-That picture needs one qualification, and the exception is revealing. A handful of texts are, in fact, attributed to the tradition (most often a manuscript called the *Serat Jamus Kalimosodo*), and some Sikep families keep a *kris*, the wavy ceremonial blade of Java, as an heirloom that carries the teaching down the generations. So the Samin were not quite textless; they were deeply suspicious of the written word as the instrument of the priest, the clerk, and the tax-collector, and inclined to trust instead the things a person keeps in the body.
+That picture needs one qualification, and the exception is revealing. A handful of texts are, in fact, attributed to the tradition (most often a manuscript called the *Serat Jamus Kalimosodo*), and some Samin families keep a *kris*, the wavy ceremonial blade of Java, as an heirloom that carries the teaching down the generations. So the Samin were not quite textless; they were deeply suspicious of the written word as the instrument of the priest, the clerk, and the tax-collector, and inclined to trust instead the things a person keeps in the body.
 
 Javanese spiritual life has a word for this: *laku*, meaning something close to "conduct," or "the path you walk," a discipline you practise rather than a doctrine you read. Seen that way, the *laku jejek*, those days of walking to a gathering, was not a quaint custom bolted onto the ethic; it *was* the ethic, rehearsed in the legs. The deadpan literalism on the forest road belonged to the same family: honesty drilled into a reflex, plain speech worn so smooth it could answer an empire without stopping to think. How a dharma installs itself, through what its people repeatedly do at least as much as through what they believe, is a story for a later part; the Samin, with no scripture to argue over, had almost nothing *but* the doing. It made them very hard to convert, and harder still to stamp out. You cannot burn a book that was never written; you can only try to outlast the people who walk it, and on that score the Samin have proved stubbornly patient, generation after generation.
 
 One more thing, before we go on, about names. The followers themselves came to dislike the word "Samin," because in mainstream Indonesian society it picked up a sneer: a synonym for backward, foolish, primitive. They prefer to call themselves *Sedulur Sikep*, or *Wong Sikep*: roughly, "honest, responsible kin." It is a better name, and from here I will use both: theirs by preference, and "Samin" where the history insists.
 
-## But is it a Dharma?
+## But Is It a Dharma?
 
 Now, a sceptic could stop me right here. *Plenty of villages have customs*, the sceptic says. *Lots of communities are honest, simple, and suspicious of outsiders. You have described a set of folkways with a local accent. Why dignify it with a word like "dharma"? Aren't you just doing the thing this project warned against, slapping an exotic label on ordinary peasant life?*
 
@@ -163,7 +163,7 @@ But the Samin are only one. Having seen a dharma assembled this clearly, in this
 
 **Research notes**
 
-Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
+Research notes used in this essay series are published on [GitHub](https://github.com/GaryDean/defining-dharma).
 
 - [4.1 Samin of Java](4-cultural/4.1-samin-of-java.md) — origins, the Sikep ethical code and *Agama Adam*, the dharma-fit argument, the break from mainstream Javanese culture, and the Kendeng turn. The spine of this essay.
 - [1.3 Boundary & Definition](1-foundational/1.3-boundary-definition.md) — the four-feature test (comprehensiveness, internalisation/identity, ethical orientation, reflective self-awareness) used to answer "but is it really a dharma?"

@@ -3,7 +3,7 @@ part: 6
 title: "When Dharmas Go Wrong"
 slug: when-dharma-goes-wrong
 status: done
-words: 4735
+words: 4736
 reading_level: year-12
 updated: 2026-07-05
 draws_on: ["7.1", "7.2", "7.3", "6.3", "6.4", "5.5"]
@@ -91,7 +91,7 @@ Every failure we have walked through so far shares one feature, and it is the fe
 
 But a dharma is not only vulnerable to its sincere believers. The apparatus that makes it work, the deep trust it manufactures and the benefit of the doubt it extends to anyone who performs the right devotions, is a standing invitation to a figure who is not sincere at all. Recall the costly, hard-to-fake signals that, back in Part 2, sorted the committed from the casual and welded a group together. That filter was built to keep out the free-rider, the one who wants the warmth of belonging without paying for it. It works against almost everyone. It does not work against the rare person who can perform every signal flawlessly and feel nothing behind it.
 
-Such people exist, in roughly predictable numbers. The condition even has a clinical literature: what the psychiatrist Hervey Cleckley called a "mask of sanity," and what the psychologist Robert Hare spent a career charting: somewhere around one person in a hundred in whom the ordinary equipment of conscience, empathy, fear, and remorse is, from the beginning, muted close to silence. For someone so built, the devotions are a costume and the trust of others is a resource, and a dharma is very nearly the perfect hunting ground, because it produces trust in bulk and hands it to whoever wears the robe convincingly. This is the guru who preys on his disciples, the venerated elder unmasked after thirty years, the holy man whose followers cannot credit the charges precisely because he played the part so well. He does not over-extend a strength. He wears it.
+Such people exist, in roughly predictable numbers. The condition even has a clinical literature: what the psychiatrist Hervey Cleckley called a "mask of sanity," and what the psychologist Robert Hare spent a career charting — somewhere around one person in a hundred in whom the ordinary equipment of conscience, empathy, fear, and remorse is, from the beginning, muted close to silence. For someone so built, the devotions are a costume and the trust of others is a resource, and a dharma is very nearly the perfect hunting ground, because it produces trust in bulk and hands it to whoever wears the robe convincingly. This is the guru who preys on his disciples, the venerated elder unmasked after thirty years, the holy man whose followers cannot credit the charges precisely because he played the part so well. He does not over-extend a strength. He wears it.
 
 Here the deep past speaks straight to the present. The forager bands of Part 2 had a remedy for exactly this figure: the intimidator who could not be shamed was watched, levelled, and in the last resort removed, because in a camp of thirty there is nowhere for a predator to hide. What the small band could do, the mega-society cannot. The very anonymity that broke the old morality, the sea of strangers a dharma was built to cross, is also the condition under which the predator flourishes, because the transparency that once exposed him cannot reach across a congregation of thousands or a corporation of tens of thousands. We built dharmas so that strangers could trust strangers, and in the same stroke we built the ideal cover for the stranger who should never be trusted. And this undoes the comfort the first half of the argument seemed to offer: the sincere butcher may be more troubling than the fake one, but it does not follow that sincerity is a test we can lean on. Sincerity is the very thing the predator counterfeits, and a dharma's demand for visible devotion rewards the most fluent counterfeiter in the room.
 
@@ -117,7 +117,7 @@ But there is one more complication, and it sets up everything that remains. Ever
 
 **Research notes**
 
-Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
+Research notes used in this essay series are published on [GitHub](https://github.com/GaryDean/defining-dharma).
 
 - [7.1 Failure Modes](7-critical/7.1-failure-modes.md) — the four failure clusters, the No-True-Scotsman refusal, and the thesis that failure-proneness is intrinsic. The spine of this essay.
 - [7.3 Dharma & Power](7-critical/7.3-dharma-and-power.md) — the double face: morality as anti-domination captured to sanctify domination; Gramsci, Bourdieu, and Ambedkar.
@@ -130,10 +130,10 @@ Research notes used in this essay series are published on [github](https://githu
 
 - On authentic failure: the No-True-Scotsman / internal-diversity argument (Harvard Religious Literacy Project), and Mark Juergensmeyer, *Terror in the Mind of God* — sacred violence across every tradition; with the Wirathu / Rohingya case.
 - Richard Wrangham, *The Goodness Paradox* (2019), and Muzafer Sherif's Robbers Cave experiment — the lethal boundary as cultural and movable.
-- On a dharma's self-corruption: Max Weber on the routinization of charisma; John Welwood on "spiritual bypassing"; and Benoît Monin & Dale Miller on moral licensing.
+- On a dharma's self-corruption: Max Weber on the routinisation of charisma; John Welwood on "spiritual bypassing"; and Benoît Monin & Dale Miller on moral licensing.
 - Michel Foucault on productive and pastoral power — why even a liberating dharma installs a new regime of self-governance.
 - Christopher Boehm on morality as anti-domination; Karl Marx ("the opium of the people"); Antonio Gramsci on hegemony; Pierre Bourdieu on the "power of legitimate naming"; and B. R. Ambedkar's Navayāna Buddhism.
 - On the predator who games a dharma: Hervey Cleckley, *The Mask of Sanity* (1941), and Robert Hare, *Without Conscience* (1993) — psychopathy as a low-frequency human type with conscience and empathy constitutionally muted; with Boehm (above) on the band's levelling of the intimidator the mega-society can no longer watch.
-- On gender: the *Manusmṛti*, the *garudhammas*, and the Confucian 'three obediences' (Ban Zhao); the *Therīgāthā*; the Bhakti poets Mīrābāī and Akka Mahādēvi; Galatians 3:28; Amina Wadud, *Qur'an and Woman*; and Rita Gross, *Buddhism After Patriarchy*.
+- On gender: the *Manusmṛti*, the *garudhammas*, and the Confucian "three obediences" (Ban Zhao); the *Therīgāthā*; the Bhakti poets Mīrābāī and Akka Mahādēvi; Galatians 3:28; Amina Wadud, *Qur'an and Woman*; and Rita Gross, *Buddhism After Patriarchy*.
 - On economics: Michael Sandel, *The Tyranny of Merit*; David Graeber, *Debt: The First 5,000 Years*; and Karl Polanyi, *The Great Transformation*.
 - On appropriation: Edward Said, *Orientalism*; Jeremy Carrette & Richard King, *Selling Spirituality*; and the colonial construction of the very category "world religions."

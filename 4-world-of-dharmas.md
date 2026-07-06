@@ -95,7 +95,7 @@ And the argument bites its owner. If the Abrahamic paths are dharmas, then so is
 
 ## What Rhymes
 
-So we have our four, and they really are profoundly different. Set them side by side and they disagree about the deepest things there are. They disagree about what a person even is: a node in a living web, or a self-contained citadel of choice. They disagree about time: a line running from creation to judgment, or an "everywhen" in which the ancestral past is permanently present. They disagree about the ground of it all: an impersonal order you align with, a commanding God you answer to, a land you belong to. This is not a trivial diversity that melts away on inspection. It goes all the way down. The claim that the world's wisdom traditions are "all really saying the same thing" does not survive a hard look at what they actually say.
+So we have our four, and they really are profoundly different. Set them side by side and they disagree about the deepest things there are. They disagree about what a person even is: a node in a living web, or a self-contained citadel of choice. They disagree about time: a line running from creation to judgement, or an "everywhen" in which the ancestral past is permanently present. They disagree about the ground of it all: an impersonal order you align with, a commanding God you answer to, a land you belong to. This is not a trivial diversity that melts away on inspection. It goes all the way down. The claim that the world's wisdom traditions are "all really saying the same thing" does not survive a hard look at what they actually say.
 
 And yet, if you stand back far enough, the family resemblance is just as undeniable as the difference. Every one of these dharmas carries some version of the oldest rule we know, the call to treat others as you would be treated, whether it is extended to the village, the cosmopolis, the more-than-human world, or the covenant community. Every one of them binds an "us," turning a crowd of strangers into a people who can trust one another, and every one draws that circle with a hard edge as well as a warm inside, a hard edge that has its own part still to come. Every one of them forms character through practice and habit, not just through assent, which is why all four are things you *do* and not merely things you think. And every one of them treats the moral order as continuous with the order of reality itself, so that to live rightly is to come into tune with the way things truly are.
 
@@ -122,7 +122,7 @@ To answer that, we have to stop looking at what dharmas *say* and start looking 
 
 **Research notes**
 
-Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
+Research notes used in this essay series are published on [GitHub](https://github.com/GaryDean/defining-dharma).
 
 - [4.2 Ubuntu](4-cultural/4.2-ubuntu.md) — relational/achieved personhood, Metz's moral theory, the TRC and *S v Makwanyane*, and the romanticisation/xenophobia critique.
 - [4.3 Indigenous Oral Dharmas](4-cultural/4.3-indigenous-oral-dharmas.md) — the Dreaming/*Tjukurrpa*, songlines, oral fidelity, kincentricity, Seven Generations, place-boundedness, and the "Ecological Indian" caution.
@@ -131,9 +131,9 @@ Research notes used in this essay series are published on [github](https://githu
 
 **Key works**
 
-- Ifeanyi Menkiti, "Person and Community in African Traditional Thought" (1984), with Kwame Gyekye's moderate-communitarian reply, and Thaddeus Metz, "Toward an African Moral Theory" (2007) — achieved personhood, the place of individual choice, and the formalised ubuntu principle.
+- Ifeanyi Menkiti, "Person and Community in African Traditional Thought" (1984), with Kwame Gyekye's moderate-communitarian reply, and Thaddeus Metz, "Toward an African Moral Theory" (2007) — achieved personhood, the place of individual choice, and the formalised Ubuntu principle.
 - *S v Makwanyane* (1995) — Ubuntu as a foundational constitutional value; with Bernard Matolino & Wenceslaus Kwindingwi, "The End of Ubuntu" (2013), for the critique.
 - Epictetus, *Enchiridion*, and Marcus Aurelius, *Meditations* — the dichotomy of control, virtue as the only good, and living "according to nature."
-- W. E. H. Stanner, "The Dreaming" (1953); Patrick Nunn & Nicholas Reid on 7,000–13,000-year-old coastal memories (2016); the Haudenosaunee Great Law of Peace and the Seven Generations principle; Vine Deloria Jr., *God Is Red* (1973), on "religions of space" vs "religions of time."
+- W. E. H. Stanner, "The Dreaming" (1953); Patrick Nunn & Nicholas Reid on 7,000–13,000-year-old coastal memories (2016); the Haudenosaunee Great Law of Peace and the Seven Generations principle; Vine Deloria Jr, *God Is Red* (1973), on "religions of space" vs "religions of time."
 - Robin Wall Kimmerer, *Braiding Sweetgrass* (2013), on kincentricity; with Shepard Krech III, *The Ecological Indian* (1999), as the corrective.
 - On the Abrahamic path-idiom and grounding: the etymologies of *halakha* and *sharia*; al-Ghazali's *maqasid al-shariah*; Paul on love fulfilling the law (Romans 13:10); and Thomas Aquinas, *Summa Theologiae*, on natural law and *synderesis*.

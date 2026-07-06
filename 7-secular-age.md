@@ -93,7 +93,7 @@ That is a vertiginous question, and the one everything so far has been building 
 
 **Research notes**
 
-Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
+Research notes used in this essay series are published on [GitHub](https://github.com/GaryDean/defining-dharma).
 
 - [3.3 The Grounding Problem](3-philosophical/3.3-grounding-problem.md) — whether a godless dharma can bind: the Euthyphro reframing, the trilemma of ultimate justification, and the this-worldly anchors. The spine of "Can it bind?"
 - [6.1 Secular Translation](6-contemporary/6.1-secular-translation.md) — extraction versus reconstruction; Batchelor, McMindfulness, Stoicism-to-CBT, and Hadot's "recovery." The spine of "Can it install?"
