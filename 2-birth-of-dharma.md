@@ -3,7 +3,7 @@ part: 2
 title: "The Genesis of Dharmas"
 slug: birth-of-dharma
 status: done
-words: 4409
+words: 4405
 reading_level: year-12
 updated: 2026-07-05
 draws_on: ["2.1", "2.2", "2.3", "5.2", "1.2", "5.5"]
@@ -99,9 +99,7 @@ And one shadow falls across all of it. The very machinery that makes a dharma su
 
 ## Made Things
 
-So what is the birth of dharma, in the end?
-
-It is not a revelation. It is a response. Strip the story to its bones and you find human beings, equipped by evolution with an ancient and powerful moral sense built for life among a hundred familiar faces, walking into a world of thousands of strangers that their inherited instincts could not govern, and building, under pressure, a new kind of tool to cope. The dharmas are those tools. They are made things, forged at a particular time, by particular people, to solve a particular and very real problem: how to hold together a group too large to hold itself.
+The birth of dharma, in the end, is not a revelation. It is a response. Strip the story to its bones and you find human beings, equipped by evolution with an ancient and powerful moral sense built for life among a hundred familiar faces, walking into a world of thousands of strangers that their inherited instincts could not govern, and building, under pressure, a new kind of tool to cope. The dharmas are those tools. They are made things, forged at a particular time, by particular people, to solve a particular and very real problem: how to hold together a group too large to hold itself.
 
 We are taught to imagine ethical wisdom descending from on high, eternal and complete, for us to receive. The deeper history shows the opposite: ethical systems welling up from below, improvised and revised, shaped by coins and cities and harvests and the simple arithmetic of how many people one mind can know. They were built. And anything that was built could have been built differently, and can be built again.
 

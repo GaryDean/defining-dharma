@@ -3,7 +3,7 @@ part: 4
 title: "A World of Dharmas"
 slug: world-of-dharmas
 status: done
-words: 4347
+words: 4340
 reading_level: year-12
 updated: 2026-07-05
 draws_on: ["4.2", "4.3", "4.4", "1.4"]
@@ -103,9 +103,7 @@ That is the shape we keep arriving at, and it deserves a clear name, because eve
 
 ## Made of the Same Need
 
-So what does the world of dharmas show us, taken whole?
-
-It shows that human beings, facing the one problem of how to live well together, have built answers of breathtaking variety. A relational web in southern Africa, a fortress of the will in imperial Rome, a sung and walked law in the Australian desert, a covenant in the Near East: four solutions to one need, each fully itself, each unmistakably a member of the same family.
+Taken whole, the world of dharmas shows human beings facing the one problem of how to live well together, and building answers of breathtaking variety. A relational web in southern Africa, a fortress of the will in imperial Rome, a sung and walked law in the Australian desert, a covenant in the Near East: four solutions to one need, each fully itself, each unmistakably a member of the same family.
 
 But I have been describing these dharmas from the outside, as an observer strolling through a gallery, comparing the exhibits. That is not how anyone actually lives inside one. From the inside, your dharma does not feel like one option among four. It does not feel chosen, or built, or cultural at all. It feels like simply *the truth*, like the plain shape of reality, as obvious and unremarkable as the ground being solid and the sky being up. The elder does not experience "a relational ontology of personhood." She experiences the plain fact that a person needs other people. That is the real power of a working dharma, and it is also its deepest mystery. How does a made thing get so far inside a human being that it stops feeling made? How does a path you were simply born onto come to feel like the only ground there is?
 

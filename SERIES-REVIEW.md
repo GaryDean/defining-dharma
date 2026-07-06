@@ -285,6 +285,12 @@ These are per-essay *shapes* that repeat across the series:
    in P1 and P3, the same anaphoric "I found… I found… I found" answer. P5–P8
    vary their endings and are the better for it. Recasting two of the four would
    keep the device special.
+   _✓ Done 2026-07-06 (recommendation #6): P2 now opens its close with direct
+   assertion ("The birth of dharma, in the end, is not a revelation. It is a
+   response."), and P4 with "Taken whole, the world of dharmas shows human
+   beings facing the one problem of how to live well together, and building
+   answers of breathtaking variety." P1's and P3's closers — the two strongest —
+   are untouched and now unique._
 
 4. **The honesty ritual.** Every essay stages a formal self-caution: P1 (two
    questions left open), P2 (the Axial-Age caveat), P3 ("An Honest Pause"), P4
@@ -393,7 +399,7 @@ several of the "honest" clusters are load-bearing.
 | 3 | ✓ **Done 2026-07-06.** "not X but Y" pass on P4, P5, P7, P8 (12→8, 13→9, 12→7, 15→11; series ~88→69) — see §3.2 note | medium | retires the most predictable habit before reviewers name it |
 | 4 | ✓ **Done 2026-07-06.** Vocabulary pass: "quietly" 24→16, "precisely" 17→10, "turns out" 13→8, "worth X-ing" 16→4, "machinery" 19→16, "sting" recast — see §3.3 note | small | invisible individually, decisive in aggregate |
 | 5 | ✓ **Done 2026-07-06** — resolved by revising the template ceiling (author's choice): qualitative rule replaces the numeric one; see §3.1 note | medium | resolves the 5× divergence between the law and the practice |
-| 6 | Recast two of the four "So what did I find" closers (P2 and P4 are the natural candidates) | small | keeps the strongest closers (P1, P3) special |
+| 6 | ✓ **Done 2026-07-06.** Recast two of the four "So what did I find" closers (P2 and P4) into direct assertion; P1/P3 kept | small | keeps the strongest closers (P1, P3) special |
 | 7 | Vary one contrasting-vignette opening (P4 or P8) | small | hides the palmed card |
 | 8 | Thin P8's authority density; consider compressing the Mirror's three flattening mechanisms to two | medium | protects the finale's momentum |
 | 9 | Trim P0's "One Idea" toolkit sentence to outline form | small | ends the triple exposition of the thesis |
