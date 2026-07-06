@@ -408,7 +408,7 @@ several of the "honest" clusters are load-bearing.
 | 5 | ✓ **Done 2026-07-06** — resolved by revising the template ceiling (author's choice): qualitative rule replaces the numeric one; see §3.1 note | medium | resolves the 5× divergence between the law and the practice |
 | 6 | ✓ **Done 2026-07-06.** Recast two of the four "So what did I find" closers (P2 and P4) into direct assertion; P1/P3 kept | small | keeps the strongest closers (P1, P3) special |
 | 7 | ✓ **Done 2026-07-06.** P8 opens cold; the frame ("Between those two pictures…") now arrives after the scenes | small | hides the palmed card |
-| 8 | Thin P8's authority density; consider compressing the Mirror's three flattening mechanisms to two | medium | protects the finale's momentum |
+| 8 | ✓ **Done 2026-07-06** (scope per author: all three Mirror mechanisms stay; length not a concern). The "the-discipline-Name" formula thinned 24→16 in P8: titles dropped on figures already introduced with them earlier in the series (Graeber, Sandel, Curry, Gallie, D. S. Wilson), on Borges, and on the second of doubled pairs (Appiah after Rawls, Saussure after Firth). All names remain in the prose; sourcing rule untouched | medium | protects the finale's momentum |
 | 9 | Trim P0's "One Idea" toolkit sentence to outline form | small | ends the triple exposition of the thesis |
 | 10 | Mechanical fixes (§5) + remaining stage-direction residue ("I owe you" ×2, "notice…" ×4, "Let me…" ×3) | small | template compliance to its own letter |
 | 11 | Add the intimidator/wolf thread (P2→P5→P6) to `Essays.md`'s planted-threads list | trivial | protects the series' best unadvertised structure |
