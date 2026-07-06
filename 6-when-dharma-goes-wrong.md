@@ -107,7 +107,7 @@ But there is one more complication, and it sets up everything that remains. Ever
 
 <!--audio stop-->
 
-[« 5 How a Dharma Gets Under Your Skin](/works/5-in-search-of-dharma) | [7 Dharmas in a Secular Age »](/works/7-in-search-of-dharma)
+[« 5: How a Dharma Gets Under Your Skin](/works/5-in-search-of-dharma) | [7: Dharmas in a Secular Age »](/works/7-in-search-of-dharma)
 
 ---
 
@@ -132,7 +132,7 @@ Research notes used in this essay series are published on [GitHub](https://githu
 - Richard Wrangham, *The Goodness Paradox* (2019), and Muzafer Sherif's Robbers Cave experiment — the lethal boundary as cultural and movable.
 - On a dharma's self-corruption: Max Weber on the routinisation of charisma; John Welwood on "spiritual bypassing"; and Benoît Monin & Dale Miller on moral licensing.
 - Michel Foucault on productive and pastoral power — why even a liberating dharma installs a new regime of self-governance.
-- Christopher Boehm on morality as anti-domination; Karl Marx ("the opium of the people"); Antonio Gramsci on hegemony; Pierre Bourdieu on the "power of legitimate naming"; and B. R. Ambedkar's Navayāna Buddhism.
+- Christopher Boehm on morality as anti-domination; Karl Marx ("the opium of the people"); Antonio Gramsci on hegemony; Pierre Bourdieu on the "power of legitimate naming"; and BR Ambedkar's Navayāna Buddhism.
 - On the predator who games a dharma: Hervey Cleckley, *The Mask of Sanity* (1941), and Robert Hare, *Without Conscience* (1993) — psychopathy as a low-frequency human type with conscience and empathy constitutionally muted; with Boehm (above) on the band's levelling of the intimidator the mega-society can no longer watch.
 - On gender: the *Manusmṛti*, the *garudhammas*, and the Confucian "three obediences" (Ban Zhao); the *Therīgāthā*; the Bhakti poets Mīrābāī and Akka Mahādēvi; Galatians 3:28; Amina Wadud, *Qur'an and Woman*; and Rita Gross, *Buddhism After Patriarchy*.
 - On economics: Michael Sandel, *The Tyranny of Merit*; David Graeber, *Debt: The First 5,000 Years*; and Karl Polanyi, *The Great Transformation*.

@@ -109,7 +109,7 @@ We have spent four parts, in admiration, watching how dharmas hold us together, 
 
 <!--audio stop-->
 
-[« 4 A World of Dharmas](/works/4-in-search-of-dharma) | [6 When Dharmas Go Wrong »](/works/6-in-search-of-dharma)
+[« 4: A World of Dharmas](/works/4-in-search-of-dharma) | [6: When Dharmas Go Wrong »](/works/6-in-search-of-dharma)
 
 ---
 

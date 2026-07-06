@@ -45,7 +45,7 @@ From about 1890, Samin began teaching in his home village and the ones around it
 
 Here the teak returns. In 1897 the Dutch colonial forestry service drew a line around the teak forests that the villagers had always used (for firewood, for building, for grazing, for the thousand small needs of a subsistence life) and declared them restricted: state forest, off limits. At the same time, the colonial taxes pressed down: a land-rent, a poll-tax, a tax on what little the farmers produced. To a family living at the edge of enough, the fencing of the forest and the demand for cash were not abstractions. They were hunger, made by a distant authority that gave nothing back.
 
-This is the soil the Samin dharma grew in, and the pattern already has a name that fits perfectly, from the anthropologist James C. Scott: the *moral economy of the peasant*. Scott argued that peasant communities carry a deep value-system "irrevocably linked to subsistence requirements," a shared sense of what people owe each other, and what a community is owed, organised entirely around the basic right to survive. When an outside power, a market or a colonial state, tears up those customary rights of access in the name of profit or order, it is not just taking resources. It is violating a moral world. The Samin response was the defence of that moral world, raised into a creed.
+This is the soil the Samin dharma grew in, and the pattern already has a name that fits perfectly, from the anthropologist James C Scott: the *moral economy of the peasant*. Scott argued that peasant communities carry a deep value-system "irrevocably linked to subsistence requirements," a shared sense of what people owe each other, and what a community is owed, organised entirely around the basic right to survive. When an outside power, a market or a colonial state, tears up those customary rights of access in the name of profit or order, it is not just taking resources. It is violating a moral world. The Samin response was the defence of that moral world, raised into a creed.
 
 The creed spread. From Blora it travelled across an arc of districts (Rembang, Pati, Kudus, Grobogan, Bojonegoro), reaching, by one estimate, somewhere between three and five thousand followers by 1907. That was the year it became too visible to ignore. The Dutch arrested Samin and exiled him to Sawahlunto, in West Sumatra, far across the sea, where he died in 1914. His followers did not accept that he had simply died. They held that he had attained *moksha* (release, liberation) and passed into the spiritual realm, a detail that will matter later.
 
@@ -107,7 +107,7 @@ A dharma, in other words, does not have to come from elsewhere. It can be grown 
 
 I want to come back to that deadpan on the road, because it would be easy to file it under eccentricity, and it was nothing of the kind. It was the dharma in action.
 
-James C. Scott, the same scholar who gave us the moral economy, spent much of his career studying how powerless people resist powerful ones without open battle, which they cannot win. He called the result the *weapons of the weak*: foot-dragging, feigned ignorance, false compliance, deliberate misunderstanding, the slow quiet sabotage of people who cannot say no out loud and so say it in a thousand other ways. He called the hidden world of grumbling and mockery, the one the powerful never get to see, the *hidden transcript*, and the whole domain of this everyday, below-the-radar resistance *infra-politics*. (Scott never studied the Samin himself; but his frame describes them exactly.)
+James C Scott, the same scholar who gave us the moral economy, spent much of his career studying how powerless people resist powerful ones without open battle, which they cannot win. He called the result the *weapons of the weak*: foot-dragging, feigned ignorance, false compliance, deliberate misunderstanding, the slow quiet sabotage of people who cannot say no out loud and so say it in a thousand other ways. He called the hidden world of grumbling and mockery, the one the powerful never get to see, the *hidden transcript*, and the whole domain of this everyday, below-the-radar resistance *infra-politics*. (Scott never studied the Samin himself; but his frame describes them exactly.)
 
 Read through Scott, the Samin's tactics snap into focus. Answering an official with perfect, useless literalism is feigned ignorance raised to an art. Refusing to register a marriage, declining the census, paying only what cannot be avoided: these are the weapons of the weak, deployed with discipline. What makes the Sedulur Sikep extraordinary is that they took this scattered, instinctive repertoire of peasant resistance and *moralised* it, turning it into a named, principled, identity-bearing way of life. Most peasants drag their feet and keep the reasons in the hidden transcript. The Samin dragged their feet on principle, and were proud. Ethics and tactics had fused into one thing.
 
@@ -153,7 +153,7 @@ But the Samin are only one. Having seen a dharma assembled this clearly, in this
 
 <!--audio stop-->
 
-[« 2 The Genesis of Dharmas](/works/2-in-search-of-dharma) | [4 A World of Dharmas »](/works/4-in-search-of-dharma)
+[« 2: The Genesis of Dharmas](/works/2-in-search-of-dharma) | [4: A World of Dharmas »](/works/4-in-search-of-dharma)
 
 ---
 
@@ -173,7 +173,7 @@ Research notes used in this essay series are published on [GitHub](https://githu
 **Key works**
 
 - Harry J. Benda & Lance Castles, "The Samin Movement," *Bijdragen tot de Taal-, Land- en Volkenkunde* 125(2) (1969): 207–240 — the canonical scholarly study; the central caution that all accounts derive from outsiders because the Samin were illiterate.
-- A. P. E. Korver, "The Samin Movement and Millenarism" (1976) — the contested millenarian reading (salvation expectation; the return-of-Samin / *moksha* motif).
+- APE Korver, "The Samin Movement and Millenarism" (1976) — the contested millenarian reading (salvation expectation; the return-of-Samin / *moksha* motif).
 - Clifford Geertz, *The Religion of Java* (1960) — the *abangan* / *santri* / *priyayi* map and the *ngoko* / *krama* speech-level hierarchy that the Samin refused.
 - James C. Scott, *The Moral Economy of the Peasant* (1976), *Weapons of the Weak* (1985), and *Domination and the Arts of Resistance: Hidden Transcripts* (1990) — the peasant moral economy, the "weapons of the weak," and the "hidden transcript" / "infra-politics" of below-the-radar refusal; the comparative frame for the Samin's tactics.
 - Christopher Boehm, *Hierarchy in the Forest* (1999) — egalitarian foragers and the "reverse dominance hierarchy"; morality's deep origin as a check on domination.

@@ -65,7 +65,7 @@ It has its own failure mode, of course. Push the acceptance of "what is not up t
 
 Now go to Australia, and to a dharma so old and so unlike the others that it stretches the very category: the Aboriginal tradition the English language clumsily calls the Dreaming.
 
-Begin by throwing away three things you might think a serious ethical tradition needs. There is no scripture, because there is no writing. There is no founder, no Buddha or Christ or Confucius at the origin. And there is no separate "code," no list of commandments you could copy onto a page. Instead there is the *Tjukurrpa*, a word that means the ancestral past, the present reality, the moral law, and the structure of the world, all at once. The anthropologist W. E. H. Stanner, reaching for a way to translate it, coined the word "everywhen": a time that is not back then but always, in which the acts of the ancestral beings that shaped the land remain a living present, still holding the law in place.
+Begin by throwing away three things you might think a serious ethical tradition needs. There is no scripture, because there is no writing. There is no founder, no Buddha or Christ or Confucius at the origin. And there is no separate "code," no list of commandments you could copy onto a page. Instead there is the *Tjukurrpa*, a word that means the ancestral past, the present reality, the moral law, and the structure of the world, all at once. The anthropologist WEH. Stanner, reaching for a way to translate it, coined the word "everywhen": a time that is not back then but always, in which the acts of the ancestral beings that shaped the land remain a living present, still holding the law in place.
 
 And where is this law written, if not in a book? In the land itself, and in the songs that cross it. The famous songlines are paths through the country, and to sing the song in order is to recite the features of the landscape in order, and woven into the same performance are the law, the genealogy, the ethics, and the map. The land is the scripture, and you read it by walking and singing. It is dharma as total order, ethics and cosmos and geography and identity fused into one thing, and carried entirely in voice, movement, and place.
 
@@ -112,7 +112,7 @@ To answer that, we have to stop looking at what dharmas *say* and start looking 
 <!--audio stop-->
 
 
-[« 3 The Dharmas of the Samin of Java](/works/3-in-search-of-dharma) | [5 How a Dharma Gets Under Your Skin »](/works/5-in-search-of-dharma)
+[« 3: The Dharmas of the Samin of Java](/works/3-in-search-of-dharma) | [5: How a Dharma Gets Under Your Skin »](/works/5-in-search-of-dharma)
 
 ---
 
@@ -134,6 +134,6 @@ Research notes used in this essay series are published on [GitHub](https://githu
 - Ifeanyi Menkiti, "Person and Community in African Traditional Thought" (1984), with Kwame Gyekye's moderate-communitarian reply, and Thaddeus Metz, "Toward an African Moral Theory" (2007) — achieved personhood, the place of individual choice, and the formalised Ubuntu principle.
 - *S v Makwanyane* (1995) — Ubuntu as a foundational constitutional value; with Bernard Matolino & Wenceslaus Kwindingwi, "The End of Ubuntu" (2013), for the critique.
 - Epictetus, *Enchiridion*, and Marcus Aurelius, *Meditations* — the dichotomy of control, virtue as the only good, and living "according to nature."
-- W. E. H. Stanner, "The Dreaming" (1953); Patrick Nunn & Nicholas Reid on 7,000–13,000-year-old coastal memories (2016); the Haudenosaunee Great Law of Peace and the Seven Generations principle; Vine Deloria Jr, *God Is Red* (1973), on "religions of space" vs "religions of time."
+- WEH. Stanner, "The Dreaming" (1953); Patrick Nunn & Nicholas Reid on 7,000–13,000-year-old coastal memories (2016); the Haudenosaunee Great Law of Peace and the Seven Generations principle; Vine Deloria Jr, *God Is Red* (1973), on "religions of space" vs "religions of time."
 - Robin Wall Kimmerer, *Braiding Sweetgrass* (2013), on kincentricity; with Shepard Krech III, *The Ecological Indian* (1999), as the corrective.
 - On the Abrahamic path-idiom and grounding: the etymologies of *halakha* and *sharia*; al-Ghazali's *maqasid al-shariah*; Paul on love fulfilling the law (Romans 13:10); and Thomas Aquinas, *Summa Theologiae*, on natural law and *synderesis*.

@@ -83,7 +83,7 @@ That is a vertiginous question, and the one everything so far has been building 
 
 <!--audio stop-->
 
-[« 6 When Dharmas Go Wrong](/works/6-in-search-of-dharma) | [8 Creating Dharmas »](/works/8-in-search-of-dharma)
+[« 6: When Dharmas Go Wrong](/works/6-in-search-of-dharma) | [8: Creating Dharmas »](/works/8-in-search-of-dharma)
 
 ---
 
@@ -104,7 +104,7 @@ Research notes used in this essay series are published on [GitHub](https://githu
 
 **Key works**
 
-- On grounding: G. E. M. Anscombe, "Modern Moral Philosophy" (1958), for the no-lawgiver objection; Plato's *Euthyphro*; the Münchhausen trilemma; and Philippa Foot, *Natural Goodness* (2001), on flourishing for a creature of our kind.
+- On grounding: GEM Anscombe, "Modern Moral Philosophy" (1958), for the no-lawgiver objection; Plato's *Euthyphro*; the Münchhausen trilemma; and Philippa Foot, *Natural Goodness* (2001), on flourishing for a creature of our kind.
 - Stephen Batchelor, *Secular Buddhism* / *After Buddhism* — reconstruction that keeps the practice, the ethics, and the community; with Ronald Purser, *McMindfulness* (2019), for the extraction failure mode, and the Goyal et al. (2014) meta-analysis on mindfulness's modest efficacy.
 - Epictetus, *Enchiridion*, and the Stoicism-to-CBT lineage (Ellis, Beck); with Pierre Hadot, *Philosophy as a Way of Life* (1995), on ancient philosophy as practised exercise rather than doctrine; and Don Cupitt, *Taking Leave of God* (1980), for the same reconstruction performed inside Christianity.
 - James Williams, *Stand Out of Our Light* (2018); Tristan Harris and the Center for Humane Technology; Mark van Vugt on the social-media "supernormal stimulus"; Jenny Odell, *How to Do Nothing* (2019); and Cal Newport, *Digital Minimalism* (2019).

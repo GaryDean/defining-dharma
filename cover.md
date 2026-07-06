@@ -3,19 +3,26 @@ part: cover
 title: "In Search of Dharma"
 slug: cover
 status: done
-updated: 2026-07-05
+updated: 2026-07-06
 ---
 
 <div align="center">
 
-# In Search of Dharma
+# In Search of Dharma {.unlisted}
 
-![](./images/png/defining-dharma3_watercolor.png)
+![](images/dharma-eye.svg){.ornament}
 
 ### The human craft of building ethical worlds
 
-*An anthropological survey*\
-by **Biksu Okusi**\
+*A natural history of ethics in eight essays*
+
+<br/>
+<br/>
+
+by **Biksu Okusi**
+
+<br/>
+
 May 2026, Bali, Indonesia
 
 </div>

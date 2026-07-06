@@ -60,6 +60,18 @@ readonly -a FONT_FILES=(
 die() { >&2 echo "✗ $*"; exit 1; }
 info() { echo "◉ $*"; }
 
+# Mirror pandoc's auto-identifier algorithm for a heading: downcase, drop
+# punctuation (keeping underscore, hyphen, period), spaces to hyphens, strip
+# everything up to the first letter. Used to link the hand-built contents page
+# to each chapter H1.
+slugify() {
+  local -- s=${1,,}
+  s=${s//[^a-z0-9 ._-]/}
+  s=${s// /-}
+  while [[ -n $s && ! $s =~ ^[a-z] ]]; do s=${s:1}; done
+  printf '%s' "$s"
+}
+
 # Convert one source file into pandoc-ready Markdown on stdout.
 #   - drop a leading YAML frontmatter block (--- ... ---)
 #   - <image ALIGN WIDTH "SRC" "ALT" "CAP"> -> ![ALT](SRC)
@@ -187,6 +199,9 @@ main() {
   done < <(find "$SCRIPT_DIR"/images -maxdepth 2 -name '*.png' -print0)
   local -- cover_jpg="$img_stage"/images/png/defining-dharma3_watercolor.jpg
   [[ -f $cover_jpg ]] || die "staged cover JPEG not produced: $cover_jpg"
+  # SVGs (the title-page ornament) are copied verbatim; EPUB3 and weasyprint
+  # both render them natively, and they are tiny.
+  cp -- "$SCRIPT_DIR"/images/*.svg "$img_stage"/images/
 
   # Preprocess into ordered temp files (00-, 01-, ...) to preserve chapter order.
   # Chapters are cover(=0), then essays 0..8 at indices 1..9, so essay index i
@@ -205,6 +220,30 @@ main() {
     i+=1
   done
 
+  # Hand-built contents page, inserted after the title page so the book reads
+  # cover -> title -> contents -> chapters. pandoc's --toc cannot do this: it
+  # always places the TOC at the very front of the flow. Entries link to each
+  # chapter's H1 via its pandoc auto-identifier (see slugify). The Preface
+  # entry is italic, the rest render in small caps (see .contents CSS).
+  local -- contents="$tmp"/contents.md
+  {
+    printf '<div align="center">\n\n# Contents {.unlisted .contents}\n\n'
+    local -- h1 label
+    local -i k=0
+    for dst in "${inputs[@]:1}"; do
+      h1=$(grep -m1 '^# ' "$dst") || die "no H1 found in $dst"
+      label=${h1#\# }
+      if (( k == 0 )); then
+        printf '*[%s](#%s)*\n\n' "$label" "$(slugify "$label")"
+      else
+        printf '[%s](#%s)\n\n' "$label" "$(slugify "$label")"
+      fi
+      k+=1
+    done
+    printf '</div>\n'
+  } >"$contents"
+  inputs=("${inputs[0]}" "$contents" "${inputs[@]:1}")
+
   # Stylesheet: bind the embedded faces (EB Garamond body, DejaVu Sans headings)
   # to their families and apply them. Fonts are embedded under EPUB/fonts/; this
   # CSS lives under EPUB/styles/, so the src url() is one directory up. No EB
@@ -222,9 +261,19 @@ h1,h2,h3,h4,h5,h6{font-family:"DejaVu Sans",sans-serif;line-height:1.2}
 h1{font-size:2em;margin:1em 0 0.6em}
 h2{font-size:1.5em;margin:1.2em 0 0.4em}
 h3{font-size:1.2em;margin:1em 0 0.3em}
-div[data-align="center"]{text-align:center}
+[data-align="center"]{text-align:center}
 .pagebreak{break-before:page;page-break-before:always}
 .copyright{font-size:0.8em}
+img.ornament{width:7em;height:auto;margin:0.8em auto 0.4em}
+section.contents h1{font-variant:small-caps;letter-spacing:0.08em}
+section.contents p{margin:0.9em 0}
+section.contents a{text-decoration:none;font-variant:small-caps;font-size:1.15em}
+section.contents em a{font-variant:normal}
+nav#toc h1{text-align:center;font-variant:small-caps;letter-spacing:0.08em}
+nav#toc ol{list-style:none;padding:0;margin:2.5em 0;text-align:center}
+nav#toc li{margin:0.9em 0}
+nav#toc a{text-decoration:none;font-variant:small-caps;font-size:1.15em}
+nav#toc li:first-child a{font-variant:normal;font-style:italic}
 CSS
 
   local -a font_args=()
@@ -245,11 +294,12 @@ CSS
     ( cd -- "$SCRIPT_DIR" && pandoc \
         --from=markdown \
         --to=epub3 \
-        --toc --toc-depth=1 \
         --split-level=1 \
+        --epub-title-page=false \
         --metadata title="$TITLE" \
         --metadata author="$AUTHOR" \
         --metadata lang="$LANGUAGE" \
+        --metadata toc-title="Contents" \
         --epub-cover-image="$cover_jpg" \
         --css="$css" \
         "${font_args[@]}" \
@@ -271,24 +321,34 @@ h1,h2,h3,h4,h5,h6{font-family:"DejaVu Sans",sans-serif;line-height:1.2}
 h1{font-size:2em;margin:1em 0 0.6em;break-before:page}
 h2{font-size:1.5em;margin:1.2em 0 0.4em}
 h3{font-size:1.2em;margin:1em 0 0.3em}
-div[data-align="center"]{text-align:center}
+[data-align="center"]{text-align:center}
 .pagebreak{break-before:page}
 .copyright{font-size:0.8em}
 img{max-width:100%}
+img.ornament{width:7em;height:auto;margin:0.8em auto 0.4em}
+header#title-block-header{display:none}
+section.contents h1{font-variant:small-caps;letter-spacing:0.08em}
+section.contents p{margin:0.9em 0}
+section.contents a{text-decoration:none;color:inherit;font-variant:small-caps;font-size:1.15em}
+section.contents em a{font-variant:normal}
 @page{size:A4;margin:2.2cm}
 CSS
-    info "building PDF from ${#inputs[@]} files -> $OUTPUT_PDF"
+    # The EPUB gets the watercolour via --epub-cover-image; the PDF has no such
+    # option, so a dedicated cover-plate page is prepended ahead of the title page.
+    local -- plate="$tmp"/00-cover-plate.md
+    # No explicit pagebreak needed: the title page's own h1 carries break-before:page.
+    printf '![](images/png/defining-dharma3_watercolor.jpg)\n' >"$plate"
+    info "building PDF from $(( ${#inputs[@]} + 1 )) files -> $OUTPUT_PDF"
     ( cd -- "$img_stage" && pandoc \
         --from=markdown \
         --to=pdf \
         --pdf-engine=weasyprint \
-        --toc --toc-depth=1 \
         --metadata title="$TITLE" \
         --metadata author="$AUTHOR" \
         --metadata lang="$LANGUAGE" \
         --css="$pdf_css" \
         -o "$OUTPUT_PDF" \
-        "${inputs[@]}" )
+        "$plate" "${inputs[@]}" )
     info "done: $OUTPUT_PDF ($(du -h --apparent-size "$OUTPUT_PDF" | cut -f1))"
   fi
 }

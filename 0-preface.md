@@ -95,7 +95,7 @@ So: that is where all this comes from, who helped make it, and how it was built.
 
 <!--audio stop-->
 
-[1 Defining Dharma »](/works/1-in-search-of-dharma)
+[1: Defining Dharma »](/works/1-in-search-of-dharma)
 
 ---
 
