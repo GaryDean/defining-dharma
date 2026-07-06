@@ -100,6 +100,7 @@ So we have our four, and they really are profoundly different. Set them side by 
 And yet, if you stand back far enough, the family resemblance is just as undeniable as the difference. Every one of these dharmas carries some version of the oldest rule we know, the call to treat others as you would be treated, whether it is extended to the village, the cosmopolis, the more-than-human world, or the covenant community. Every one of them binds an "us," turning a crowd of strangers into a people who can trust one another, and every one draws that circle with a hard edge as well as a warm inside, a hard edge that has its own part still to come. Every one of them forms character through practice and habit, not just through assent, which is why all four are things you *do* and not merely things you think. And every one of them treats the moral order as continuous with the order of reality itself, so that to live rightly is to come into tune with the way things truly are.
 
 That is the shape we keep arriving at, and it is worth naming clearly because everything after this rests on it. The variety is real, thick, and not to be flattened, and underneath it runs a thin band of shared human concern that no functioning dharma seems to do without. Difference all the way down, and kinship all the way down, at the same time. Later, when we have to ask the dangerous question of whether some dharmas are simply better than others, that thin shared band is going to be the only honest place to stand.
+
 ## Made of the Same Need
 
 So what does the world of dharmas show us, taken whole?
@@ -120,8 +121,6 @@ To answer that, we have to stop looking at what dharmas *say* and start looking 
 ## Sources & further reading
 
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*
-
-Research notes used in this essay series are published on [github](https://github.com/GaryDean/defining-dharma).
 
 **Research notes**
 
