@@ -268,6 +268,13 @@ These are per-essay *shapes* that repeat across the series:
    reader starts to see the card being palmed. P4 or P8 could open differently
    (P8's second picture — the Anthropic constitution — is strong enough to open
    cold, unannounced).
+   _✓ Done 2026-07-06 (recommendation #7): P8 now opens cold on the woman on
+   the cushion — the "Begin with two pictures, both true, set side by side"
+   announcement is gone, "In the first/In the second" became direct scene +
+   "Elsewhere," and the existing third paragraph ("Between those two pictures
+   sits the whole question") now names the frame after the reader has seen both
+   scenes. The announced-vignette formula survives only in P2 and P4, an essay
+   apart._
 
 2. **The recap paragraph.** Every essay from P3 onward carries a "previously on"
    block in its second or third section ("We have already done some heavy
@@ -400,7 +407,7 @@ several of the "honest" clusters are load-bearing.
 | 4 | ✓ **Done 2026-07-06.** Vocabulary pass: "quietly" 24→16, "precisely" 17→10, "turns out" 13→8, "worth X-ing" 16→4, "machinery" 19→16, "sting" recast — see §3.3 note | small | invisible individually, decisive in aggregate |
 | 5 | ✓ **Done 2026-07-06** — resolved by revising the template ceiling (author's choice): qualitative rule replaces the numeric one; see §3.1 note | medium | resolves the 5× divergence between the law and the practice |
 | 6 | ✓ **Done 2026-07-06.** Recast two of the four "So what did I find" closers (P2 and P4) into direct assertion; P1/P3 kept | small | keeps the strongest closers (P1, P3) special |
-| 7 | Vary one contrasting-vignette opening (P4 or P8) | small | hides the palmed card |
+| 7 | ✓ **Done 2026-07-06.** P8 opens cold; the frame ("Between those two pictures…") now arrives after the scenes | small | hides the palmed card |
 | 8 | Thin P8's authority density; consider compressing the Mirror's three flattening mechanisms to two | medium | protects the finale's momentum |
 | 9 | Trim P0's "One Idea" toolkit sentence to outline form | small | ends the triple exposition of the thesis |
 | 10 | Mechanical fixes (§5) + remaining stage-direction residue ("I owe you" ×2, "notice…" ×4, "Let me…" ×3) | small | template compliance to its own letter |
