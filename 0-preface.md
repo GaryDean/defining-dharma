@@ -3,7 +3,7 @@ part: 0
 title: "Preface"
 slug: preface
 status: done
-words: 3594
+words: 3584
 reading_level: year-12
 updated: 2026-07-05
 draws_on: ["0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7"]
@@ -49,7 +49,7 @@ Parts of that childhood were genuinely wonderful. A working-class upbringing in 
 
 Between that and Indonesia lies an Australian working life I will pass over, save for the one strand that bears on this book: somewhere in it I taught myself to program, and spent a decade building the Australian Labor Party's first computerised campaign and polling systems (yes, the irony).
 
-In 1996 I moved — migrated, actually — to Indonesia, and I have lived here ever since. I am now an Indonesian citizen, and I make my living running a corporate-services firm (yes, another irony) and, increasingly, building the knowledgebases these essays draw on. Three decades inside Indonesian society did the deepest work on the lens. It is worth saying plainly that I do not write about dharma as a Westerner reaching for the exotic East. I live in a country whose language and cosmology are saturated with Sanskrit, where *dharma* is an ordinary, slightly worn loanword rather than a sacred mystery, and where the deep Indic substratum beneath a nominally Muslim surface is never very far from view. The word is furniture to me, not incense.
+In 1996 I moved — migrated, actually — to Indonesia, and I have lived here ever since. I am now an Indonesian citizen, and I make my living running a corporate-services firm (yes, another irony) and, increasingly, building the knowledgebases these essays draw on. Three decades inside Indonesian society did the deepest work on the lens. I do not write about dharma as a Westerner reaching for the exotic East. I live in a country whose language and cosmology are saturated with Sanskrit, where *dharma* is an ordinary, slightly worn loanword rather than a sacred mystery, and where the deep Indic substratum beneath a nominally Muslim surface is never very far from view. The word is furniture to me, not incense.
 
 That immersion had a particular shape, and it holds the oldest root of this whole inquiry. In my student years my Asian Studies lecturer at Murdoch, Paul Stange, a scholar of Javanese mysticism, introduced me to Sumarah: a quiet Javanese movement that calls itself not a religion but a philosophy of life, a practice of surrender with no fixed guru, no creed, and no demand that you believe anything at all. I practised its meditation for years. It was bound up, inevitably, with elements of traditional Javanese culture I did not always share, but it gave me something I had no name for at the time, a working example of a contemplative and ethical path carried inside a culture rather than a church. This was, I can see now, my first secular dharma, met fully two decades before I ever sat down in a Bodhi College retreat; and I am no detached observer of it, even building the movement's English-language [website](https://sumarah.net) back in 1998. It planted early the suspicion I later argue out loud: that a dharma is far harder to prise away from its culture than from its gods.
 
@@ -81,7 +81,7 @@ The discipline underneath all of this is sourcing, and I have come to picture it
 
 Now the part that might make some readers uneasy, so I will be plain about it: Yes, I used artificial intelligence to assist in making these essays; but no, the machine did not write them! The division of labour runs like this: The AI is a research assistant of formidable speed and no judgement: it retrieves, it drafts, it checks a citation against its source, it tells me when a chain is broken. What it cannot do is decide what is true, what matters, or what is worth saying, and those are the only decisions that turn evidence into an essay. I have argued with it, overruled it, and caught it being confidently wrong more times than I can count, and every claim it surfaced was verified against a real source before it was let stand. The voice, the judgement, the errors and the responsibility are mine. The result is more carefully sourced than I could ever have managed alone, and I would far rather tell you exactly how it was made than pretend to a purity that no working writer now has.
 
-There is one last strangeness worth naming, because it sits at the centre of the whole undertaking. The corpus is both my instrument and, increasingly, my subject. The final essay asks whether a machine could be taught human ethics at all, and what would be lost in the teaching. I am, in a small and literal way, already running that experiment, feeding a particular, plural, deeply human tradition into a machine and watching what it makes of it. I am not a neutral observer of that question; I'm standing inside it!
+One last strangeness needs naming, because it sits at the centre of the whole undertaking. The corpus is both my instrument and, increasingly, my subject. The final essay asks whether a machine could be taught human ethics at all, and what would be lost in the teaching. I am, in a small and literal way, already running that experiment, feeding a particular, plural, deeply human tradition into a machine and watching what it makes of it. I am not a neutral observer of that question; I'm standing inside it!
 
 ## What this is, and isn't
 

@@ -231,6 +231,19 @@ None of these would be visible in a single essay. In a book read across a few
 evenings, "quietly" and "not X but Y" will be the two things a sharp reviewer
 quotes back. A single vocabulary pass with this table in hand would clear it.
 
+_**✓ Pass applied 2026-07-06** (recommendation #4). Post-pass counts: "quietly"
+24→16 (kept where covertness is the claim, cut where the sentence already
+carried it); "precisely" 17→10 (kept on paradoxes, cut before ordinary
+"because"); "turns out" 13→8 (kept genuine discovery moments; the P7 cut also
+fixed an overclaim — the summary asserted what the body only offered as "may
+be"); "worth X-ing" 16→4 (the two survivors are deliberate; the rest recast
+with varied frames — "it pays to be precise", "one question presses on", direct
+questions); "machinery" 19→16 (P5's schema and its P6 callbacks untouched;
+P8's stray became "engine", continuing its own sentence's metaphor); "sting"
+recast in P4 ("the argument bites its owner"), keeping P2's original and P6's
+climactic use. Every instance was judged in context — no blind
+search-and-replace._
+
 ### 3.4 Structural formulas (the rhythm-level tics)
 
 These are per-essay *shapes* that repeat across the series:
@@ -366,7 +379,7 @@ several of the "honest" clusters are load-bearing.
 | 1 | ✓ **Done 2026-07-06.** Compress P6's "Dark Twin" restatement of P5's closing argument to 2–3 acknowledging sentences | small | removes the series' one real duplication at its most visible seam |
 | 2 | ✓ **Done 2026-07-06.** Cut P1's Euthyphro staging to the naming + promise; keep P7's full version | small | sharpens the plant/payoff asymmetry |
 | 3 | ✓ **Done 2026-07-06.** "not X but Y" pass on P4, P5, P7, P8 (12→8, 13→9, 12→7, 15→11; series ~88→69) — see §3.2 note | medium | retires the most predictable habit before reviewers name it |
-| 4 | Vocabulary pass: "quietly", "precisely", "turns out", "worth X-ing", "machinery" outside P5, "sting" | small | invisible individually, decisive in aggregate |
+| 4 | ✓ **Done 2026-07-06.** Vocabulary pass: "quietly" 24→16, "precisely" 17→10, "turns out" 13→8, "worth X-ing" 16→4, "machinery" 19→16, "sting" recast — see §3.3 note | small | invisible individually, decisive in aggregate |
 | 5 | Generic-you prune in P1–P5 (or formally revise the template ceiling) | medium | resolves the 5× divergence between the law and the practice |
 | 6 | Recast two of the four "So what did I find" closers (P2 and P4 are the natural candidates) | small | keeps the strongest closers (P1, P3) special |
 | 7 | Vary one contrasting-vignette opening (P4 or P8) | small | hides the palmed card |
