@@ -46,15 +46,16 @@ readonly JPEG_QUALITY=80
 # Fonts, embedded into the EPUB so it renders identically everywhere rather than
 # falling back to the reader's defaults:
 #   - body: EB Garamond (pkg fonts-ebgaramond), 12pt optical size, serif
-#   - headings: DejaVu Sans (pkg fonts-dejavu-core), sans-serif
+#   - headings: Lato (pkg fonts-lato), humanist sans-serif. Stands in for Prima
+#     Sans (commercial, not installed); swap LATO_DIR/faces below to switch.
 readonly FONT_DIR=/usr/share/fonts/opentype/ebgaramond
-readonly DEJAVU_DIR=/usr/share/fonts/truetype/dejavu
+readonly LATO_DIR=/usr/share/fonts/truetype/lato
 readonly -a FONT_FILES=(
   "$FONT_DIR"/EBGaramond12-Regular.otf
   "$FONT_DIR"/EBGaramond12-Italic.otf
   "$FONT_DIR"/EBGaramond12-Bold.otf
-  "$DEJAVU_DIR"/DejaVuSans.ttf
-  "$DEJAVU_DIR"/DejaVuSans-Bold.ttf
+  "$LATO_DIR"/Lato-Regular.ttf
+  "$LATO_DIR"/Lato-Bold.ttf
 )
 
 die() { >&2 echo "✗ $*"; exit 1; }
@@ -254,10 +255,10 @@ main() {
 @font-face{font-family:"EB Garamond";font-weight:normal;font-style:italic;src:url("../fonts/EBGaramond12-Italic.otf")}
 @font-face{font-family:"EB Garamond";font-weight:bold;font-style:normal;src:url("../fonts/EBGaramond12-Bold.otf")}
 @font-face{font-family:"EB Garamond";font-weight:bold;font-style:italic;src:url("../fonts/EBGaramond12-Bold.otf")}
-@font-face{font-family:"DejaVu Sans";font-weight:normal;font-style:normal;src:url("../fonts/DejaVuSans.ttf")}
-@font-face{font-family:"DejaVu Sans";font-weight:bold;font-style:normal;src:url("../fonts/DejaVuSans-Bold.ttf")}
-body{font-family:"EB Garamond",Georgia,serif;line-height:1.5}
-h1,h2,h3,h4,h5,h6{font-family:"DejaVu Sans",sans-serif;line-height:1.2}
+@font-face{font-family:"Lato";font-weight:normal;font-style:normal;src:url("../fonts/Lato-Regular.ttf")}
+@font-face{font-family:"Lato";font-weight:bold;font-style:normal;src:url("../fonts/Lato-Bold.ttf")}
+body{font-family:"EB Garamond",Georgia,serif;font-size:14pt;line-height:1.5}
+h1,h2,h3,h4,h5,h6{font-family:"Lato","DejaVu Sans",sans-serif;line-height:1.2}
 h1{font-size:2em;margin:1em 0 0.6em}
 h2{font-size:1.5em;margin:1.2em 0 0.4em}
 h3{font-size:1.2em;margin:1em 0 0.3em}
@@ -311,13 +312,13 @@ CSS
 
   if [[ $target != epub ]]; then
     # PDF via weasyprint: it renders HTML/CSS, so it reuses the centred cover,
-    # the .pagebreak breaks and the images. System-installed EB Garamond / DejaVu
-    # Sans resolve by family name (no @font-face needed). weasyprint resolves image
+    # the .pagebreak breaks and the images. System-installed EB Garamond / Lato
+    # resolve by family name (no @font-face needed). weasyprint resolves image
     # URLs relative to the CWD, so this pandoc runs from the staged image dir.
     local -- pdf_css="$tmp"/pdf.css
     cat >"$pdf_css" <<'CSS'
-body{font-family:"EB Garamond",Georgia,serif;line-height:1.5}
-h1,h2,h3,h4,h5,h6{font-family:"DejaVu Sans",sans-serif;line-height:1.2}
+body{font-family:"EB Garamond",Georgia,serif;font-size:14pt;line-height:1.5}
+h1,h2,h3,h4,h5,h6{font-family:"Lato","DejaVu Sans",sans-serif;line-height:1.2}
 h1{font-size:2em;margin:1em 0 0.6em;break-before:page}
 h2{font-size:1.5em;margin:1.2em 0 0.4em}
 h3{font-size:1.2em;margin:1em 0 0.3em}
