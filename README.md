@@ -46,25 +46,50 @@ is a dharma?"* through real dharmas in the wild to *"can we build new ones on pu
 The series blueprint — the arc, the per-part briefs, and the status dashboard — is in
 [`Essays.md`](Essays.md).
 
+## The book
+
+The nine parts are also assembled into a single book, *In Search of Dharma* —
+subtitled *The human craft of building ethical worlds: a natural history of ethics in
+eight essays* — built from [`cover.md`](cover.md) and the part files by
+[`mk-book.sh`](mk-book.sh):
+
+```bash
+./mk-book.sh [epub|pdf|all] [--audio none|link|embed]   # defaults: all, none
+```
+
+The script preprocesses each part (frontmatter, image shortcodes), then stitches them
+into an EPUB3 with pandoc and a PDF via weasyprint, with embedded fonts and optional
+per-chapter audio narration (`link` adds hyperlinks to the hosted MP3s; `embed`
+bundles them into the EPUB). The built EPUB and PDF are distributed via GitHub
+Releases rather than tracked in the repository.
+
 ## Research notes
 
 The evidence base is organised into eight categories, each a directory of cited notes:
 
 1. [Foundational](1-foundational/) — etymology, universal patterns, boundaries, cognates
-2. [Historical](2-historical/) — the Axial Age, urban complexity, pre-literate ethics, transmission
+2. [Historical](2-historical/) — the Axial Age, urban complexity, pre-literate ethics, transmission, the lifecycle of a dharma
 3. [Philosophical](3-philosophical/) — autonomy vs. collective, grounding, relativism
-4. [Cultural](4-cultural/) — the Samin, Ubuntu, indigenous oral dharmas, Abrahamic frameworks
-5. [Psychological](5-psychological/) — neuroscience, evolution, moral development, ritual
+4. [Cultural](4-cultural/) — the Samin, Ubuntu, indigenous oral dharmas, Abrahamic frameworks, Subud and Sumarah, the Badui
+5. [Psychological](5-psychological/) — neuroscience, evolution, moral development, ritual, psychopathy, neurodivergence
 6. [Contemporary](6-contemporary/) — secular translation, the digital age, economics, gender
 7. [Critical](7-critical/) — failure modes, appropriation, power, falsifiability
 8. [Future](8-future/) — planetary dharma, AI, post-traditional dharmas, encoding ethics
 
 The master question registry and status dashboard is [`Questions.md`](Questions.md); the
 shared note structure is fixed by
-[`1-foundational/_template.md`](1-foundational/_template.md).
+[`1-foundational/_template.md`](1-foundational/_template.md). Every work cited across
+the notes is resolved once in the citation register, [`SOURCES.md`](SOURCES.md).
 
-◉ **Status.** This is a living research project. Most research notes are complete; the
-essays are under editorial review. Content may change.
+◉ **Status.** Both stages are complete: all 44 research questions have their cited
+notes, and all nine parts are written. The series is in final pre-publication polish,
+so wording may still shift; the evidence base is stable.
+
+## Contributing
+
+Corrections — factual errors, broken citations, cross-essay inconsistencies — are the
+most valuable contribution. See [`CONTRIBUTING.md`](CONTRIBUTING.md) for what fits
+this (curated, authored) project and how to submit.
 
 ## Author
 
