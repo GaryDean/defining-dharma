@@ -16,14 +16,37 @@
 # custom `<image r 40 "src" "alt" "cap">` shortcode into a standard Markdown
 # image, rewrites web-root image paths to on-disk paths and images to JPEG), then
 # stitches them into an EPUB3 with pandoc and/or a PDF via the weasyprint engine.
+#
+# The EPUB follows Standard Ebooks conventions as far as a pandoc pipeline
+# practicably can (https://standardebooks.org/manual): a stable URL identifier,
+# CC BY-SA licence as dc:rights, EPUB Accessibility 1.1 (schema:*) metadata,
+# semantic epub:type inflection (titlepage / bodymatter chapter / colophon), a
+# generated colophon, and a hard epubcheck validation gate. Reading fonts remain
+# embedded (a deliberate divergence from Standard Ebooks, which defers to the
+# reader's device) so the book renders identically everywhere.
 set -euo pipefail
+shopt -s inherit_errexit
 
 SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
 readonly SCRIPT_DIR
 
+readonly VERSION=1.0.0
+
 readonly TITLE='In Search of Dharma'
+readonly SUBTITLE='A natural history of ethics in eight essays'
 readonly AUTHOR='Biksu Okusi'
 readonly LANGUAGE=en
+
+# Bibliographic identity, following Standard Ebooks conventions as far as a
+# pandoc pipeline practicably can (https://standardebooks.org/manual). A stable
+# URL identifier makes releases reproducible (pandoc otherwise mints a fresh
+# random UUID on every build). The licence is machine-declared in the OPF via
+# dc:rights and echoed on the title/colophon pages; see LICENSE.
+readonly IDENTIFIER='https://garydean.id/books/in-search-of-dharma'
+readonly PUB_DATE=2026-05
+readonly LICENSE_NAME='Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)'
+readonly LICENSE_URL='https://creativecommons.org/licenses/by-sa/4.0/'
+readonly -a SUBJECTS=(Anthropology Philosophy)
 readonly COVER_IMAGE="$SCRIPT_DIR"/images/png/defining-dharma3_watercolor.png
 readonly OUTPUT="$SCRIPT_DIR"/In-Search-of-Dharma_Biksu-Okusi_2026.epub
 readonly OUTPUT_PDF="${OUTPUT%.epub}.pdf"
@@ -59,7 +82,38 @@ readonly -a FONT_FILES=(
 )
 
 die() { >&2 echo "✗ $*"; exit 1; }
-info() { echo "◉ $*"; }
+info() { >&2 echo "◉ $*"; }
+
+# Help text (to stdout: it is requested output, not a diagnostic).
+usage() {
+  cat <<EOF
+${0##*/} $VERSION - build "$TITLE" as an EPUB3 and/or PDF.
+
+Usage:
+  ${0##*/} [epub|pdf|all] [--audio none|link|embed]
+  ${0##*/} -h|--help
+  ${0##*/} -V|--version
+
+Targets (default: all):
+  epub   Build the EPUB3 only.
+  pdf    Build the PDF only.
+  all    Build both.
+
+Options:
+  --audio MODE   Add per-chapter audio narration to the EPUB:
+                   none   no narration (default)
+                   link   hyperlink to the web-hosted MP3s (tiny EPUB)
+                   embed   bundle the MP3s in the EPUB (EPUB target only;
+                          output gets a _with-audio suffix)
+  -h, --help     Show this help and exit.
+  -V, --version  Show version and exit.
+EOF
+}
+
+# Build workspace, created in main(). Declared at script scope so the EXIT trap
+# (installed before mktemp) can clean it: an EXIT trap fires after main returns,
+# by which point a function-local would be out of scope under `set -u`.
+tmp=''
 
 # Mirror pandoc's auto-identifier algorithm for a heading: downcase, drop
 # punctuation (keeping underscore, hyphen, period), spaces to hyphens, strip
@@ -82,6 +136,12 @@ slugify() {
 #   - drop obsolete <center> tags (not valid in EPUB3 XHTML; centring is done in
 #     CSS via <div align="center"> -> [data-align="center"])
 #   - a line containing only \newpage -> a hard page break (styled by .pagebreak)
+#   - a lone <!--\newpage--> marker -> the same page break, blank-line-surrounded
+#     so it forms its own raw-HTML block. (A raw <div>/<!-- --> directly abutting a
+#     preceding `---` becomes an HTML block that runs to the next blank line, which
+#     can swallow whole following chapters -> dropped headings, dangling TOC links.)
+#   - strip any other stray HTML comments (e.g. <!--audio start/stop--> narration
+#     markers); they render nothing and risk the same block-swallowing.
 #   - de-link cross-references that live outside the book (research-note .md files
 #     and /works/ prev-next nav), keeping the link text; these would otherwise be
 #     dangling references (epubcheck RSC-007).
@@ -95,6 +155,8 @@ preprocess() {
         -e 's#<br[[:space:]]*/?>#<br/>#g' \
         -e 's#</?center>##g' \
         -e 's#^[[:space:]]*\\newpage[[:space:]]*$#<div class="pagebreak"></div>#' \
+        -e 's#^[[:space:]]*<!--[[:space:]]*\\?newpage[[:space:]]*-->[[:space:]]*$#\n<div class="pagebreak"></div>\n#' \
+        -e 's#<!--.*-->##g' \
         -e 's#\[([^]]+)\]\([^)]*\.md\)#\1#g' \
         -e 's#\[([^]]+)\]\(/works/[^)]*\)#\1#g'
 }
@@ -116,6 +178,7 @@ audio_block() {
       printf '[Listen to this chapter (audio narration)](%s/%d-%s.mp3)\n' \
         "$AUDIO_BASE_URL" "$n" "$AUDIO_STEM"
       ;;
+    *) die "internal: audio_block called with bad mode '$mode'" ;;
   esac
 }
 
@@ -131,14 +194,85 @@ splice_after_h1() {
   ' "$file" >"$t" && mv -- "$t" "$file"
 }
 
+# Standard Ebooks-style semantic inflection: set an epub:type on a section by
+# attaching it to that section's H1 heading. pandoc carries the attribute
+# verbatim onto the generated <section> in EPUB3 output (verified against
+# epubcheck); raw <section> wrappers, by contrast, break --split-level splitting.
+# The value is merged into an existing attribute block ({.unlisted} ->
+# {.unlisted epub:type="..."}) so classes and identifiers are preserved. Only the
+# first H1 is touched. See https://standardebooks.org/manual (semantic inflection).
+inflect_h1() {
+  local -- file=$1 etype=$2
+  local -- t="$file.tmp"
+  awk -v et="$etype" '
+    !done && /^# / {
+      if ($0 ~ /\{[^}]*\}[[:space:]]*$/) {
+        sub(/\}[[:space:]]*$/, " epub:type=\"" et "\"}")
+      } else {
+        $0 = $0 " {epub:type=\"" et "\"}"
+      }
+      done=1
+    }
+    { print }
+  ' "$file" >"$t" && mv -- "$t" "$file"
+}
+
+# Inject EPUB Accessibility 1.1 / schema.org metadata into a finished EPUB's OPF.
+# pandoc's --epub-metadata silently discards <meta property="schema:*"> elements,
+# so we splice them in after the fact and repackage. The claims are truthful for
+# this book: a linear text reading order, a table of contents, and text
+# alternatives on every illustrative image (the <image> shortcode's ALT field).
+# Repackaging keeps mimetype as the first, stored (uncompressed) entry, as the
+# EPUB OCF spec requires. See https://standardebooks.org/manual (accessibility).
+inject_accessibility_metadata() {
+  local -- epub=$1 tmpdir=$2
+  # Work under the caller's already-trapped temp dir, so it is cleaned on any
+  # exit/signal without this function owning a second trap.
+  local -- work
+  work=$(mktemp -d -p "$tmpdir")
+  ( cd -- "$work" && unzip -q "$epub" ) || die "failed to unpack EPUB: $epub"
+  local -- opf
+  opf=$(find "$work" -name '*.opf' -print -quit)
+  [[ -f $opf ]] || die "OPF not found inside $epub"
+
+  local -- meta
+  meta=$(cat <<'META'
+    <meta property="schema:accessMode">textual</meta>
+    <meta property="schema:accessMode">visual</meta>
+    <meta property="schema:accessModeSufficient">textual</meta>
+    <meta property="schema:accessibilityFeature">tableOfContents</meta>
+    <meta property="schema:accessibilityFeature">readingOrder</meta>
+    <meta property="schema:accessibilityFeature">alternativeText</meta>
+    <meta property="schema:accessibilityHazard">none</meta>
+    <meta property="schema:accessibilitySummary">This publication conforms to a linear text reading order with a navigable table of contents. Illustrations are decorative watercolours carrying text alternatives, and the book contains no flashing, motion, or sound hazards.</meta>
+META
+)
+  # Splice the block in just before </metadata>.
+  local -- t="$opf.tmp"
+  awk -v ins="$meta" '/<\/metadata>/ && !done { print ins; done=1 } { print }' \
+    "$opf" >"$t" && mv -- "$t" "$opf"
+
+  # Repackage: mimetype first and stored, everything else deflated.
+  rm -f -- "$epub"
+  ( cd -- "$work" \
+    && zip -X -0 -q "$epub" mimetype \
+    && zip -X -9 -rq "$epub" . -x mimetype ) \
+    || die "failed to repackage EPUB: $epub"
+  rm -rf -- "$work"
+}
+
 main() {
   # Output format(s) to build and audio mode.
   local -- target=all
   local -- audio_mode=none
-  while [[ -n ${1:-} ]]; do
+  while (($#)); do
     case $1 in
+      -h|--help) usage; exit 0 ;;
+      -V|--version) printf '%s %s\n' "${0##*/}" "$VERSION"; exit 0 ;;
       epub|pdf|all) target=$1 ;;
-      --audio) shift; audio_mode=${1:-} ;;
+      --audio)
+        [[ -n ${2:-} ]] || die "--audio requires a value (none|link|embed)"
+        shift; audio_mode=$1 ;;
       --audio=*) audio_mode=${1#*=} ;;
       *) die "usage: ${0##*/} [epub|pdf|all] [--audio none|link|embed]" ;;
     esac
@@ -157,6 +291,11 @@ main() {
   command -v convert >/dev/null 2>&1 || die "ImageMagick 'convert' not found (apt install imagemagick)"
   [[ $target == epub ]] || command -v weasyprint >/dev/null 2>&1 \
     || die "weasyprint not found, needed for PDF (apt install weasyprint)"
+  # zip/unzip repackage the EPUB after injecting accessibility metadata (EPUB only).
+  if [[ $target != pdf ]]; then
+    command -v zip >/dev/null 2>&1 || die "zip not found (apt install zip)"
+    command -v unzip >/dev/null 2>&1 || die "unzip not found (apt install unzip)"
+  fi
   [[ -f $COVER_IMAGE ]] || die "cover image missing: $COVER_IMAGE"
   local -- font
   for font in "${FONT_FILES[@]}"; do
@@ -183,10 +322,12 @@ main() {
     sources+=("${match[0]}")
   done
 
-  local -- tmp
+  # Install the cleanup trap before creating the temp dir, so a signal landing
+  # between the two cannot leak it. Single quotes defer expansion to exit time;
+  # the script-scope `tmp` (still '' here) makes the pre-mktemp window a harmless
+  # empty rm, and keeps it in scope when the EXIT trap fires after main returns.
+  trap 'rm -rf -- "$tmp"' EXIT
   tmp=$(mktemp -d)
-  # shellcheck disable=SC2064
-  trap "rm -rf -- '$tmp'" EXIT
 
   # Stage JPEG copies of every source PNG under $tmp/img, mirroring the on-disk
   # layout (images/ and images/png/) so the .png->.jpg link rewrites resolve
@@ -196,13 +337,15 @@ main() {
   local -- png rel
   while IFS= read -r -d '' png; do
     rel=${png#"$SCRIPT_DIR"/}
-    convert "$png" -quality "$JPEG_QUALITY" "$img_stage/${rel%.png}.jpg"
+    convert "$png" -quality "$JPEG_QUALITY" "$img_stage/${rel%.png}.jpg" \
+      || die "image conversion failed: $png"
   done < <(find "$SCRIPT_DIR"/images -maxdepth 2 -name '*.png' -print0)
   local -- cover_jpg="$img_stage"/images/png/defining-dharma3_watercolor.jpg
   [[ -f $cover_jpg ]] || die "staged cover JPEG not produced: $cover_jpg"
   # SVGs (the title-page ornament) are copied verbatim; EPUB3 and weasyprint
   # both render them natively, and they are tiny.
-  cp -- "$SCRIPT_DIR"/images/*.svg "$img_stage"/images/
+  cp -- "$SCRIPT_DIR"/images/*.svg "$img_stage"/images/ \
+    || die "failed to stage SVG images"
 
   # Preprocess into ordered temp files (00-, 01-, ...) to preserve chapter order.
   # Chapters are cover(=0), then essays 0..8 at indices 1..9, so essay index i
@@ -211,7 +354,7 @@ main() {
   local -i i=0
   local -- src dst block
   for src in "${sources[@]}"; do
-    printf -v dst '%s/%02d-%s' "$tmp" "$i" "$(basename -- "$src")"
+    printf -v dst '%s/%02d-%s' "$tmp" "$i" "${src##*/}"
     preprocess "$src" >"$dst"
     if [[ $audio_mode != none && $i -ge 1 ]]; then
       block=$(audio_block "$((i - 1))" "$audio_mode")
@@ -245,6 +388,50 @@ main() {
   } >"$contents"
   inputs=("${inputs[0]}" "$contents" "${inputs[@]:1}")
 
+  # Standard Ebooks-style semantic inflection. inputs is now
+  # [cover(title page), contents, essays 0..8]; tag each so readers and the
+  # landmarks navigation know the cover is the title page, the essays are the
+  # body, and reading begins at essay 0 rather than the cover.
+  inflect_h1 "${inputs[0]}" "frontmatter titlepage"
+  inflect_h1 "${inputs[1]}" "frontmatter"
+  local -- ch
+  for ch in "${inputs[@]:2}"; do
+    inflect_h1 "$ch" "bodymatter chapter"
+  done
+
+  # A colophon, closing the book (backmatter), in the same centred house style as
+  # the title page: production credits and the licence, per Standard Ebooks.
+  local -- colophon="$tmp"/colophon.md
+  {
+    printf '<div align="center">\n\n'
+    printf '# Colophon {.unlisted}\n\n'
+    printf '*%s*\n\n' "$TITLE"
+    printf '%s\n\n' "$SUBTITLE"
+    printf 'by **%s**\n\n' "$AUTHOR"
+    printf '<br/>\n\n'
+    printf 'This ebook was typeset from Markdown with pandoc, in the EB Garamond and Lato typefaces. The cover and chapter illustrations are original watercolours.\n\n'
+    printf '<br/>\n\n'
+    printf 'This work is licensed under the %s.\n\n' "$LICENSE_NAME"
+    printf '<%s>\n\n' "$LICENSE_URL"
+    printf '</div>\n'
+  } >"$colophon"
+  inflect_h1 "$colophon" "backmatter colophon"
+  inputs+=("$colophon")
+
+  # EPUB package metadata pandoc will merge in (dc:* elements). A stable
+  # identifier, the licence as dc:rights, and the subjects. Accessibility
+  # metadata is injected separately after the build (pandoc drops schema:* here).
+  local -- meta_xml="$tmp"/epub-meta.xml
+  {
+    printf '<dc:identifier id="uid">%s</dc:identifier>\n' "$IDENTIFIER"
+    printf '<dc:rights>Licensed under the %s. %s</dc:rights>\n' \
+      "$LICENSE_NAME" "$LICENSE_URL"
+    local -- subj
+    for subj in "${SUBJECTS[@]}"; do
+      printf '<dc:subject>%s</dc:subject>\n' "$subj"
+    done
+  } >"$meta_xml"
+
   # Stylesheet: bind the embedded faces (EB Garamond body, DejaVu Sans headings)
   # to their families and apply them. Fonts are embedded under EPUB/fonts/; this
   # CSS lives under EPUB/styles/, so the src url() is one directory up. No EB
@@ -257,12 +444,13 @@ main() {
 @font-face{font-family:"EB Garamond";font-weight:bold;font-style:italic;src:url("../fonts/EBGaramond12-Bold.otf")}
 @font-face{font-family:"Lato";font-weight:normal;font-style:normal;src:url("../fonts/Lato-Regular.ttf")}
 @font-face{font-family:"Lato";font-weight:bold;font-style:normal;src:url("../fonts/Lato-Bold.ttf")}
-body{font-family:"EB Garamond",Georgia,serif;font-size:14pt;line-height:1.5}
-h1,h2,h3,h4,h5,h6{font-family:"Lato","DejaVu Sans",sans-serif;line-height:1.2}
+body{font-family:"EB Garamond",Georgia,serif;font-size:1rem;line-height:1.5;text-align:justify;-webkit-hyphens:auto;-epub-hyphens:auto;hyphens:auto;orphans:2;widows:2}
+h1,h2,h3,h4,h5,h6{font-family:"Lato","DejaVu Sans",sans-serif;line-height:1.2;text-align:left;-webkit-hyphens:none;-epub-hyphens:none;hyphens:none}
 h1{font-size:2em;margin:1em 0 0.6em}
 h2{font-size:1.5em;margin:1.2em 0 0.4em}
 h3{font-size:1.2em;margin:1em 0 0.3em}
 [data-align="center"]{text-align:center}
+[data-align="center"] h1,[data-align="center"] h2,[data-align="center"] h3,[data-align="center"] h4,[data-align="center"] h5,[data-align="center"] h6{text-align:center}
 .pagebreak{break-before:page;page-break-before:always}
 .copyright{font-size:0.8em}
 img.ornament{width:7em;height:auto;margin:0.8em auto 0.4em}
@@ -292,22 +480,42 @@ CSS
       resource_path="$img_stage:$AUDIO_WEBROOT"
     fi
     info "building EPUB from ${#inputs[@]} files -> $epub_out"
+    # markdown-yaml_metadata_block: metadata comes from --metadata/--epub-metadata,
+    # and preprocess already strips frontmatter, so pandoc's YAML parsing is pure
+    # liability -- with it on, the chapters' `---` thematic breaks get paired as
+    # YAML delimiters and the build dies with a YAML parse error.
     ( cd -- "$SCRIPT_DIR" && pandoc \
-        --from=markdown \
+        --from=markdown-yaml_metadata_block \
         --to=epub3 \
         --split-level=1 \
         --epub-title-page=false \
+        --epub-metadata="$meta_xml" \
         --metadata title="$TITLE" \
         --metadata author="$AUTHOR" \
         --metadata lang="$LANGUAGE" \
+        --metadata date="$PUB_DATE" \
         --metadata toc-title="Contents" \
         --epub-cover-image="$cover_jpg" \
         --css="$css" \
         "${font_args[@]}" \
         --resource-path="$resource_path" \
         -o "$epub_out" \
-        "${inputs[@]}" )
+        "${inputs[@]}" ) || die "pandoc EPUB build failed"
+    inject_accessibility_metadata "$epub_out" "$tmp"
     info "done: $epub_out ($(du -h --apparent-size "$epub_out" | cut -f1))"
+    # Validate: epubcheck is the arbiter of EPUB conformance. Fail the build on
+    # any error so a broken artefact is never shipped. ace (DAISY accessibility
+    # checker) is run only if installed, as an informational pass.
+    if command -v epubcheck >/dev/null 2>&1; then
+      info "validating with epubcheck"
+      epubcheck "$epub_out" || die "epubcheck reported errors in $epub_out"
+    else
+      info "epubcheck not found; skipping validation (apt install epubcheck)"
+    fi
+    if command -v ace >/dev/null 2>&1; then
+      info "running DAISY ace accessibility check"
+      ace -o "$tmp"/ace "$epub_out" || info "ace reported issues (informational)"
+    fi
   fi
 
   if [[ $target != epub ]]; then
@@ -341,7 +549,7 @@ CSS
     printf '![](images/png/defining-dharma3_watercolor.jpg)\n' >"$plate"
     info "building PDF from $(( ${#inputs[@]} + 1 )) files -> $OUTPUT_PDF"
     ( cd -- "$img_stage" && pandoc \
-        --from=markdown \
+        --from=markdown-yaml_metadata_block \
         --to=pdf \
         --pdf-engine=weasyprint \
         --metadata title="$TITLE" \
@@ -349,7 +557,7 @@ CSS
         --metadata lang="$LANGUAGE" \
         --css="$pdf_css" \
         -o "$OUTPUT_PDF" \
-        "$plate" "${inputs[@]}" )
+        "$plate" "${inputs[@]}" ) || die "pandoc PDF build failed"
     info "done: $OUTPUT_PDF ($(du -h --apparent-size "$OUTPUT_PDF" | cut -f1))"
   fi
 }

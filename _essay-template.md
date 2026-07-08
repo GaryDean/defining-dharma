@@ -69,6 +69,16 @@ elaboration or list, or plain commas and semicolons, and vary the choice so one
 device does not just replace another. (The Sources & further reading list keeps the
 "item — gloss" dash, matching the research notes.)
 
+SPELLING & USAGE: British English throughout — organise, colour, sceptic, judgement,
+afterwards, routinisation, and whilst/amongst where they read naturally. Never
+American spellings or idioms. Edit passes are where a stray "skeptic" or "judgment"
+creeps back in, so run a consistency sweep for them before calling an essay done.
+House quotation convention: the closing full stop sits INSIDE the quotation marks
+("the Way."), the book's settled majority — keep it uniform across the series, and do
+not "correct" it back to the usual British logical style. Verify a woven fact before
+trusting it, dates especially (Saussure's lectures were published in 1916, but he died
+in 1913): a wrong date in the prose reads as invented and forfeits the sourcing's trust.
+
 READING LEVEL: ~year-12. Plain words for hard ideas. Define nothing the reader can
 infer; patronise nothing. A little difficulty is acceptable; do not flatten a hard
 idea just to lower the grade.

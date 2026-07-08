@@ -115,6 +115,8 @@ Part 1 quietly promised where this search would end. None of us gets to opt out 
 
 ---
 
+<!--\newpage-->
+
 ## Sources & further reading
 
 *This essay is built from the project's research notes, which carry the full

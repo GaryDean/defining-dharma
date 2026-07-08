@@ -113,6 +113,8 @@ We have spent four parts, in admiration, watching how dharmas hold us together, 
 
 ---
 
+<!--\newpage-->
+
 ## Sources & further reading
 
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*

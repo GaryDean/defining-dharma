@@ -111,6 +111,8 @@ But there is one more complication, and it sets up everything that remains. Ever
 
 ---
 
+<!--\newpage-->
+
 ## Sources & further reading
 
 *This essay is built from the project's research notes, which carry the full inline citations. Listed here: the notes it draws on, and the key works behind them.*
