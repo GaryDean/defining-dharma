@@ -3,12 +3,16 @@
 #
 #   ./mk-book.sh [epub|pdf|all] [--audio none|link|embed]   (defaults: all, none)
 #
-# Audio narration (one MP3 per chapter, 0..8) can be added at the top of each
-# chapter in two ways:
-#   --audio link   plain hyperlink to https://garydean.id/audio/N-...mp3
-#                  (tiny EPUB; needs a network connection at read-time)
-#   --audio embed  the MP3s are bundled inside the EPUB (~61 MB; EPUB target only,
-#                  distribute via GitHub Releases). Output gets a _with-audio suffix.
+# Audio narration (one MP3 per chapter, 0..8) is referenced at the top of each
+# chapter. Modes (--audio):
+#   link   (default) per-chapter hyperlink to https://garydean.id/audio/N-...mp3.
+#          The EPUB shows a "Listen to this chapter" link; the PDF shows the bare
+#          URL instead (invisible hyperlinks are useless on paper, so a print
+#          reader gets a typable address). Tiny output; needs a network
+#          connection at read-time.
+#   embed  the MP3s are bundled inside the EPUB (~61 MB; EPUB target only,
+#          distribute via GitHub Releases). Output gets a _with-audio suffix.
+#   none   no narration reference at all.
 # The canonical MP3s are read straight from the web-root; they are never copied
 # into the repository.
 #
@@ -61,6 +65,12 @@ readonly AUDIO_WEBROOT="${AUDIO_SRC_DIR%/audio}"
 readonly AUDIO_BASE_URL=https://garydean.id/audio
 readonly AUDIO_STEM=in-search-of-dharma
 
+# Speaker glyph for the audio link, as inline SVG. Inline SVG renders identically
+# in EPUB3 and weasyprint and scales with the font (width/height 1em), whereas an
+# emoji would fall back to a missing-glyph box -- the embedded EB Garamond / Lato
+# faces carry no emoji. fill/stroke use currentColor so it inherits the link hue.
+readonly AUDIO_ICON='<svg class="audio-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" focusable="false"><path d="M3 9v6h4l5 4V5L7 9H3z" fill="currentColor"/><path d="M15.5 8.5a4 4 0 0 1 0 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>'
+
 # Images are recompressed to JPEG at build time (source PNGs stay untouched). The
 # watercolours are painterly, so lossy JPEG is far smaller than lossless PNG at the
 # same visible quality, taking the finished EPUB from ~20 MB to ~4 MB.
@@ -100,11 +110,12 @@ Targets (default: all):
   all    Build both.
 
 Options:
-  --audio MODE   Add per-chapter audio narration to the EPUB:
-                   none   no narration (default)
-                   link   hyperlink to the web-hosted MP3s (tiny EPUB)
-                   embed   bundle the MP3s in the EPUB (EPUB target only;
+  --audio MODE   Per-chapter audio narration reference (default: link):
+                   link   hyperlink to the web-hosted MP3s. The EPUB shows a
+                          "Listen" link; the PDF shows the URL. Default.
+                   embed  bundle the MP3s in the EPUB (EPUB target only;
                           output gets a _with-audio suffix)
+                   none   no narration reference
   -h, --help     Show this help and exit.
   -V, --version  Show version and exit.
 EOF
@@ -164,10 +175,14 @@ preprocess() {
 # Emit the audio player/link for chapter n (0..8) in the requested mode, to be
 # spliced in just below the chapter's H1. Nothing is emitted for mode=none.
 #   embed -> raw XHTML <audio> whose <source src> pandoc bundles into the EPUB
-#   link  -> a plain Markdown hyperlink to the web-hosted MP3
+#   link  -> a raw <p> carrying two anchors to the same MP3: a friendly "Listen"
+#            label and the bare URL. book.css/pdf.css each hide the one they don't
+#            want (EPUB shows the label, PDF shows the URL a print reader can type),
+#            so the shared chapter file feeds both formats without duplication.
 audio_block() {
   local -i n=$1
   local -- mode=$2
+  local -- url shown
   case $mode in
     embed)
       printf '<audio controls="controls" preload="none">\n'
@@ -175,8 +190,13 @@ audio_block() {
       printf '</audio>\n'
       ;;
     link)
-      printf '[Listen to this chapter (audio narration)](%s/%d-%s.mp3)\n' \
-        "$AUDIO_BASE_URL" "$n" "$AUDIO_STEM"
+      url="$AUDIO_BASE_URL/$n-$AUDIO_STEM.mp3"
+      shown=${url#https://}
+      printf '<p class="audio">'
+      printf '%s' "$AUDIO_ICON"
+      printf '<a class="audio-listen" href="%s">Listen to this chapter (audio narration)</a>' "$url"
+      printf '<a class="audio-url" href="%s">Audio: %s</a>' "$url" "$shown"
+      printf '</p>\n'
       ;;
     *) die "internal: audio_block called with bad mode '$mode'" ;;
   esac
@@ -264,7 +284,7 @@ META
 main() {
   # Output format(s) to build and audio mode.
   local -- target=all
-  local -- audio_mode=none
+  local -- audio_mode=link
   while (($#)); do
     case $1 in
       -h|--help) usage; exit 0 ;;
@@ -301,14 +321,20 @@ main() {
   for font in "${FONT_FILES[@]}"; do
     [[ -f $font ]] || die "font missing: $font (sudo apt install fonts-ebgaramond)"
   done
-  # Sanity-check the canonical MP3s exist (they back both the link URL and the
-  # embedded copy) before we bother building anything.
+  # Sanity-check the canonical MP3s before building. embed must have them locally
+  # (they get bundled) -> hard fail. link only points at the web URL, so a missing
+  # local copy is a warning, not a failure (the URL is the source of truth).
   if [[ $audio_mode != none ]]; then
     local -i an
+    local -- missing=''
     for an in {0..8}; do
-      [[ -f "$AUDIO_SRC_DIR/$an-$AUDIO_STEM.mp3" ]] \
-        || die "audio missing: $AUDIO_SRC_DIR/$an-$AUDIO_STEM.mp3"
+      [[ -f "$AUDIO_SRC_DIR/$an-$AUDIO_STEM.mp3" ]] && continue
+      [[ $audio_mode == embed ]] \
+        && die "audio missing: $AUDIO_SRC_DIR/$an-$AUDIO_STEM.mp3"
+      missing+=" $an"
     done
+    [[ -z $missing ]] \
+      || info "local MP3s absent (${missing# }); links still resolve via $AUDIO_BASE_URL"
   fi
 
   # Assemble the source list: cover first, then essays 0..8 by numeric prefix.
@@ -453,6 +479,10 @@ h3{font-size:1.2em;margin:1em 0 0.3em}
 [data-align="center"] h1,[data-align="center"] h2,[data-align="center"] h3,[data-align="center"] h4,[data-align="center"] h5,[data-align="center"] h6{text-align:center}
 .pagebreak{break-before:page;page-break-before:always}
 .copyright{font-size:0.8em}
+p.audio{font-family:"Lato","DejaVu Sans",sans-serif;font-size:0.9em;margin:0.2em 0 1.2em}
+p.audio a{text-decoration:none}
+p.audio .audio-url{display:none}
+.audio-icon{vertical-align:-0.12em;margin-right:0.4em}
 img.ornament{width:7em;height:auto;margin:0.8em auto 0.4em}
 section.contents h1{font-variant:small-caps;letter-spacing:0.08em}
 section.contents p{margin:0.9em 0}
@@ -525,7 +555,7 @@ CSS
     # URLs relative to the CWD, so this pandoc runs from the staged image dir.
     local -- pdf_css="$tmp"/pdf.css
     cat >"$pdf_css" <<'CSS'
-body{font-family:"EB Garamond",Georgia,serif;font-size:14pt;line-height:1.5}
+body{font-family:"EB Garamond",Georgia,serif;font-size:15pt;line-height:1.5}
 h1,h2,h3,h4,h5,h6{font-family:"Lato","DejaVu Sans",sans-serif;line-height:1.2}
 h1{font-size:2em;margin:1em 0 0.6em;break-before:page}
 h2{font-size:1.5em;margin:1.2em 0 0.4em}
@@ -533,6 +563,10 @@ h3{font-size:1.2em;margin:1em 0 0.3em}
 [data-align="center"]{text-align:center}
 .pagebreak{break-before:page}
 .copyright{font-size:0.8em}
+p.audio{font-family:"Lato","DejaVu Sans",sans-serif;font-size:0.9em;margin:0.2em 0 1.2em}
+p.audio a{text-decoration:none;color:inherit}
+p.audio .audio-listen{display:none}
+.audio-icon{vertical-align:-0.12em;margin-right:0.4em}
 img{max-width:100%}
 img.ornament{width:7em;height:auto;margin:0.8em auto 0.4em}
 header#title-block-header{display:none}
