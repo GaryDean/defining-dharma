@@ -31,59 +31,60 @@
 set -euo pipefail
 shopt -s inherit_errexit
 
-SCRIPT_DIR=$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)
-readonly SCRIPT_DIR
+# correct — handles every install pattern, including symlinked wrappers
+declare -r VERSION=1.0.0
+#shellcheck disable=SC2155
+declare -r SCRIPT_PATH=$(realpath -- "$0")
+declare -r SCRIPT_DIR=${SCRIPT_PATH%/*} SCRIPT_NAME=${SCRIPT_PATH##*/}
 
-readonly VERSION=1.0.0
-
-readonly TITLE='In Search of Dharma'
-readonly SUBTITLE='A natural history of ethics in eight essays'
-readonly AUTHOR='Biksu Okusi'
-readonly LANGUAGE=en
+declare -r TITLE='In Search of Dharma'
+declare -r SUBTITLE='A natural history of ethics in eight essays'
+declare -r AUTHOR='Biksu Okusi'
+declare -r LANGUAGE=en
 
 # Bibliographic identity, following Standard Ebooks conventions as far as a
 # pandoc pipeline practicably can (https://standardebooks.org/manual). A stable
 # URL identifier makes releases reproducible (pandoc otherwise mints a fresh
 # random UUID on every build). The licence is machine-declared in the OPF via
 # dc:rights and echoed on the title/colophon pages; see LICENSE.
-readonly IDENTIFIER='https://garydean.id/books/in-search-of-dharma'
-readonly PUB_DATE=2026-05
-readonly LICENSE_NAME='Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)'
-readonly LICENSE_URL='https://creativecommons.org/licenses/by-sa/4.0/'
-readonly -a SUBJECTS=(Anthropology Philosophy)
-readonly COVER_IMAGE="$SCRIPT_DIR"/images/png/defining-dharma3_watercolor.png
-readonly OUTPUT="$SCRIPT_DIR"/In-Search-of-Dharma_Biksu-Okusi_2026.epub
-readonly OUTPUT_PDF="${OUTPUT%.epub}.pdf"
-readonly OUTPUT_AUDIO="${OUTPUT%.epub}_with-audio.epub"
+declare -r IDENTIFIER='https://garydean.id/books/in-search-of-dharma'
+declare -r PUB_DATE=2026-05
+declare -r LICENSE_NAME='Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)'
+declare -r LICENSE_URL='https://creativecommons.org/licenses/by-sa/4.0/'
+declare -r -a SUBJECTS=(Anthropology Philosophy)
+declare -r COVER_IMAGE="$SCRIPT_DIR"/images/defining-dharma-cover.png
+declare -r OUTPUT="$SCRIPT_DIR"/In-Search-of-Dharma_Biksu-Okusi_2026.epub
+declare -r OUTPUT_PDF="${OUTPUT%.epub}".pdf
+declare -r OUTPUT_AUDIO="${OUTPUT%.epub}"_with-audio.epub
 
 # Chapter narration. One MP3 per chapter, named N-<stem>.mp3 (N = 0..8), living
 # canonically under the garydean.id web-root and served from AUDIO_BASE_URL. The
 # embed build reads them via --resource-path=AUDIO_WEBROOT (so "audio/N-...mp3"
 # resolves); nothing is copied into the repo.
-readonly AUDIO_SRC_DIR=/var/www/vhosts/garydean.id/html/audio
-readonly AUDIO_WEBROOT="${AUDIO_SRC_DIR%/audio}"
-readonly AUDIO_BASE_URL=https://garydean.id/audio
-readonly AUDIO_STEM=in-search-of-dharma
+declare -r AUDIO_SRC_DIR=/var/www/vhosts/garydean.id/html/audio
+declare -r AUDIO_WEBROOT=${AUDIO_SRC_DIR%/audio}
+declare -r AUDIO_BASE_URL=https://garydean.id/audio
+declare -r AUDIO_STEM=in-search-of-dharma
 
 # Speaker glyph for the audio link, as inline SVG. Inline SVG renders identically
 # in EPUB3 and weasyprint and scales with the font (width/height 1em), whereas an
 # emoji would fall back to a missing-glyph box -- the embedded EB Garamond / Lato
 # faces carry no emoji. fill/stroke use currentColor so it inherits the link hue.
-readonly AUDIO_ICON='<svg class="audio-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" focusable="false"><path d="M3 9v6h4l5 4V5L7 9H3z" fill="currentColor"/><path d="M15.5 8.5a4 4 0 0 1 0 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>'
+declare -r AUDIO_ICON='<svg class="audio-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" aria-hidden="true" focusable="false"><path d="M3 9v6h4l5 4V5L7 9H3z" fill="currentColor"/><path d="M15.5 8.5a4 4 0 0 1 0 7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>'
 
 # Images are recompressed to JPEG at build time (source PNGs stay untouched). The
 # watercolours are painterly, so lossy JPEG is far smaller than lossless PNG at the
 # same visible quality, taking the finished EPUB from ~20 MB to ~4 MB.
-readonly JPEG_QUALITY=80
+declare -ir JPEG_QUALITY=80
 
 # Fonts, embedded into the EPUB so it renders identically everywhere rather than
 # falling back to the reader's defaults:
 #   - body: EB Garamond (pkg fonts-ebgaramond), 12pt optical size, serif
 #   - headings: Lato (pkg fonts-lato), humanist sans-serif. Stands in for Prima
 #     Sans (commercial, not installed); swap LATO_DIR/faces below to switch.
-readonly FONT_DIR=/usr/share/fonts/opentype/ebgaramond
-readonly LATO_DIR=/usr/share/fonts/truetype/lato
-readonly -a FONT_FILES=(
+declare -r FONT_DIR=/usr/share/fonts/opentype/ebgaramond
+declare -r LATO_DIR=/usr/share/fonts/truetype/lato
+declare -ar FONT_FILES=(
   "$FONT_DIR"/EBGaramond12-Regular.otf
   "$FONT_DIR"/EBGaramond12-Italic.otf
   "$FONT_DIR"/EBGaramond12-Bold.otf
@@ -95,14 +96,14 @@ die() { >&2 echo "✗ $*"; exit 1; }
 info() { >&2 echo "◉ $*"; }
 
 # Help text (to stdout: it is requested output, not a diagnostic).
-usage() {
-  cat <<EOF
-${0##*/} $VERSION - build "$TITLE" as an EPUB3 and/or PDF.
+show_help() {
+  cat <<HELP
+$SCRIPT_NAME $VERSION - build "$TITLE" as an EPUB3 and/or PDF.
 
 Usage:
-  ${0##*/} [epub|pdf|all] [--audio none|link|embed]
-  ${0##*/} -h|--help
-  ${0##*/} -V|--version
+  $SCRIPT_NAME [epub|pdf|all] [--audio none|link|embed]
+  $SCRIPT_NAME -h|--help
+  $SCRIPT_NAME -V|--version
 
 Targets (default: all):
   epub   Build the EPUB3 only.
@@ -118,7 +119,7 @@ Options:
                    none   no narration reference
   -h, --help     Show this help and exit.
   -V, --version  Show version and exit.
-EOF
+HELP
 }
 
 # Build workspace, created in main(). Declared at script scope so the EXIT trap
@@ -198,7 +199,7 @@ audio_block() {
       printf '<a class="audio-url" href="%s">Audio: %s</a>' "$url" "$shown"
       printf '</p>\n'
       ;;
-    *) die "internal: audio_block called with bad mode '$mode'" ;;
+    *) die "internal: audio_block called with bad mode ${mode@Q}" ;;
   esac
 }
 
@@ -207,7 +208,7 @@ audio_block() {
 # headings (## and deeper) are not matched, and only the first H1 is touched.
 splice_after_h1() {
   local -- file=$1 block=$2
-  local -- t="$file.tmp"
+  local -- t="$file".tmp
   awk -v blk="$block" '
     !done && /^# / { print; print ""; print blk; print ""; done=1; next }
     { print }
@@ -223,7 +224,7 @@ splice_after_h1() {
 # first H1 is touched. See https://standardebooks.org/manual (semantic inflection).
 inflect_h1() {
   local -- file=$1 etype=$2
-  local -- t="$file.tmp"
+  local -- t="$file".tmp
   awk -v et="$etype" '
     !done && /^# / {
       if ($0 ~ /\{[^}]*\}[[:space:]]*$/) {
@@ -253,7 +254,7 @@ inject_accessibility_metadata() {
   ( cd -- "$work" && unzip -q "$epub" ) || die "failed to unpack EPUB: $epub"
   local -- opf
   opf=$(find "$work" -name '*.opf' -print -quit)
-  [[ -f $opf ]] || die "OPF not found inside $epub"
+  [[ -f $opf ]] || die "OPF not found inside ${epub@Q}"
 
   local -- meta
   meta=$(cat <<'META'
@@ -268,7 +269,7 @@ inject_accessibility_metadata() {
 META
 )
   # Splice the block in just before </metadata>.
-  local -- t="$opf.tmp"
+  local -- t="$opf".tmp
   awk -v ins="$meta" '/<\/metadata>/ && !done { print ins; done=1 } { print }' \
     "$opf" >"$t" && mv -- "$t" "$opf"
 
@@ -277,7 +278,7 @@ META
   ( cd -- "$work" \
     && zip -X -0 -q "$epub" mimetype \
     && zip -X -9 -rq "$epub" . -x mimetype ) \
-    || die "failed to repackage EPUB: $epub"
+    || die "failed to repackage EPUB ${epub@Q}"
   rm -rf -- "$work"
 }
 
@@ -287,39 +288,45 @@ main() {
   local -- audio_mode=link
   while (($#)); do
     case $1 in
-      -h|--help) usage; exit 0 ;;
-      -V|--version) printf '%s %s\n' "${0##*/}" "$VERSION"; exit 0 ;;
-      epub|pdf|all) target=$1 ;;
+      -h|--help)
+        show_help; exit 0 ;;
+      -V|--version)
+        printf '%s %s\n' "$SCRIPT_NAME" "$VERSION"; exit 0 ;;
+      epub|pdf|all)
+        target=$1 ;;
       --audio)
         [[ -n ${2:-} ]] || die "--audio requires a value (none|link|embed)"
-        shift; audio_mode=$1 ;;
-      --audio=*) audio_mode=${1#*=} ;;
-      *) die "usage: ${0##*/} [epub|pdf|all] [--audio none|link|embed]" ;;
+        shift
+        audio_mode=$1 ;;
+      --audio=*)
+        audio_mode=${1#*=} ;;
+      *)
+        die "usage: $SCRIPT_NAME [epub|pdf|all] [--audio none|link|embed]" ;;
     esac
     shift
   done
   case $audio_mode in
     none|link|embed) ;;
-    *) die "invalid --audio '$audio_mode' (want: none|link|embed)" ;;
+    *) die "invalid --audio ${audio_mode@Q} (want: none|link|embed)" ;;
   esac
   # Embedded audio is an EPUB-only, Releases-only artefact; a PDF cannot play it.
   if [[ $audio_mode == embed && $target != epub ]]; then
-    die "audio embed only applies to the EPUB; use: ${0##*/} epub --audio embed"
+    die "audio embed only applies to the EPUB; use: $SCRIPT_NAME epub --audio embed"
   fi
 
-  command -v pandoc >/dev/null 2>&1 || die "pandoc not found (apt install pandoc)"
+  command -v pandoc >/dev/null 2>&1 || die 'pandoc not found (apt install pandoc)'
   command -v convert >/dev/null 2>&1 || die "ImageMagick 'convert' not found (apt install imagemagick)"
   [[ $target == epub ]] || command -v weasyprint >/dev/null 2>&1 \
-    || die "weasyprint not found, needed for PDF (apt install weasyprint)"
+    || die 'weasyprint not found, needed for PDF (apt install weasyprint)'
   # zip/unzip repackage the EPUB after injecting accessibility metadata (EPUB only).
   if [[ $target != pdf ]]; then
-    command -v zip >/dev/null 2>&1 || die "zip not found (apt install zip)"
-    command -v unzip >/dev/null 2>&1 || die "unzip not found (apt install unzip)"
+    command -v zip >/dev/null 2>&1 || die 'zip not found (apt install zip)'
+    command -v unzip >/dev/null 2>&1 || die 'unzip not found (apt install unzip)'
   fi
-  [[ -f $COVER_IMAGE ]] || die "cover image missing: $COVER_IMAGE"
+  [[ -f $COVER_IMAGE ]] || die "cover image missing ${COVER_IMAGE@Q}"
   local -- font
   for font in "${FONT_FILES[@]}"; do
-    [[ -f $font ]] || die "font missing: $font (sudo apt install fonts-ebgaramond)"
+    [[ -f $font ]] || die "font missing ${font@Q} (sudo apt install fonts-ebgaramond)"
   done
   # Sanity-check the canonical MP3s before building. embed must have them locally
   # (they get bundled) -> hard fail. link only points at the web URL, so a missing
@@ -330,11 +337,11 @@ main() {
     for an in {0..8}; do
       [[ -f "$AUDIO_SRC_DIR/$an-$AUDIO_STEM.mp3" ]] && continue
       [[ $audio_mode == embed ]] \
-        && die "audio missing: $AUDIO_SRC_DIR/$an-$AUDIO_STEM.mp3"
+        && die "audio missing '$AUDIO_SRC_DIR/$an-$AUDIO_STEM.mp3'"
       missing+=" $an"
     done
     [[ -z $missing ]] \
-      || info "local MP3s absent (${missing# }); links still resolve via $AUDIO_BASE_URL"
+      || info "local MP3s absent (${missing# }); links still resolve via ${AUDIO_BASE_URL@Q}"
   fi
 
   # Assemble the source list: cover first, then essays 0..8 by numeric prefix.
@@ -364,14 +371,14 @@ main() {
   while IFS= read -r -d '' png; do
     rel=${png#"$SCRIPT_DIR"/}
     convert "$png" -quality "$JPEG_QUALITY" "$img_stage/${rel%.png}.jpg" \
-      || die "image conversion failed: $png"
+      || die "image conversion failed ${png@Q}"
   done < <(find "$SCRIPT_DIR"/images -maxdepth 2 -name '*.png' -print0)
-  local -- cover_jpg="$img_stage"/images/png/defining-dharma3_watercolor.jpg
-  [[ -f $cover_jpg ]] || die "staged cover JPEG not produced: $cover_jpg"
+  local -- cover_jpg="$img_stage"/images/defining-dharma-cover.jpg
+  [[ -f $cover_jpg ]] || die "staged cover JPEG not produced ${cover_jpg@Q}"
   # SVGs (the title-page ornament) are copied verbatim; EPUB3 and weasyprint
   # both render them natively, and they are tiny.
   cp -- "$SCRIPT_DIR"/images/*.svg "$img_stage"/images/ \
-    || die "failed to stage SVG images"
+    || die 'failed to stage SVG images'
 
   # Preprocess into ordered temp files (00-, 01-, ...) to preserve chapter order.
   # Chapters are cover(=0), then essays 0..8 at indices 1..9, so essay index i
@@ -418,11 +425,11 @@ main() {
   # [cover(title page), contents, essays 0..8]; tag each so readers and the
   # landmarks navigation know the cover is the title page, the essays are the
   # body, and reading begins at essay 0 rather than the cover.
-  inflect_h1 "${inputs[0]}" "frontmatter titlepage"
-  inflect_h1 "${inputs[1]}" "frontmatter"
+  inflect_h1 "${inputs[0]}" 'frontmatter titlepage'
+  inflect_h1 "${inputs[1]}" 'frontmatter'
   local -- ch
   for ch in "${inputs[@]:2}"; do
-    inflect_h1 "$ch" "bodymatter chapter"
+    inflect_h1 "$ch" 'bodymatter chapter'
   done
 
   # A colophon, closing the book (backmatter), in the same centred house style as
@@ -537,14 +544,14 @@ CSS
     # any error so a broken artefact is never shipped. ace (DAISY accessibility
     # checker) is run only if installed, as an informational pass.
     if command -v epubcheck >/dev/null 2>&1; then
-      info "validating with epubcheck"
-      epubcheck "$epub_out" || die "epubcheck reported errors in $epub_out"
+      info 'validating with epubcheck'
+      epubcheck "$epub_out" || die "epubcheck reported errors in ${epub_out@Q}"
     else
-      info "epubcheck not found; skipping validation (apt install epubcheck)"
+      info 'epubcheck not found; skipping validation (apt install epubcheck)'
     fi
     if command -v ace >/dev/null 2>&1; then
-      info "running DAISY ace accessibility check"
-      ace -o "$tmp"/ace "$epub_out" || info "ace reported issues (informational)"
+      info 'running DAISY ace accessibility check'
+      ace -o "$tmp"/ace "$epub_out" || info 'ace reported issues (informational)'
     fi
   fi
 
@@ -580,7 +587,7 @@ CSS
     # option, so a dedicated cover-plate page is prepended ahead of the title page.
     local -- plate="$tmp"/00-cover-plate.md
     # No explicit pagebreak needed: the title page's own h1 carries break-before:page.
-    printf '![](images/png/defining-dharma3_watercolor.jpg)\n' >"$plate"
+    printf '![](images/defining-dharma-cover.jpg)\n' >"$plate"
     info "building PDF from $(( ${#inputs[@]} + 1 )) files -> $OUTPUT_PDF"
     ( cd -- "$img_stage" && pandoc \
         --from=markdown-yaml_metadata_block \
@@ -591,7 +598,7 @@ CSS
         --metadata lang="$LANGUAGE" \
         --css="$pdf_css" \
         -o "$OUTPUT_PDF" \
-        "$plate" "${inputs[@]}" ) || die "pandoc PDF build failed"
+        "$plate" "${inputs[@]}" ) || die 'pandoc PDF build failed'
     info "done: $OUTPUT_PDF ($(du -h --apparent-size "$OUTPUT_PDF" | cut -f1))"
   fi
 }
