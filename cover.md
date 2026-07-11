@@ -3,7 +3,7 @@ part: cover
 title: "In Search of Dharma"
 slug: cover
 status: done
-updated: 2026-07-06
+updated: 2026-07-11
 ---
 
 <div align="center">
@@ -12,7 +12,7 @@ updated: 2026-07-06
 
 ![](images/dharma-eye.svg){.ornament}
 
-### The human craft of building ethical worlds
+### What holds a life, a people, a world together
 
 *A natural history of ethics in eight essays*
 
@@ -33,7 +33,7 @@ May 2026, Bali, Indonesia
 
 <br/>
 
-> *Human dharmas are made, plural, and unprivileged. They are made rather than found, thus we can — and now must — build new ones consciously.*
+> *For all of history we built the things that hold us and then knelt before them as if we had received them. That age is ending: not because we grew wiser, but because the concealment wore through.*
 
 ---
 
