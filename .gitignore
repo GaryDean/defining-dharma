@@ -18,9 +18,11 @@ FABLE-REVIEW-PROMPT.md
 FABLE-REVIEW.md
 copy-to-workshops.sh
 rupert-reply.md
+BASH-CODING-STANDARD.md
 
 # Assets not yet cleared for publication
-images/
+# (no trailing slash: www is a symlink, and dir-only patterns skip symlinks)
+www
 
 # Local tooling / environment / OS cruft
 .venv/
