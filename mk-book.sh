@@ -478,6 +478,7 @@ main() {
 @font-face{font-family:"Lato";font-weight:normal;font-style:normal;src:url("../fonts/Lato-Regular.ttf")}
 @font-face{font-family:"Lato";font-weight:bold;font-style:normal;src:url("../fonts/Lato-Bold.ttf")}
 body{font-family:"EB Garamond",Georgia,serif;font-size:1rem;line-height:1.5;text-align:justify;-webkit-hyphens:auto;-epub-hyphens:auto;hyphens:auto;orphans:2;widows:2}
+a{color:#0b295a}
 h1,h2,h3,h4,h5,h6{font-family:"Lato","DejaVu Sans",sans-serif;line-height:1.2;text-align:left;-webkit-hyphens:none;-epub-hyphens:none;hyphens:none}
 h1{font-size:2em;margin:1em 0 0.6em}
 h2{font-size:1.5em;margin:1.2em 0 0.4em}
@@ -490,7 +491,7 @@ p.audio{font-family:"Lato","DejaVu Sans",sans-serif;font-size:0.9em;margin:0.2em
 p.audio a{text-decoration:none}
 p.audio .audio-url{display:none}
 .audio-icon{vertical-align:-0.12em;margin-right:0.4em}
-img.ornament{width:25px;height:auto;margin:0 auto;opacity:0.7}
+img.ornament{width:25px;height:auto;margin:0 auto;opacity:0.6}
 section.contents h1{font-variant:small-caps;letter-spacing:0.08em}
 section.contents p{margin:0.9em 0}
 section.contents a{text-decoration:none;font-variant:small-caps;font-size:1.15em}
@@ -563,6 +564,7 @@ CSS
     local -- pdf_css="$tmp"/pdf.css
     cat >"$pdf_css" <<'CSS'
 body{font-family:"EB Garamond",Georgia,serif;font-size:15pt;line-height:1.5}
+a{color:#0b295a}
 h1,h2,h3,h4,h5,h6{font-family:"Lato","DejaVu Sans",sans-serif;line-height:1.2}
 h1{font-size:2em;margin:1em 0 0.6em;break-before:page}
 h2{font-size:1.5em;margin:1.2em 0 0.4em}
@@ -575,7 +577,7 @@ p.audio a{text-decoration:none;color:inherit}
 p.audio .audio-listen{display:none}
 .audio-icon{vertical-align:-0.12em;margin-right:0.4em}
 img{max-width:100%}
-img.ornament{width:25px;height:auto;margin:0 auto;opacity:0.7}
+img.ornament{width:25px;height:auto;margin:0 auto;opacity:0.6}
 header#title-block-header{display:none}
 section.contents h1{font-variant:small-caps;letter-spacing:0.08em}
 section.contents p{margin:0.9em 0}

@@ -37,3 +37,6 @@ scratch/
 # built EPUB is distributed via GitHub Releases, not tracked inline
 *.epub
 *.pdf
+
+# page-render previews of the built book (spot-check byproduct, regenerable)
+pg-*.png
