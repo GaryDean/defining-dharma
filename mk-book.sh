@@ -490,7 +490,7 @@ p.audio{font-family:"Lato","DejaVu Sans",sans-serif;font-size:0.9em;margin:0.2em
 p.audio a{text-decoration:none}
 p.audio .audio-url{display:none}
 .audio-icon{vertical-align:-0.12em;margin-right:0.4em}
-img.ornament{width:7em;height:auto;margin:0.8em auto 0.4em}
+img.ornament{width:25px;height:auto;margin:0 auto;opacity:0.7}
 section.contents h1{font-variant:small-caps;letter-spacing:0.08em}
 section.contents p{margin:0.9em 0}
 section.contents a{text-decoration:none;font-variant:small-caps;font-size:1.15em}
@@ -575,7 +575,7 @@ p.audio a{text-decoration:none;color:inherit}
 p.audio .audio-listen{display:none}
 .audio-icon{vertical-align:-0.12em;margin-right:0.4em}
 img{max-width:100%}
-img.ornament{width:7em;height:auto;margin:0.8em auto 0.4em}
+img.ornament{width:25px;height:auto;margin:0 auto;opacity:0.7}
 header#title-block-header{display:none}
 section.contents h1{font-variant:small-caps;letter-spacing:0.08em}
 section.contents p{margin:0.9em 0}
