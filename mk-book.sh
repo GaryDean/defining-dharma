@@ -52,7 +52,10 @@ declare -r PUB_DATE=2026-05
 declare -r LICENSE_NAME='Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)'
 declare -r LICENSE_URL='https://creativecommons.org/licenses/by-sa/4.0/'
 declare -r -a SUBJECTS=(Anthropology Philosophy)
-declare -r COVER_IMAGE="$SCRIPT_DIR"/images/defining-dharma-cover.png
+# The lettered cover: the watercolour with title, subtitle and author laid over
+# it by images/defining-dharma-gentitle.sh, which takes the strings below as its
+# source of truth. Re-run that script after changing TITLE, SUBTITLE or AUTHOR.
+declare -r COVER_IMAGE="$SCRIPT_DIR"/images/defining-dharma-cover-title.png
 declare -r OUTPUT="$SCRIPT_DIR"/In-Search-of-Dharma_Biksu-Okusi_2026.epub
 declare -r OUTPUT_PDF="${OUTPUT%.epub}".pdf
 declare -r OUTPUT_AUDIO="${OUTPUT%.epub}"_with-audio.epub
@@ -373,7 +376,12 @@ main() {
     convert "$png" -quality "$JPEG_QUALITY" "$img_stage/${rel%.png}.jpg" \
       || die "image conversion failed ${png@Q}"
   done < <(find "$SCRIPT_DIR"/images -maxdepth 2 -name '*.png' -print0)
-  local -- cover_jpg="$img_stage"/images/defining-dharma-cover.jpg
+  # The staged cover, named relative to $img_stage so both the EPUB (which needs
+  # the path) and the PDF cover plate (which needs the markdown link) derive from
+  # COVER_IMAGE rather than repeating its name.
+  local -- cover_rel=${COVER_IMAGE#"$SCRIPT_DIR"/}
+  cover_rel=${cover_rel%.png}.jpg
+  local -- cover_jpg="$img_stage"/"$cover_rel"
   [[ -f $cover_jpg ]] || die "staged cover JPEG not produced ${cover_jpg@Q}"
   # SVGs (the title-page ornament) are copied verbatim; EPUB3 and weasyprint
   # both render them natively, and they are tiny.
@@ -589,7 +597,7 @@ CSS
     # option, so a dedicated cover-plate page is prepended ahead of the title page.
     local -- plate="$tmp"/00-cover-plate.md
     # No explicit pagebreak needed: the title page's own h1 carries break-before:page.
-    printf '![](images/defining-dharma-cover.jpg)\n' >"$plate"
+    printf '![](%s)\n' "$cover_rel" >"$plate"
     info "building PDF from $(( ${#inputs[@]} + 1 )) files -> $OUTPUT_PDF"
     ( cd -- "$img_stage" && pandoc \
         --from=markdown-yaml_metadata_block \
