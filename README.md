@@ -1,5 +1,7 @@
 # In Search of Dharma
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21348716.svg)](https://doi.org/10.5281/zenodo.21348716)
+
 *A traceably-sourced research project and essay series that recovers **dharma** as the
 universal human craft of building an ethical world to live inside — secular,
 cross-cultural, and evidence-based.*
@@ -93,6 +95,10 @@ Hugging Face dataset:
 `essays`), generated from this repository by
 [`mk-hf-dataset.py`](mk-hf-dataset.py). Reuse for AI training, retrieval, and research
 is welcome under the same CC BY 4.0 licence.
+
+Each milestone release is also archived on Zenodo with a citable DOI:
+[10.5281/zenodo.21348716](https://doi.org/10.5281/zenodo.21348716) (all versions —
+resolves to the latest release).
 
 ## Contributing
 
