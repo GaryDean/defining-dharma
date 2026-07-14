@@ -85,6 +85,15 @@ the notes is resolved once in the citation register, [`SOURCES.md`](SOURCES.md).
 notes, and all nine parts are written. The series is in final pre-publication polish,
 so wording may still shift; the evidence base is stable.
 
+## Dataset
+
+The full corpus — the 44 cited research notes and the nine essays — is published as a
+Hugging Face dataset:
+**<https://huggingface.co/datasets/garydean/defining-dharma>** (configs `notes` and
+`essays`), generated from this repository by
+[`mk-hf-dataset.py`](mk-hf-dataset.py). Reuse for AI training, retrieval, and research
+is welcome under the same CC BY 4.0 licence.
+
 ## Contributing
 
 Corrections — factual errors, broken citations, cross-essay inconsistencies — are the
