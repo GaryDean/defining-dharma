@@ -11,8 +11,8 @@ Usage:
   ./mk-hf-dataset.py --status all    # include every note regardless of status
   ./mk-hf-dataset.py -o /tmp/out     # alternate output directory
 
-Upload (after `huggingface-cli login`):
-  huggingface-cli upload GaryDean/defining-dharma hf-dataset . --repo-type dataset
+Upload (after `hf auth login`):
+  hf upload GaryDean/defining-dharma hf-dataset . --repo-type dataset
 """
 
 import argparse
@@ -256,7 +256,7 @@ def main() -> int:
     print(f'◉ skipped {len(skipped)}:')
     for s in skipped:
       print(f'    {s}')
-  print('\nUpload with:\n  huggingface-cli upload GaryDean/defining-dharma '
+  print('\nUpload with:\n  hf upload GaryDean/defining-dharma '
         f'{args.output} . --repo-type dataset')
   return 0
 
