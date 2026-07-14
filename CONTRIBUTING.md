@@ -83,5 +83,5 @@ secular or religious, is treated as automatically superior to another.
 ## Licence
 
 By contributing, you agree that your contributions are licensed under the project's
-licence, **[Creative Commons Attribution-ShareAlike 4.0 International](LICENSE)**
-(CC BY-SA 4.0) — the same terms that cover the rest of the work.
+licence, **[Creative Commons Attribution 4.0 International](LICENSE)**
+(CC BY 4.0) — the same terms that cover the rest of the work.

@@ -98,6 +98,6 @@ Written by **Gary Dean** (Biksu Okusi) — <https://garydean.id>.
 ## Licence
 
 This work is licensed under the
-[Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0)](LICENSE).
-You are free to share and adapt the material for any purpose, even commercially, provided
-you give appropriate credit and distribute your contributions under the same licence.
+[Creative Commons Attribution 4.0 International Licence (CC BY 4.0)](LICENSE).
+You are free to share and adapt the material for any purpose, even commercially,
+provided you give appropriate credit.

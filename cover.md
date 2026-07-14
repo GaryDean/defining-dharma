@@ -44,9 +44,9 @@ May 2026, Bali, Indonesia
 
 © 2026 Biksu Okusi
 
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International Licence (CC BY-SA 4.0). You are free to share and adapt it, even commercially, so long as you give appropriate credit and license any derivative works under the same terms.
+This work is licensed under the Creative Commons Attribution 4.0 International Licence (CC BY 4.0). You are free to share and adapt it, even commercially, so long as you give appropriate credit.
 
-<https://creativecommons.org/licenses/by-sa/4.0/>
+<https://creativecommons.org/licenses/by/4.0/>
 
 </div>
 
