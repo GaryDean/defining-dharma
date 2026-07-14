@@ -23,7 +23,7 @@
 #
 # The EPUB follows Standard Ebooks conventions as far as a pandoc pipeline
 # practicably can (https://standardebooks.org/manual): a stable URL identifier,
-# CC BY-SA licence as dc:rights, EPUB Accessibility 1.1 (schema:*) metadata,
+# CC BY licence as dc:rights, EPUB Accessibility 1.1 (schema:*) metadata,
 # semantic epub:type inflection (titlepage / bodymatter chapter / colophon), a
 # generated colophon, and a hard epubcheck validation gate. Reading fonts remain
 # embedded (a deliberate divergence from Standard Ebooks, which defers to the
@@ -49,8 +49,8 @@ declare -r LANGUAGE=en
 # dc:rights and echoed on the title/colophon pages; see LICENSE.
 declare -r IDENTIFIER='https://garydean.id/books/in-search-of-dharma'
 declare -r PUB_DATE=2026-05
-declare -r LICENSE_NAME='Creative Commons Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)'
-declare -r LICENSE_URL='https://creativecommons.org/licenses/by-sa/4.0/'
+declare -r LICENSE_NAME='Creative Commons Attribution 4.0 International (CC BY 4.0)'
+declare -r LICENSE_URL='https://creativecommons.org/licenses/by/4.0/'
 declare -r -a SUBJECTS=(Anthropology Philosophy)
 # The lettered cover: the watercolour with title, subtitle and author laid over
 # it by images/defining-dharma-gentitle.sh, which takes the strings below as its
