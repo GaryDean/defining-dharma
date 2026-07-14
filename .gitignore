@@ -34,6 +34,9 @@ scratch/
 # superpowers SDD scratch (ledger, briefs, reports)
 .superpowers/
 
+# generated Hugging Face dataset export (mk-hf-dataset.py output)
+hf-dataset/
+
 # built EPUB is distributed via GitHub Releases, not tracked inline
 *.epub
 *.pdf
