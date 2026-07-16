@@ -782,6 +782,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - verified: web (jawawa.id/newsitem/exploring-baduy-settlements-in-ancient-land-1447893297; JP, 2005-06-12); jawawa DB archive
 - note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
+### parthknowsai-2026-lecun-five-problems
+- status: usable
+- medium: transcript
+- cite: Parthknowsai, "Lecun's problem with current AI" (YouTube Short, s2ZHzpwoFnc, 2026)
+- kb: `s2ZHzpwoFnc.transcript.txt`
+- verified: video-URL (https://www.youtube.com/shorts/s2ZHzpwoFnc)
+- note: Secondary/popular source — a creator's paraphrase of Yann LeCun's LLM critiques, NOT LeCun's own words (its chain-of-thought mechanism description is the creator's garbling). Resolve to LeCun primary sources for citation-grade claims. Transcript at appliedanthropology/workshops/transcripts/ (not indexed in the shared DB at query time); summary + assessment note at appliedanthropology/workshops/DD/lecun-five-problems-with-llms.md.
+
 ### peluso-1992-rich-forests-poor-people
 - status: usable
 - medium: text
