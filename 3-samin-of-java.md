@@ -105,7 +105,7 @@ A dharma, in other words, does not have to come from elsewhere. It can be grown 
 
 ## "From the Forest, to the Forest"
 
-Return, for a moment, to the deadpan on the road. It would be easy to file it under eccentricity, and it was nothing of the kind. It was the dharma in action.
+Return, for a moment, to the deadpan on the road. It would be easy to file it under eccentricity, and it was nothing of the kind. It was the Samin dharma in action.
 
 James C Scott, the same scholar who gave us the moral economy, spent much of his career studying how powerless people resist powerful ones without open battle, which they cannot win. He called the result the *weapons of the weak*: foot-dragging, feigned ignorance, false compliance, deliberate misunderstanding, the slow quiet sabotage of people who cannot say no out loud and so say it in a thousand other ways. He called the hidden world of grumbling and mockery, the one the powerful never get to see, the *hidden transcript*, and the whole domain of this everyday, below-the-radar resistance *infra-politics*. (Scott never studied the Samin himself; but his frame describes them exactly.)
 
@@ -137,7 +137,7 @@ Why was it women who made that journey, and women whose names the protest still 
 
 The law, for once, sided with the farmers: Indonesia's Supreme Court ruled in their favour in October 2016. And then the governor issued a fresh permit within days, and the plant went ahead anyway: a bleak little lesson in the difference between winning a ruling and winning a fight.
 
-But look at what has happened to the dharma. The colonial-era creed — common property, non-violence, refusal of an extractive authority — has been quietly recoded for an age its founder could never have imagined. The enemy is no longer a Dutch forester with a tax ledger; it is a cement company with a court-proof permit. The forest has become the watershed. And the deadpan refusal on the road has become a woman with her feet in concrete, refusing to move. Same spine, new century. That is what a living dharma looks like: not a museum piece, but a way of living flexible enough to meet a threat its makers never foresaw, and rigid enough, at the core, to still be recognisably itself.
+But look at what has happened to the Samin's dharma. The colonial-era creed — common property, non-violence, refusal of an extractive authority — has been quietly recoded for an age its founder could never have imagined. The enemy is no longer a Dutch forester with a tax ledger; it is a cement company with a court-proof permit. The forest has become the watershed. And the deadpan refusal on the road has become a woman with her feet in concrete, refusing to move. Same spine, new century. That is what a living dharma looks like: not a museum piece, but a way of living flexible enough to meet a threat its makers never foresaw, and rigid enough, at the core, to still be recognisably itself.
 
 ## What the Samin Know
 

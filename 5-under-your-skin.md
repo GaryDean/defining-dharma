@@ -51,7 +51,7 @@ So the first layer of installation is this: a dharma does not mainly hand you be
 
 ## We Become What We Repeatedly Do
 
-If morality is mostly the elephant, and the elephant is trained, the obvious next question is: trained how? And the answer is the second layer, and the part that most surprised me. Not, in the main, by teaching. By drilling.
+If morality is mostly the elephant, and the elephant is trained, the obvious next question is: trained how? And the answer is the second layer, and the part that sort of surprised me. Not, in the main, by teaching. By drilling.
 
 The point is as old as Aristotle, who saw it clearly more than two thousand years ago. We do not become good by learning the definition of goodness, he argued, any more than we become builders by reading about building. We become just by doing just acts, brave by doing brave acts, temperate by doing temperate ones. Virtue, for Aristotle, is not a belief one holds in the head but a *disposition*, a settled habit of the whole person, grooved into you by repetition until it runs without effort, the way a trained musician plays without thinking about the notes. (The famous line often quoted here, "we are what we repeatedly do; excellence, then, is not an act but a habit," is in fact a paraphrase by the historian Will Durant, not Aristotle's own words.) It is a faithful summary, and the slip is a small reminder to check sources rather than trust a good-sounding quotation.
 
