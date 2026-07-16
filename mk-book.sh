@@ -31,6 +31,10 @@
 set -euo pipefail
 shopt -s inherit_errexit
 
+# Fixed PATH: every external tool (pandoc, convert, weasyprint, zip, epubcheck)
+# must resolve from system locations only.
+declare -rx PATH=/usr/local/bin:/usr/bin:/bin
+
 # correct — handles every install pattern, including symlinked wrappers
 declare -r VERSION=1.0.0
 #shellcheck disable=SC2155
@@ -211,11 +215,13 @@ audio_block() {
 # headings (## and deeper) are not matched, and only the first H1 is touched.
 splice_after_h1() {
   local -- file=$1 block=$2
-  local -- t="$file".tmp
+  local -- t
+  t=$(mktemp -p "${file%/*}") || die "failed to create temp file beside ${file@Q}"
   awk -v blk="$block" '
     !done && /^# / { print; print ""; print blk; print ""; done=1; next }
     { print }
-  ' "$file" >"$t" && mv -- "$t" "$file"
+  ' "$file" >"$t" || die "failed to rewrite ${file@Q}"
+  mv -- "$t" "$file" || die "failed to update ${file@Q}"
 }
 
 # Standard Ebooks-style semantic inflection: set an epub:type on a section by
@@ -227,7 +233,8 @@ splice_after_h1() {
 # first H1 is touched. See https://standardebooks.org/manual (semantic inflection).
 inflect_h1() {
   local -- file=$1 etype=$2
-  local -- t="$file".tmp
+  local -- t
+  t=$(mktemp -p "${file%/*}") || die "failed to create temp file beside ${file@Q}"
   awk -v et="$etype" '
     !done && /^# / {
       if ($0 ~ /\{[^}]*\}[[:space:]]*$/) {
@@ -238,7 +245,8 @@ inflect_h1() {
       done=1
     }
     { print }
-  ' "$file" >"$t" && mv -- "$t" "$file"
+  ' "$file" >"$t" || die "failed to rewrite ${file@Q}"
+  mv -- "$t" "$file" || die "failed to update ${file@Q}"
 }
 
 # Inject EPUB Accessibility 1.1 / schema.org metadata into a finished EPUB's OPF.
@@ -253,7 +261,7 @@ inject_accessibility_metadata() {
   # Work under the caller's already-trapped temp dir, so it is cleaned on any
   # exit/signal without this function owning a second trap.
   local -- work
-  work=$(mktemp -d -p "$tmpdir")
+  work=$(mktemp -d -p "$tmpdir") || die 'failed to create EPUB work dir'
   ( cd -- "$work" && unzip -q "$epub" ) || die "failed to unpack EPUB: $epub"
   local -- opf
   opf=$(find "$work" -name '*.opf' -print -quit)
@@ -268,21 +276,23 @@ inject_accessibility_metadata() {
     <meta property="schema:accessibilityFeature">readingOrder</meta>
     <meta property="schema:accessibilityFeature">alternativeText</meta>
     <meta property="schema:accessibilityHazard">none</meta>
-    <meta property="schema:accessibilitySummary">This publication conforms to a linear text reading order with a navigable table of contents. Illustrations are decorative watercolours carrying text alternatives, and the book contains no flashing, motion, or sound hazards.</meta>
+    <meta property="schema:accessibilitySummary">This publication conforms to a linear text reading order with a navigable table of contents. Illustrations are decorative watercolour-style images carrying text alternatives, and the book contains no flashing, motion, or sound hazards.</meta>
 META
 )
   # Splice the block in just before </metadata>.
-  local -- t="$opf".tmp
+  local -- t
+  t=$(mktemp -p "${opf%/*}") || die "failed to create temp file beside ${opf@Q}"
   awk -v ins="$meta" '/<\/metadata>/ && !done { print ins; done=1 } { print }' \
-    "$opf" >"$t" && mv -- "$t" "$opf"
+    "$opf" >"$t" || die "failed to rewrite ${opf@Q}"
+  mv -- "$t" "$opf" || die "failed to update ${opf@Q}"
 
   # Repackage: mimetype first and stored, everything else deflated.
-  rm -f -- "$epub"
+  rm -f -- "$epub" || die "failed to remove ${epub@Q} before repackaging"
   ( cd -- "$work" \
     && zip -X -0 -q "$epub" mimetype \
     && zip -X -9 -rq "$epub" . -x mimetype ) \
     || die "failed to repackage EPUB ${epub@Q}"
-  rm -rf -- "$work"
+  rm -rf -- "$work" || die 'failed to clean EPUB work dir'
 }
 
 main() {
@@ -363,13 +373,18 @@ main() {
   # the script-scope `tmp` (still '' here) makes the pre-mktemp window a harmless
   # empty rm, and keeps it in scope when the EXIT trap fires after main returns.
   trap 'rm -rf -- "$tmp"' EXIT
-  tmp=$(mktemp -d)
+  # Convert fatal signals into exits so the EXIT trap performs the cleanup
+  # exactly once (a bare cleanup command in a signal trap would let the
+  # script continue past the interrupt).
+  trap 'exit 130' SIGINT
+  trap 'exit 143' SIGTERM
+  tmp=$(mktemp -d) || die 'failed to create temp dir'
 
   # Stage JPEG copies of every source PNG under $tmp/img, mirroring the on-disk
   # layout (images/ and images/png/) so the .png->.jpg link rewrites resolve
   # against --resource-path. Source PNGs are never modified.
   local -- img_stage="$tmp"/img
-  mkdir -p "$img_stage"/images/png
+  mkdir -p "$img_stage"/images/png || die "failed to create image staging dir ${img_stage@Q}"
   local -- png rel
   while IFS= read -r -d '' png; do
     rel=${png#"$SCRIPT_DIR"/}
@@ -396,8 +411,8 @@ main() {
   local -- src dst block
   for src in "${sources[@]}"; do
     printf -v dst '%s/%02d-%s' "$tmp" "$i" "${src##*/}"
-    preprocess "$src" >"$dst"
-    if [[ $audio_mode != none && $i -ge 1 ]]; then
+    preprocess "$src" >"$dst" || die "preprocessing failed for ${src@Q}"
+    if [[ $audio_mode != none ]] && ((i >= 1)); then
       block=$(audio_block "$((i - 1))" "$audio_mode")
       splice_after_h1 "$dst" "$block"
     fi
@@ -426,7 +441,7 @@ main() {
       k+=1
     done
     printf '</div>\n'
-  } >"$contents"
+  } >"$contents" || die "failed to write ${contents@Q}"
   inputs=("${inputs[0]}" "$contents" "${inputs[@]:1}")
 
   # Standard Ebooks-style semantic inflection. inputs is now
@@ -450,12 +465,12 @@ main() {
     printf '%s\n\n' "$SUBTITLE"
     printf 'by **%s**\n\n' "$AUTHOR"
     printf '<br/>\n\n'
-    printf 'This ebook was typeset from Markdown with pandoc, in the EB Garamond and Lato typefaces. The cover and chapter illustrations are original watercolours.\n\n'
+    printf 'This ebook was typeset from Markdown with pandoc, in the EB Garamond and Lato typefaces. The cover and chapter illustrations are watercolour-style images generated with AI image models, from prompts written, iterated, and selected by the author.\n\n'
     printf '<br/>\n\n'
     printf 'This work is licensed under the %s.\n\n' "$LICENSE_NAME"
     printf '<%s>\n\n' "$LICENSE_URL"
     printf '</div>\n'
-  } >"$colophon"
+  } >"$colophon" || die "failed to write ${colophon@Q}"
   inflect_h1 "$colophon" "backmatter colophon"
   inputs+=("$colophon")
 
@@ -471,7 +486,7 @@ main() {
     for subj in "${SUBJECTS[@]}"; do
       printf '<dc:subject>%s</dc:subject>\n' "$subj"
     done
-  } >"$meta_xml"
+  } >"$meta_xml" || die "failed to write ${meta_xml@Q}"
 
   # Stylesheet: bind the embedded faces (EB Garamond body, DejaVu Sans headings)
   # to their families and apply them. Fonts are embedded under EPUB/fonts/; this
