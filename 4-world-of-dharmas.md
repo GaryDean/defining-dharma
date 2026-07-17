@@ -27,7 +27,7 @@ And somewhere in the ancient Near East, a person sets out, quite deliberately, t
 
 Four answers. They look nothing alike. The first dissolves the self into the community; the second builds a fortress around it. The third writes the law into the ground; the fourth receives it from the sky. And yet they rhyme. What follows is a tour of that strangeness, the irreducible variety of human dharmas, and the stubborn family likeness that runs underneath them all.
 
-## How Far Can They Get?
+## How far can they get?
 
 We found that *dharma* means, at root, "that which holds," and that there is not one dharma but many. We saw why every society grows one, under the pressure of holding strangers together. And we watched a single dharma up close, in the teak forests of Java, built little more than a century ago by people we could name.
 
@@ -35,7 +35,7 @@ The Samin were one. Now pull back and take in the range, because the plurality I
 
 I am going to end the tour with the one many of you were raised inside, the family of Jewish, Christian, and Muslim ethics, and I should say why. The whole wager here is that we can look at dharmas without privileging any of them, including our own. That is easy to say about somebody else's tradition and hard to do about the water you were swimming in before you could see it. So the Abrahamic covenant comes last, as the real test of whether the non-privileging eye can be turned around to look at itself.
 
-## Ubuntu: The Self Is a "We"
+## Ubuntu: the self is a "we"
 
 Start in southern Africa, with a single sentence in the Nguni languages: *umuntu ngumuntu ngabantu*. "A person is a person through other persons." In its travelling English form it became "I am because we are," and behind that gentle slogan sits one of the most radical claims any dharma makes, a claim that reaches past how you should behave to what you fundamentally *are*.
 
@@ -47,7 +47,7 @@ This is not just a warm sentiment, and it is not vague. In the philosopher Thadd
 
 I have to add the shadow, because every dharma on this tour has one, and Ubuntu's is instructive. The warm picture of timeless African togetherness is, in part, a story told later, and it can be put to ugly uses: a demand for "harmony" can be a demand for silence, a way of shaming the dissenter and protecting the powerful. And there is a bitter irony on the record. The same post-apartheid South Africa that wrote Ubuntu into its highest law has seen waves of murderous violence against migrants from *other* African countries, the supposed brothers and sisters of the human family attacked as unwanted strangers. The web that includes can also exclude. We have met this before, the hard edge around the warm circle, and we will meet it again.
 
-## The Stoics: The Fortress Inside
+## The Stoics: the fortress inside
 
 Now travel back, to the Greek and Roman world, for a dharma that will feel oddly modern, because it is one of the most nearly secular the ancient world produced.
 
@@ -61,7 +61,7 @@ And the fortress points outward, in a way you might not expect from a philosophy
 
 It has its own failure mode, of course. Push the acceptance of "what is not up to us" too far and the fortress becomes a retreat: a counsel of passivity that can shade into indifference toward injustice you might actually be able to change. And one question presses on any philosophy that says externals do not matter: it is a good deal easier to believe that wealth and status are indifferent when, like Marcus, you already have all of both. A dharma can be true and still be more comfortable for some to hold than others.
 
-## The Dreaming: The Law in the Land
+## The Dreaming: the law in the land
 
 Now go to Australia, and to a dharma so old and so unlike the others that it stretches the very category: the Aboriginal tradition the English language clumsily calls the Dreaming.
 
@@ -77,7 +77,7 @@ The scholar Vine Deloria Jr drew a line between two fundamentally different kind
 
 It is dangerously easy for outsiders, especially guilty modern ones, to turn indigenous peoples into a fantasy of the noble ecological saint, the human who lived in perfect harmony with nature, as a stick to beat our own civilisation with. The anthropologist Shepard Krech showed how much that image is a projection, and how indigenous peoples, like all peoples, in fact shaped and sometimes depleted their environments. The real lesson is more useful than the fantasy: these traditions encode genuinely powerful wisdom about living within limits, and they do so without their holders having to be angels. We can learn from a dharma, as one of its own custodians warned, without going around in borrowed feathers, pretending to own or to become it.
 
-## The Covenant: Looking at Your Own
+## The Covenant: looking at your own
 
 For most readers in the Western world, the tradition you absorbed before you could choose, whether or not you still believe a word of it, is one of the three faiths that trace themselves to Abraham. And the reflex bred into the modern mind is to file these under a different and opposite heading from "dharma": under *religion*, the thing of belief and faith and the supernatural, as against ethics or philosophy or a way of life. That reflex is mistaken. Judaism, Christianity, and Islam are, by every test we have used, dharmas like any other.
 
@@ -93,7 +93,7 @@ And these are living traditions, not fossils, which is what the secular eye most
 
 And the argument bites its owner. If the Abrahamic paths are dharmas, then so is whatever I am doing here. "Secular dharma" is not a neutral throne above the others from which I get to rank them. It is one more path among the paths, with its own commitments and its own blind spots, walking alongside the covenant, the Dreaming, and the rest, not floating above them. The non-privileging stance, taken seriously, privileges *me* least of all.
 
-## What Rhymes
+## What rhymes
 
 So we have our four, and they really are profoundly different. Set them side by side and they disagree about the deepest things there are. They disagree about what a person even is: a node in a living web, or a self-contained citadel of choice. They disagree about time: a line running from creation to judgement, or an "everywhen" in which the ancestral past is permanently present. They disagree about the ground of it all: an impersonal order you align with, a commanding God you answer to, a land you belong to. This is not a trivial diversity that melts away on inspection. It goes all the way down. The claim that the world's wisdom traditions are "all really saying the same thing" does not survive a hard look at what they actually say.
 
@@ -101,7 +101,7 @@ And yet, if you stand back far enough, the family resemblance is just as undenia
 
 That is the shape we keep arriving at. The variety is real, thick, and not to be flattened, and underneath it runs a thin band of shared human concern that no functioning dharma seems to do without. Difference all the way down, and kinship all the way down, at the same time. Later, when we have to ask the dangerous question of whether some dharmas are simply better than others, that thin shared band is going to be the only honest place to stand.
 
-## Made of the Same Need
+## Made of the same need
 
 Taken whole, the world of dharmas shows human beings facing the one problem of how to live well together, and building answers of breathtaking variety. A relational web in southern Africa, a fortress of the will in imperial Rome, a sung and walked law in the Australian desert, a covenant in the Near East: four solutions to one need, each fully itself, each unmistakably a member of the same family.
 

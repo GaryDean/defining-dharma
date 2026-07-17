@@ -23,7 +23,7 @@ In the second world, tens of thousands of people are packed into a single city. 
 
 That something is, in large part, a "dharma", by whatever local name. Every human society grows one; but at this scale it takes a particular and demanding form, an explicit, teachable, portable account of how to live alongside people you do not know.
 
-## The Puzzle of the Simultaneous Sages
+## The puzzle of the simultaneous sages
 
 The great reflective ethical systems, the ones whose descendants we still live inside, did not dribble into existence evenly across history. A remarkable number of them erupted in a single narrow window, roughly between 800 and 200 BCE, in civilisations that had little or no contact with one another. In the Indian sub-continent, the Buddha sat down under a tree and the wandering philosophers of the Upanishads asked what lay behind the self. In what we now call China, Confucius and Laozi were laying down two rival visions of "the Way." In Persia, Zoroaster split the cosmos into truth and the lie. In the small kingdoms of Palestine, the Hebrew prophets thundered that ritual without justice was worthless. And in the Hellenic city-states, the first philosophers began prising the world apart with reason.
 
@@ -31,7 +31,7 @@ The German philosopher Karl Jaspers gave this window a name: the Axial Age, the 
 
 The two puzzles are really one. The crowding of the cities and the eruption of the sages are the same event, seen from different angles. But to get there, we have to start where morality itself starts, which is a very long way before either.
 
-## Morality Is Older Than the Dharmas
+## Morality is older than the dharmas
 
 One thing is easy to get backwards: the codes did not create morality. Morality created the codes.
 
@@ -45,7 +45,7 @@ How did such a society pass on its rules, with no book to write them in? Largely
 
 It is easy, at this point, to slide into a fantasy of the noble savage, the gentle egalitarian who shames us moderns. That is not the picture. The forager's equality is enforced, sometimes with violence, and the ostracism that keeps the peace can be cruel. And the warmth was reserved for the in-group. The same band that shared everything within could raid and kill without. The moral circle was real, and it was small, and its edge was hard.
 
-## The Crisis of Strangers
+## The crisis of strangers
 
 The foragers' morality had a hidden dependency. It worked because everyone could watch everyone. It was a technology for a world of faces.
 
@@ -59,7 +59,7 @@ What it found was a dharma, or rather the kind of thing a dharma is. To hold a c
 
 Why should a watching god, of all the possible solutions, have been such a popular one? The answer lies in the peculiar wiring of the human mind. We are, by inheritance, wildly oversensitive to the presence of other minds. A rustle in the grass might be the wind or might be a leopard, and the ancestor who assumed "leopard" and was usually wrong left more descendants than the one who assumed "wind" and was occasionally eaten. So we come equipped with a hair-trigger for sensing that something out there has intentions and is watching us. A god is something like what you get when that instinct is turned on the whole world at once. The cognitive scientist Pascal Boyer adds a second ingredient: the supernatural ideas that survive and spread are the ones that are almost ordinary, breaking our everyday expectations in just one or two memorable ways. An invisible person who can read your private thoughts is strange enough to seize the attention and simple enough to pass intact from mouth to mouth down the centuries. A being like that, always watching, is the perfect surveillance camera for a society grown too large to watch itself, and the human mind was primed to believe in it long before any city needed it.
 
-## The Price of Belonging
+## The price of belonging
 
 Why are so many of the great codes so *demanding*? If a dharma exists to make cooperation easier, why does it so often pile on costly, inconvenient requirements: the dietary laws, the dress codes, the fasts, the long hours of prayer, the renounced pleasures? It looks like waste; it is in fact the engine.
 
@@ -69,7 +69,7 @@ The evidence is unexpectedly clean. When the anthropologist Richard Sosis studie
 
 This carries a sting in its tail, and the sting points all the way forward to the modern world. Sosis found that the secular communes could not earn the same return on strictness. The reason, he argued, is that religious demands are anchored to claims that can never be tested and so can never be disproved: you cannot run an experiment on heaven. A secular code that asks for sacrifice has to justify that sacrifice in this-worldly terms, which experience can always come back and challenge. Which means that a secular dharma, the very thing we are slowly circling toward, is giving up one of the most powerful binding mechanisms its religious cousins ever found, and will have to make up the difference some other way. I shall come back to this later.
 
-## The Sages, Answered
+## The sages, answered
 
 Now we can return to the puzzle of the simultaneous sages.
 
@@ -85,7 +85,7 @@ Put these together, and the simultaneity dissolves into something far less myste
 
 I should enter one caution, because tidy stories about history deserve suspicion. "The Axial Age" is itself a contested idea. Critics point out that Jaspers drew its borders to take in Greece, Israel, India, and China while quietly leaving out Egypt and Mesopotamia, older civilisations with cosmic-order traditions of their own (Egypt's ma'at among them). They point out, too, that the whole notion of a single spiritual "breakthrough" can smuggle in a Christian story of history marching toward enlightenment. The window is real, and the convergence is striking, but it is a pattern we have drawn on the past, not a switch that flipped. The truth is messier and more gradual than the phrase suggests, which is usually how truth is.
 
-## What the Codes Added, and What They Did Not
+## What the codes added, and what they did not
 
 So, did the Axial sages invent morality? By now you can hear how badly that question is put. Morality was already a hundred thousand years old when the Buddha sat down. What the new codes did was not to create the moral sense but to re-engineer it for a new scale, and it pays to be precise about what they added, because the list is the hidden architecture of every dharma since.
 
@@ -97,7 +97,7 @@ There is a complication that keeps the picture from being too neat. I have told 
 
 And one shadow falls across all of it. The very machinery that makes a dharma such a powerful glue, the way it turns strangers into brothers, works by drawing a line around the "us" it creates. The same evolutionary studies that show how cooperation bonds a group show, in the same breath, that the bonding and the bordering tend to evolve together: the warmth turned inward and the suspicion turned outward are two faces of one adaptation. A dharma includes by excluding. It is never only a circle of care; it is also, always, a fence. We will spend a whole part, much later, on what happens at that fence.
 
-## Made Things
+## Made things
 
 The birth of dharma, in the end, is not a revelation. It is a response. Strip the story to its bones and you find human beings, equipped by evolution with an ancient and powerful moral sense built for life among a hundred familiar faces, walking into a world of thousands of strangers that their inherited instincts could not govern, and building, under pressure, a new kind of tool to cope. The dharmas are those tools. They are made things, forged at a particular time, by particular people, to solve a particular and very real problem: how to hold together a group too large to hold itself.
 

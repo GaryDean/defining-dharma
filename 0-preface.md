@@ -25,7 +25,7 @@ This preface starts with the people and ideas behind the work, since I did not d
 
 By *dharma* I mean something deliberately broad. Not the Vedic or Buddhist teaching with a capital D, but a way of living, a path one walks: what other traditions have called a *dao*, or simply *the Way*, and what we might equally meet in the unspoken code of a profession or a subculture. A dharma, in my usage, is whatever holds a life or a people together by answering the question of how to live. I write it in the plural, *dharmas*, on purpose, because there is no single Dharma, only many, none ranked above the rest before we look. What marks a dharma off from mere unexamined custom is that it can be held up and known *as* a path: named, questioned, chosen, reformed, and even built from scratch. That capacity is available, not required, since most dharmas are absorbed half-consciously and never feel chosen at all.
 
-## The Impetus
+## The impetus
 
 Ideas are social before anything else. They do not come out of nowhere.
 
@@ -37,7 +37,7 @@ Around that small core sits a wider circle I owe a good deal to. What I had wand
 
 I will not dress any of these people or organisations as the source of my argument, which is mine to answer for and is set out plainly further on; what they gave me was readers, counter-arguments, and the sense that the work was not merely eccentric. I am an unsociable person by temperament, and I have not always been an easy member of any of these circles, but I did not arrive at these ideas alone.
 
-## The Shape of the Lens
+## The shape of the lens
 
 Now the warier part: the life behind the lens. I include it because a reader has a right to know the biases built into a writer, and mine are not the standard-issue ones. But I will keep it short, and keep it tied to the only thing that matters here, which is how it shaped the way I see.
 
@@ -53,7 +53,7 @@ That immersion had a particular shape, and it holds the oldest root of this whol
 
 My personal life has been large and disorderly by any conventional measure: more marriages than is decent, children scattered across three countries, the ordinary share of estrangements and an extraordinary share of complications. Between 2012 and 2015 I lost a son, and then a partner, within a few years of one another, and it was during and after that stretch that a long, idle interest in dharma turned into something closer to a need. I will not pretend to know whether grief sharpened the search or merely cleared the time for it. But I would be misrepresenting the work if I let you picture it arriving out of serenity. It came, like most things worth having, out of a fair amount of mess.
 
-## The One Idea
+## The one idea
 
 If I were forced to compress what these essays argue into a single sentence, it would be this: a dharma is not a revelation but a technology, an evolved cultural technology, worked out by a particular kind of social animal to solve a particular and permanent problem.
 
@@ -63,7 +63,7 @@ This is not an idea I invented, so I should name the people I took it from, beca
 
 I should flag, here and once, that this is a particular and partial lens, and the essays lean the way it leans: secular, evolutionary, broadly Western, and a bit academic, even where the subject matter is none of those things. In each essay, I have tried to show where that slant does the work and to look for the voices the lens tends to miss. I am not a neutral instrument, and I should not be read as one.
 
-## Show the Workings
+## Show the workings
 
 This is the part I most want the reader to understand, because it is the part that should earn or lose your trust.
 

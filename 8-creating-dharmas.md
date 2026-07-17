@@ -21,7 +21,7 @@ Elsewhere, a team at an AI company sits down to write what it openly calls a con
 
 Between those two pictures sits the whole question. The seeker on the cushion and the team at their screens are doing the same thing at wildly different scales: constructing, by hand and on purpose, an answer to the question of how to live. We have been heading here from the start: from the oldest root, *that which holds*, through the teak forests of Java, to the moment the old foundations gave way. For all of history, the question a person faced was *which* of the inherited dharmas was true, and how to submit to it? The seeker on the cushion cannot ask that anymore. Her question, and now ours, is one earlier ages rarely asked so nakedly: not *which dharma do I receive*, but *can we build a better one, knowing exactly what we are doing, on purpose?*
 
-## The Thing We Were Always Doing
+## The thing we were always doing
 
 Building dharmas on purpose is not some unprecedented act of hubris. It is what our species has always done. Every dharma we have met was *made*: assembled by particular people, in particular places, out of the materials to hand. The Axial sages made theirs. Samin Surosentiko made his, in plain low Javanese, one conversation at a time. What is new is not the making. What is new is that we can no longer pretend we are doing anything else.
 
@@ -31,7 +31,7 @@ So the honest question is not *whether* to make dharmas. We will make them wheth
 
 But the moment it is said out loud that dharmas can be built, the terrible follow-up questions arrive in a rush: built by whom, for whom, toward what end, and what gets crushed in the building? Those questions name a single recurring danger, and it will stalk every frontier ahead. Call it the flattening: the temptation, once the power to author an ethic exists, to author just *one*and to crush the glorious plurality of human dharmas into a single official version. What remains is four tests of whether we can build without it.
 
-## A Dharma for the Whole Earth?
+## A dharma for the whole Earth?
 
 The largest scale first, where the pressure to build a single shared ethic is most intense.
 
@@ -47,7 +47,7 @@ And it has already happened in the open. The Earth Charter, drafted around 2000,
 
 And right beside this hopeful picture stands the warning. There already exists a thick, singular, state-authored planetary ethic, and it is instructive because it works. China's doctrine of "ecological civilization" was written into the constitution by a 2018 amendment, and the programme it crowns has real results to show, including one of the largest reforestations in history. It is also, in the judgement of Mette Halskov Hansen, Hongtao Li and Rune Svarverud, who traced its history, a model of authoritarian environmentalism: an ethic driven from the top by technocratic elites, enforced on people who do not get a say. The singular planetary dharma, in other words, is not science fiction; it can be effective; and it is the flattening itself, at work. The same evolutionary logic supplies the brake: a body does many things to regulate its own cells that no one would call ethical done to a person. We can study the body to learn how to scale cooperation. We must not govern a planet the way an immune system culls defectors. A planetary dharma worth having coordinates dharmas. It does not dissolve them into one.
 
-## The Ethics We Hand to Machines
+## The ethics we hand to machines
 
 From the planet, the focus narrows to the machine, where the same drama plays out faster, and the temptation of the single answer comes wearing the friendly mask of a technical solution.
 
@@ -63,7 +63,7 @@ The most discussed candidate for the economics is a universal basic income, a re
 
 Beside all this stands the sharpest version of the flattening danger yet: what the philosopher William MacAskill calls "value lock-in." Whatever ethic happens to get encoded into the systems that run everything could *freeze*, foreclosing future moral progress. Pour one dharma into the machines at the wrong moment, with enough power behind it, and the plural is not merely flattened for now. It may be flattened for keeps.
 
-## Building from Old Stone
+## Building from old stone
 
 Step back from planets and machines to a quieter question that underlies both: out of what materials are we supposed to build these new dharmas? We build, as humans always have, from what we inherit, and the honest name for a dharma built deliberately from inherited materials is *post-traditional*.
 
@@ -77,7 +77,7 @@ That reflexiveness matters most because building from old stone has two opposite
 
 And one last warning hangs over this frontier, aimed straight at those of us who feel safest here, on the secular side: a secular dharma is not automatically more rational or less dangerous than a religious one. David Sloan Wilson has a name for this: a "stealth religion," any belief system, godless ones included, that sacrifices honesty about trade-offs for the comfort of a tidy story, and his prime exhibit is not a church but Ayn Rand's militantly atheist Objectivism. Secular does not mean undogmatic. Building from old stone, we can lay the new bricks just as crooked as the old ones, and congratulate ourselves the whole time on having no religion.
 
-## The Mirror
+## The mirror
 
 One more dharma is under construction that I have not yet named honestly, and it is this one. This series is not a neutral survey. It is the second stage of a project whose stated goal is to gather traceably sourced evidence about dharma so that future artificial intelligences can be given, in the project's own words, "a solid grounding in human ethics and values, and how these are formed." The project is itself an instance of the thing under discussion: an attempt to deliberately build a dharma and pour it into machines. It would be dishonest to warn about the flattening at this length and exempt the warning's author. So the project belongs under its own microscope.
 
@@ -91,7 +91,7 @@ So can the project's own goal even be coherent? Only, I think, if it gives up th
 
 One self-criticism cannot be engineered away, and honesty requires ending on it. The stance running through all of this, that all dharmas sit on the same shelf and none is privileged in advance, is *not* a view from nowhere. The phrase is the philosopher Thomas Nagel's: there is no neutral standpoint above the human situation from which to rank everything else. "Treat all dharmas as equal" is itself a substantive, recognisably modern, secular and liberal commitment, a thick dharma of its own. The project cannot climb out of its own skin; it cannot encode human ethics from no point of view, because it has one. What it can do, and what I have tried to do, is name that point of view and refuse to install it as if it were simply the truth. Jorge Luis Borges imagined a map so perfect it was the same size as the territory, and therefore useless. Any compression of human ethics small enough to be useful is a choice about what to leave out, and every such choice encodes a dharma. The only sin is to make that choice while pretending it is not being made.
 
-## Plural, but Not Anything Goes
+## Plural, but not anything goes
 
 Which brings us, at last, to the question Part 1 raised and every part since has sharpened. If dharmas are genuinely plural and none is privileged in advance, then are some of them better than others, or is it all just a matter of preference, with nothing to choose between kindness and cruelty but taste? It deserves a straight answer: no, it is not all preference.
 
@@ -101,7 +101,7 @@ So what is the standard? Not a single thick code that dictates how everyone must
 
 The whole standard extends the phrase we began with. A dharma is to be judged by how well it *holds without crushing*. The holding is the floor's positive side: does it actually gather a human life and a human community, give them shape, meaning and the strength to endure? The not-crushing is the floor's protective side: does it gather without breaking the people inside it or the strangers outside it? A dharma that holds but crushes is the tyranny-and-purity spiral of Part 6. A dharma that refuses to crush but cannot hold is the thin gruel of Part 7, the patchwork that never quite binds. The good ones do both. They hold firmly enough to give a life its spine, and loosely enough to leave room for other lives, and other dharmas, to do the same. That is the answer to the question of whether some are better. Yes. The better ones hold without crushing, stay honest enough to correct themselves, and leave the door open for their neighbours. Berlin would add a caution: the standard identifies the failures, but it does not rank the successes because, above the floor, the goods genuinely conflict. Everything up there is still to argue about, and WB Gallie explained why the arguing never stops: some concepts (justice, democracy, and surely dharma) are *essentially contested*, disputed from the inside as part of how they work. That endless argument is not the failure of the project. It is the project.
 
-## That Which Holds
+## That which holds
 
 We have come the whole way round. We started with a word we thought meant incense and inner peace, and we followed it down to a plain and sturdy root: *dharma*, that which holds, the beam that keeps the roof up, the thing that keeps a life, or a world, from chaos. Dharmas are what hold human beings together. There are many of them. They are made, not found. And the making has now become conscious, and urgent, and ours.
 

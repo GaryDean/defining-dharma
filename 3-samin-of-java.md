@@ -23,7 +23,7 @@ A hundred years later, in 2017, nine women farmers travelled from those same hil
 
 I went looking for what connected them. What I found was a dharma.
 
-## A Dharma You Can Hold in Your Hand
+## A dharma you can hold in your hand
 
 We took the word *dharma* away from the yoga studio and traced it to an old root meaning "that which holds," the thing that holds a whole way of life together. We watched, in the broadest possible strokes, why every human society seems to grow one: how the move from small bands, where everyone knows everyone, to crowded cities of strangers forced people to write down what they had once simply trusted.
 
@@ -35,7 +35,7 @@ The Samin of Java are exactly that. Their dharma was assembled, more or less in 
 
 So this part is a close-up. One dharma, in a few hundred square kilometres of teak forest, held up to the light.
 
-## An Illiterate Farmer in the Teak Forests
+## An illiterate farmer in the teak forests
 
 The man on the road has a name, or rather several. He was born Raden Kohar in 1859 in the Blora region of central Java: a flat, hot country famous for its teak. The teak matters; it will return. As a grown man he took the name Samin Surosentiko, and it is as "Samin" that he entered history, mostly through the alarmed reports of the people trying to govern him.
 
@@ -49,7 +49,7 @@ This is the soil in which the Samin dharma grew, and the pattern already has a n
 
 The creed spread. From Blora it travelled across an arc of districts (Rembang, Pati, Kudus, Grobogan, Bojonegoro), reaching, by one estimate, somewhere between three and five thousand followers by 1907. That was the year it became too visible to ignore. The Dutch arrested Samin and exiled him to Sawahlunto, in West Sumatra, far across the sea, where he died in 1914. His followers did not accept that he had simply died. They held that he had attained *moksha* (release, liberation) and passed into the spiritual realm, a detail that will matter later.
 
-## The Code
+## The code
 
 So what did the Samin actually believe? For a movement that the Dutch treated as a dangerous sect, the content is strikingly down-to-earth. There is barely any theology in it at all; it is a code for conduct, not a map of heaven.
 
@@ -67,7 +67,7 @@ Javanese spiritual life has a word for this: *laku*, meaning something close to 
 
 One more thing, before we go on, about names. The followers themselves came to dislike the word "Samin" because, in mainstream Indonesian society, it picked up a sneer: a synonym for backward, foolish, primitive. They prefer to call themselves *Sedulur Sikep*, or *Wong Sikep*: roughly, "honest, responsible kin." It is a better name, and from here I will use both: theirs by preference, and "Samin" where the history insists.
 
-## But Is It a Dharma?
+## But is it a dharma?
 
 Now, a sceptic could stop me right here. *Plenty of villages have customs*, the sceptic says. *Lots of communities are honest, simple, and suspicious of outsiders. You have described a set of folkways with a local accent. Why dignify it with a word like "dharma"? Aren't you just doing the thing this project warned against, slapping an exotic label on ordinary peasant life?*
 
@@ -85,7 +85,7 @@ That deliberate lifting is precisely what turned the Sedulur Sikep's folkways in
 
 Which brings us to the language.
 
-## Speaking *ngoko* to the King
+## Speaking *ngoko* to the king
 
 To feel how radical the Samin really were, you have to see what they were rebelling against, and it was not only the Dutch. It was the entire intricate hierarchy of Javanese culture itself.
 
@@ -103,7 +103,7 @@ But this was not a foreign creed invading Java. The Sedulur Sikep were agrarian,
 
 A dharma, in other words, does not have to come from elsewhere. It can be grown at home, out of the same soil, in deliberate argument with the culture that surrounds it.
 
-## "From the Forest, to the Forest"
+## "From the forest, to the forest"
 
 Return, for a moment, to the deadpan on the road. It would be easy to file it under eccentricity, and it was nothing of the kind. It was the Samin dharma in action.
 
@@ -113,7 +113,7 @@ Read through Scott, the Samin's tactics snap into focus. Answering an official w
 
 And a deeper current runs underneath, one I can only gesture at here. Drawing on the study of surviving hunter-gatherer bands, the anthropologist Christopher Boehm has argued that human morality may have *begun* as a device against domination: our distant ancestors, living as fierce egalitarians, used ridicule, shaming, and ostracism to cut down anyone who tried to lord it over the group. Boehm calls it a "reverse dominance hierarchy": the weak combining to keep the strong in check. If he is even partly right, then a dharma like the Samin's, defined almost entirely by its refusal of a domineering state, is not some strange late invention. It is morality doing one of the oldest jobs it ever had. The man on the forest road, answering the empire with riddles, was standing in a very long line.
 
-## An Honest Pause
+## An honest pause
 
 I have been building a case, and before I finish it, two warnings are in order, because a dharma is exactly the kind of thing it is easy to romanticise, and I have been as charmed by this one as anyone.
 
@@ -125,7 +125,7 @@ So why are they here at all when, in the end, the question is whether we can bui
 
 Because they are a *boundary case*, and boundary cases are worth more than tidy examples. The Sedulur Sikep are not a world religion, with scripture, clergy, and empire. But they are not a secular philosophy either, like Stoicism stripped of its gods. They sit in between: a non-scriptural, non-institutional, this-worldly, ethics-first *folk* dharma, with just enough cosmology to give it a backbone and not an ounce more. And precisely by sitting in between, they prove that a dharma need not be *either* a great religion *or* a godless philosophy. There is a whole middle country of ways of living that are neither, and the Samin are its first sure landmark. For an argument that dharmas come in every form, an example that refuses our neat boxes is not an embarrassment. It is the best evidence we have.
 
-## Feet in Cement
+## Feet in cement
 
 The strongest proof that the Samin built a real dharma, and not just a one-generation protest, is that it did not die with Samin. It is still being lived, and it has crossed a hundred years and an entire change of subject without losing its spine.
 
@@ -139,7 +139,7 @@ The law, for once, sided with the farmers: Indonesia's Supreme Court ruled in th
 
 But look at what has happened to the Samin's dharma. The colonial-era creed — common property, non-violence, refusal of an extractive authority — has been quietly recoded for an age its founder could never have imagined. The enemy is no longer a Dutch forester with a tax ledger; it is a cement company with a court-proof permit. The forest has become the watershed. And the deadpan refusal on the road has become a woman with her feet in concrete, refusing to move. Same spine, new century. That is what a living dharma looks like: not a museum piece, but a way of living flexible enough to meet a threat its makers never foresaw, and rigid enough, at the core, to still be recognisably itself.
 
-## What the Samin Know
+## What the Samin know
 
 So what did I find, in the end, in the teak country of Blora?
 

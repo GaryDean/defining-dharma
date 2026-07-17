@@ -21,7 +21,7 @@ In each case something is running a program the conscious mind has formally canc
 
 That underneath-self is where a dharma actually lives. In the first four parts we have looked at dharmas from the outside, as made things, plural things, things with histories and functions. But Part 4 ended on a puzzle. From the inside, a dharma never feels made, or chosen, or cultural. It feels like simply the truth, as plain and unarguable as the floor being solid. The question is how that happens: how a thing that human beings built gets so deep inside other human beings that it stops feeling built at all. To answer, we have to stop asking what a dharma teaches and start asking what it does to you — down through three layers: the gut, the body, and the brain itself.
 
-## The Elephant and the Rider
+## The elephant and the rider
 
 There is a flattering story we tell about ourselves, and it is mostly wrong. The story is that we are reasoning creatures who examine the evidence, weigh the arguments, and arrive at our moral convictions as conclusions. On this picture, we believe cruelty is wrong because we have thought it through.
 
@@ -35,7 +35,7 @@ Every human being has all of these, more or less, but no two cultures cook with 
 
 The sharpest name for this clash is the philosopher Joshua Greene's. There are, he says, two quite different moral tragedies. The first is the old one a dharma exists to solve: me against us, the selfish individual tempted to cheat the group, which every working ethic labours to overcome. The second is the one that undoes us now, and a dharma cannot solve it, because a dharma *is* it. Greene calls it the tragedy of commonsense morality: not me against us, but us against them, two groups each equipped with a moral system that is internally coherent, deeply felt, and flatly incompatible with the other's. Each side experiences its own parochial intuition as plain, self-evident right, and the other's as obvious wickedness. In truth, to put it with some cruelty, what each is calling "right" is often just after-the-fact rationalisation slathered over a shapeless, self-serving, group-bound gut feeling. Two dharmas meeting at a border do not feel to those involved like two recipes. They feel like good meeting evil, from both sides at once. That clash is the seed of Part 6.
 
-## Whose Gut?
+## Whose gut?
 
 What unsettled me, when I first met this, was closer to home.
 
@@ -49,7 +49,7 @@ The neuroscientist Robert Sapolsky gives the screw one more turn. The moral conv
 
 So the first layer of installation is this: a dharma does not mainly hand you beliefs to consider. It tunes the instrument on which you will feel, before you ever reason, what is decent and what is disgusting, and it tunes it so early and so deep that the tuning feels like the sound of reality itself.
 
-## We Become What We Repeatedly Do
+## We become what we repeatedly do
 
 If morality is mostly the elephant, and the elephant is trained, the obvious next question is: trained how? And the answer is the second layer, and the part that sort of surprised me. Not, in the main, by teaching. By drilling.
 
@@ -65,7 +65,7 @@ Not all dharmas drill the same way, and the anthropologist Harvey Whitehouse has
 
 If a dharma installs itself through ritual, repetition, ordeal, and the disciplined body, what happens to a dharma that rejects supernatural ritual? That is the secular project's hardest practical problem, and people have begun, self-consciously, to experiment with it. There are now godless congregations, gatherings with names like the Sunday Assembly, half-jokingly described as Pentecostalism for atheists. They borrow the song, the assembly, and the shared rhythm, and drop the doctrine to rebuild the installation machinery without the gods. Whether such things can really cultivate durable dispositions, or whether the apparatus only bites when anchored to something held sacred, is genuinely unknown. We will come back to it.
 
-## All the Way Into the Brain
+## All the way into the brain
 
 The installation does not stop at habit. It goes down into the tissue, and here we reach the third layer, the one everyone is most excited about, and the one most oversold.
 
@@ -79,7 +79,7 @@ A darker finding closes a circle we keep drawing. The chemistry of human bonding
 
 And because the brain images are so seductive, it needs to be said plainly: none of this makes any dharma *true*. A coloured scan showing the neural signature of compassion no more proves that compassion is right than a scan of revulsion proves that a taboo is justified. The brain can show us that a conviction is installed, deeply, physically, beautifully installed. It can never show us that the conviction is correct. The wiring is a fact about the believer, not about the world.
 
-## Why It Feels Like Truth
+## Why it feels like truth
 
 The three layers, together, answer the question we started with.
 
@@ -87,7 +87,7 @@ Your dharma lives in your moral taste buds, in the instantaneous flare of approv
 
 That is the whole secret, and it is why a dharma feels the way it does. It does not feel like a belief one holds because it was never installed as a belief in the first place. It was installed *underneath* belief, in the layers that were running long before the reasoning mind woke up and that go on running whether the reasoning mind agrees or not. You did not reason your way in, which is precisely why you cannot be reasoned out, and why the man at the funeral weeps over words he is certain are false. From the inside, a working dharma cannot feel like an opinion about reality. It feels like reality, because it is operating below the level of the self that would be capable of doubting it.
 
-## The Missing Elephant
+## The missing elephant
 
 The argument so far has assumed one thing without saying it: that the elephant is there to be trained. That underneath the rider sits a great warm animal of instinct, the gut that flares at cruelty, the fear that grips, the empathy that soaks up another's pain, waiting to be grooved and tuned. But in a small and roughly predictable fraction of people, about one in a hundred, that animal is faint from birth. This is the part of the human range we reach for the word *psychopath* to name: not a wicked belief that got installed, but the near-absence of the very substrate every dharma installs *into*.
 
@@ -97,7 +97,7 @@ And here the story doubles back on itself. The core of that difference is a sing
 
 Still, the deeper point survives the caveat. A dialled-down fear response is, in itself, neither good nor evil; it is raw material, awaiting a dharma (or the absence of one) to make something of it. The instrument is as morally blank as the machinery that would train it. Which is only a small biological rehearsal for the larger, harder thing we have been circling all along.
 
-## The Machine Has No Conscience
+## The machine has no conscience
 
 One question has been postponed, and it can be postponed no longer.
 

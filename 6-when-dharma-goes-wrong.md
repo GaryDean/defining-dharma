@@ -21,7 +21,7 @@ Buddhism, in the Western imagination, is the gentle dharma, the one with no crus
 
 We have spent five parts in something close to admiration. We have watched how dharmas hold us together, how they answer the deepest human needs, how they get so far inside us that they feel like truth itself. We have mostly been sympathetic witnesses. We cannot stay sympathetic any longer, because a sympathetic account that never looked at the wreckage would be a lie, and would deserve none of the trust it asks for. If dharmas do everything the last five parts said they do, why is so much of history's cruelty signed in their name? So now we look straight at that harm, done sincerely, century after century, by people every bit as certain of their own goodness as we are of ours.
 
-## Why "that's not real Buddhism" Is a Cop-Out
+## Why "that's not real Buddhism" is a cop-out
 
 The comforting exit has to be closed first: almost everyone reaches for it, and it leads nowhere.
 
@@ -29,13 +29,13 @@ When a Buddhist monk incites genocide, or a Christian blesses a slave ship, or a
 
 Scholars at Harvard's Religious Literacy Project put the correction bluntly: religions are internally diverse, and a tradition deep enough and old enough to contain a saint is deep enough to contain a butcher, with both sincerely drawing on the same scriptures and the same authority. The peace-preaching monk and the hate-preaching monk are *both* authentically Buddhist. To wave the second away as fake is not analysis; it is loyalty dressed up as argument, a way of refusing to see. So I am going to hold to an uncomfortable rule from here on. The failures of a dharma are not betrayals of its pure essence. They are expressions of its real potential, as genuine as its glories, and they grow from the very same roots.
 
-## The Dark Twin
+## The dark twin
 
 The last five parts turned up a handful of things that make a dharma powerful. A strong, identity-shaping sense of who "we" are. Costly, hard-to-fake commitment that binds people tightly together. A transcendent authority that outranks any mere person or law. Deep in-group trust. And an installation machinery, the ritual and habit and repetition, that drives all of this below conscious thought until it feels like simple reality. Every one of those is a genuine strength. Every one of them is exactly why dharmas work.
 
 Part 5 ended on the blankness of the last of these: the installation machinery will groove cruelty into the bone exactly as faithfully as it grooves kindness. The same blankness runs the whole list. A strong "we" is a wonderful thing right up until you ask what happens to "them." Costly commitment binds the just community and the death cult with equal strength. A transcendent authority can chastise a tyrant or crown him. Deep trust inside the group is the same psychological fact as deep suspicion of those outside it. The features and the failures are not two separate lists. They are one list, seen from two sides. Every failure of a dharma is the dark twin of one of its strengths, which is why no dharma is safe, and why the failures keep coming back no matter how often we are scandalised by them. Five of these twins are worth naming.
 
-## The Fence Becomes a Wall
+## The fence becomes a wall
 
 The first and deepest failure is the one we have been circling since the very beginning, the hard edge around the warm circle.
 
@@ -43,7 +43,7 @@ A dharma works by turning a crowd of strangers into an "us." That is its genius,
 
 I do not want to leave this at despair, because one hopeful thing is buried in the research. It is not obvious that the lethal version of the boundary is hardwired. The primatologist Richard Wrangham points out that our chimpanzee cousins, who kill each other at rates much like ours, show none of the *self-sacrificing* battlefield heroism that human war runs on, and that the readiness to die for the group against another group looks more like something cultures install than something genes demand. And in a famous experiment at a summer camp called Robbers Cave, psychologists took two groups of boys they had deliberately turned into bitter rivals and dissolved the hostility almost completely, simply by giving them a shared problem that neither group could solve alone. The fence, in other words, can be moved. The line around "us" is not fixed at the tribe; it has been pushed outward again and again across history, and there is no law of nature that says it cannot be pushed further. It is the thin thread of hope that Part 8 will try to pull.
 
-## The Authority That Frees Becomes the Authority That Rules
+## The authority that frees becomes the authority that rules
 
 The second twin lives in the very thing that lets a dharma stand above mere power: its claim to a higher authority.
 
@@ -55,7 +55,7 @@ But there is another face, and it is the reason this is a real fight, not just a
 
 And even the liberating face is not as clean as it looks, which is the unsettling lesson the philosopher Michel Foucault pressed hardest. Power, he argued, is not only the boot that holds you down; it is also productive, busy making the very kind of person you become. The confessional, the spiritual director, the meditation hall, the programme of self-improvement: these do not merely restrain people, they actively shape selves, train desires, and produce a particular sort of disciplined soul. So when a dharma frees you from one regime, it tends to install another in its place, a fresh set of rules about how to watch and govern yourself. There is no escape into a dharma-free clearing where the self runs wild and unsupervised, because the self is itself something a dharma builds. The real question is never power against freedom. It is always a matter of which regime of self-making you are living in, and whether you chose it or were simply born into it.
 
-## The Cage: Who Holds the Key
+## The cage: who holds the key
 
 The third twin is the way a dharma, which promises a path to the good life, can become a prison, and nowhere is this clearer than in the two arenas of gender and money.
 
@@ -67,7 +67,7 @@ The word "cage" carries my own values inside it. The yardstick I have been using
 
 Money tells the same double story. Dharmas have both blessed and damned economic orders, often in the same breath. The caste system assigned each person their economic place by sacred duty. In the West, as the philosopher Michael Sandel has argued, the old Protestant idea that worldly success was a sign of God's favour, once God fell away, slowly curdled into the modern faith in meritocracy: the conviction that the winner deserves to win and, more cruelly, that the loser deserves to lose. That is a secular dharma doing the oldest dirty job in the book, re-sanctifying inequality after the gods have gone home, telling the poor their poverty is a verdict on their worth. But dharmas have also been the sharpest critics of economic cruelty. David Graeber spent his career as an anthropologist showing how the language of debt and the language of sin grew up entangled, and how debt has been the supreme tool for making the exploited feel that their suffering is their own fault. Against that, he set the older and almost forgotten intuition that the truly sacred act was never repaying a debt but *cancelling* it, the clean slate, the jubilee. The dharma that tells the poor to accept their lot and the dharma that tells them to tear up the ledger are written in the same hand.
 
-## The Fire Goes Out
+## The fire goes out
 
 The fourth twin turns the danger inward. Not every failure of a dharma involves a victim. Some of the most insidious are the ones where the dharma rots from the inside while everyone keeps going through the motions, and these failures wear a friendly face, which is exactly what makes them so hard to see.
 
@@ -75,7 +75,7 @@ The first is the hollowing. The sociologist Max Weber described how the white-ho
 
 The second self-corruption is stranger, because the dharma's own *success* causes it. Doing good, it turns out, can license doing bad. Psychologists have documented what they call moral licensing: having established our virtue in one act, we feel quietly entitled to cut a corner in the next, as though we had banked moral credit and were now free to spend it. A dharma generates moral capital by the ton, and that capital becomes a permit. The community certain of its own righteousness is the community best able to excuse its own cruelty, because surely *we*, the good people, could not really be the ones doing wrong. And the very commitment-signalling that binds a group can run away into a purity spiral, an escalating contest to be the most devout and the most orthodox, until the dharma turns inward and begins devouring its own insufficiently faithful. Here the failure is not that anyone abandoned the dharma. It is that they took it too seriously in the wrong direction, and let their goodness become their alibi.
 
-## The Mirror: Dharma in the Yoga Studio
+## The mirror: dharma in the yoga studio
 
 The fifth twin is the gentlest-looking and closest to home. Part 1 opened with the word "dharma" on the front of a yoga studio, a soft and pleasant Western thing, vaguely Eastern, vaguely spiritual. It is time to look at that studio squarely, because it is a failure mode too, the failure of how a dharma travels across a line of power.
 
@@ -85,7 +85,7 @@ The appropriation goes deeper than products, all the way down into the categorie
 
 And now the sting I cannot avoid, because the non-privileging eye has to turn back on itself. This very project, a secular dharma assembled in a Western language from traditions elsewhere, is a prime suspect in its own investigation. When I lift a "universal core" out of Buddhism and set its Asian cosmology aside as cultural packaging, I am doing the exact move an appropriator would do, and saying the exact thing an appropriator would say to justify it. Whether that is honest translation or quiet theft is not settled by my good intentions. It turns on power, on reciprocity, on whether I keep the demanding parts or only the pleasant ones, and on whether I am willing to be changed by what I borrow or only to consume it. I do not get to exempt myself from this. No one does.
 
-## The Wolf in the Flock
+## The wolf in the flock
 
 Every failure we have walked through so far shares one feature, and it is the feature that makes them so disturbing: they are sincere. The fence-builder loves his people; the priest who crowns the king believes in the crown; the keeper of the cage thinks he is preserving order; and even the appropriator, myself included, mostly means well. The dark twins need no villain. Ordinary devotion, turned a few degrees, does the damage by itself.
 
@@ -95,7 +95,7 @@ Such people exist, in roughly predictable numbers. The condition even has a clin
 
 Here the deep past speaks straight to the present. The forager bands of Part 2 had a remedy for exactly this figure: the intimidator who could not be shamed was watched, levelled, and in the last resort removed, because in a camp of thirty there is nowhere for a predator to hide. What the small band could do, the mega-society cannot. The very anonymity that broke the old morality, the sea of strangers a dharma was built to cross, is also the condition under which the predator flourishes, because the transparency that once exposed him cannot reach across a congregation of thousands or a corporation of tens of thousands. We built dharmas so that strangers could trust strangers, and in the same stroke we built the ideal cover for the stranger who should never be trusted. And this undoes the comfort sincerity seemed to offer: the sincere butcher may be more troubling than the fake one, but it does not follow that sincerity is a test we can lean on. Sincerity is the very thing the predator counterfeits, and a dharma's demand for visible devotion rewards the most fluent counterfeiter in the room.
 
-## No Dharma Is Safe
+## No dharma is safe
 
 Taken together, these twins tell a single and rather severe truth.
 

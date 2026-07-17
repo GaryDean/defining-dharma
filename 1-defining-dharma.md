@@ -19,7 +19,7 @@ The word is everywhere, once you start to notice it. There is a yoga studio in n
 
 But now try to say what it *means*: not the mood it gives off, but the actual meaning. Most of us, pressed, manage something like "your destiny," or "doing the right thing," or "Buddhist stuff"; and then the fog rolls in. It is a word you can use comfortably for years and never once be able to define. For me, that is a strange thing for a word to be, and it is exactly what made me want to chase it down. Because a word that everyone gestures at and no one can pin is usually hiding something, and *dharma*, it turns out, is hiding quite a lot.
 
-## "That Which Holds"
+## "That which holds"
 
 Strip a word back far enough, and you reach the moment before it meant anything abstract, back when it still meant a physical thing you could do with your hands. For *dharma*, that moment is the Sanskrit root *dhṛ*, and what it means is plain and sturdy: to hold, to support, to sustain, to keep from falling. Philologists trace it further back to a Proto-Indo-European root (the reconstructed ancestor of languages ranging from Hindi to English) that conveyed the same sense of holding firm. You can hear the family resemblance in an unexpected cousin: the Latin *firmus*, "stable, strong," which comes down into English as the word *firm*. Strip away three thousand years of religion and philosophy, and *dharma* means, more or less, *that which holds*.
 
@@ -29,7 +29,7 @@ The journey has stranger stops still: in one Jain usage the word even names a li
 
 And here is why that matters for everything that comes next. If a dharma is "that which holds," then the question "what is a dharma?" becomes a question about a *function*, not a faith. We are no longer asking which doctrine is true. We are asking: what holds a human life together? What keeps a person, or a people, from falling apart under the weight of fear, conflict, temptation, and sheer confusion about how to live? Every human group, we will see, grows something to do that holding. We are going to spend eight parts looking at the astonishing variety of those somethings. But they are all, in the end, answers to the same structural problem: the problem of what holds.
 
-## There Is No *The* Dharma
+## There is no *The* Dharma
 
 If the first oddity was that so wispy a word rests on so solid a root, the second undoes the way the word reached us. In English we tend to say "*the* Dharma," with a definite article and a capital D, as though it named one specific thing, usually the teachings of Buddhism. That usage is real, but it is also late, narrow, and mostly a Western convenience. Go back to the traditions that actually gave rise to the word, and the tidy singular dissolves into a bewildering plurality.
 
@@ -37,7 +37,7 @@ In classical Indian thought, there is *svadharma*, your *own* dharma, the right 
 
 This is not a flaw in my research; it is the central fact. There is no single *The* Dharma, in the way there is a single Mount Everest. There are *dharmas*, plural: many of them, taking many forms, suited to many different lives and worlds. And the moment you accept that, a door opens that the rest of these parts walk through. If a dharma is simply a culture's worked-out answer to "how should we live, and what holds us together while we do," then dharmas are not the property of the East, or of religion, or of antiquity. A secular philosophy can be a dharma. A people's unwritten code can be a dharma. So, for that matter, can the great monotheisms, and the ethics of a profession, and the half-conscious creed of a subculture. None of them sits automatically above the others. That refusal to rank them in advance is the stance I take throughout: secular and sacred, written and spoken, all treated as equally real candidates. It falls out directly from the plurality the word has carried all along.
 
-## Why Everyone Has (at Least) One
+## Why everyone has (at least) one
 
 If dharmas are this varied, and nobody coordinated them, why do they turn up *everywhere*? Why does every human society, left to itself long enough, develop a comprehensive account of how to live? You might expect, given how different cultures look on the surface, that some peoples would simply do without. None do. And the reason is one of the most robust findings in the science of human behaviour.
 
@@ -49,13 +49,13 @@ The evidence that this is universal is striking. The anthropologist Donald Brown
 
 The trick to holding "universal" and "wildly varied" together at once comes from biology. Niko Tinbergen, who studied animal behaviour, taught that among the questions you can ask about any trait, two stand sharply apart: what is it *for*, and how is it *built*? The evolutionary biologist David Sloan Wilson applies exactly that split to morality, and it resolves our puzzle cleanly. The *function* of a dharma is nearly always the same: to sustain cooperation and hold the group together. But the *mechanism* that delivers that function can be almost anything: a sense of duty, a fear of divine punishment, a code of honour, the Indian idea of dharma, the southern African idea of Ubuntu. One job, many tools. That is why dharma-shaped frameworks keep being reinvented by people who have never met: they are local solutions to a problem that every human community faces.
 
-## Written Across the Sky
+## Written across the sky
 
 You can even see the same impulse manifest on the scale of the cosmos. Many great civilisations, often independently, reached for a grand idea of *order*, a single principle fusing the heavens, society, and right conduct. India had *ṛta*, the cosmic order that dharma applies to human life. Ancient Egypt had *ma'at*, truth and balance set against chaos, weighed against your heart after death. The Zoroastrians of Persia had *asha*, so close a cousin of *ṛta* that the two are, in effect, the same word in different mouths. The Greeks had *logos*, the rational order of things; the Chinese had the *Tao*, the Way; the Romans and the Christians after them had *natural law*. The cosmologies could hardly be more different. The underlying intuition is the same every time: that reality has a grain, and that the good life means going with it rather than against it. It is the intuition from which the very word *dharma* was built. That which holds, written across the sky.
 
 Those grand orders are not all the same kind of thing, though, and one difference among them matters a great deal for where we are heading. Most of them (*ṛta*, *ma'at*, the *Tao*, natural law) treat the order as something *discovered*, a structure already woven into reality that we are obliged to find and obey. The Greeks, characteristically, also kept a word for the opposite idea: *nomos*, the order that is *made*, the conventions and laws a society agrees on and could have arranged otherwise. Dharma sits in a revealing spot between the two. The Indian traditions split the job in half: *ṛta* names the impersonal cosmic order out there, while *dharma* names its application down here, in a particular human life with its particular duties. That two-storey design is the quiet reason dharma travels so well. Because the lived, this-worldly layer had already been carved away from the cosmology, you can keep the *dharma* (the practice of living well, the compassion, the discipline, the holding) while setting the metaphysical upper storey gently to one side. You cannot do that nearly so easily with *ma'at*, who is a goddess, or with natural law, which is woven into the mind of God. A dharma comes pre-loosened. This is architecture, not a verdict on which storey matters more: for most of the word's history, and for millions of practitioners now, the upper storey is not packaging but the point. That is a large part of why "dharma", of all these ancient ordering words, is the one that carries most comfortably into a secular age, and why a phrase like "secular dharma" is not the contradiction it first appears to be.
 
-## Custom, Law, and the Things a Dharma Is Not
+## Custom, law, and the things a dharma is not
 
 By now you may be feeling a reasonable suspicion. If a dharma can be a religion, a philosophy, or a people's unwritten code, and if the impulse behind it is universal, then hasn't the word swollen to mean simply "human values"? A word that means everything means nothing. If I am going to keep using *dharma* as the load-bearing term for everything that follows, the word needs a boundary: some way of distinguishing what *is* a dharma from what merely looks like one.
 
@@ -65,7 +65,7 @@ Run the everyday impostors against those four features, and you can see why they
 
 You may have noticed that this test has soft edges, and those edges are part of the design. Membership in a category like this is a matter of degree rather than a clean yes-or-no. Just as a magpie is somehow a more obvious bird than a penguin or an emu, some dharmas are textbook cases and others sit out near the blurry rim. Buddhism, Stoicism, and Ubuntu carry all four features in full, and the test admits them without a wobble. But what about environmentalism, with its values, its disciplines of consumption, its story about humanity and nature, and its converts who genuinely reorganise their lives around it? What about the ethos of a demanding profession, medicine or the military, that tells its members who to become and drills them until they are it? What about a subculture like punk, with its code, its fierce identity, and its refusals? Run the four features over each of these and you will find them scoring two or three out of four, hovering right at the threshold. I do not think there is a hidden fact that settles such cases, and chasing one would lead us away from what matters. The features are a tool for seeing family resemblance, not a border guard stamping passports. What they let us do is *compare*: to notice that a profession, a religion, and a peasant movement can be doing recognisably the same work, holding a life together in recognisably the same way, even when one of them would never dream of calling itself a dharma.
 
-## A Definition Is a Tool, Not a Truth
+## A definition is a tool, not a truth
 
 I have just handed you a four-part definition, and I want to immediately complicate it, because the most interesting thing I learned in defining *dharma* is something about definition itself.
 
@@ -75,7 +75,7 @@ There is a further wrinkle, and it runs through everything that follows. The phi
 
 This is the method of the whole undertaking. Faced with a drifting, contested, three-thousand-year-old word, the tempting move is to plant a flag and declare what dharma *really* means. The honest move, the one I will try to keep faith with, is to map its uses instead: to lay out many dharmas, with their contexts and their tensions intact, and resist flattening them into a single official version. This means: Holding the plurality, disclosing the choice, and never mistaking a convenient map for the shape of the world. It is a caution worth carrying. It will matter enormously when, near the end of this journey, we ask whether a machine could be taught human ethics at all, or whether teaching it would simply crush the plural into a single average and call the result the truth.
 
-## Two Questions I'm Leaving Open
+## Two questions I'm leaving open
 
 By now, two objections are probably forming, and rather than answer them now I am going to name them and deliberately leave them standing, because they are the twin destinations the whole argument is heading for.
 
@@ -83,7 +83,7 @@ The first is about authority. I have defined a dharma as something that binds yo
 
 The second is about judgement. If dharmas are genuinely plural and none automatically sits above the others, then are they all equally good? When a dharma is cruel, or cages half its people, or feeds a death camp, am I really reduced to shrugging that it is simply *their* way? Here I will give you one promissory note now, because the worry is serious enough that I do not want it festering for eight parts: *plural* is not the same as *anything goes*. To say there is no single true dharma is not to say that every dharma is as good as every other, any more than admitting there are many good languages means every sentence is true. There is a floor, and some dharmas fall through it. But building that floor, honestly, without smuggling in my own culture's furniture and calling it the universe, is delicate work, and it belongs at the end of the road, not here.
 
-## The Most Ordinary Thing in the World
+## The most ordinary thing in the world
 
 So what did I find, going to look for the meaning under the fog?
 

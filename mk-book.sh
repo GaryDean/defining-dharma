@@ -504,7 +504,7 @@ body{font-family:"EB Garamond",Georgia,serif;font-size:1rem;line-height:1.5;text
 a{color:#0b295a}
 h1,h2,h3,h4,h5,h6{font-family:"Lato","DejaVu Sans",sans-serif;line-height:1.2;text-align:left;-webkit-hyphens:none;-epub-hyphens:none;hyphens:none}
 h1{font-size:2em;margin:1em 0 0.6em}
-h2{font-size:1.5em;margin:1.2em 0 0.4em}
+h2{font-size:1.133em;margin:1.2em 0 0.4em}
 h3{font-size:1.2em;margin:1em 0 0.3em}
 [data-align="center"]{text-align:center}
 [data-align="center"] h1,[data-align="center"] h2,[data-align="center"] h3,[data-align="center"] h4,[data-align="center"] h5,[data-align="center"] h6{text-align:center}
@@ -590,7 +590,7 @@ body{font-family:"EB Garamond",Georgia,serif;font-size:15pt;line-height:1.5}
 a{color:#0b295a}
 h1,h2,h3,h4,h5,h6{font-family:"Lato","DejaVu Sans",sans-serif;line-height:1.2}
 h1{font-size:2em;margin:1em 0 0.6em;break-before:page}
-h2{font-size:1.5em;margin:1.2em 0 0.4em}
+h2{font-size:1.133em;margin:1.2em 0 0.4em}
 h3{font-size:1.2em;margin:1em 0 0.3em}
 [data-align="center"]{text-align:center}
 .pagebreak{break-before:page}

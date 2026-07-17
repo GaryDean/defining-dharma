@@ -23,13 +23,13 @@ There are now a vast number of these people, and the surveys have a name for the
 
 Part 6 left us exactly here. The old dharmas, with all their captures and cages, were made for a world that is gone, the world of the village and the empire and the believing crowd. For hundreds of millions of people the gods have fallen silent, and the village has become the internet. So the question now is whether a dharma can survive that loss at all. Can there be a real one, a binding one, a transforming one, without the foundations on which every previous dharma stood?
 
-## Three Things a Dharma Used to Get for Free
+## Three things a dharma used to get for free
 
 To answer that, we have to be specific about what those lost foundations actually did, because "faith" is too vague. A traditional religious dharma got three things, more or less for free, that a secular one has to find some other way to earn.
 
 The first was *grounding*: a reason its commands were binding rather than merely optional, usually a commanding God who made "thou shalt" into law rather than a preference. The second was *installation*: the whole apparatus of ritual, sacred ordeal, and tight community, anchored to unfalsifiable belief, that drove a dharma down into people until it ran their lives. And the third was simply a *world that cooperated*, a slow, face-to-face, information-poor world in which the main obstacle to living well was your own untrained heart. A secular dharma in the twenty-first century has lost all three. It has no divine lawgiver, a frayed and improvised apparatus, and a new world that, far from being indifferent to the holding-together a dharma does, is actively engineered against it.
 
-## Can It Bind?
+## Can it bind?
 
 Grounding is the objection the believer presses hardest, and the question Part 1 raised. Without a God behind it, the challenge runs, a dharma cannot really *bind* anyone. "Thou shalt not" needs a lawgiver; remove the divine legislator and all our fine moral language collapses into "I would rather people didn't." The philosopher Elizabeth Anscombe put it in sharp terms: the whole vocabulary of moral obligation, of what one *ought* and *must* do, is the wreckage of a system that assumed a divine law, and it becomes literally incoherent once the lawgiver is gone, leaving only preferences dressed up as duties.
 
@@ -43,7 +43,7 @@ That conditional shape is easy to mistake for weakness. To say a dharma binds yo
 
 And a dharma can add an answer here that is peculiarly its own. It does not finally rest its authority on an argument you could win or lose in a debate. It rests it on an invitation: come and see. The old Buddhist word is *ehipassiko*, and it asks not for your belief but for your experiment. Live this way, it says, actually do the practice, and watch what happens to your own suffering and to the suffering of the people around you. The grounding, on this view, is not a proof written above the world but a result discovered inside a life, and that relocates the whole question from the heavens down to lived consequence, which is exactly where a secular age can still test it. It is a humbler foundation than a commandment, but it is also one you can actually check.
 
-## Can It Install?
+## Can it install?
 
 Grounding, though, is the easier of the two philosophical problems, and the one secular dharmas worry about too much. The harder one is installation, and it is where most of them quietly fail.
 
@@ -61,7 +61,7 @@ The bundle has a third strand, though, and it is the one the modern world is lea
 
 So can a secular dharma install? The honest verdict is: sometimes, if it keeps the whole bundle and works hard to replace what the gods used to supply. The experiments are real but young, and we should be suspicious of how readily the people running them, this project among them, declare their own success. But the failure mode and the success mode are now clear enough to steer by, and that is not nothing.
 
-## The New Terrain
+## The new terrain
 
 Suppose, though, that both problems were solved, that a secular dharma could be both grounded and installed. It would still have to do its work in a world unlike any a dharma has faced before, and this is the part that is genuinely new under the sun.
 
@@ -75,7 +75,7 @@ This forces something new on any dharma that means to survive here. The old cont
 
 One thing does *not* change in all this, and it points to the resource a new dharma has to draw on. The deepest contemplative traditions never treated attention as a neutral spotlight to aim wherever one pleased. In Buddhism, the relevant idea is not "bare attention" but something closer to "appropriate attention," a noticing already shaped by ethics and intention and woven into the whole question of how to live. The attention economy, by reducing mindfulness to a content-free knack of just-noticing, severed attention from that ethical core, and that severing is exactly what made it so easy to capture and resell. A real digital-age dharma is therefore partly a recovery, the same move Hadot described: it restores the old truth that what you attend to, and how, is already a moral act, the very fabric of the person you are slowly becoming. And it has begun to grow its own concrete practices. The writer Cal Newport's "digital minimalism" is recognisably an installation practice in the old sense: a month-long declutter, a deliberate, almost ruthless pruning of the apps and feeds back down to the few that serve a chosen value, a ritual of subtraction meant to re-train a scattered attention until focus becomes, once again, a settled disposition rather than a daily losing fight.
 
-## The Shape of the Question Changes
+## The shape of the question changes
 
 The inherited dharmas are fraying, and most of them were made for a world that is gone. The secular replacements can perhaps be grounded, though only in the quieter, conditional way that may be the only grounding there ever was; and they can perhaps be installed, though the apparatus is improvised and the evidence is young; and they must do their work on terrain more hostile to the gathering of a self than anything in human history. That is a daunting tally. But the seeker we started with, the one with the yoga and the app and the book of Stoic sayings, looks different now. She is not a symptom of decline. She is doing, alone and clumsily and mostly without help, the most ancient human work there is: trying to assemble, out of the materials at hand, a dharma she can live by. The patchwork is not decadence. It is construction, under the worst conditions in which the work has ever been attempted.
 
