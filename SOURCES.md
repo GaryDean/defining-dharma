@@ -88,7 +88,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Dario Amodei, "Machines of Loving Grace" (darioamodei.com, October 2024)
 - kb: `machines-of-loving-grace.md`
-- verified: web (https://darioamodei.com/essay/machines-of-loving-grace; October 2024)### anarkata-move-like-mycorrhizae
+- verified: web (https://darioamodei.com/essay/machines-of-loving-grace; October 2024)
+
+### anarkata-move-like-mycorrhizae
 - status: usable
 - medium: text
 - cite: Anarkata, "Move Like Mycorrhizae: Some Suggestions for Praxis" (South Chicago Anarchist Black Cross / True Leap Press zine; The Anarchist Library)
@@ -193,7 +195,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Stephen Batchelor and Bing Song, "What if Buddhists Ran the World?" Futurology podcast (Berggruen Institute, 2024)
 - kb: `What-if-Buddhists-Ran-the-World.md`
-- verified: video (https://www.youtube.com/watch?v=izowdNr6tJY; Berggruen Institute Futurology, recorded Venice, Nov 2024)### bettera-2024-secondo-natura
+- verified: video (https://www.youtube.com/watch?v=izowdNr6tJY; Berggruen Institute Futurology, recorded Venice, Nov 2024)
+
+### bettera-2024-secondo-natura
 - status: usable
 - medium: text
 - cite: Stefano Davide Bettera, Secondo natura: Critica dell'ideologia liberal progressista (Solferino, 2024)
@@ -254,7 +258,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Nele Strynckx, "Building Mental Immunity" (prosocial.world, 21 Feb 2023)
 - kb: `posts_building-mental-immunity.md`
-- verified: web (https://www.prosocial.world/posts/building-mental-immunity; 2023-02-21)### christakis-2019-blueprint
+- verified: web (https://www.prosocial.world/posts/building-mental-immunity; 2023-02-21)
+
+### christakis-2019-blueprint
 - status: usable
 - medium: text
 - cite: Nicholas A. Christakis, Blueprint: The Evolutionary Origins of a Good Society (Little, Brown Spark, 2019)
@@ -298,7 +304,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Oliver Scott Curry, Daniel Austin Mullins and Harvey Whitehouse, "Is It Good to Cooperate? Testing the Theory of Morality-as-Cooperation in 60 Societies," Current Anthropology 60(1) (2019); popularized as "Seven Moral Rules Found All Around the World" (University of Oxford press release, 2019; repr. prosocial.world)
 - kb: `posts_the-seven-moral-rules-found-all-around-the-world.md`
-- verified: web (https://doi.org/10.1086/701478)### dalai-lama-simple-religion-quote
+- verified: web (https://doi.org/10.1086/701478)
+
+### dalai-lama-simple-religion-quote
 - status: usable
 - medium: text
 - cite: Dalai Lama XIV, "This is my simple religion. There is no need for temples; no need for complicated philosophy. Our own brain, our own heart is our temple; the philosophy is kindness." (widely attributed; The Dalai Lama: A Policy of Kindness: An Anthology of Writings By and About the Dalai Lama, ed. Sidney Piburn, Snow Lion Publications, 1990, p. 52)
@@ -313,6 +321,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - kb: `daring-to-define-by-whose-right.txt`
 - verified: unverified
 - note: prov=faqs, listed barred:self dir
+
+### dd-staging-self-notes
+- status: barred
+- barred: self
+- medium: text
+- kb: any `staging.text/DD/` path
+- verified: unverified
+- note: the project's own notes embedded in the corpus — never citable.
 
 ### de-waal-responds-to-new-atheist-critics
 - status: usable
@@ -407,7 +423,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Ellen Evans and Jon Moses, "Interview with David Graeber," The White Review (7 Dec 2011)
 - kb: `ellen-evans+jon-moses_interview-with-david-graeber.md`
-- verified: web (https://theanarchistlibrary.org/library/ellen-evans-jon-moses-interview-with-david-graeber; retrieved from thewhitereview.org)### events-organizational-development-generative-entrenchment
+- verified: web (https://theanarchistlibrary.org/library/ellen-evans-jon-moses-interview-with-david-graeber; retrieved from thewhitereview.org)
+
+### events-organizational-development-generative-entrenchment
 - status: barred
 - barred: ephemera
 - medium: text
@@ -428,7 +446,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Max Fisher, The Chaos Machine: The Inside Story of How Social Media Rewired Our Minds and Our World (Little, Brown and Company, 2022)
 - kb: `Max-Fisher_The-Chaos-Machine_The-Inside-Story-of-How-Social-Media_2022.md`
-- verified: web (ISBN 978-0-316-70332-1)### fleischman-evolutionary-psychology-introduction
+- verified: web (ISBN 978-0-316-70332-1)
+
+### fleischman-evolutionary-psychology-introduction
 - status: usable
 - medium: transcript
 - cite: Diana Fleischman, "Evolutionary Psychology: An Introduction" (The Weekend University, YouTube, video ID lb8fH9wouYI; 2019)
@@ -500,7 +520,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: David Graeber, "After the Jubilee," Tidal, Year II (September 2012)
 - kb: `david-graeber_after-the-jubilee.md`
-- verified: web (https://davidgraeber.org/articles/after-the-jubilee/; Sept 2012)### hagen-2018-seven-reasons-depression-not-brain-disorder
+- verified: web (https://davidgraeber.org/articles/after-the-jubilee/; Sept 2012)
+
+### hagen-2018-seven-reasons-depression-not-brain-disorder
 - status: usable
 - medium: text
 - cite: Edward Hagen (Grasshoppermouse), "Seven Reasons Why Most Major Depression Is Probably Not a Brain Disorder" (16 Dec 2018; repr. This View of Life / prosocial.world)
@@ -734,7 +756,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Jonathan Marks, "Evolutionary Psychology Is Neither" (This View of Life / prosocial.world, 22 March 2015)
 - kb: `evolutionary-psychology-is-neither.md`
-- verified: web (prosocial.world/posts/evolutionary-psychology-is-neither; 2015-03-22)### meaning-alignment-institute-moral-graphs-openai-grant-winners
+- verified: web (prosocial.world/posts/evolutionary-psychology-is-neither; 2015-03-22)
+
+### meaning-alignment-institute-moral-graphs-openai-grant-winners
 - status: usable
 - medium: transcript
 - cite: Meaning Alignment Institute, "Moral Graphs: Interview with OpenAI Grant Winners! Meaning Alignment Institute: Aligning Humanity!" (YouTube)
@@ -746,7 +770,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - status: usable
 - medium: text
 - cite: J. Gordon Melton & Martin Baumann (eds.), "Sumarah" entry in *Religions of the World: A Comprehensive Encyclopedia of Beliefs and Practices* (ABC-CLIO, 2nd ed., 2010)
-- kb: `sumarah-religions-of-the-world.md`
+- kb: `sumarah-religions-of-the-world.md`, `Paul-Stange_Sumarah_2002.md`
 - verified: web
 - note: prov=sumarah (explicit usable-topic dir).
 
@@ -818,7 +842,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Michael Price, "How Science Can Help Us Be More Reasonable About Morality" (This View of Life / prosocial.world, 11 February 2014)
 - kb: `how-science-can-help-us-be-more-reasonable-about-morality.md`
-- verified: web (prosocial.world/posts/how-science-can-help-us-be-more-reasonable-about-morality; 2014-02-11)### price-2024-punish-the-shirkers
+- verified: web (prosocial.world/posts/how-science-can-help-us-be-more-reasonable-about-morality; 2014-02-11)
+
+### price-2024-punish-the-shirkers
 - status: usable
 - medium: text
 - cite: Michael Price, "Punish the Shirkers! Especially the Low-status Ones" (prosocial.world, 2 February 2013)
@@ -831,7 +857,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Michael Price, "Profiles in Evolutionary Moral Psychology: Jonathan Haidt" (This View of Life / prosocial.world)
 - kb: `profiles-in-evolutionary-moral-psychology-jonathan-haidt.md`
-- verified: web (prosocial.world/posts/profiles-in-evolutionary-moral-psychology-jonathan-haidt; 29 Oct 2013)### price-the-world-needs-a-secular-community-revolution
+- verified: web (prosocial.world/posts/profiles-in-evolutionary-moral-psychology-jonathan-haidt; 29 Oct 2013)
+
+### price-the-world-needs-a-secular-community-revolution
 - status: usable
 - medium: text
 - cite: Michael Price, "The World Needs a Secular Community Revolution" (prosocial.world)
@@ -1276,23 +1304,219 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - verified: web (https://www.gutenberg.org/ebooks/3800)
 - note: Classic public-domain philosophical work; no ISBN applicable.
 
+### stange-1970-mystical-marxist-dialectics
+- status: usable
+- medium: text
+- cite: Paul Stange, *Javanese Mystical and Marxist Dialectics* (unpublished manuscript, 1970)
+- kb: `Paul-Stange_Javanese-Mystical-and-Marxist-Dialectics_1970.md`
+- verified: web (https://freotopia.org/people/paulstange/dialectics.pdf)
+- note: year from the document's own byline ("Paul Stange, 1970"); full text hosted on the author's freotopia.org CV page.
+
+### stange-1977-wayang-symbolism
+- status: usable
+- medium: text
+- cite: Paul Stange, "Mystical Symbolism in Javanese Wayang Mythology," *The South East Asian Review*, vol. 1 no. 2, 1977, pp. 109-122
+- kb: `Paul-Stange_Mystical-Symbolism-in-Javanese-Wayang-Mythology_1977.md`
+- verified: web (https://freotopia.org/people/paulstange/wayang.html)
+- note: venue/year from the article's own citation line.
+
+### stange-1978-revolutionary-period
+- status: usable
+- medium: text
+- cite: Paul Stange, "Javanese Mysticism in the Revolutionary Period," *Journal of Studies in Mysticism*, vol. 1 no. 2, 1978, pp. 115-130
+- kb: `Paul-Stange_Javanese-Mysticism-in-the-Revolutionary-Period_1978.md`
+- verified: web (https://freotopia.org/people/paulstange/revolutionary.html)
+- note: venue/year from the article's own citation line.
+
+### stange-1979-possession-experience
+- status: usable
+- medium: text
+- cite: Paul Stange, "Configurations of Javanese Possession Experience," *Religious Traditions*, vol. 2 no. 2, 1979, pp. 39-54
+- kb: `Paul-Stange_Configurations-of-Javanese-Possession-Experience_1979.md`
+- verified: web (https://freotopia.org/people/paulstange/configurations.html)
+- note: venue/year from the article's own citation line.
+
+### stange-1980-evolution-of-sumarah
+- status: usable
+- medium: text
+- cite: Paul Stange, *The Evolution of Sumarah* — revision of the PhD dissertation "The Sumarah Movement in Javanese Mysticism" (University of Wisconsin–Madison, 1980); circulated as *Modern Javanism: Truth in Sumarah Practice*
+- kb: `Paul-Stange_The-Evolution-of-Sumarah_1980.md`
+- verified: web (https://freotopia.org/people/paulstange/evolution.pdf; sumarah.net/en/writings/books/the-evolution-of-sumarah---paul-stange.html)
+- note: Stange's CV links evolution.pdf both as the book *Modern Javanism* and as the thesis *The Evolution of Sumarah* — single file; 1980 (Wisconsin PhD) confirmed via sumarah.net; KB filename year is the manifest's best estimate for this revision.
+
+### stange-1986-legitimate-mysticism
+- status: usable
+- medium: text
+- cite: Paul Stange, "'Legitimate' mysticism in Indonesia," *Review of Indonesian and Malaysian Affairs*, vol. 20 no. 2, 1986, pp. 76-117
+- kb: `Paul-Stange_Legitimate-mysticism-in-Indonesia_1986.md`
+- verified: web (https://freotopia.org/people/paulstange/legitimate.html)
+- note: venue/year from the article's own citation line.
+
+### stange-1989-sabdopalon-prophecy
+- status: usable
+- medium: text
+- cite: Paul Stange, "Interpreting Javanist millennial imagery: the Sabdopalon prophecy under Suharto," in *Creating Indonesian Cultures*, ed. Paul Alexander (Oceania Publications, Sydney, 1989), pp. 113-134
+- kb: `Paul-Stange_Interpreting-Javanist-millennial-imagery_the-Sabdopalon-prophecy-under-Suharto_1989.md`
+- verified: web (https://freotopia.org/people/paulstange/interpreting.html)
+- note: venue/year from the article's own citation line.
+
+### stange-1989-sandgropers
+- status: usable
+- medium: text
+- cite: Paul Stange, "Probing the inner life of Sandgropers," *Australian Religion Studies Review*, vol. 2 no. 3, 1989, pp. 5-14
+- kb: `Paul-Stange_Probing-the-inner-life-of-Sandgropers_1989.md`
+- verified: web (https://freotopia.org/people/paulstange/probing.html)
+- note: venue/year from the article's own citation line.
+
+### stange-1990-javanism-text-or-praxis
+- status: usable
+- medium: text
+- cite: Paul Stange, "Javanism as text or praxis," *Anthropological Forum*, vol. 6 no. 2, 1990, pp. 237-255
+- kb: `Paul-Stange_Javanism-as-text-or-praxis_1990.md`
+- verified: web (https://freotopia.org/people/paulstange/praxis.html)
+- note: venue/year from the article's own citation line.
+
+### stange-1991-collapse-of-lineage
+- status: usable
+- medium: text
+- cite: Paul Stange, "The Collapse of Lineage and Availability of Gnosis" (Charles Strong Trust lecture, Australian Association for the Study of Religions, Adelaide, 1991)
+- kb: `Paul-Stange_The-Collapse-of-Lineage-and-Availability-of-Gnosis_1991.md`
+- verified: web (https://freotopia.org/people/paulstange/gnosis.html)
+- note: venue/year from the document's own citation line ("Charles Strong Trust, AASR, Adelaide, 1991").
+
+### stange-1991-deconstruction-disempowerment
+- status: usable
+- medium: text
+- cite: Paul Stange, "Deconstruction as disempowerment: new orientalisms of Java," *Bulletin of Concerned Asian Scholars*, vol. 23 no. 3, 1991, pp. 51-71
+- kb: `Paul-Stange_Deconstruction-as-disempowerment_new-orientalisms-of-Java_1991.md`
+- verified: web (https://freotopia.org/people/paulstange/deconstruction.html)
+- note: venue/year from the article's own citation line.
+
+### stange-1992-religious-change-sea
+- status: usable
+- medium: text
+- cite: Paul Stange, "Religious Change in Contemporary Southeast Asia," in *The Cambridge History of Southeast Asia*, vol. 2, ed. Nicholas Tarling (Cambridge University Press, 1992), pp. 529-584
+- kb: `Paul-Stange_Religious-Change-in-Contemporary-Southeast-Asia_1992.md`
+- verified: web (https://freotopia.org/people/paulstange/religious.html)
+- note: venue/year from the article's own citation line.
+
+### stange-1993-inner-dimensions-revolution
+- status: usable
+- medium: text
+- cite: Paul Stange, "Inner dimensions of the Indonesian Revolution," in *Autonomous Histories, Particular Truths: Essays in Honor of John Smail*, ed. Laurie J. Sears (CSEAS, University of Wisconsin, Madison, 1993), pp. 219-243
+- kb: `Paul-Stange_Inner-dimensions-of-the-Indonesian-Revolution_1993.md`
+- verified: web (https://freotopia.org/people/paulstange/inner.html)
+- note: venue/year from the article's own citation line.
+
+### stange-1994-silences-solonese-dance
+- status: usable
+- medium: text
+- cite: Paul Stange, "Silences in Solonese Dance Production," *Journal of Southeast Asian Social Science*, vol. 22 (1994), pp. 210-229
+- kb: `Paul-Stange_Silences-in-Solonese-Dance-Production_1994.md`
+- verified: web (https://freotopia.org/people/paulstange/silences.pdf)
+- note: venue/year from the document's own header line.
+
+### stange-1995-exploring-modern-asian-mysticisms
+- status: usable
+- medium: text
+- cite: Paul Stange, *Exploring Modern Asian Mysticisms* (a.k.a. *Asian Mystical Religions*, unpublished book manuscript, c. 1995)
+- kb: `Paul-Stange_Exploring-Modern-Asian-Mysticisms_1995.md`
+- verified: web (https://freotopia.org/people/paulstange/exploring.pdf)
+- note: full text hosted on the author's freotopia.org CV page; document titles itself "Asian Mystical Religions".
+
+### stange-2002-javanism
+- status: usable
+- medium: text
+- cite: Paul Stange, "Javanism," in *Religions of the World: A Comprehensive Encyclopedia of Beliefs and Practices*, ed. J. Gordon Melton & Martin Baumann (ABC-CLIO, Santa Barbara, 2002)
+- kb: `Paul-Stange_Javanism_2002.md`
+- verified: web (https://freotopia.org/people/paulstange/javanism.html)
+- note: encyclopedia entry; venue from the document's own citation line, year from the encyclopedia's 1st edition (2002).
+
+### stange-2002-pangestu
+- status: usable
+- medium: text
+- cite: Paul Stange, "Pangestu," in *Religions of the World: A Comprehensive Encyclopedia of Beliefs and Practices*, ed. J. Gordon Melton & Martin Baumann (ABC-CLIO, Santa Barbara, 2002)
+- kb: `Paul-Stange_Pangestu_2002.md`
+- verified: web (https://freotopia.org/people/paulstange/pangestu.html)
+- note: encyclopedia entry; venue from the document's own citation line, year from the encyclopedia's 1st edition (2002).
+
+### stange-2002-sapta-darma
+- status: usable
+- medium: text
+- cite: Paul Stange, "Sapta Darma," in *Religions of the World: A Comprehensive Encyclopedia of Beliefs and Practices*, ed. J. Gordon Melton & Martin Baumann (ABC-CLIO, Santa Barbara, 2002)
+- kb: `Paul-Stange_Sapta-Darma_2002.md`
+- verified: web (https://freotopia.org/people/paulstange/saptadarma.html)
+- note: encyclopedia entry; venue from the document's own citation line, year from the encyclopedia's 1st edition (2002).
+
+### stange-2004-folk-religion
+- status: usable
+- medium: text
+- cite: Paul Stange, "Folk religion," in *Southeast Asia: A Historical Encyclopedia from Angkor Wat to East Timor*, ed. Ooi Keat Gin (ABC-CLIO, Santa Barbara, 2004)
+- kb: `Paul-Stange_Folk-religion_2004.md`
+- verified: web (https://freotopia.org/people/paulstange/folk.html)
+- note: encyclopedia entry; the document's citation line reads "Cambridge UP, Santa Barbara, 2004" but the encyclopedia was published by ABC-CLIO (Santa Barbara).
+
+### stange-2004-kebatinan-movements
+- status: usable
+- medium: text
+- cite: Paul Stange, "Kebatinan movements," in *Southeast Asia: A Historical Encyclopedia from Angkor Wat to East Timor*, ed. Ooi Keat Gin (ABC-CLIO, Santa Barbara, 2004)
+- kb: `Paul-Stange_Kebatinan-movements_2004.md`
+- verified: web (https://freotopia.org/people/paulstange/kebatinan.html)
+- note: encyclopedia entry; the document's citation line reads "Cambridge UP, Santa Barbara, 2004" but the encyclopedia was published by ABC-CLIO (Santa Barbara).
+
+### stange-2007-politik-perhatian
+- status: usable
+- medium: text
+- cite: Paul Stange, *Politik Perhatian: Rasa dalam Kebudayaan Jawa*, ed. Hairus Salim HS (LKiS, Yogyakarta, 1998; 2nd printing 2009)
+- kb: `Paul-Stange_Politik-Perhatian_Rasa-dalam-Kebudayaan-Jawa_2007.md`, `Paul-Stange_Politik-Perhatian_Rasa-dalam-Kebudayaan-Jawa_2007.en.md`
+- verified: web (https://freotopia.org/people/paulstange/politikperhatian.pdf; kubuku.id/detail/politik-perhatian---rasa-dalam-kebudayaan-jawa/37989)
+- note: publisher/years confirmed via LKiS catalogue and Jakarta library records; the KB filename year (2007) is the manifest's best estimate. The `.en.md` file is a 2026 LLM English translation of the Indonesian KB text (*The Politics of Attention: Rasa in Javanese Culture*).
+
+### stange-2008-kejawen-modern
+- status: usable
+- medium: text
+- cite: Paul Stange, *Kejawen Modern: Hakikat dalam Penghayatan Sumarah*, trans. Chandra Utama, ed. Khudori (LKiS, Yogyakarta, 2009)
+- kb: `Paul-Stange_Kejawen-Modern_Hakikat-dalam-Penghayatan-Sumarah_2008.md`
+- verified: web (https://freotopia.org/people/paulstange/kejawenmodern.pdf; ISBN 979-978-53-8-3)
+- note: Indonesian translation of Stange's Sumarah work; publisher/year/ISBN confirmed via LKiS catalogue records; the KB filename year (2008) is the manifest's best estimate.
+
+### stange-2009-ancestral-voices
+- status: usable
+- medium: text
+- cite: Paul Stange, *Ancestral Voices in Island Asia* (unpublished book manuscript, c. 2009); Indonesian version *Suara nenek moyang Nusantara*
+- kb: `Paul-Stange_Ancestral-Voices-in-Island-Asia_2009.md`, `Paul-Stange_Suara-nenek-moyang-Nusantara_2009.md`
+- verified: web (https://freotopia.org/people/paulstange/ancestralvoices.pdf; https://freotopia.org/people/paulstange/suara.pdf)
+- note: full texts hosted on the author's freotopia.org CV page; year is the manifest's best estimate for both files.
+
 ### stange-logic-of-rasa-in-java
 - status: usable
 - medium: text
 - cite: Paul Stange, "The Logic of Rasa in Java," Indonesia, no. 38 (October 1984), pp. 113-134
-- kb: `the-logic-of-rasa--stange.md`
-- verified: web (https://www.jstor.org/stable/3350848)### stange-relaxed-meditation-sumarah-teachings
+- kb: `the-logic-of-rasa--stange.md`, `Paul-Stange_The-Logic-of-Rasa-in-Java_1984.md`
+- verified: web (https://www.jstor.org/stable/3350848)
+
+### stange-relaxed-meditation-sumarah-teachings
 - status: usable
 - medium: text
 - cite: Paul Stange (trans., ed. and intro.), Relaxed Meditation: Selected Sumarah Teachings (orig. pub. as Selected Sumarah Teachings, Dept. of Asian Studies, WAIT, Perth, 1977)
-- kb: `relaxed-mediation-sumarah-stange.md`
-- verified: web (https://freotopia.org/people/paulstange/relaxedmeditation.html)### stoelhorst-2024-moral-sentiments
+- kb: `relaxed-mediation-sumarah-stange.md`, `Paul-Stange_Relaxed-Meditation_Selected-Sumarah-Teachings_2001.md`
+- verified: web (https://freotopia.org/people/paulstange/relaxedmeditation.html)
+
+### stoelhorst-2024-moral-sentiments
 - status: usable
 - medium: text
 - cite: J.W. Stoelhorst, "Moral Sentiments" (prosocial.world, 2024)
 - kb: `posts_moral-sentiments.md`
 - verified: web (https://www.prosocial.world/posts/moral-sentiments)
 - note: resolved via prosocial.world.db frontmatter
+
+### sumarah-temp-txt
+- status: barred
+- barred: ephemera
+- medium: text
+- kb: `temp.txt`
+- verified: unverified
+- note: near-duplicate of introduction-to-sumarah.md
 
 ### suzuki-1970-zen-mind-beginners-mind
 - status: usable
@@ -1344,7 +1568,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Mark van Vugt, interviewed by Gareth Craze, "Mismatch: An Interview with Mark van Vugt," prosocial.world, 26 July 2018. Discusses Ronald Giphart and Mark van Vugt, Mismatch: How Our Stone Age Brain Deceives Us Every Day (And What We Can Do About It) (London: Robinson, 2018), ISBN 9781472139702.
 - kb: `posts_mismatch-an-interview-with-mark-van-vugt.md`
-- verified: web (https://www.prosocial.world/posts/mismatch-an-interview-with-mark-van-vugt)### von-rueden-large-scale-societies-outliers-moral-judgment
+- verified: web (https://www.prosocial.world/posts/mismatch-an-interview-with-mark-van-vugt)
+
+### von-rueden-large-scale-societies-outliers-moral-judgment
 - status: usable
 - medium: text
 - cite: Chris von Rueden, "Are Large-Scale Societies Outliers When It Comes to Core Elements of Moral Judgment?" prosocial.world
@@ -1443,7 +1669,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Ken Wilber, A Brief History of Everything (Boston: Shambhala, 1996), ISBN 9781570621871.
 - kb: `Ken-Wilber_A-Brief-History-of-Everything_1996.md`
-- verified: web (ISBN 9781570621871)### williamson-eberstadt-unemployed-men
+- verified: web (ISBN 9781570621871)
+
+### williamson-eberstadt-unemployed-men
 - status: usable
 - medium: transcript
 - cite: Chris Williamson interviewing Nicholas Eberstadt, "How Are 7 Million Unemployed Men Actually Surviving? - Nicholas Eberstadt" (Modern Wisdom, YouTube, video ID vknKvG3yrYM)
@@ -1472,7 +1700,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: Athena Aktipis, interviewed by Alan Honick, "The Cheating Cell: An Interview with Athena Aktipis," prosocial.world, 15 June 2020 (byline Alan Honick, not David Sloan Wilson). Discusses Athena Aktipis, The Cheating Cell: How Evolution Helps Us Understand and Treat Cancer (Princeton University Press, 2020), ISBN 9780691163840.
 - kb: `posts_the-cheating-cell-an-interview-with-athena-aktipis`
-- verified: web (https://www.prosocial.world/posts/the-cheating-cell-an-interview-with-athena-aktipis)### wilson-evolution-coming-interspiritual-age
+- verified: web (https://www.prosocial.world/posts/the-cheating-cell-an-interview-with-athena-aktipis)
+
+### wilson-evolution-coming-interspiritual-age
 - status: usable
 - medium: text
 - cite: David Sloan Wilson, "Evolution And The Coming Interspiritual Age: A Conversation With Kurt Johnson," prosocial.world, 21 May 2015.
@@ -1539,7 +1769,9 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - medium: text
 - cite: David Sloan Wilson, "Truth and Reconciliation for Group Selection: 10. Naive Gene Selectionism" (This View of Life / prosocial.world)
 - kb: `truth-and-reconciliation-for-group-selection-10-naive-gene-selectionism.md`
-- verified: web (https://www.prosocial.world/posts/truth-and-reconciliation-for-group-selection-10-naive-gene-selectionism)### wilson-truth-reconciliation-group-selection-16-major-transitions
+- verified: web (https://www.prosocial.world/posts/truth-and-reconciliation-for-group-selection-10-naive-gene-selectionism)
+
+### wilson-truth-reconciliation-group-selection-16-major-transitions
 - status: usable
 - medium: text
 - cite: David Sloan Wilson, "Truth and Reconciliation for Group Selection: 16. Individualism Is Dead: Long Live Major Transitions," prosocial.world
@@ -1576,6 +1808,30 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - kb: `the-goodness-paradox-the-strange-relationship-between-virtue-and-violence-in-human-evolution-2018028837-9781101870907-9781101870914_compress.md`
 - verified: web (ISBN 978-1-101-87090-7)
 - note: Truncated filename resolved via shared corpus DB match: staging.text/Wrangham/the-goodness-paradox-...-9781101870907-9781101870914_compress.md
+
+### yt-aliran-kepercayaan-paguyuban-sumarah
+- status: usable
+- medium: transcript
+- cite: "Aliran Kepercayaan dan Kebatinan Paguyuban Sumarah" (YouTube, Indonesian-language explainer on Paguyuban Sumarah)
+- kb: `Aliran-Kepercayaan-dan-Kebatinan-Paguyuban-Sumarah.transcript.txt`
+- verified: unverified
+- note: transcript carries no channel/URL metadata and the video was not resolvable via web search; treat factual claims as low-weight popular-source corroboration only.
+
+### yt-cara-meditasi-sumarah-kakang-cahyo
+- status: usable
+- medium: transcript
+- cite: Kakang Cahyo, "Cara Meditasi sumarah membangkitkan daya Nur Allah" (YouTube, SANTRI NJOWO channel)
+- kb: `Cara-Meditasi-sumarah-membangkitkan-daya-Nur-Allah-Kakang-Cahyo.transcript.txt`
+- verified: unverified
+- note: speaker/channel from the transcript's own title line; video URL not resolvable via web search; practitioner how-to talk, low-weight popular source.
+
+### yt-sekilas-paguyuban-sumarah-yogyakarta
+- status: usable
+- medium: transcript
+- cite: "Sekilas tentang Paguyuban Sumarah Yogyakarta" (YouTube, Indonesian-language overview of the Yogyakarta Paguyuban Sumarah)
+- kb: `SEKILAS-TENTANG-PAGUYUBAN-SUMARAH-YOGYAKARTA.transcript.txt`
+- verified: unverified
+- note: transcript carries no channel/URL metadata and the video was not resolvable via web search; treat factual claims as low-weight popular-source corroboration only.
 
 ### zerzan-1991-catastrophe-of-postmodernism
 - status: usable

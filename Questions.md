@@ -27,6 +27,11 @@ cited note (e.g. `4.5`).
 | 3.2 | Metacognitive Function                  | done      | [3-philosophical/3.2-metacognitive-function.md](3-philosophical/3.2-metacognitive-function.md) |
 | 3.3 | The Grounding Problem                   | done      | [3-philosophical/3.3-grounding-problem.md](3-philosophical/3.3-grounding-problem.md) |
 | 3.4 | Relativism vs. Universalism             | done        | [3-philosophical/3.4-relativism-universalism.md](3-philosophical/3.4-relativism-universalism.md) |
+| 3.5 | Sumarah as a Philosophy of Life (umbrella) | done     | [3-philosophical/3.5-sumarah/3.5-sumarah.md](3-philosophical/3.5-sumarah/3.5-sumarah.md) |
+| 3.5.1 | Origins & History                     | done        | [3-philosophical/3.5-sumarah/3.5.1-origins-and-history.md](3-philosophical/3.5-sumarah/3.5.1-origins-and-history.md) |
+| 3.5.2 | Practice & Transmission               | done        | [3-philosophical/3.5-sumarah/3.5.2-practice-and-transmission.md](3-philosophical/3.5-sumarah/3.5.2-practice-and-transmission.md) |
+| 3.5.3 | Rasa Epistemology                     | done        | [3-philosophical/3.5-sumarah/3.5.3-rasa-epistemology.md](3-philosophical/3.5-sumarah/3.5.3-rasa-epistemology.md) |
+| 3.5.4 | The Secular-Dharma Question           | done        | [3-philosophical/3.5-sumarah/3.5.4-secular-dharma-question.md](3-philosophical/3.5-sumarah/3.5.4-secular-dharma-question.md) |
 | 4.1 | Samin of Java                           | done        | [4-cultural/4.1-samin-of-java.md](4-cultural/4.1-samin-of-java.md) |
 | 4.2 | Ubuntu                                  | done      | [4-cultural/4.2-ubuntu.md](4-cultural/4.2-ubuntu.md) |
 | 4.3 | Indigenous Oral Dharmas                 | done        | [4-cultural/4.3-indigenous-oral-dharmas.md](4-cultural/4.3-indigenous-oral-dharmas.md) |
@@ -134,6 +139,41 @@ divine command is removed?
 If dharmas are genuinely plural, are some better than others — and by what standard?
 How do dharmic frameworks avoid collapsing into relativism while resisting a single
 imposed universalism?
+
+### 3.5 Sumarah as a Philosophy of Life (umbrella)
+What is Sumarah — the Javanese practice of total surrender — as a philosophy of life,
+and why does it matter to this project's search for secular dharma? (Umbrella note
+framing 3.5.1–3.5.4.) *(Umbrella note with children in the subdirectory
+`3-philosophical/3.5-sumarah/`; sibling extension to 4.5 Subud and Sumarah.)*
+
+### 3.5.1 Sumarah: Origins and History
+How did Sumarah arise and evolve — Sukinohartono's 1935 wahyu, the wartime and
+revolutionary-period growth, the Paguyuban's organizational history and leadership, its
+place in national kebatinan politics and state regulation of aliran kepercayaan, and its
+condition today? *(Extension note under 3.5 — the historical child; sibling to 3.5.2–3.5.4.)*
+
+### 3.5.2 Sumarah: Practice and Transmission
+What is Sumarah practice — sujud, the pamong's spontaneous tuntunan, the inner 'guru
+sejati', the deliberate absence of creed, canon, technique, hierarchy and fees, and tapa
+rame (practice amid ordinary life) — and how is it transmitted, including its westward
+transmission since the 1970s? *(Extension note under 3.5 — the practice child; sibling to
+3.5.1, 3.5.3 and 3.5.4.)*
+
+### 3.5.3 Sumarah: Rasa Epistemology
+What is rasa in Javanese culture and in Sumarah practice — and what theory of knowledge
+does a rasa-grounded path imply? How does Stange's 'logic of rasa' and his
+praxis-over-text argument challenge text-centred, deconstructionist and orientalist
+readings of Javanese religion — and what are the limits of an insider epistemology?
+*(Extension note under 3.5 — the epistemological child; hinges onto 7.5 Orientalism.)*
+
+### 3.5.4 Sumarah and the Secular-Dharma Question
+Is Sumarah a 'secular dharma'? Test it against the project's boundary criteria: its
+self-description as a philosophy of life rather than a religion, its lack of guru,
+creed, canon and fee, its theistic core of surrender to God's will, and its regulatory
+life as an aliran kepercayaan — and assess the claim that Sumarah is a living,
+non-Western, century-old proof that the 'secular translation' problem has already been
+solved. *(Extension note under 3.5 — the boundary-test child; hinges onto 1.3 Boundary &
+Definition and 6.1 Secular Translation.)*
 
 ---
 
