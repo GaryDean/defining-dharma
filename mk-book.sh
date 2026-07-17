@@ -219,7 +219,8 @@ audio_block() {
       ;;
     link)
       url="$AUDIO_BASE_URL/$n-$AUDIO_STEM.mp3"
-      shown=${url#https://}
+      #shown=${url#https://}
+      shown="Part $n: $TITLE"
       printf '<p class="audio">'
       printf '%s' "$AUDIO_ICON"
       printf '<a class="audio-listen" href="%s">Listen to this chapter (audio narration)</a>' "$url"
