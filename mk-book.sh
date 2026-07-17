@@ -175,6 +175,13 @@ slugify() {
 #     for the book; British/NZ practice). Sources keep their em dashes -- this is
 #     a book-build concern, not a change to the canonical essays. All source em
 #     dashes are the spaced form, so this one rule covers every occurrence.
+#   - "fj"/"ffj" -> wrapped in <span class="dlig"> so the stylesheets can switch
+#     on the OpenType dlig feature for just that sequence. EB Garamond keeps its
+#     f_j/f_f_j ligatures in dlig (off by default), unlike ff/fi/ffl which sit in
+#     liga, so "Klingefjord" otherwise prints with the f hook colliding with the
+#     j dot. Enabling dlig globally is not an option: it would also ligate Th,
+#     ct, st, ch, ck throughout. Caveat: the rule is textual, so an fj inside a
+#     Markdown link *target* would break that link -- no current source has one.
 preprocess() {
   local -- src=$1
   awk 'NR==1 && $0=="---"{fm=1; next} fm && $0=="---"{fm=0; next} !fm{print}' "$src" \
@@ -189,7 +196,8 @@ preprocess() {
         -e 's#<!--.*-->##g' \
         -e 's#\[([^]]+)\]\([^)]*\.md\)#\1#g' \
         -e 's#\[([^]]+)\]\(/works/[^)]*\)#\1#g' \
-        -e 's# — # – #g'
+        -e 's# — # – #g' \
+        -e 's#f?fj#<span class="dlig">&</span>#g'
 }
 
 # Emit the audio player/link for chapter n (0..8) in the requested mode, to be
@@ -521,6 +529,7 @@ h3{font-size:1.2em;margin:1em 0 0.3em}
 [data-align="center"]{text-align:center}
 [data-align="center"] h1,[data-align="center"] h2,[data-align="center"] h3,[data-align="center"] h4,[data-align="center"] h5,[data-align="center"] h6{text-align:center}
 .pagebreak{break-before:page;page-break-before:always}
+.dlig{font-variant-ligatures:discretionary-ligatures;font-feature-settings:"dlig" 1}
 .copyright{font-size:0.8em}
 p.audio{font-family:"Lato","DejaVu Sans",sans-serif;font-size:0.9em;margin:0.2em 0 1.2em}
 p.audio a{text-decoration:none}
@@ -613,6 +622,7 @@ h2{font-size:1.133em;margin:1.2em 0 0.4em}
 h3{font-size:1.2em;margin:1em 0 0.3em}
 [data-align="center"]{text-align:center}
 .pagebreak{break-before:page}
+.dlig{font-variant-ligatures:discretionary-ligatures;font-feature-settings:"dlig" 1}
 .copyright{font-size:0.8em}
 p.audio{font-family:"Lato","DejaVu Sans",sans-serif;font-size:0.9em;margin:0.2em 0 1.2em}
 p.audio a{text-decoration:none;color:inherit}
