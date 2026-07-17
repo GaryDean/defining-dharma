@@ -19,6 +19,7 @@ FABLE-REVIEW.md
 copy-to-workshops.sh
 rupert-reply.md
 BASH-CODING-STANDARD.md
+critical-review*.md
 
 # Assets not yet cleared for publication
 # (no trailing slash: www is a symlink, and dir-only patterns skip symlinks)
