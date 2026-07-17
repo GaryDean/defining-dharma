@@ -170,13 +170,16 @@ made, recently, from the bottom up, by people who left their names.*
 they are gloriously, instructively different.*
 
 - **Reader's question:** How different, and how alike, do dharmas get?
-- **Opening image:** Four people from four worlds answering the same question —
-  *how should I live?* — and giving four answers that rhyme.
+- **Opening image:** Five people from five worlds answering the same question —
+  *how should I live?* — and giving five answers that rhyme.
 - **What it covers:** Ubuntu ("I am because we are") and relational personhood
   against Western individualism; the Stoics as a secular-friendly Greco-Roman
   dharma of what is and isn't in your control — and a familiar on-ramp for Western
   readers; indigenous oral dharmas (the Aboriginal Australian Dreaming) and what
-  survives without writing — essential versus merely cultural elements; and the
+  survives without writing — essential versus merely cultural elements; **Sumarah**,
+  the Javanese fellowship of total surrender, the tour's most apparatus-free dharma
+  (no scripture, guru, creed, or fee) and the anti-Stoic answer to what a person is,
+  with the secular-translation verdict held for Part 7; and the
   hardest test of the non-privileging stance, the **Abrahamic frameworks**
   (covenant, halakha, sharia, Christian *caritas*) seen as dharmas among dharmas.
   The throughline: a shared cooperative core, wrapped in very different metaphysics
@@ -189,7 +192,9 @@ they are gloriously, instructively different.*
 - **Draws on:** [4.2 Ubuntu](4-cultural/4.2-ubuntu.md),
   [4.3 Indigenous Oral Dharmas](4-cultural/4.3-indigenous-oral-dharmas.md),
   [4.4 Abrahamic Frameworks](4-cultural/4.4-abrahamic-frameworks.md),
-  [1.4 Cross-cultural Cognates](1-foundational/1.4-cross-cultural-cognates.md).
+  [1.4 Cross-cultural Cognates](1-foundational/1.4-cross-cultural-cognates.md),
+  [3.5.1–3.5.4 Sumarah cluster](3-philosophical/3.5-sumarah/3.5-sumarah.md),
+  [4.5 Subud and Sumarah](4-cultural/4.5-subud-and-sumarah.md).
 - **Hands off:** These systems aren't just *believed* — they're *installed*. How
   does a dharma get from a page or a chant into your bones?
 
