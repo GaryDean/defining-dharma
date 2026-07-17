@@ -86,15 +86,22 @@ declare -ir JPEG_QUALITY=80
 
 # Fonts, embedded into the EPUB so it renders identically everywhere rather than
 # falling back to the reader's defaults:
-#   - body: EB Garamond (pkg fonts-ebgaramond), 12pt optical size, serif
+#   - body: EB Garamond, serif, vendored under fonts/ebgaramond (OFL; see
+#     OFL.txt there). This is Octavio Pardo's revival (the version Google Fonts
+#     distributes), NOT the Debian fonts-ebgaramond package: that package ships
+#     Georg Duffner's unfinished v0.016, whose italic f-ligature glyphs (ff,
+#     ffi, ffl) are drawn far too heavy and print as ink blots. The vendored
+#     copy also supplies a true Bold Italic and covers U+221A (the root sign in
+#     "√dhṛ"), which previously fell back to Georgia.
 #   - headings: Lato (pkg fonts-lato), humanist sans-serif. Stands in for Prima
 #     Sans (commercial, not installed); swap LATO_DIR/faces below to switch.
-declare -r FONT_DIR=/usr/share/fonts/opentype/ebgaramond
+declare -r FONT_DIR="$SCRIPT_DIR"/fonts/ebgaramond
 declare -r LATO_DIR=/usr/share/fonts/truetype/lato
 declare -ar FONT_FILES=(
-  "$FONT_DIR"/EBGaramond12-Regular.otf
-  "$FONT_DIR"/EBGaramond12-Italic.otf
-  "$FONT_DIR"/EBGaramond12-Bold.otf
+  "$FONT_DIR"/EBGaramond-Regular.otf
+  "$FONT_DIR"/EBGaramond-Italic.otf
+  "$FONT_DIR"/EBGaramond-Bold.otf
+  "$FONT_DIR"/EBGaramond-BoldItalic.otf
   "$LATO_DIR"/Lato-Regular.ttf
   "$LATO_DIR"/Lato-Bold.ttf
 )
@@ -164,6 +171,10 @@ slugify() {
 #   - de-link cross-references that live outside the book (research-note .md files
 #     and /works/ prev-next nav), keeping the link text; these would otherwise be
 #     dangling references (epubcheck RSC-007).
+#   - spaced em dash " — " -> spaced en dash " – " (the typesetter's house style
+#     for the book; British/NZ practice). Sources keep their em dashes -- this is
+#     a book-build concern, not a change to the canonical essays. All source em
+#     dashes are the spaced form, so this one rule covers every occurrence.
 preprocess() {
   local -- src=$1
   awk 'NR==1 && $0=="---"{fm=1; next} fm && $0=="---"{fm=0; next} !fm{print}' "$src" \
@@ -177,7 +188,8 @@ preprocess() {
         -e 's#^[[:space:]]*<!--[[:space:]]*\\?newpage[[:space:]]*-->[[:space:]]*$#\n<div class="pagebreak"></div>\n#' \
         -e 's#<!--.*-->##g' \
         -e 's#\[([^]]+)\]\([^)]*\.md\)#\1#g' \
-        -e 's#\[([^]]+)\]\(/works/[^)]*\)#\1#g'
+        -e 's#\[([^]]+)\]\(/works/[^)]*\)#\1#g' \
+        -e 's# — # – #g'
 }
 
 # Emit the audio player/link for chapter n (0..8) in the requested mode, to be
@@ -339,7 +351,8 @@ main() {
   [[ -f $COVER_IMAGE ]] || die "cover image missing ${COVER_IMAGE@Q}"
   local -- font
   for font in "${FONT_FILES[@]}"; do
-    [[ -f $font ]] || die "font missing ${font@Q} (sudo apt install fonts-ebgaramond)"
+    [[ -f $font ]] \
+      || die "font missing ${font@Q} (EB Garamond: vendored in fonts/ebgaramond; Lato: sudo apt install fonts-lato)"
   done
   # Sanity-check the canonical MP3s before building. embed must have them locally
   # (they get bundled) -> hard fail. link only points at the web URL, so a missing
@@ -488,16 +501,15 @@ main() {
     done
   } >"$meta_xml" || die "failed to write ${meta_xml@Q}"
 
-  # Stylesheet: bind the embedded faces (EB Garamond body, DejaVu Sans headings)
-  # to their families and apply them. Fonts are embedded under EPUB/fonts/; this
-  # CSS lives under EPUB/styles/, so the src url() is one directory up. No EB
-  # Garamond bold-italic face ships, so bold-italic reuses Bold (readers slant it).
+  # Stylesheet: bind the embedded faces (EB Garamond body, Lato headings) to
+  # their families and apply them. Fonts are embedded under EPUB/fonts/; this
+  # CSS lives under EPUB/styles/, so the src url() is one directory up.
   local -- css="$tmp"/book.css
   cat >"$css" <<'CSS'
-@font-face{font-family:"EB Garamond";font-weight:normal;font-style:normal;src:url("../fonts/EBGaramond12-Regular.otf")}
-@font-face{font-family:"EB Garamond";font-weight:normal;font-style:italic;src:url("../fonts/EBGaramond12-Italic.otf")}
-@font-face{font-family:"EB Garamond";font-weight:bold;font-style:normal;src:url("../fonts/EBGaramond12-Bold.otf")}
-@font-face{font-family:"EB Garamond";font-weight:bold;font-style:italic;src:url("../fonts/EBGaramond12-Bold.otf")}
+@font-face{font-family:"EB Garamond";font-weight:normal;font-style:normal;src:url("../fonts/EBGaramond-Regular.otf")}
+@font-face{font-family:"EB Garamond";font-weight:normal;font-style:italic;src:url("../fonts/EBGaramond-Italic.otf")}
+@font-face{font-family:"EB Garamond";font-weight:bold;font-style:normal;src:url("../fonts/EBGaramond-Bold.otf")}
+@font-face{font-family:"EB Garamond";font-weight:bold;font-style:italic;src:url("../fonts/EBGaramond-BoldItalic.otf")}
 @font-face{font-family:"Lato";font-weight:normal;font-style:normal;src:url("../fonts/Lato-Regular.ttf")}
 @font-face{font-family:"Lato";font-weight:bold;font-style:normal;src:url("../fonts/Lato-Bold.ttf")}
 body{font-family:"EB Garamond",Georgia,serif;font-size:1rem;line-height:1.5;text-align:justify;-webkit-hyphens:auto;-epub-hyphens:auto;hyphens:auto;orphans:2;widows:2}
@@ -581,11 +593,18 @@ CSS
 
   if [[ $target != epub ]]; then
     # PDF via weasyprint: it renders HTML/CSS, so it reuses the centred cover,
-    # the .pagebreak breaks and the images. System-installed EB Garamond / Lato
-    # resolve by family name (no @font-face needed). weasyprint resolves image
-    # URLs relative to the CWD, so this pandoc runs from the staged image dir.
+    # the .pagebreak breaks and the images. EB Garamond is bound to the vendored
+    # faces via @font-face (unquoted heredoc: $FONT_DIR expands) -- resolving it
+    # by family name through fontconfig would pick up the broken Debian-packaged
+    # Duffner v0.016 instead. Lato still resolves by family name. weasyprint
+    # resolves image URLs relative to the CWD, so this pandoc runs from the
+    # staged image dir.
     local -- pdf_css="$tmp"/pdf.css
-    cat >"$pdf_css" <<'CSS'
+    cat >"$pdf_css" <<CSS
+@font-face{font-family:"EB Garamond";font-weight:normal;font-style:normal;src:url("file://$FONT_DIR/EBGaramond-Regular.otf")}
+@font-face{font-family:"EB Garamond";font-weight:normal;font-style:italic;src:url("file://$FONT_DIR/EBGaramond-Italic.otf")}
+@font-face{font-family:"EB Garamond";font-weight:bold;font-style:normal;src:url("file://$FONT_DIR/EBGaramond-Bold.otf")}
+@font-face{font-family:"EB Garamond";font-weight:bold;font-style:italic;src:url("file://$FONT_DIR/EBGaramond-BoldItalic.otf")}
 body{font-family:"EB Garamond",Georgia,serif;font-size:15pt;line-height:1.5}
 a{color:#0b295a}
 h1,h2,h3,h4,h5,h6{font-family:"Lato","DejaVu Sans",sans-serif;line-height:1.2}
