@@ -14,7 +14,7 @@ set -euo pipefail
 shopt -s inherit_errexit nullglob
 declare -rx PATH=/usr/local/bin:/usr/bin:/bin
 
-declare -r SCRIPT_VERSION='1.2.0'
+declare -r VERSION='1.2.1'
 declare -- SCRIPT_DIR
 SCRIPT_DIR=$(dirname -- "$(realpath -- "$0")")
 readonly -- SCRIPT_DIR
@@ -32,7 +32,7 @@ declare -- TMPDIR_LOCAL='' TMPDIR_REMOTE=''
 info()    { >&2 echo "◉ $*"; }
 success() { >&2 echo "✓ $*"; }
 error()   { >&2 echo "✗ $*"; }
-die() { local -i ec=${1:-1}; shift; (($#)) && error "$@"; exit "$ec"; }
+die() { local -i ec=${1:-1}; shift; (($#)) && error "$@" ||:; exit "$ec"; }
 
 usage() {
   cat <<USAGE
@@ -54,7 +54,7 @@ USAGE
 cleanup() {
   local -i ec=${1:-$?}
   trap - SIGINT SIGTERM EXIT
-  [[ -n $TMPDIR_LOCAL ]] && rm -rf -- "$TMPDIR_LOCAL"
+  [[ -n $TMPDIR_LOCAL ]] && rm -rf -- "$TMPDIR_LOCAL" ||:
   [[ -n $TMPDIR_REMOTE ]] && "$PROD_CMD" "rm -rf -- '$TMPDIR_REMOTE'" ||:
   exit "$ec"
 }
@@ -91,10 +91,9 @@ main() {
       -n|--dry-run)     DRY_RUN=1 ;;
       -N|--not-dry-run) DRY_RUN=0 ;;
       --dev-only)       DEV_ONLY=1 ;;
-      -V|--version)     echo "${0##*/} $SCRIPT_VERSION"; exit 0 ;;
+      -V|--version)     echo "${0##*/} $VERSION"; exit 0 ;;
       -h|--help)        usage 0 ;;
-      -[nNVh]*) #shellcheck disable=SC2046 # word-split intended (bundled opts)
-        set -- '' $(printf -- '-%c ' $(grep -o . <<<"${arg:1}")) "${@:2}" ;;
+      -[nNVh]?*)        set -- "${arg:0:2}" "-${arg:2}" "${@:2}"; continue ;;
       -*)               error "Unknown option: ${arg@Q}"; usage 2 ;;
       *)                DB="$arg" ;;
     esac
@@ -109,20 +108,22 @@ main() {
   ((DEV_ONLY)) || command -v "$PROD_CMD" >/dev/null || die 18 "'$PROD_CMD' launcher not found"
   [[ -f $DB ]] || die 3 "Dev database not found: $DB"
 
-  TMPDIR_LOCAL=$(mktemp -d) || die 1 'Failed to create local temp dir'
   trap 'cleanup $?' SIGINT SIGTERM EXIT
+  TMPDIR_LOCAL=$(mktemp -d) || die 1 'Failed to create local temp dir'
 
   # Clean essays locally
   local -i n bytes
   local -a files
   local -- prefix=''
-  ((DRY_RUN)) && prefix='[DRY-RUN] '
+  ((DRY_RUN)) && prefix='[DRY-RUN] ' ||:
   for n in {0..8}; do
     files=( "$SCRIPT_DIR/$n"-*.md )
     ((${#files[@]} == 1)) \
       || die 1 "Essay $n: expected exactly 1 file matching '$n-*.md', found ${#files[@]}"
-    clean_essay "${files[0]}" > "$TMPDIR_LOCAL/$n.md"
-    bytes=$(stat -c %s "$TMPDIR_LOCAL/$n.md")
+    clean_essay "${files[0]}" > "$TMPDIR_LOCAL/$n.md" \
+      || die 1 "Essay $n: failed to clean ${files[0]##*/}"
+    bytes=$(stat -c %s "$TMPDIR_LOCAL/$n.md") \
+      || die 1 "Essay $n: stat failed on cleaned file"
     ((bytes > 0)) || die 1 "Essay $n: cleaned content is empty (${files[0]##*/})"
     info "$prefix$n-in-search-of-dharma <- ${files[0]##*/} ($bytes bytes)"
   done
