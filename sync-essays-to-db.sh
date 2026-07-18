@@ -14,7 +14,7 @@ set -euo pipefail
 shopt -s inherit_errexit nullglob
 declare -rx PATH=/usr/local/bin:/usr/bin:/bin
 
-declare -r VERSION='1.2.2'
+declare -r VERSION='1.2.3'
 declare -- SCRIPT_DIR
 SCRIPT_DIR=$(dirname -- "$(realpath -- "$0")")
 readonly -- SCRIPT_DIR
@@ -29,7 +29,8 @@ declare -i DRY_RUN=1 DEV_ONLY=0
 declare -- DB=''
 declare -- TMPDIR_LOCAL='' TMPDIR_REMOTE=''
 
-# Messaging (unconditional; -v/-q intentionally omitted — K.I.S.S.)
+# Messaging
+#bcscheck disable=BCS0806 # -v/-q intentionally omitted — K.I.S.S.
 info()    { >&2 echo "◉ $*"; }
 success() { >&2 echo "✓ $*"; }
 error()   { >&2 echo "✗ $*"; }
@@ -78,7 +79,7 @@ clean_essay() {
 essay_lengths() {  # $1 = sql source: 'dev' | 'prod'
   local -r sql="SELECT url, length(content) FROM essays WHERE url GLOB '$URL_GLOB' ORDER BY url;"
   if [[ $1 == dev ]]; then
-    sqlite3 "$DB" "$sql"
+    sqlite3 -- "$DB" "$sql"
   else
     echo "$sql" | timeout "$REMOTE_TIMEOUT" "$PROD_CMD" "sqlite3 '$PROD_DB'"
   fi
@@ -139,7 +140,7 @@ main() {
   # Update dev database
   local -- changes
   for n in {0..8}; do
-    changes=$(sqlite3 "$DB" \
+    changes=$(sqlite3 -- "$DB" \
       "UPDATE essays SET content = CAST(readfile('$TMPDIR_LOCAL/$n.md') AS TEXT)
        WHERE url = '$n-in-search-of-dharma';
        SELECT changes();") || die 1 "sqlite3 failed updating dev row $n"
