@@ -3,7 +3,7 @@ part: 3
 title: "The Dharmas of the Samin of Java"
 slug: samin-of-java
 status: done
-words: 5402
+words: 5328
 reading_level: year-12
 updated: 2026-07-18
 draws_on: ["4.1", "1.3", "7.3", "8.1"]
@@ -25,9 +25,7 @@ I went looking for what connected them. What I found was a dharma.
 
 ## A dharma you can hold in your hand
 
-We took the word *dharma* away from the yoga studio and traced it to an old root meaning "that which holds," the thing that holds a whole way of life together. We watched, in the broadest possible strokes, why every human society seems to grow one: how the move from small bands, where everyone knows everyone, to crowded cities of strangers forced people to write down what they had once simply trusted.
-
-But that was all very large and very abstract: civilisations, millennia, the Axial Age. I wanted the opposite. I wanted a dharma I could almost touch: small enough to see all the way around, recent enough that we know the names of the people who built it, and humble enough that no one had spent two thousand years polishing it into something grand and untouchable.
+The story so far has been very large and very abstract: civilisations, millennia, the Axial Age. I wanted the opposite. I wanted a dharma I could almost touch: small enough to see all the way around, recent enough that we know the names of the people who built it, and humble enough that no one had spent two thousand years polishing it into something grand and untouchable.
 
 Not a world religion with a billion followers, in other words. Something hand-made.
 
@@ -149,9 +147,9 @@ But look at what has happened to the Sikep dharma. The colonial-era creed — co
 
 ## What the *wong sikep* know
 
-So what did I find, in the end, in the teak country of Blora?
+So what was waiting, all along, in the teak country of Blora?
 
-I found a dharma with the lid off. No prophet on a mountain, no book handed down from the sky, no two-thousand-year pedigree to make it untouchable. Just an illiterate farmer and his neighbours, in a squeezed and unjust corner of a colonised island, deciding (deliberately, against the grain of their own culture and the full weight of an empire) how they were going to live. And then living it so completely, and teaching it so well, with nothing but their voices and their feet, that the way outlasted the man by a century and walked itself from a colonial tax revolt to a climate protest without ever losing its shape.
+A dharma with the lid off. No prophet on a mountain, no book handed down from the sky, no two-thousand-year pedigree to make it untouchable. Just an illiterate farmer and his neighbours, in a squeezed and unjust corner of a colonised island, deciding (deliberately, against the grain of their own culture and the full weight of an empire) how they were going to live. And then living it so completely, and teaching it so well, with nothing but their voices and their feet, that the way outlasted the man by a century and walked itself from a colonial tax revolt to a climate protest without ever losing its shape.
 
 That is the thing the great traditions can no longer easily show us, and the *wong sikep* can. We are used to thinking of a dharma as something ancient and given, something you are born into or convert to, something you *find*. The Sedulur Sikep let us watch the opposite happen. A dharma is something a community *makes*, and then *keeps*, by choosing it, naming it, and saying, over and over, with their feet in the cement if it comes to that: *this is who we are.*
 

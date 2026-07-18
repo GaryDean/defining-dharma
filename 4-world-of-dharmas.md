@@ -3,9 +3,9 @@ part: 4
 title: "A World of Dharmas"
 slug: world-of-dharmas
 status: done
-words: 5472
+words: 5422
 reading_level: year-12
-updated: 2026-07-17
+updated: 2026-07-18
 draws_on: ["4.2", "4.3", "4.4", "1.4", "3.5.1", "3.5.2", "3.5.3", "3.5.4", "4.5"]
 ---
 
@@ -31,9 +31,7 @@ Five answers. They look nothing alike. The first dissolves the self into the com
 
 ## How far can they get?
 
-We found that *dharma* means, at root, "that which holds," and that there is not one dharma but many. We saw why every society grows one, under the pressure of holding strangers together. And we watched a single dharma up close, in the teak forests of Java, built little more than a century ago by people we could name.
-
-The Samin were one. Now pull back and take in the range, because the plurality I keep insisting on is not an abstraction. It is a real and sometimes dizzying fact about the human world. So we are going to visit five dharmas that grew up far apart, look at each on its own terms, and only then ask what, if anything, holds across them. One thread runs through every stop: where each dharma draws its circle of care, who it gathers in and who it leaves outside.
+The *wong sikep* of the last part were one dharma, watched up close. Now pull back and take in the range, because the plurality I keep insisting on is not an abstraction. It is a real and sometimes dizzying fact about the human world. So we are going to visit five dharmas that grew up far apart, look at each on its own terms, and only then ask what, if anything, holds across them. One thread runs through every stop: where each dharma draws its circle of care, who it gathers in and who it leaves outside.
 
 I am going to end the tour with the one many of you were raised inside, the family of Jewish, Christian, and Muslim ethics, and I should say why. The whole wager here is that we can look at dharmas without privileging any of them, including our own. That is easy to say about somebody else's tradition and hard to do about the water you were swimming in before you could see it. So the Abrahamic covenant comes last, as the real test of whether the non-privileging eye can be turned around to look at itself.
 
