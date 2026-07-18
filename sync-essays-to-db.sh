@@ -63,7 +63,7 @@ cleanup() {
 
 # Strip YAML frontmatter and the leading H1, then print the body.
 clean_essay() {
-  local -- file="$1"
+  local -- file=$1
   awk '
     NR==1 { if ($0=="---") { fm=1; next } fm=2 }
     fm==1 { if ($0=="---") fm=2; next }
@@ -88,7 +88,7 @@ essay_lengths() {  # $1 = sql source: 'dev' | 'prod'
 main() {
   local -- arg
   while (($#)); do
-    arg="$1"
+    arg=$1
     case $arg in
       -n|--dry-run)     DRY_RUN=1 ;;
       -N|--not-dry-run) DRY_RUN=0 ;;
