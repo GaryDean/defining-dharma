@@ -37,7 +37,7 @@ So this part is a close-up. One dharma, in a few hundred square kilometres of te
 
 The man on the road has a name, or rather several. He was born Raden Kohar in 1859 in the Blora region of central Java: a flat, hot country famous for its teak. The teak matters; it will return. As a grown man he took the name Samin Surosentiko, and it is as "Samin" that he entered history, mostly through the alarmed reports of the people trying to govern him.
 
-There is a story about his father, and even if it is only half true, it tells you something about where the movement's spirit came from. By tradition, his father, remembered as Samin Sepuh ("Samin the Elder"), was a nobleman from Ponorogo who renounced his aristocratic rank to live as a commoner, in deliberate opposition to Dutch rule. Whether or not the bloodline is exact, the gesture is the seed of everything that follows: a turning away from status, a choice to go down rather than up.
+There is a story about his father, and even if it is only half true, it tells you something about where the movement's spirit came from. By tradition, his father, remembered as Samin Sepuh ("Samin the Elder"), was a nobleman from Ponorogo who renounced his aristocratic rank to live as a commoner, in deliberate opposition to Dutch rule. Whether or not the bloodline is exact, the gesture is the seed of the whole movement: a turning away from status, a choice to go down rather than up.
 
 From about 1890, Samin began teaching in his home village and the surrounding villages. What he taught was not, at first, a revolt. It was a way of living. But it landed in a world that was being squeezed hard, and that is what turned a quiet ethic into a movement.
 

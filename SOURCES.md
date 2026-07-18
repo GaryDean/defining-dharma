@@ -1,21 +1,25 @@
 # SOURCES — DD citation register
 
-One entry per cited **work**. Resolve once, reuse across every note. See
-`SOURCE-CITATION-POLICY.design.md` for the policy this implements.
+One entry per cited **work**. Resolve once, reuse across every note. See `SOURCE-CITATION-POLICY.design.md` for the policy this implements.
 
 **Fields**
 
 - `status:` `usable` | `barred`
+
 - `barred:` `self` | `ephemera`  (present only when `status: barred`)
+
 - `medium:` `text` | `transcript`
+
 - `cite:` resolved human-readable reference (usable only). Transcripts:
   `Speaker, "Talk title" (platform, id/URL, year)`.
+
 - `kb:` sourcedoc filename(s), backticked, comma-separated — the retrieval key(s).
+
 - `verified:` `web (ISBN…/DOI…)` | `video-URL` | `unverified`.
+
 - `note:` optional free text.
 
-A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
-`status: barred` entry. Author's-own claims use `[A]` and have NO entry here.
+A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `status: barred` entry. Author's-own claims use `[A]` and have NO entry here.
 
 ---
 
@@ -211,7 +215,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - cite: Stefano Davide Bettera, *Secondo natura: Critica dell'ideologia liberal progressista* (Solferino, 2024)
 - kb: `Secondo_Natura.*.md`
 - verified: web (ISBN 9788828215592)
-- note: NEEDS-HUMAN: input filename is literally "Secondo_Natura.*.md" (unexpanded glob, not a real file). DB has four variants under staging.text/Stefano_Bettera/ (chatgpt-4o-latest.en, gpt-4o-latest.en, gpt-4o-mini.en, it) -- confirm which specific file/language was actually cited; the .en variants are LLM translations/summaries of the Italian original.
+- note: NEEDS-HUMAN: input filename is literally "Secondo_Natura.\*.md" (unexpanded glob, not a real file). DB has four variants under staging.text/Stefano_Bettera/ (chatgpt-4o-latest.en, gpt-4o-latest.en, gpt-4o-mini.en, it) -- confirm which specific file/language was actually cited; the .en variants are LLM translations/summaries of the Italian original.
 
 ### biglan-2020-big-pharma-death-of-americans
 - status: usable
@@ -235,7 +239,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - cite: Winton Higgins et al., Secular Insight Meditation (SIM) Retreat -- Day 0 introduction and group discussion (Bodhi College, recording transcript)
 - kb: `SIM_retreat.txt`
 - verified: unverified
-- note: Multi-speaker retreat Q&A transcript (VTT-derived: 'day_0_-_introduction_to_retreat_583.mp4.vtt'); lead voice self-identifies as 'Wynton' (political-theory/genocide-studies academic turned Buddhist teacher = Winton Higgins), but many participants speak; NEEDS-HUMAN: confirm exact retreat date/attribution if precision is required
+- note: Multi-speaker retreat Q&A transcript (VTT-derived: 'day_0_-\_introduction_to_retreat_583.mp4.vtt'); lead voice self-identifies as 'Wynton' (political-theory/genocide-studies academic turned Buddhist teacher = Winton Higgins), but many participants speak; NEEDS-HUMAN: confirm exact retreat date/attribution if precision is required
 
 ### bodhi-mindful-solidarity
 - status: usable
@@ -1839,3 +1843,4 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a
 - cite: John Zerzan, "The Catastrophe of Postmodernism" (1991; repr. The Anarchist Library)
 - kb: `john-zerzan_the-catastrophe-of-postmodernism.md`
 - verified: web (https://theanarchistlibrary.org/library/john-zerzan-the-catastrophe-of-postmodernism)
+
