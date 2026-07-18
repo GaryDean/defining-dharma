@@ -9,8 +9,9 @@
 # book's bibliographic metadata.
 #
 # A spacer is inserted between sections: --gap seconds of silence (default 4,
-# 0 disables), or --gong FILE to sound a chime instead — the chime is padded
-# with silence to at least the gap length, so it strikes and decays into quiet.
+# 0 disables). With --gong FILE the gap's silence is followed by the chime,
+# which strikes at the end of the pause and rings into the next section's
+# opening — so each break runs gap + chime length.
 # The bundled audio-assets/gong-bowl.mp3 is a singing-bowl strike synthesized
 # from inharmonic bell partials (fundamental 196 Hz; ratios 1/2.77/5.18/8.16):
 #   ffmpeg -f lavfi -i "aevalsrc=0.45*(1-exp(-t*180))*(0.5*exp(-t*0.9)\
@@ -31,7 +32,7 @@ shopt -s inherit_errexit
 # locations only.
 declare -rx PATH=/usr/local/bin:/usr/bin:/bin
 
-declare -r VERSION=1.1.0
+declare -r VERSION=1.2.0
 #shellcheck disable=SC2155
 declare -r SCRIPT_PATH=$(realpath -- "$0")
 declare -r SCRIPT_DIR=${SCRIPT_PATH%/*} SCRIPT_NAME=${SCRIPT_PATH##*/}
@@ -61,6 +62,7 @@ declare -- WORK_DIR=''
 
 # ----------------------------------------------------------------------------
 info() { ((VERBOSE)) || return 0; >&2 printf '%s: ◉ %s\n' "$SCRIPT_NAME" "$*"; }
+success() { ((VERBOSE)) || return 0; >&2 printf '%s: ✓ %s\n' "$SCRIPT_NAME" "$*"; }
 error() { >&2 printf '%s: ✗ %s\n' "$SCRIPT_NAME" "$*"; }
 die() { (($# < 2)) || error "${@:2}"; exit "${1:-0}"; }
 
@@ -84,8 +86,9 @@ with embedded cover art and ID3v2 tags.
 
 Options:
   -g|--gap SECONDS   silence inserted between sections (default $GAP, 0 disables)
-  -G|--gong FILE     sound this chime between sections instead of bare silence
-                     (padded with silence to at least the gap length)
+  -G|--gong FILE     sound this chime at the end of each gap, just before the
+                     next section starts (each break runs gap + chime length)
+  -v|--verbose       progress messages (default on)
   -q|--quiet         suppress progress messages
   -h|--help          show this help
   -V|--version       show version
@@ -105,12 +108,14 @@ check_prerequisites() {
 
 # Encode the between-sections spacer to the exact source format (24 kHz mono
 # 32 kbps MP3) so it stream-copies cleanly into the join: either bare silence
-# of GAP seconds, or the GONG chime padded with silence to at least GAP.
+# of GAP seconds, or GAP seconds of silence followed by the GONG chime, so
+# the chime sounds just before the next section starts.
 make_spacer() {
   local -- spacer=$WORK_DIR/spacer.mp3
   if [[ -n $GONG ]]; then
     ffmpeg -hide_banner -loglevel error -y -i "$GONG" \
-      -af "apad=whole_dur=$GAP" -ar 24000 -ac 1 -c:a libmp3lame -b:a 32k \
+      -af "adelay=$((GAP * 1000)):all=1" -ar 24000 -ac 1 \
+      -c:a libmp3lame -b:a 32k \
       "$spacer" || die 1 "failed to prepare gong spacer from ${GONG@Q}"
   else
     ffmpeg -hide_banner -loglevel error -y \
@@ -186,7 +191,7 @@ report() {
     || die 1 "failed to stat ${OUTPUT@Q}"
   printf -v hms '%dh%02dm%02ds' \
     $((seconds / 3600)) $(((seconds % 3600) / 60)) $((seconds % 60))
-  info "✓ built ${OUTPUT@Q}"
+  success "built ${OUTPUT@Q}"
   info "  duration $hms, size $size"
 }
 
@@ -204,6 +209,7 @@ main() {
                     [[ -f $optarg ]] \
                       || die 3 "gong file missing ${optarg@Q}"
                     GONG=$optarg; shift ;;
+      -v|--verbose) VERBOSE=1 ;;
       -q|--quiet)   VERBOSE=0 ;;
       -h|--help)    usage; exit 0 ;;
       -V|--version) printf '%s %s\n' "$SCRIPT_NAME" "$VERSION"; exit 0 ;;
