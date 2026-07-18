@@ -59,10 +59,13 @@ cited note (e.g. `4.5`).
 | 7.3 | Dharma & Power                          | done      | [7-critical/7.3-dharma-and-power.md](7-critical/7.3-dharma-and-power.md) |
 | 7.4 | Measurement & Falsifiability            | done      | [7-critical/7.4-measurement-falsifiability.md](7-critical/7.4-measurement-falsifiability.md) |
 | 7.5 | Orientalism                             | done      | [7-critical/7.5-orientalism.md](7-critical/7.5-orientalism.md) |
+| 7.6 | Dogma Undone: The CPA Case              | review    | [7-critical/7.6-cpa-case.md](7-critical/7.6-cpa-case.md) |
+| 7.7 | Dharma by Decree: Engineered Dharmas    | review    | [7-critical/7.7-engineered-dharmas.md](7-critical/7.7-engineered-dharmas.md) |
 | 8.1 | Planetary Dharma                        | done        | [8-future/8.1-planetary-dharma.md](8-future/8.1-planetary-dharma.md) |
 | 8.2 | AI & Dharma                             | done        | [8-future/8.2-ai-and-dharma.md](8-future/8.2-ai-and-dharma.md) |
 | 8.3 | Post-Traditional Dharmas                | done        | [8-future/8.3-post-traditional-dharmas.md](8-future/8.3-post-traditional-dharmas.md) |
 | 8.4 | Encoding Dharma into Machines           | done        | [8-future/8.4-encoding-dharma-machines.md](8-future/8.4-encoding-dharma-machines.md) |
+| 8.5 | Dharma from Scratch: The 'Ata Case       | review      | [8-future/8.5-ata-case.md](8-future/8.5-ata-case.md) |
 
 ---
 
@@ -336,6 +339,23 @@ appropriation of "dharma" and "Eastern wisdom", and on this project's own standi
 Western-curated, secular corpus of "world dharmas"? *(Extension note — the critical concept
 underwriting 7.2's "such as orientalism"; the most self-implicating note in the set.)*
 
+### 7.6 Dogma Undone: The CPA Case
+Constructed ethical-political orders are usually studied through their catastrophic failures
+(the Jacobins, the New Soviet Man, Year Zero). Is there a documented counter-case — a
+party-form communist movement that unmade its own dogma from the inside, democratised its
+practice, and ended by dissolving itself rather than hardening? A six-claim external
+fact-check of the Communist Party of Australia, 1920–1991. *(Extension note — the
+counter-case for Part 6's constructed-dharma treatment; also externally corroborates the
+preface's characterisation of the author's party years.)*
+
+### 7.7 Dharma by Decree: The Engineered-Dharma Failure Mode
+What happens when the capacity to build dharmas deliberately is exercised by a state, at
+speed, against the inherited substrate — the Jacobin cults, the New Soviet Man, the Khmer
+Rouge's Year Zero? What distinguishes catastrophic construction from benign construction
+(Ambedkar's Navayāna, the CPA, secular dharma), and what licence does the answer leave for
+Part 8? *(Extension note — the sixth twin for Part 6's schema, via Scott's authoritarian
+high modernism; the stress-test that licenses Part 8's constructive turn.)*
+
 ---
 
 ## 8 — Future
@@ -357,3 +377,10 @@ embracing scientific understanding and cultural pluralism?
 Reflexive: how should a researched dharma corpus be distilled and encoded to ground
 future LLMs in human ethics? What are the risks of flattening plural dharmas into a
 single machine-readable ethic — the project's own end-goal under scrutiny?
+
+### 8.5 Dharma from Scratch: The 'Ata Case
+When the inherited scaffolding is stripped away, do humans rebuild a functioning
+ethical order or collapse into "Lord of the Flies" savagery? What does the real 1965
+'Ata shipwreck show, and what are its limits as evidence? *(Extension note — the
+real-world hope-hinge for Part 8's constructive turn; also supplies the evidence that
+replaces the discredited Robbers Cave citation in [[7.1-failure-modes]].)*

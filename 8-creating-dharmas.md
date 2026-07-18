@@ -3,10 +3,10 @@ part: 8
 title: "Creating Dharmas"
 slug: creating-dharmas
 status: done
-words: 5532
+words: 5936
 reading_level: year-12
 updated: 2026-07-11
-draws_on: ["8.1", "8.2", "8.3", "8.4", "3.4", "7.4", "7.5"]
+draws_on: ["8.1", "8.2", "8.3", "8.4", "8.5", "3.4", "7.4", "7.5", "7.7"]
 ---
 
 # 8: Creating Dharmas
@@ -25,11 +25,15 @@ Between those two pictures sits the whole question. The seeker on the cushion an
 
 Building dharmas on purpose is not some unprecedented act of hubris. It is what our species has always done. Every dharma we have met was *made*: assembled by particular people, in particular places, out of the materials to hand. The Axial sages made theirs. Samin Surosentiko made his, in plain low Javanese, one conversation at a time. What is new is not the making. What is new is that we can no longer pretend we are doing anything else.
 
+For a glimpse of that making stripped to the bone, consider six teenage boys from a boarding school in Tonga who, in 1965, borrowed a fishing boat, were caught by a storm, and washed up on 'Ata, an uninhabited rock in the Pacific. They were marooned there for fifteen months. What they built, with a single old knife blade and their hands, was not the savagery of William Golding's *Lord of the Flies* but its opposite. They cleared a food garden, hollowed out tree trunks to catch rainwater, and kept a fire alight for more than a year. They worked the garden and the kitchen in rostered pairs. They opened and closed each day with song and prayer, to a guitar one of them made from driftwood and wire salvaged from the wreck. When two of them quarrelled, they had a rule: the pair went to opposite ends of the island to cool their tempers, then came back and made up. When one boy fell from a cliff and broke his leg, the others set it with sticks and leaves and carried his share of the work until it healed. They were found in September 1966 in glowing health, the mended leg clean.
+
+Left with nothing, the boys did not descend into a war of all against all. They rebuilt the holding from memory: rosters, ritual, a way to make peace, and care for the injured. It is one case, and they were no blank slate; they came ashore already carrying the communal habits of a Tongan village and the daily rhythm of a Catholic school. But that is the point rather than an objection to it. When human beings build a dharma from scratch, they build from what they remember, and what they remember is a cooperative inheritance older than any of the traditions it later hardened into. The scaffolding is not imposed on our nature. It is drawn back out of it.
+
 For almost all of history, the work was hidden from the workers. People built their dharmas and then experienced them as *found*: handed down from a mountaintop, woven into the order of the cosmos. That concealment was not a lie so much as a feature; a rule feels far more binding when it looks like the grain of reality than when it looks like last year's committee decision. The secular age has stripped that concealment away. We can see the workshop now. We can see that the values we live by were authored, which means that, with a lurch, they could have been authored differently and could be authored again.
 
 So the honest question is not *whether* to make dharmas. We will make them whether we admit it or not; the only choice is whether to do it asleep or awake. And the conscious construction falls due just as two things of unprecedented scale bear down on us: a planet in ecological crisis that may need some shared ethic to survive at all, and machines that may soon think, into which someone is already pouring an ethic. The biologist EO Wilson, in a 2009 conversation at Harvard, put our predicament in one devastating line: we have "Paleolithic emotions, medieval institutions, and god-like technology." Conscious dharma-building is the attempt to grow up the emotions and the institutions before the technology finishes the sentence.
 
-But the moment it is said out loud that dharmas can be built, the terrible follow-up questions arrive in a rush: built by whom, for whom, toward what end, and what gets crushed in the building? Those questions name a single recurring danger, and it will stalk every frontier ahead. Call it the flattening: the temptation, once the power to author an ethic exists, to author just *one*and to crush the glorious plurality of human dharmas into a single official version. What remains is four tests of whether we can build without it.
+But the moment it is said out loud that dharmas can be built, the terrible follow-up questions arrive in a rush: built by whom, for whom, toward what end, and what gets crushed in the building? Part 6 showed what the answers look like when they go wrong at full scale: a decreed cult dead in a season, "human material" reworked by execution, the emptied city of Year Zero. The licence to build survived that essay only with conditions attached: no boot, no blank slate, and the power to unbuild left in the hands of the people the dharma is for. Those questions name a single recurring danger, and it will stalk every frontier ahead. Call it the flattening: the temptation, once the power to author an ethic exists, to author just *one* and to crush the glorious plurality of human dharmas into a single official version. What remains is four tests of whether we can build without it.
 
 ## A dharma for the whole Earth?
 
@@ -131,6 +135,8 @@ Research notes used in this essay series are published on [GitHub](https://githu
 - [8.2 AI & Dharma](8-future/8.2-ai-and-dharma.md) — orthogonality; "whose values"; pluralistic alignment; economic disempowerment, UBI and the meaning it cannot buy; value lock-in.
 - [8.3 Post-Traditional Dharmas](8-future/8.3-post-traditional-dharmas.md) — post-conventional, not anti-traditional; the constructive features; the two flattening failure modes; "stealth religion"; the community deficit.
 - [8.4 Encoding Dharma into Machines](8-future/8.4-encoding-dharma-machines.md) — the project under its own microscope; the flattening as default; encode the map and the argument, not the verdict.
+- [8.5 Dharma from Scratch: The 'Ata Case](8-future/8.5-ata-case.md) — the 1965 'Ata shipwreck as real-world evidence that stripped-down groups rebuild a cooperative order; the Robbers Cave correction; the "social suite" and Pitcairn as counter-case.
+- [7.7 Dharma by Decree: The Engineered-Dharma Failure Mode](7-critical/7.7-engineered-dharmas.md) — the Part 6 stress-test this essay's licence rests on: the Jacobin cults, the New Soviet Man, Year Zero, and the conditions that survive them (no boot, no blank slate, the unbuilding power retained).
 - [3.4 Relativism vs. Universalism](3-philosophical/3.4-relativism-universalism.md) — pluralism is not relativism; the thin floor, thick variation; "holds without crushing."
 - [7.4 Measurement & Falsifiability](7-critical/7.4-measurement-falsifiability.md) — the is/ought wall; provenance is not truth; the project's own evidentiary bar.
 - [7.5 Orientalism](7-critical/7.5-orientalism.md) — Said's knowledge-power critique and its limits, turned on this project's own corpus-and-machine ambition; the projection-screen history behind the Mirror.
@@ -164,3 +170,6 @@ Research notes used in this essay series are published on [GitHub](https://githu
 - Isaiah Berlin on value pluralism, and Martha Nussbaum & Amartya Sen, the capabilities approach — pluralism as the alternative to both relativism and absolutism; the floor with teeth, its exact placement left open.
 - Oliver Scott Curry, "Is It Good to Cooperate?" (*Current Anthropology*, 2019) — seven moral rules across sixty societies; morality as variation on a theme.
 - WB Gallie, "Essentially Contested Concepts" (1956) — why the argument over dharma never closes.
+- Rutger Bregman, *Humankind: A Hopeful History* (2019) — the real 'Ata shipwreck of 1965–66 against Golding's fiction; and the Robbers Cave correction (the buried 1953 Middle Grove pre-experiment, and Gina Perry's archival finding that the 1954 hostility was manufactured by the experimenters).
+- Nicholas A. Christakis, *Blueprint: The Evolutionary Origins of a Good Society* (2019) — the "social suite" recurring across stranded and shipwrecked groups, with Pitcairn as the counter-case of collapse.
+- Gina Perry, *The Lost Boys: Inside Muzafer Sherif's Robbers Cave Experiment* (2018) — Robbers Cave as "a choreographed enactment"; the staff as agents provocateurs; Middle Grove's forgotten failure.
