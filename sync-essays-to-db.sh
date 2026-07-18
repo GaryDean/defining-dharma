@@ -14,7 +14,7 @@ set -euo pipefail
 shopt -s inherit_errexit nullglob
 declare -rx PATH=/usr/local/bin:/usr/bin:/bin
 
-declare -r VERSION='1.2.1'
+declare -r VERSION='1.2.2'
 declare -- SCRIPT_DIR
 SCRIPT_DIR=$(dirname -- "$(realpath -- "$0")")
 readonly -- SCRIPT_DIR
@@ -23,12 +23,13 @@ declare -r DEV_HOST='okusi'
 declare -r PROD_CMD='ok3'
 declare -r PROD_DB='/var/www/vhosts/garydean.id/data.db'
 declare -r URL_GLOB='[0-8]-in-search-of-dharma'
+declare -ri REMOTE_TIMEOUT=120
 
 declare -i DRY_RUN=1 DEV_ONLY=0
 declare -- DB=''
 declare -- TMPDIR_LOCAL='' TMPDIR_REMOTE=''
 
-# Messaging
+# Messaging (unconditional; -v/-q intentionally omitted — K.I.S.S.)
 info()    { >&2 echo "◉ $*"; }
 success() { >&2 echo "✓ $*"; }
 error()   { >&2 echo "✗ $*"; }
@@ -55,7 +56,7 @@ cleanup() {
   local -i ec=${1:-$?}
   trap - SIGINT SIGTERM EXIT
   [[ -n $TMPDIR_LOCAL ]] && rm -rf -- "$TMPDIR_LOCAL" ||:
-  [[ -n $TMPDIR_REMOTE ]] && "$PROD_CMD" "rm -rf -- '$TMPDIR_REMOTE'" ||:
+  [[ -n $TMPDIR_REMOTE ]] && timeout "$REMOTE_TIMEOUT" "$PROD_CMD" "rm -rf -- '$TMPDIR_REMOTE'" ||:
   exit "$ec"
 }
 
@@ -79,7 +80,7 @@ essay_lengths() {  # $1 = sql source: 'dev' | 'prod'
   if [[ $1 == dev ]]; then
     sqlite3 "$DB" "$sql"
   else
-    echo "$sql" | "$PROD_CMD" "sqlite3 '$PROD_DB'"
+    echo "$sql" | timeout "$REMOTE_TIMEOUT" "$PROD_CMD" "sqlite3 '$PROD_DB'"
   fi
 }
 
@@ -152,19 +153,22 @@ main() {
   fi
 
   # Update production
-  TMPDIR_REMOTE=$("$PROD_CMD" 'mktemp -d') || die 1 'Failed to create remote temp dir'
+  TMPDIR_REMOTE=$(timeout "$REMOTE_TIMEOUT" "$PROD_CMD" 'mktemp -d') \
+    || die 1 'Failed to create remote temp dir'
   [[ -n $TMPDIR_REMOTE ]] || die 1 'Remote temp dir path is empty'
-  tar -czf - -C "$TMPDIR_LOCAL" . | "$PROD_CMD" "tar -xzf - -C '$TMPDIR_REMOTE'" \
+  tar -czf - -C "$TMPDIR_LOCAL" . \
+      | timeout "$REMOTE_TIMEOUT" "$PROD_CMD" "tar -xzf - -C '$TMPDIR_REMOTE'" \
     || die 1 "Remote file transfer to $PROD_CMD failed"
 
   {
     echo '.bail on'
     echo 'BEGIN;'
     for n in {0..8}; do
-      echo "UPDATE essays SET content = CAST(readfile('$TMPDIR_REMOTE/$n.md') AS TEXT) WHERE url = '$n-in-search-of-dharma';"
+      echo "UPDATE essays SET content = CAST(readfile('$TMPDIR_REMOTE/$n.md') AS TEXT)"
+      echo "  WHERE url = '$n-in-search-of-dharma';"
     done
     echo 'COMMIT;'
-  } | "$PROD_CMD" "sqlite3 '$PROD_DB'" \
+  } | timeout "$REMOTE_TIMEOUT" "$PROD_CMD" "sqlite3 '$PROD_DB'" \
     || die 1 'Production update failed — transaction rolled back'
 
   # Verify production
