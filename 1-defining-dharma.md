@@ -3,9 +3,9 @@ part: 1
 title: "Defining Dharma"
 slug: defining-dharma
 status: done
-words: 4178
+words: 4637
 reading_level: year-12
-updated: 2026-07-11
+updated: 2026-07-18
 draws_on: ["1.1", "1.2", "1.3", "1.4", "3.3", "3.4"]
 ---
 
@@ -73,6 +73,8 @@ Words like this one resist being pinned, and not by accident. The philosopher Lu
 
 There is a further wrinkle, and it runs through everything that follows. The philosopher WB Gallie noticed that certain words (*justice*, *democracy*, *art*) are not just vague but *essentially contested*: the argument about what they really mean is not a problem to be solved but a permanent feature of the concepts themselves. People will still be disagreeing about the true meaning of *justice* in a thousand years, and that endless disagreement is not a failure of definition; it is part of what the word *is*. *Dharma* belongs in that company. So when I offer you those four features, I am not claiming to have dug up the buried essence of dharma and held it to the light. I am offering a *tool*: a deliberately sharpened version of a fuzzy word, cut to a particular purpose, which is to let us compare very different ways of living without collapsing them into one. A definition, on this view, is less like a true statement and more like a map, useful precisely because it leaves things out, and judged not by whether it is *correct* but by whether it takes you where you need to go.
 
+There is a third and harder version of the objection, and it deserves to be met at full strength, because it comes from inside the discipline this whole project leans on. The anthropologist Talal Asad argued, in a famous critique, that "there cannot be a universal definition of religion," and not merely because the word is fuzzy: because any such definition "is itself the historical product of discursive processes." The very urge to lift a single, functional category out of the world's ways of living is not a view from nowhere; it grew out of a specific Christian and then secular European history, and it has served administration and empire at least as often as understanding. Every word of that critique applies to what I am doing with *dharma*. Part 6 will show how the nineteenth century manufactured the very containers called "world religions" and then forgot they were manufactured; on Asad's terms, I am manufacturing another. The only honest response I have found is not to deny the charge but to disarm the thing that makes it lethal, which is concealment. A definition does its damage when it poses as a discovery. Mine is offered as a tool with the toolmaker's fingerprints left on it: chosen by a particular person, out of a particular history, for a stated purpose, to be judged by the work it does and discarded where it fails. What cannot be claimed, after Asad, is innocence. What can be claimed is authorship, on the record. And the question he forces, which this book must keep answering for as long as it runs, is not "is the definition true," but: for what work, for whom, do we need to stabilise this word at all, and what plurality do we put at risk by stabilising it?
+
 This is the method of the whole undertaking. Faced with a drifting, contested, three-thousand-year-old word, the tempting move is to plant a flag and declare what dharma *really* means. The honest move, the one I will try to keep faith with, is to map its uses instead: to lay out many dharmas, with their contexts and their tensions intact, and resist flattening them into a single official version. This means: Holding the plurality, disclosing the choice, and never mistaking a convenient map for the shape of the world. It is a caution worth carrying. It will matter enormously when, near the end of this journey, we ask whether a machine could be taught human ethics at all, or whether teaching it would simply crush the plural into a single average and call the result the truth.
 
 ## Two questions I'm leaving open
@@ -111,7 +113,7 @@ Research notes used in this essay series are published on [GitHub](https://githu
 
 - [1.1 Core Etymology](1-foundational/1.1-etymology.md) — *√dhṛ* "to hold," the Proto-Indo-European root, the *firmus*/*firm* cognate, *ṛta*, and the semantic broadening over three millennia. The spine of the opening.
 - [1.2 Universal Patterns](1-foundational/1.2-universal-patterns.md) — why dharma-shaped frameworks recur independently: the cooperation-without-exploitation problem, and Tinbergen's universal-function / plural-mechanism distinction.
-- [1.3 Boundary & Definition](1-foundational/1.3-boundary-definition.md) — the four-feature test and the contrasts with custom, law, etiquette, ideology, and *artha*; dharma as a family-resemblance, essentially contested concept.
+- [1.3 Boundary & Definition](1-foundational/1.3-boundary-definition.md) — the four-feature test and the contrasts with custom, law, etiquette, ideology, and *artha*; dharma as a family-resemblance, essentially contested concept; and the Asad engagement (the genealogical power-objection, met with the disclosed tool).
 - [1.4 Cross-cultural Cognates](1-foundational/1.4-cross-cultural-cognates.md) — *ṛta*, *ma'at*, *asha*, *logos*, *Tao*, and natural law as the cosmic-scale recurrence of "that which holds."
 - [3.3 The Grounding Problem](3-philosophical/3.3-grounding-problem.md) — the planted question of whether a godless dharma can bind (paid off in Part 7).
 - [3.4 Relativism vs. Universalism](3-philosophical/3.4-relativism-universalism.md) — the planted question of whether some dharmas are better than others (paid off in Part 8).
@@ -125,5 +127,6 @@ Research notes used in this essay series are published on [GitHub](https://githu
 - Donald E. Brown, *Human Universals* (1991) — reciprocity, fairness, and ethical patterning as features present in every documented culture.
 - Ludwig Wittgenstein, *Philosophical Investigations* (1953) — "game," family resemblance, and the rope-not-thread model of meaning.
 - WB Gallie, "Essentially Contested Concepts" (1956) — why words like *justice*, *democracy*, and *dharma* sustain permanent, internal disagreement.
+- Talal Asad, *Genealogies of Religion* (1993) — the genealogical objection this part meets head-on: there is no universal definition of religion, because the definition itself is "the historical product of discursive processes"; the strongest published opponent of this project's central move.
 - Plato, *Euthyphro* — the ancient form of the "can ethics stand without a divine command?" question (developed in Part 7).
 - Isaiah Berlin on value pluralism, and Martha Nussbaum and Amartya Sen on the capabilities approach — pluralism with a floor, against relativism (developed in Part 8).

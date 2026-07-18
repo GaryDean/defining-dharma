@@ -3,9 +3,9 @@ part: 7
 title: "Dharmas in a Secular Age"
 slug: secular-age
 status: done
-words: 4464
+words: 4838
 reading_level: year-12
-updated: 2026-07-17
+updated: 2026-07-18
 draws_on: ["6.1", "6.2", "3.3", "3.1", "7.2", "6.5", "3.5.2", "3.5.3", "3.5.4"]
 ---
 
@@ -28,6 +28,10 @@ Part 6 left us exactly here. The old dharmas, with all their captures and cages,
 To answer that, we have to be specific about what those lost foundations actually did, because "faith" is too vague. A traditional religious dharma got three things, more or less for free, that a secular one has to find some other way to earn.
 
 The first was *grounding*: a reason its commands were binding rather than merely optional, usually a commanding God who made "thou shalt" into law rather than a preference. The second was *installation*: the whole apparatus of ritual, sacred ordeal, and tight community, anchored to unfalsifiable belief, that drove a dharma down into people until it ran their lives. And the third was simply a *world that cooperated*, a slow, face-to-face, information-poor world in which the main obstacle to living well was your own untrained heart. A secular dharma in the twenty-first century has lost all three. It has no divine lawgiver, a frayed and improvised apparatus, and a new world that, far from being indifferent to the holding-together a dharma does, is actively engineered against it.
+
+Before testing whether that loss can be survived, honesty requires me to put the frame itself on trial, because the story I have just told has a name, and the philosopher whose title this part borrows spent nine hundred pages arguing against it. Charles Taylor calls accounts like mine *subtraction stories*: tales in which modernity is simply what remains once human beings have "lost, or sloughed off, or liberated themselves from" the old confining illusions. His objection is not a quibble. Western secularity, he argues, is "the fruit of new inventions, newly constructed self-understandings and related practices"; not an emptiness left by religion's retreat but a new, positive, built condition, whose signature invention is what he calls exclusive humanism, the first widely available way of living oriented entirely within this world. The anthropologist Talal Asad presses the same point from another flank: "the secular" is not the neutral ground left when the gods withdraw; it is a constructed formation with a history of its own. If they are right, and I think they are, then my talk of silence and loss is the believer's-eye view of something that looks, from the other side, like a construction site. Notice that this does not weaken this book's argument; it completes it. The secular age is not a void where dharmas used to be. It is a crowded workshop of new ones, exclusive humanism first among them, the proliferating "nova" of options Taylor describes, and the workshop is exactly where the whole of the next part takes place.
+
+But Taylor sharpens the problem too, in a way my subtraction telling actually understated. In the old world, the three free gifts went to whoever was born inside the dharma. In the secular age, Taylor argues, every position, belief and unbelief alike, is held as one option among others: contested, fragile, reflectively chosen. Which means the believer has lost the free gifts as well. Nobody now inherits grounding, installation, and a cooperating world; every dharma in the nova, religious or secular, has to earn all three the hard way. The tests that follow are therefore not the secular dharma's special burden. They are the entrance exam every dharma now sits, and the secular candidate merely sits it without notes.
 
 ## Can it bind?
 
@@ -109,10 +113,11 @@ Research notes used in this essay series are published on [GitHub](https://githu
 - [6.2 Digital-Age Dharma](6-contemporary/6.2-digital-age-dharma.md) — the attention economy as an external, industrial adversary; the supernormal stimulus; and the move from self-cultivation to environment-design.
 - [3.1 Tension Resolution](3-philosophical/3.1-tension-resolution.md) — the atomised modern self and the community a dharma needs but the secular age has thinned.
 - [7.2 Cultural Adaptation & Appropriation](7-critical/7.2-appropriation.md) — dharma-as-consumer-product; the extraction critique that "McMindfulness" sharpens.
-- [6.5 Secularization & the "Nones"](6-contemporary/6.5-secularization-nones.md) — the Pew demographics behind the opening: the US "nones" at 29% (and plateaued), SBNR at 22%, the global 1.9 billion; why "fastest-growing" needs its time-and-place qualifier.
+- [6.5 Secularization & the "Nones"](6-contemporary/6.5-secularization-nones.md) — the Pew demographics behind the opening: the US "nones" at 29% (and plateaued), SBNR at 22%, the global 1.9 billion; why "fastest-growing" needs its time-and-place qualifier; and the Taylor–Asad correction to the subtraction frame (secularity as construction, and the fragilisation of every position) that this essay's "on trial" passage states.
 
 **Key works**
 
+- Charles Taylor, *A Secular Age* (2007) — the source of this part's title, engaged rather than merely borrowed: against "subtraction stories," secularity as "the fruit of new inventions"; exclusive humanism; the nova effect; the fragilisation of belief and unbelief alike. With Talal Asad, *Formations of the Secular* (2003) — "the secular" as a constructed formation with its own history, not religion's residue.
 - On grounding: GEM Anscombe, "Modern Moral Philosophy" (1958), for the no-lawgiver objection; Plato's *Euthyphro*; the Münchhausen trilemma; and Philippa Foot, *Natural Goodness* (2001), on flourishing for a creature of our kind.
 - Stephen Batchelor, *Secular Buddhism* / *After Buddhism* — reconstruction that keeps the practice, the ethics, and the community; with Ronald Purser, *McMindfulness* (2019), for the extraction failure mode, and the Goyal et al. (2014) meta-analysis on mindfulness's modest efficacy.
 - Epictetus, *Enchiridion*, and the Stoicism-to-CBT lineage (Ellis, Beck); with Pierre Hadot, *Philosophy as a Way of Life* (1995), on ancient philosophy as practised exercise rather than doctrine; and Don Cupitt, *Taking Leave of God* (1980), for the same reconstruction performed inside Christianity.
