@@ -11,6 +11,9 @@ draws_on: ["0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7"]
 
 # 0: Preface
 
+<!--audio stop-->
+<i><a href="https://garydean.id/audio/In-Search-of-Dharma_Biksu-Okusi_2026_audiobook.mp3" target=_blank>[Full Abridged Audiobook]</a></i>
+<!--audio start-->
 <image r 40 "/images/0-defining-dharma_watercolor.webp" "In Search of Dharma: Preface" "">
 
 > *These essays were assembled in an unusual way, by an unlikely person, in an unlikely place. So before starting, you are owed an open account of all three; not as credentials, but as disclosures: where the work comes from, who helped make it, and, most importantly, how it was actually built.*
