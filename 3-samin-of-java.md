@@ -3,7 +3,7 @@ part: 3
 title: "The Dharmas of the Samin of Java"
 slug: samin-of-java
 status: done
-words: 5267
+words: 5402
 reading_level: year-12
 updated: 2026-07-18
 draws_on: ["4.1", "1.3", "7.3", "8.1"]
@@ -117,7 +117,7 @@ And a deeper current runs underneath, one I can only gesture at here. Drawing on
 
 ## An honest pause
 
-I have been building a case, and before I finish it, two warnings are in order, because a dharma is exactly the kind of thing it is easy to romanticise, and I have been as charmed by this one as anyone.
+I have been building a case, and before I finish it, three warnings are in order, because a dharma is exactly the kind of thing it is easy to romanticise, and I have been as charmed by this one as anyone.
 
 The first is about the evidence. Almost everything we "know" about Samin doctrine comes to us second-hand, and often third-hand, from outsiders: Dutch colonial officials and, later, ethnographers. The reason is the very thing that makes the movement so striking: the Samin wrote nothing down. The historians Harry Benda and Lance Castles, in their foundational scholarly study, make this their central caution and note that the accounts we do have were frequently written by hostile or baffled observers. We are watching this dharma through a series of other people's windows, some of them grimy.
 
@@ -128,6 +128,8 @@ The second is sharper, and we have to face it squarely. The *wong sikep* were *n
 So why are they here at all when, in the end, the question is whether we can build ethical worlds without the supernatural?
 
 Because they are a *boundary case*, and boundary cases are worth more than tidy examples. The Sedulur Sikep are not a world religion, with scripture, clergy, and empire. But they are not a secular philosophy either, like Stoicism stripped of its gods. They sit in between: a non-scriptural, non-institutional, this-worldly, ethics-first *folk* dharma, with just enough cosmology to give it a backbone and not an ounce more. And precisely by sitting in between, they prove that a dharma need not be *either* a great religion *or* a godless philosophy. There is a whole middle country of ways of living that are neither, and the Sedulur Sikep are its first sure landmark. For an argument that dharmas come in every form, an example that refuses our neat boxes is not an embarrassment. It is the best evidence we have.
+
+The third warning I can only post here and honour later, because it needs a standard this book has not yet built. A dharma this admirable still had hard edges, and they pressed on its own people: for most of a century the *wong sikep* kept their children from school, and with it from letters, rather than hand them to the state's classroom; and the same tradition that will shortly give us nine heroic women at a palace gate also prescribed, and largely still prescribes, a wife's place in a plainly patriarchal household. Whether a way of life can hold this well without crushing anyone inside it is a real question, not a rhetorical one, and the final part of this book will put this very dharma through that test, honestly, as its hardest case.
 
 ## Feet in cement
 
