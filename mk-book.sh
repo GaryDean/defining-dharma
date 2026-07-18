@@ -656,6 +656,13 @@ CSS
         "$plate" "${inputs[@]}" ) || die 'pandoc PDF build failed'
     info "done: $OUTPUT_PDF ($(du -h --apparent-size "$OUTPUT_PDF" | cut -f1))"
   fi
+
+  # copy to garydean.id/html/book/
+  cp In-Search-of-Dharma_Biksu-Okusi_2026* /var/www/vhosts/garydean.id/html/books/in-search-of-dharma/
+  chown -R sysadmin:www-data /var/www/vhosts/garydean.id/html/books/in-search-of-dharma
+  chmod 664 /var/www/vhosts/garydean.id/html/books/in-search-of-dharma/*
+  scp -p In-Search-of-Dharma_Biksu-Okusi_2026* okusi3:/var/www/vhosts/garydean.id/html/books/in-search-of-dharma/
+
 }
 
 main "$@"
