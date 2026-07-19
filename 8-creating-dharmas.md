@@ -3,7 +3,7 @@ part: 8
 title: "Creating Dharmas"
 slug: creating-dharmas
 status: done
-words: 6729
+words: 6709
 reading_level: year-12
 updated: 2026-07-11
 draws_on: ["8.1", "8.2", "8.3", "8.4", "8.5", "3.4", "4.1", "7.4", "7.5", "7.7"]

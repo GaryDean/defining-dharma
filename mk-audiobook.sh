@@ -3,7 +3,7 @@
 #
 #   ./mk-audiobook.sh [-g SECONDS] [-G FILE]
 #
-# Concatenates the spoken cover plus chapters 0..8 (one TTS-narrated MP3 each,
+# Concatenates the spoken cover plus chapters 0..9 (one TTS-narrated MP3 each,
 # read straight from the garydean.id web-root) into one audiobook MP3, embeds
 # the lettered cover art as ID3v2 front-cover picture, and tags it with the
 # book's bibliographic metadata.
@@ -46,10 +46,10 @@ declare -r AUDIO_STEM=in-search-of-dharma
 declare -r COVER_IMAGE=$SCRIPT_DIR/images/defining-dharma-cover-title.png
 declare -r OUTPUT=$AUDIO_SRC_DIR/In-Search-of-Dharma_Biksu-Okusi_${PUB_YEAR}_audiobook.mp3
 
-# Track order: spoken cover first, then chapters 0..8.
+# Track order: spoken cover first, then chapters 0..9.
 declare -a SOURCES=("$AUDIO_SRC_DIR/In-Search-of-Dharma_cover.mp3")
 declare -i CHAPTER
-for CHAPTER in {0..8}; do
+for CHAPTER in {0..9}; do
   SOURCES+=("$AUDIO_SRC_DIR/$CHAPTER-$AUDIO_STEM.mp3")
 done
 unset -v CHAPTER

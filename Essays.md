@@ -60,6 +60,7 @@ Status vocabulary is identical to the research stage:
 | 6 | When Dharmas Go Wrong | Stress-test | done | [6-when-dharma-goes-wrong.md](6-when-dharma-goes-wrong.md) |
 | 7 | Dharmas in a Secular Age | Pivot | done | [7-secular-age.md](7-secular-age.md) |
 | 8 | Creating Dharmas | Build | done | [8-creating-dharmas.md](8-creating-dharmas.md) |
+| 9 | Coda | — (outside the arc) | review | [9-coda.md](9-coda.md) |
 
 ---
 

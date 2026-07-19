@@ -3,7 +3,7 @@ part: 1
 title: "Defining Dharma"
 slug: defining-dharma
 status: done
-words: 4637
+words: 4607
 reading_level: year-12
 updated: 2026-07-18
 draws_on: ["1.1", "1.2", "1.3", "1.4", "3.3", "3.4"]
@@ -25,7 +25,7 @@ Strip a word back far enough, and you reach the moment before it meant anything 
 
 That stopped me the first time I traced it, because it reframes the whole picture. The word we imagine as wispy and otherworldly is, at its root, a load-bearing word: the word for a prop, a support, the beam that keeps the roof up. In the oldest Vedic texts, it names something close to the order of the cosmos itself, the deep structure that holds reality together and keeps it from collapsing back into chaos. From there, the meaning broadens, as meanings do, until it covers the order of society, then the conduct of a single person, and eventually the specific teaching of the Buddha. A linguist would call this *semantic broadening*, the same ordinary process by which "dog" went from naming one breed to naming them all. But the metaphor underneath never changes. Whether it is holding up the stars, holding together a community, or holding a single life steady, *dharma* is the thing that does the holding.
 
-The journey has stranger stops still: in one Jain usage the word even names a literal physical substance, the invisible medium that makes motion possible. Carried east and then west, it turns into "Buddhism, the Dharma" on a paperback spine, and then, in our own century, into the "secular dharma" of writers who keep the practice and quietly drop the metaphysics. Each of those shifts was a real event in the life of the word: lawful in its mechanics, unpredictable in its direction, three thousand years of meaning on the move. A word that has traveled that far is not going to sit still for a tidy one-line definition, and perhaps we can stop asking it to.
+The journey has stranger stops still: in one Jain usage the word even names a literal physical substance, the invisible medium that makes motion possible. Carried east and then west, it turns into "Buddhism, the Dharma" on a paperback spine, and then, in our own century, into the "secular dharma" of writers who keep the practice and quietly drop the metaphysics. Each of those shifts was a real event in the life of the word: lawful in its mechanics, unpredictable in its direction, three thousand years of meaning on the move. A word that has travelled that far is not going to sit still for a tidy one-line definition, and perhaps we can stop asking it to.
 
 And here is why that matters for everything that comes next. If a dharma is "that which holds," then the question "what is a dharma?" becomes a question about a *function*, not a faith. We are no longer asking which doctrine is true. We are asking: what holds a human life together? What keeps a person, or a people, from falling apart under the weight of fear, conflict, temptation, and sheer confusion about how to live? Every human group, we will see, grows something to do that holding. We are going to spend eight parts looking at the astonishing variety of those somethings. But they are all, in the end, answers to the same structural problem: the problem of what holds.
 

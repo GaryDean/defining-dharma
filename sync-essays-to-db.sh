@@ -1,5 +1,5 @@
 #!/bin/bash
-# Sync the In Search of Dharma essay files (0..8) into the `content`
+# Sync the In Search of Dharma essay files (0..9) into the `content`
 # field of the matching essays rows — first in the local dev database,
 # then (if dev succeeds) in the production database on okusi3.
 #
@@ -22,7 +22,7 @@ readonly -- SCRIPT_DIR
 declare -r DEV_HOST='okusi'
 declare -r PROD_CMD='ok3'
 declare -r PROD_DB='/var/www/vhosts/garydean.id/data.db'
-declare -r URL_GLOB='[0-8]-in-search-of-dharma'
+declare -r URL_GLOB='[0-9]-in-search-of-dharma'
 declare -ri REMOTE_TIMEOUT=120
 
 declare -i DRY_RUN=1 DEV_ONLY=0
@@ -40,7 +40,7 @@ usage() {
   cat <<USAGE
 Usage: ${0##*/} [OPTIONS] [dev_database]
 
-Copy essay files 0..8 into essays.content of the dev database
+Copy essay files 0..9 into essays.content of the dev database
 (default: $SCRIPT_DIR/www/data.db), then into production
 ($PROD_CMD:$PROD_DB) once the dev update has succeeded.
 
@@ -118,7 +118,7 @@ main() {
   local -a files
   local -- prefix=''
   ((DRY_RUN)) && prefix='[DRY-RUN] ' ||:
-  for n in {0..8}; do
+  for n in {0..9}; do
     files=( "$SCRIPT_DIR/$n"-*.md )
     ((${#files[@]} == 1)) \
       || die 1 "Essay $n: expected exactly 1 file matching '$n-*.md', found ${#files[@]}"
@@ -139,7 +139,7 @@ main() {
 
   # Update dev database
   local -- changes
-  for n in {0..8}; do
+  for n in {0..9}; do
     changes=$(sqlite3 -- "$DB" \
       "UPDATE essays SET content = CAST(readfile('$TMPDIR_LOCAL/$n.md') AS TEXT)
        WHERE url = '$n-in-search-of-dharma';
@@ -164,7 +164,7 @@ main() {
   {
     echo '.bail on'
     echo 'BEGIN;'
-    for n in {0..8}; do
+    for n in {0..9}; do
       echo "UPDATE essays SET content = CAST(readfile('$TMPDIR_REMOTE/$n.md') AS TEXT)"
       echo "  WHERE url = '$n-in-search-of-dharma';"
     done

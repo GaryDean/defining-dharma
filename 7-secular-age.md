@@ -3,7 +3,7 @@ part: 7
 title: "Dharmas in a Secular Age"
 slug: secular-age
 status: done
-words: 4838
+words: 4821
 reading_level: year-12
 updated: 2026-07-18
 draws_on: ["6.1", "6.2", "3.3", "3.1", "7.2", "6.5", "3.5.2", "3.5.3", "3.5.4"]

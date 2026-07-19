@@ -3,7 +3,7 @@ part: 5
 title: "How a Dharma Gets Under Your Skin"
 slug: under-your-skin
 status: done
-words: 4564
+words: 4537
 reading_level: year-12
 updated: 2026-07-11
 draws_on: ["5.1", "5.3", "5.4", "5.2", "5.5"]

@@ -3,7 +3,7 @@ part: 4
 title: "A World of Dharmas"
 slug: world-of-dharmas
 status: done
-words: 5422
+words: 5401
 reading_level: year-12
 updated: 2026-07-18
 draws_on: ["4.2", "4.3", "4.4", "1.4", "3.5.1", "3.5.2", "3.5.3", "3.5.4", "4.5"]
@@ -65,7 +65,7 @@ It has its own failure mode, of course. Push the acceptance of "what is not up t
 
 Now go to Australia, and to a dharma so old and so unlike the others that it stretches the very category: the Aboriginal tradition the English language clumsily calls the Dreaming.
 
-Begin by throwing away three things you might think a serious ethical tradition needs. There is no scripture, because there is no writing. There is no founder, no Buddha, Christ, or Confucius at the origin. And there is no separate "code," no list of commandments you could copy onto a page. Instead, there is the *Tjukurrpa*, a word that means the ancestral past, the present reality, the moral law, and the structure of the world, all at once. The anthropologist WEH. Stanner, seeking a way to translate it, coined the word "everywhen": a time that is not back then but always, in which the acts of the ancestral beings who shaped the land remain a living present, still holding the law in place.
+Begin by throwing away three things you might think a serious ethical tradition needs. There is no scripture, because there is no writing. There is no founder, no Buddha, Christ, or Confucius at the origin. And there is no separate "code," no list of commandments you could copy onto a page. Instead, there is the *Tjukurrpa*, a word that means the ancestral past, the present reality, the moral law, and the structure of the world, all at once. The anthropologist WEH Stanner, seeking a way to translate it, coined the word "everywhen": a time that is not back then but always, in which the acts of the ancestral beings who shaped the land remain a living present, still holding the law in place.
 
 And where is this law written, if not in a book? In the land itself, and in the songs that cross it. The famous songlines are paths through the country, and to sing the song in order is to recite the features of the landscape in order, and woven into the same performance are the law, the genealogy, the ethics, and the map. The land is the scripture, and you read it by walking and singing. It is dharma as total order, ethics, cosmos, geography, and identity fused into one thing, and carried entirely in voice, movement, and place.
 
@@ -161,7 +161,7 @@ Research notes used in this essay series are published on [GitHub](https://githu
 - Ifeanyi Menkiti, "Person and Community in African Traditional Thought" (1984), with Kwame Gyekye's moderate-communitarian reply, and Thaddeus Metz, "Toward an African Moral Theory" (2007) — achieved personhood, the place of individual choice, and the formalised Ubuntu principle.
 - *S v Makwanyane* (1995) — Ubuntu as a foundational constitutional value; with Bernard Matolino & Wenceslaus Kwindingwi, "The End of Ubuntu" (2013), for the critique.
 - Epictetus, *Enchiridion*, and Marcus Aurelius, *Meditations* — the dichotomy of control, virtue as the only good, and living "according to nature."
-- WEH. Stanner, "The Dreaming" (1953); Patrick Nunn & Nicholas Reid on 7,000–13,000-year-old coastal memories (2016); the Haudenosaunee Great Law of Peace and the Seven Generations principle; Vine Deloria Jr, *God Is Red* (1973), on "religions of space" vs "religions of time."
+- WEH Stanner, "The Dreaming" (1953); Patrick Nunn & Nicholas Reid on 7,000–13,000-year-old coastal memories (2016); the Haudenosaunee Great Law of Peace and the Seven Generations principle; Vine Deloria Jr, *God Is Red* (1973), on "religions of space" vs "religions of time."
 - Robin Wall Kimmerer, *Braiding Sweetgrass* (2013), on kincentricity; with Shepard Krech III, *The Ecological Indian* (1999), as the corrective.
 - Paul Stange, *The Evolution of Sumarah* (PhD dissertation, University of Wisconsin–Madison, 1980) and *Relaxed Meditation: Selected Sumarah Teachings* (1977/2001) — the insider-scholar's history and practice texts; with A. M. R. Maulana, M. Muttaqin & A. N. Fitriyani, "Paguyuban Sumarah and Interrituality", *Walisongo* 29(1) (2021), for independent confirmation of the multireligious *sujud*.
 - Paul Stange, *The Politics of Attention* (*Politik Perhatian*, 1998; English rendering 2007), on the New Order's compulsory theism — atheism outlawed with communism, movements pressured to put "surrender to God" first as the condition of staying open; with Robert Cribb (ed.), *The Indonesian Killings of 1965–1966* (Monash, 1990), on the massacres behind that compulsion.

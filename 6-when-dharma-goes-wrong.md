@@ -3,7 +3,7 @@ part: 6
 title: "When Dharmas Go Wrong"
 slug: when-dharma-goes-wrong
 status: done
-words: 5874
+words: 5852
 reading_level: year-12
 updated: 2026-07-11
 draws_on: ["7.1", "7.2", "7.3", "7.6", "7.7", "6.3", "6.4", "5.5"]

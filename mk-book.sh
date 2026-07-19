@@ -1,9 +1,9 @@
 #!/bin/bash
-# mk-book.sh - Build "In Search of Dharma" (EPUB and/or PDF) from cover.md + 0..8.
+# mk-book.sh - Build "In Search of Dharma" (EPUB and/or PDF) from cover.md + 0..9.
 #
 #   ./mk-book.sh [epub|pdf|all] [--audio none|link|embed]   (defaults: all, none)
 #
-# Audio narration (one MP3 per chapter, 0..8) is referenced at the top of each
+# Audio narration (one MP3 per chapter, 0..9) is referenced at the top of each
 # chapter. Modes (--audio):
 #   link   (default) per-chapter hyperlink to https://garydean.id/audio/N-...mp3.
 #          The EPUB shows a "Listen to this chapter" link; the PDF shows the bare
@@ -64,7 +64,7 @@ declare -r OUTPUT="$SCRIPT_DIR"/In-Search-of-Dharma_Biksu-Okusi_2026.epub
 declare -r OUTPUT_PDF="${OUTPUT%.epub}".pdf
 declare -r OUTPUT_AUDIO="${OUTPUT%.epub}"_with-audio.epub
 
-# Chapter narration. One MP3 per chapter, named N-<stem>.mp3 (N = 0..8), living
+# Chapter narration. One MP3 per chapter, named N-<stem>.mp3 (N = 0..9), living
 # canonically under the garydean.id web-root and served from AUDIO_BASE_URL. The
 # embed build reads them via --resource-path=AUDIO_WEBROOT (so "audio/N-...mp3"
 # resolves); nothing is copied into the repo.
@@ -200,7 +200,7 @@ preprocess() {
         -e 's#f?fj#<span class="dlig">&</span>#g'
 }
 
-# Emit the audio player/link for chapter n (0..8) in the requested mode, to be
+# Emit the audio player/link for chapter n (0..9) in the requested mode, to be
 # spliced in just below the chapter's H1. Nothing is emitted for mode=none.
 #   embed -> raw XHTML <audio> whose <source src> pandoc bundles into the EPUB
 #   link  -> a raw <p> carrying two anchors to the same MP3: a friendly "Listen"
@@ -369,7 +369,7 @@ main() {
   if [[ $audio_mode != none ]]; then
     local -i an
     local -- missing=''
-    for an in {0..8}; do
+    for an in {0..9}; do
       [[ -f "$AUDIO_SRC_DIR/$an-$AUDIO_STEM.mp3" ]] && continue
       [[ $audio_mode == embed ]] \
         && die "audio missing '$AUDIO_SRC_DIR/$an-$AUDIO_STEM.mp3'"
@@ -379,11 +379,11 @@ main() {
       || info "local MP3s absent (${missing# }); links still resolve via ${AUDIO_BASE_URL@Q}"
   fi
 
-  # Assemble the source list: cover first, then essays 0..8 by numeric prefix.
+  # Assemble the source list: cover first, then essays 0..9 by numeric prefix.
   local -a sources=("$SCRIPT_DIR"/cover.md)
   local -i n
   local -a match
-  for n in {0..8}; do
+  for n in {0..9}; do
     match=("$SCRIPT_DIR/$n"-*.md)
     (( ${#match[@]} == 1 )) || die "expected exactly one file for essay $n, found ${#match[@]}"
     [[ -f ${match[0]} ]] || die "essay $n source not found: ${match[0]}"
@@ -426,7 +426,7 @@ main() {
     || die 'failed to stage SVG images'
 
   # Preprocess into ordered temp files (00-, 01-, ...) to preserve chapter order.
-  # Chapters are cover(=0), then essays 0..8 at indices 1..9, so essay index i
+  # Chapters are cover(=0), then essays 0..9 at indices 1..10, so essay index i
   # carries audio number i-1. The cover (i=0) never gets an audio player.
   local -a inputs=()
   local -i i=0
@@ -467,7 +467,7 @@ main() {
   inputs=("${inputs[0]}" "$contents" "${inputs[@]:1}")
 
   # Standard Ebooks-style semantic inflection. inputs is now
-  # [cover(title page), contents, essays 0..8]; tag each so readers and the
+  # [cover(title page), contents, essays 0..9]; tag each so readers and the
   # landmarks navigation know the cover is the title page, the essays are the
   # body, and reading begins at essay 0 rather than the cover.
   inflect_h1 "${inputs[0]}" 'frontmatter titlepage'
