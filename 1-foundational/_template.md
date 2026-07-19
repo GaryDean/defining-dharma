@@ -40,7 +40,13 @@ or unsupported.>
 `status: barred` register entry (self-authored corpus prose or ephemera).>
 
 **Knowledgebase (yatti-api)**
-- [S1] <Author year, *Title*, loc> · kb:`<sourcedoc>:<seg>` [src:<register-key>] — <one-line note on what it supports>
+- [S1] <kbname> · `<sourcedoc>:<seg>` — <one-line note on what it supports>
+  <Canonical form. The backticked filename is the register linkage: it MUST resolve
+  to a `status: usable` entry in SOURCES.md (the verifier errors otherwise).
+  Optional precision upgrades, recommended when the filename alone is ambiguous
+  (multi-file or multi-entry): prefix a resolved short cite and/or append the
+  register key — [S1] <Author year, *Title*> · kb:`<sourcedoc>:<seg>`
+  [src:<register-key>] — <note>. The 3.5.x Sumarah notes use this full form.>
 
 **External**
 - [S2] Author, *Title* (year), p./URL — <one-line note on what it supports>

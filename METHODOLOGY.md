@@ -100,7 +100,7 @@ Set the question's `status` in both the note frontmatter and the dashboard table
 
 The shared corpus mixes published scholarship, recorded speech, community ephemera, and the author's own prose (some LLM-cleaned). A bare `filename:seg` is a *retrieval key*, not a citation. Each cited source is typed once in [`SOURCES.md`](SOURCES.md):
 
-- **Usable (`[S#]`)** — scholarly / attributable work (book, paper, named lecture or interview). Resolve to a proper reference and web-verify. Notes cite it as `[S#] <short cite> · kb:<file>:<seg> [src:<key>]`.
+- **Usable (`[S#]`)** — scholarly / attributable work (book, paper, named lecture or interview). Resolve to a proper reference and web-verify. Notes cite it canonically as `[S#] <kbname> · <file>:<seg> — gloss`; the backticked filename is the register linkage and must resolve to a `usable` entry (the verifier errors on a cited corpus file with no entry). Optional precision upgrades — a resolved short cite and/or an explicit `[src:<key>]` — are recommended where the filename alone is ambiguous (the 3.5.x notes carry the full form).
 
 - **Author's own (`[A]`)** — the author's position, synthesis or hypothesis. Marked `[A]` inline, NO Sources entry, outside the `[S#]` bijection. **Never dropped for lack of an external source**; external grounding is *sought*, not required. If found, it gains an `[S#]`.
 

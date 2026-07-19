@@ -2,8 +2,8 @@
 part: 9
 title: "Coda"
 slug: coda
-status: review
-words: 584
+status: done
+words: 551
 reading_level: year-12
 updated: 2026-07-19
 draws_on: []
@@ -11,7 +11,7 @@ draws_on: []
 
 # 9: Coda
 
-> *Eight parts of searching have earned one plain answer. So here it is, stated rather than argued: what a dharma is, on a single page.*
+> *Eight parts of searching have earned one plain answer. So here it is, stated rather than argued: what a dharma is ...*
 
 A **dharma** is a way of living that tells a person or group how to act, what to value, what to avoid, and what kind of life is worth trying to become.
 
@@ -21,7 +21,7 @@ At its deepest level, a dharma is **that which holds a life, a community, or a w
 
 ## There is no single "the Dharma"
 
-It is better to say **a dharma** than ***the* Dharma**, because human beings create many dharmas.
+It is better to say **a dharma** than **the Dharma**, because human beings create many dharmas.
 
 A Buddhist dharma, a Hindu dharma, a scientific dharma, a warrior dharma, an environmental dharma, a professional dharma, a family dharma, or a personal dharma can all function as dharmas if they provide a coherent way to live.
 
@@ -34,7 +34,7 @@ Religious dharmas do not have automatic privilege over secular ones. All dharmas
 A dharma usually includes:
 
 - **Values** — what matters
-- **Ethics** — what is right or wrong
+- **Ethics** — what is appropriate or inappropriate
 - **Practices** — what one repeatedly does
 - **Stories** — why life is this way
 - **Duties** — what one owes to self, others, community, or world
@@ -77,9 +77,11 @@ A dharma is:
 
 Or more simply still:
 
-> **A dharma is the way one lives when one is trying to live rightly.**
+> **A dharma is the way one lives when one is trying to live appropriately.**
 
 <!--audio stop-->
+
+[« 8: Creating Dharmas](/works/8-in-search-of-dharma)
 
 ---
 

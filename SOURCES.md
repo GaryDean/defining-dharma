@@ -126,6 +126,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: web (ISBN 9780671201593; Will Durant, The Story of Philosophy, 1926)
 - note: prov=zenquotes; KB text is an LLM (gpt-4o-mini) discourse generated from a Zenquotes quote card, not a summary of a specific parent document. NEEDS-HUMAN: confirm how the note should represent the Aristotle/Durant attribution nuance.
 
+### zenquotes-2619-aristotle-habit
+- status: barred
+- barred: ephemera
+- medium: text
+- kb: `2619.txt`
+- verified: unverified
+- note: bare quote-farm file (workshops/zenquotes/quotes/) containing only "We are what we repeatedly do…" attributed flatly to Aristotle — no context, no source, and it propagates the misattribution that entry aristotle-durant-we-are-what-we-repeatedly-do exists to correct (the wording is Will Durant's 1926 paraphrase). Barred as ephemera by author decision 2026-07-19; use the Durant entry instead.
+
 ### bailey-inventing-world-3-0-evolutionary-ethics-ai
 - status: usable
 - medium: transcript
@@ -175,9 +183,25 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - status: usable
 - medium: text
 - cite: Stephen Batchelor, interviewed by Mike Slott (Secular Buddhist Network) with Ayda Duroux, Saskia Graf & Jochen Weber (Buddha-Stiftung), "An Interview with Stephen Batchelor on Mindfulness Based Ethical Living (MBEL)" (Secular Buddhist Network, 22 Feb 2023)
-- kb: `Interview_with_Stephen_Batchelor_on_Mindfulness_Based_Ethical_Living_MBEL.txt`
+- kb: `Interview_with_Stephen_Batchelor_on_Mindfulness_Based_Ethical_Living_MBEL.txt`, `NiqN03KBSME.transcript.txt`
 - verified: web (secularbuddhistnetwork.org)
-- note: prov=Bodhi (general Buddhism-topic dir, not necessarily Bhikkhu Bodhi).
+- note: prov=Bodhi (general Buddhism-topic dir, not necessarily Bhikkhu Bodhi). `NiqN03KBSME.transcript.txt` is the video transcript of the same interview (YouTube id NiqN03KBSME; same participants and content) — one work, two corpus forms.
+
+### batchelor-a-secular-buddhism-lecture
+- status: usable
+- medium: transcript
+- cite: Stephen Batchelor, "A Secular Buddhism" (lecture, YouTube, video ID Hhlj_SU9SAE)
+- kb: `Hhlj_SU9SAE.transcript.txt`
+- verified: video-URL (https://www.youtube.com/watch?v=Hhlj_SU9SAE)
+- note: cited in 7.5 [S6] for the "Protestant perspective" and the anti-colonial Burmese origins of the Vipassana movement.
+
+### batchelor-buddhism-and-the-art-of-imagining
+- status: usable
+- medium: transcript
+- cite: Stephen Batchelor, "Buddhism and The Art of Imagining" (talk, YouTube, video ID hdBU5TAcPYs)
+- kb: `hdBU5TAcPYs.transcript.txt`
+- verified: video-URL (https://www.youtube.com/watch?v=hdBU5TAcPYs)
+- note: cited in 7.5 [S4] corroborating "Buddhism" as a nineteenth-century European coinage.
 
 ### batchelor-batchelor-2019-what-is-this
 - status: usable
@@ -200,6 +224,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - cite: Stephen Batchelor and Bing Song, "What if Buddhists Ran the World?" Futurology podcast (Berggruen Institute, 2024)
 - kb: `What-if-Buddhists-Ran-the-World.md`
 - verified: video (https://www.youtube.com/watch?v=izowdNr6tJY; Berggruen Institute Futurology, recorded Venice, Nov 2024)
+
+### berkman-1929-what-is-communist-anarchism
+- status: usable
+- medium: text
+- cite: Alexander Berkman, *What Is Communist Anarchism?* (Vanguard Press, 1929; also published as *Now and After: The ABC of Communist Anarchism*)
+- kb: `alexander-berkman_what-is-communist-anarchism.md`
+- verified: web (repr. https://theanarchistlibrary.org/library/alexander-berkman-what-is-communist-anarchism)
+- note: cited in 7.7 [S2]; corpus also holds the .epub under workshops/anarchy/epubs/.
 
 ### bettera-2024-secondo-natura
 - status: usable
@@ -248,6 +280,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `Mindful-Solidarity.md`
 - verified: unverified
 - note: prov=Bodhi. Web search confirms Bhikkhu Bodhi's recurring "solidarity/compassion/justice" framing (e.g. MIT 2018 talk "moral vision in an age of crisis") but did not pin down the exact publication venue for an essay titled precisely "Mindful Solidarity". NEEDS-HUMAN: confirm original publication venue.
+
+### bregman-2020-humankind
+- status: usable
+- medium: text
+- cite: Rutger Bregman, *Humankind: A Hopeful History*, trans. Elizabeth Manton & Erica Moore (Bloomsbury, 2020)
+- kb: `rutger-bregman_humankind_a-hopeful-history.md`
+- verified: web (ISBN 978-1-4088-9893-2)
+- note: anchor source of note 8.5 — the 1965–66 'Ata shipwreck ("real Lord of the Flies") and the Robbers Cave / Middle Grove correction (via Gina Perry's archive work). Reviewers have criticised Bregman's use of sources; weigh popular-synthesis claims accordingly.
 
 ### byy4khbb-fk-discussion-transcript
 - status: barred
@@ -445,6 +485,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: web (prosocial.world/posts/climate-change-and-inter-group-cooperation; 2012-07-24)
 - note: resolved via prosocial.world.db frontmatter
 
+### falk-2022-addressing-gaps-climate
+- status: usable
+- medium: text
+- cite: Richard Falk, "Addressing Gaps Between Knowledge, Action, Justice: The Climate Change Challenge" (This View of Life / prosocial.world, 13 January 2022)
+- kb: `posts_addressing-gaps-between-knowledge-action-justice-the-climate-change-challenge.md`
+- verified: web (https://www.prosocial.world/posts/addressing-gaps-between-knowledge-action-justice-the-climate-change-challenge; live, fetched 2026-07-19)
+- note: Falk = professor emeritus of international law, Princeton. Source of the Paris-2015 "global moment of universal recognition" passage cited in 8.1 [S5].
+
 ### fisher-2022-the-chaos-machine
 - status: usable
 - medium: text
@@ -519,12 +567,36 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `david-graeber-possibilities.md`
 - verified: web (ISBN 9781904859666)
 
+### graeber-2009-debt-first-five-thousand-years
+- status: usable
+- medium: text
+- cite: David Graeber, "Debt: The First Five Thousand Years" (Mute magazine, 2009)
+- kb: `david-graeber-debt-the-first-five-thousand-years.md`
+- verified: web (repr. https://theanarchistlibrary.org/library/david-graeber-debt-the-first-five-thousand-years; corpus header: "Retrieved on May 16th, 2009 from www.metamute.org")
+- note: the 2009 essay preceding the 2011 Melville House book of the same title — this entry cites the essay, which is what the corpus holds.
+
 ### graeber-2012-after-the-jubilee
 - status: usable
 - medium: text
 - cite: David Graeber, "After the Jubilee," Tidal, Year II (September 2012)
 - kb: `david-graeber_after-the-jubilee.md`
 - verified: web (https://davidgraeber.org/articles/after-the-jubilee/; Sept 2012)
+
+### graeber-2015-all-economies-human-economies
+- status: usable
+- medium: text
+- cite: David Graeber, "All Economies Are Ultimately Human Economies," in *Challenging Capitalist Modernity II: Dissecting Capitalist Modernity — Building Democratic Confederalism* (Network for an Alternative Quest, 2015), §3.3, pp. 143–153
+- kb: `david-graeber_all-economies-are-ultimately-human-economies.md`
+- verified: web (PDF at ocalanbooks.com, per document header; conference talk, original video on YouTube)
+- note: —
+
+### graeber-stern-weiner-2011-debt-slavery-freedom
+- status: usable
+- medium: text
+- cite: David Graeber, interviewed by Jamie Stern-Weiner, "Debt, Slavery and our Idea of Freedom" (two-part interview, 29 August & 1 September 2011)
+- kb: `david-graeber+jamie-stern-weiner_debt-slavery-and-our-idea-of-freedom.md`
+- verified: web (https://davidgraeber.org/interviews/debt-slavery-and-our-idea-of-freedom/; repr. The Anarchist Library, ZNetwork)
+- note: conducted on UK publication of *Debt: The First 5000 Years*.
 
 ### hagen-2018-seven-reasons-depression-not-brain-disorder
 - status: usable
@@ -555,6 +627,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - cite: Sam Harris and Robert Sapolsky, "Sam Harris and Robert Sapolsky discuss the Psychology of EVIL!" (YouTube, video ID hfcOSZu09iA; excerpted from Making Sense with Sam Harris #91, "The Biology of Good and Evil")
 - kb: `Sam-Harris-and-Robert-Sapolsky-discuss-the-Psychology-of-EVIL.transcript.txt`
 - verified: video-URL (https://www.youtube.com/watch?v=hfcOSZu09iA)
+
+### hefner-bagir-2021-indonesian-pluralities
+- status: usable
+- medium: text
+- cite: Robert W. Hefner & Zainal Abidin Bagir (eds.), *Indonesian Pluralities: Islam, Citizenship, and Democracy*, Contending Modernities series (University of Notre Dame Press, 2021)
+- kb: `robert-w-hefner-ed+zainal-abidin-bagir-ed_indonesian-pluralities_islam-citizenship.md`
+- verified: web (ISBN 978-0-268-10861-8)
+- note: 4.6 [S15] cites the Agama Djawa Sunda / "agama leluhur" recognition material (2010 and 2017 Constitutional Court rulings).
 
 ### henrich-2015-secret-of-our-success
 - status: usable
@@ -619,6 +699,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `1711255-minister-of-population-and-family-development-visits-baduy-community-to-expand.md`
 - verified: web (jawawa.id/newsitem/minister-of-population-and-family-development-visits-baduy-community-to-expand-reach-of-free-nutritious-meals-1777557285; ANTARA_ID, 30 Apr 2026)
 - note: Resolved via jawawa.id search -- live URL id (1777557285) differs from the KB filename prefix (1711255); confirmed live. Full headline recovered ("... for 3B"); outlet is ANTARA, not the Jakarta Post. Refers to Indonesia's MBG (Makan Bergizi Gratis) programme and Minister Wihaji.
+
+### jakarta-post-minister-mendukbangga-baduy-family-planning
+- status: usable
+- medium: text
+- cite: ANTARA News (translated, via jawawa.id), "Minister Mendukbangga Visits Baduy Indigenous Community for Family Planning Education" (1 May 2026)
+- kb: `1711684-minister-mendukbangga-visits-baduy-indigenous-community-for-family-planning.md`
+- verified: jawawa DB on okusi3 (/ai/datasets/jawawa/articles/2026/05/01/; Source: ANTARA_ID, Date: 2026-05-01)
+- note: Minister Wihaji (Mendukbangga/BKKBN head) visiting Kanekes Village, Lebak; KB-programme education delivered in Sundanese via the Family Accompaniment Team and midwives. Sibling of the 1711255 MBG-nutrition visit; cited in 4.6 [S11]. Absent from the local dev jawawa DB, which predates April 2026.
 
 ### jakarta-post-reclusive-baduy-cope-with-tourism-and-materialism
 - status: usable
@@ -732,6 +820,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: web (jawawa.id/newsitem/the-missing-values-of-harmony-and-plurality-1447893297; JP, 1998-09-20); jawawa DB archive
 - note: resolved via jawawa DB (embed_data.text path + Source/Date header)
 
+### k63-eelwz2k-gates-ai-predictions
+- status: usable
+- medium: transcript
+- cite: "Bill Gates Shocking New 2024 AI Prediction (AGI + AI Agents)" (YouTube, video ID k63-eElwz2k, 2024; channel not identifiable from the video page)
+- kb: `k63-eElwz2k.transcript.txt`
+- verified: video-URL (https://www.youtube.com/watch?v=k63-eElwz2k)
+- note: anonymous AI-news channel narrating Bill Gates's 2024 AI-agent predictions — second-hand commentary, not Gates verbatim. Registered usable by author decision (2026-07-19); weight accordingly. Cited in 8.2 [S4] alongside the Harris/Bartlett transcript.
+
 ### kalkhoff-serpe-pollock-2020-video-chat-proxy
 - status: usable
 - medium: text
@@ -818,6 +914,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: video-URL (https://www.youtube.com/shorts/s2ZHzpwoFnc)
 - note: Secondary/popular source — a creator's paraphrase of Yann LeCun's LLM critiques, NOT LeCun's own words (its chain-of-thought mechanism description is the creator's garbling). Resolve to LeCun primary sources for citation-grade claims. Transcript at appliedanthropology/workshops/transcripts/ (not indexed in the shared DB at query time); summary + assessment note at appliedanthropology/workshops/DD/lecun-five-problems-with-llms.md.
 
+### pinker-2018-enlightenment-now
+- status: usable
+- medium: text
+- cite: Steven Pinker, *Enlightenment Now: The Case for Reason, Science, Humanism, and Progress* (Viking, 2018)
+- kb: `Enlightenment_Now.md`
+- verified: web (ISBN 978-0-525-42757-5)
+- note: cited in 7.7 [S1] for Pinker's summary of James C. Scott on high-modernist schemes.
+
 ### peluso-1992-rich-forests-poor-people
 - status: usable
 - medium: text
@@ -840,6 +944,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `half-the-world-lives-in-cities-did-we-get-here-thanks-to-religion.md`, `posts_half-the-world-lives-in-cities-did-we-get-here-thanks-to-religion.md`
 - verified: web (prosocial.world/posts/half-the-world-lives-in-cities-did-we-get-here-thanks-to-religion; 2016-05-06)
 - note: Discusses Norenzayan's "big gods" thesis and Purzycki cross-cultural game data.
+
+### nettlau-history-of-anarchy-early-spring
+- status: usable
+- medium: text
+- cite: Max Nettlau, *History of Anarchy I — The Early Spring of Anarchy: Its Development from the Beginnings to 1864*
+- kb: `the-early-spring-of-anarchy.md`
+- verified: web (repr. theanarchistlibrary.org; Nettlau's multi-volume history of anarchism)
+- note: cited in 7.7 [S5] for the revolutionary cults material.
 
 ### price-2014-how-science-can-help-morality
 - status: usable
@@ -870,6 +982,22 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `posts_the-world-needs-a-secular-community-revolution`
 - verified: web (prosocial.world/posts/the-world-needs-a-secular-community-revolution; 2 Jul 2015)
 - note: resolved via prosocial.world.db frontmatter
+
+### pollard-s-widjojo-brief-history
+- status: usable
+- medium: text
+- cite: Rashad Pollard, "PT S. Widjojo — A Brief History" (Subud Enterprise Services International)
+- kb: —
+- verified: web (https://subudenterprise.com/pt-s-widjojo-a-brief-history-by-rashad-pollard/)
+- note: external, not in corpus. Insider/movement-affiliated account, used for financial particulars: BSB pre-purchase of $550,000; ~$5.9m raised from member investment against a $6m target; the building completed 1980; loan trouble on a second office building, with several members rescuing and repaying it; rental income to Subud investors suspended to service debt; building sold 2008. ▲ S. Widjojo was rescued and later sold — not a collapse in the Anugraha sense. Cited in 4.5.
+
+### deverneuil-smith-clark-anugraha-inquiry
+- status: usable
+- medium: text
+- cite: Bryan de Verneuil-Smith & Laurence Clark, "The Failure of Anugraha — An Inquiry"
+- kb: —
+- verified: web (https://invisibleacademy.wordpress.com/the-failure-of-anugraha-an-inquiry/)
+- note: external, not in corpus. Inquiry by two authors chosen for having no direct Anugraha involvement. Anugraha established 1979 near Windsor as a Subud International Centre; £500,000 Barclays bridging loan (1987) routed through three syndicate trustees; 76 "Subscribers" undertook repayment shares and 5 guarantor families pledged their homes; Receiver appointed June 1990, leaving subscribers liable for capital plus interest and the guarantors' houses at risk. Cited in 4.5.
 
 ### prosocial-dealing-with-psychopaths-internet-age
 - status: usable
@@ -935,6 +1063,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: web (prosocial.world/posts/universal-morality-is-obscured-by-evolved-morality; 17 May 2018)
 - note: DB confirms prov=prosocial.world (staging.text/prosocial.world/universal-morality-is-obscured-by-evolved-morality.md); author byline not confirmed via light search.
 
+### prosocial-world-ai-chatgpt-quest-for-fire
+- status: usable
+- medium: text
+- cite: Shigeru Miyagawa, "Artificial Intelligence, ChatGPT, and the Quest for Fire" (This View of Life / prosocial.world)
+- kb: `posts_artificial-intelligence-chatgpt-and-the-quest-for-fire.md`
+- verified: web (prosocial.world/posts/artificial-intelligence-chatgpt-and-the-quest-for-fire)
+- note: Miyagawa = linguist, MIT. The fire analogy runs: cooking fire let hominids extract ~100% of nutrients in half the time; we are at a "primitive, pre-fire stage in the information age," so "we need to invent the fire of our times before we let AI loose on our society." ▲ The fire is the *refining* technology we still lack — AI is questioned as a candidate for it, not identified with it. Cited in 8.2 [S6].
+
 ### prosocial-world-blurring-the-line-between-others
 - status: usable
 - medium: text
@@ -943,6 +1079,22 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: web (prosocial.world/posts/blurring-the-line-between-others-a-practical-application-of-cultural-multilevel-selection-theory; 10 Sep 2019)
 - note: Confirmed via web search: prosocial.world/posts/blurring-the-line-between-others-a-practical-application-of-cultural-multilevel-selection-theory; input filename lacked the full slug/extension
 
+### prosocial-world-bridging-gap-laboratory-field
+- status: usable
+- medium: text
+- cite: Dimitris Xygalatas, "Bridging the Gap Between Laboratory and Field" (This View of Life / prosocial.world)
+- kb: `posts_bridging-the-gap-between-laboratory-and-field.md`
+- verified: web (prosocial.world/posts/bridging-the-gap-between-laboratory-and-field)
+- note: Xygalatas = anthropologist, University of Connecticut. Cited in 5.4 [S4] alongside the registered cognitive-anthropologist companion post.
+
+### prosocial-world-developing-field-site-anthropologists-view
+- status: usable
+- medium: text
+- cite: Harvey Whitehouse, "Developing the Field Site Concept for the Study of Cultural Evolution: An Anthropologist's View" (This View of Life / prosocial.world)
+- kb: `posts_developing-the-field-site-concept-for-the-study-of-cultural-evolution-an-anthropologists-view.md`
+- verified: web (prosocial.world/posts/developing-the-field-site-concept-for-the-study-of-cultural-evolution-an-anthropologists-view)
+- note: Whitehouse = Chair of Social Anthropology, Oxford. Cited in 5.2 [S3]. Distinct from the registered "addressing-the-field-site… cognitive anthropologist's view" post — same series, different author.
+
 ### prosocial-world-cooperation-through-cultural-group-selection
 - status: usable
 - medium: text
@@ -950,6 +1102,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `posts_cooperation-through-cultural-group-selection.md`
 - verified: web (prosocial.world/posts/cooperation-through-cultural-group-selection; 25 May 2020)
 - note: Discusses Turkana/Samburu/Borana/Rendille pastoralist study (cf. Mathew et al., Nature Communications 2020)
+
+### prosocial-world-core-design-principles-handout
+- status: usable
+- medium: text
+- cite: "Core Design Principle Handout with Spoke Diagram" (ProSocial World resource page)
+- kb: `resources_processes_core-design-principles-handout-spoke-diagram.md`
+- verified: web (web.archive.org/web/20250326034739/https://www.prosocial.world/resources/processes/core-design-principles-handout-spoke-diagram; live URL now HTTP 404, snapshot 26 Mar 2025 HTTP 200 via archive.org availability API, 2026-07-19)
+- note: ProSocial World's own material — non-independent; registered usable with that caveat by author decision (2026-07-19). Evidences only the program's self-description (CDPs from Ostrom). Cited in 6.1 [S4].
 
 ### prosocial-world-events-embodiment-workshop
 - status: barred
@@ -1006,6 +1166,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `posts_solving-friction-with-fiction-cooperation-co-ordination-and-the-evolution-of-hunter-gatherer-storytelling.md`
 - verified: web (https://www.prosocial.world/posts/solving-friction-with-fiction-cooperation-co-ordination-and-the-evolution-of-hunter-gatherer-storytelling ; doi:10.1038/s41467-017-02036-8)
 - note: Confirmed URL: prosocial.world/posts/solving-friction-with-fiction-cooperation-co-ordination-and-the-evolution-of-hunter-gatherer-storytelling
+
+### prosocial-world-spiritual-communities-preliminary-report
+- status: usable
+- medium: text
+- cite: "ProSocial World's Spiritual Communities Initiative Preliminary Research Report" (ProSocial World resource page; John Templeton Foundation-funded initiative)
+- kb: `resources_projects_prosocial-worlds-spiritual-communities-initiative-preliminary-research-report.md`
+- verified: web (web.archive.org/web/20250402075812/https://www.prosocial.world/resources/projects/prosocial-worlds-spiritual-communities-initiative-preliminary-research-report; live URL now HTTP 404, snapshot 2 Apr 2025 HTTP 200 via archive.org availability API, 2026-07-19)
+- note: program's own promotional/research material — non-independent; registered usable with that caveat by author decision (2026-07-19). Evidences only the program's self-description. Cited in 6.1 [S4]; cf. entry prosocial-world-prosocial-spirituality-active-group-engagement.
 
 ### prosocial-world-tags-ostrom
 - status: barred
@@ -1099,6 +1267,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `_g9pdWyAaDs.transcript.txt`
 - verified: video-URL (https://www.youtube.com/watch?v=_g9pdWyAaDs)
 
+### religionforbreakfast-buddhism-has-a-lot-of-hells
+- status: usable
+- medium: transcript
+- cite: Religion for Breakfast (Andrew Mark Henry), "Buddhism Has a Lot of Hells" (YouTube, video ID xKWmMLlSPsM, 2022)
+- kb: `xKWmMLlSPsM.transcript.txt`
+- verified: video-URL (https://www.youtube.com/watch?v=xKWmMLlSPsM); also indexed at buddhistuniversity.net (published 2022)
+- note: ▲ the transcript misstates that Said "coined" Orientalism and calls him "the philosopher" — note 7.5 [S1] flags this explicitly and does not propagate it. Registered usable for the Orientalism/"positive Orientalism"/*Dharma Bums* material only.
+
 ### religionforbreakfast-real-reasons-people-become-atheists
 - status: usable
 - medium: transcript
@@ -1138,20 +1314,20 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - note: author + exact title confirmed from the prosocial.world corpus post frontmatter (author: Veronika Rybanska). A genuine companion in the prosocial.world "field site concept" series (siblings live: Harvey Whitehouse, "Developing the Field Site Concept... An Anthropologist's View," 19 Oct 2016; plus a sociologist's and an evolutionary-biologist's view). CORRECTION to an earlier note: this is NOT a misattribution to Whitehouse. Its own standalone URL 404s live and has no Wayback snapshot, so left unverified (no external anchor obtainable); the attribution itself is sound.
 
 ### samin-movement-java-overview
-- status: usable
+- status: barred
+- barred: self
 - medium: text
-- cite: "The Samin of Java: A Distinctive Cultural and Resistance Movement" (compiled corpus overview; cf. Harry J. Benda and Lance Castles, "The Samin Movement," Bijdragen tot de Taal-, Land- en Volkenkunde 125, no. 2 (1969): 207-240, doi:10.1163/22134379-90002844)
 - kb: `The-Samin_sonnet.md`
-- verified: web (doi:10.1163/22134379-90002844)
-- note: NEEDS-HUMAN: filename ('_sonnet') suggests an LLM-generated (Claude Sonnet) overview article rather than a single named external work -- content reads as factually grounded but is unattributed; verify claims against primary ethnographic sources
+- verified: unverified
+- note: LLM-generated (Claude Sonnet) corpus overview of the Samin movement — barred per METHODOLOGY `barred:self` (LLM prose may never carry `[S#]`); adjudicated by author 2026-07-19, resolving the earlier NEEDS-HUMAN caveat. Note 4.1's particulars re-grounded in the translated Indonesian source (`sejarah-dan-tradisi-unik-…blora-jawa-tengah.md`) and Benda & Castles 1969 (doi:10.1163/22134379-90002844, read in full text).
 
 ### samin-movement-overview-llm-gpt45
-- status: usable
+- status: barred
+- barred: self
 - medium: text
-- cite: Overview of the Samin / Sedulur Sikep movement (Java); for peer-reviewed sourcing see Harry J. Benda and Lance Castles, "The Samin Movement," Bijdragen tot de Taal-, Land- en Volkenkunde 125, no. 2 (1969): 207-240, doi:10.1163/22134379-90002844, and Takashi Shiraishi, "Dangir's Testimony: Saminism Reconsidered," Indonesia 50 (1990)
 - kb: `The-Samin_gpt45.md`
-- verified: web (doi:10.1163/22134379-90002844)
-- note: NEEDS-HUMAN: KB file ("_gpt45" suffix) is an ungrounded LLM-generated synthesis of the Samin movement with no citations of its own -- treat facts as unverified until checked against primary/secondary ethnographic sources (Benda & Castles 1969; Shiraishi 1990).
+- verified: unverified
+- note: LLM-generated (GPT-4.5) synthesis of the Samin / Sedulur Sikep movement, no citations of its own — barred per METHODOLOGY `barred:self`; adjudicated by author 2026-07-19, resolving the earlier NEEDS-HUMAN caveat. For the subject matter use Benda & Castles 1969 (doi:10.1163/22134379-90002844) and Shiraishi, "Dangir's Testimony," Indonesia 50 (1990), both cited directly in note 4.1.
 
 ### samin-surosentiko-blora-history-video-transcript
 - status: usable
@@ -1288,7 +1464,7 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - status: usable
 - medium: transcript
 - cite: Robert Sapolsky et al., Stanford "Human Behavioral Biology" course lecture transcripts (Stanford University / YouTube)
-- kb: `Robert_Sapolsky_Lectures.txt`
+- kb: `Robert_Sapolsky_Lectures.txt`, `8-Recognizing-Relatives.transcript.txt`
 - verified: video (https://www.youtube.com/playlist?list=PL848F2368C90DDC3D)
 - note: Peeked content: file is a compilation of VTT-derived lecture transcripts (e.g. header "10-Introduction-to-Neuroscience-I-5031rWXgdYo.vtt"); the first segment shown is delivered by a teaching assistant (Nathan), not Sapolsky himself. Cite the course generally; verify per-claim which segment/speaker underlies a specific citation.
 

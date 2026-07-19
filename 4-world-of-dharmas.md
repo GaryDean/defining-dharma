@@ -3,7 +3,7 @@ part: 4
 title: "A World of Dharmas"
 slug: world-of-dharmas
 status: done
-words: 5401
+words: 5439
 reading_level: year-12
 updated: 2026-07-18
 draws_on: ["4.2", "4.3", "4.4", "1.4", "3.5.1", "3.5.2", "3.5.3", "3.5.4", "4.5"]
@@ -99,7 +99,7 @@ A fellowship that tests truth by collective feeling has a characteristic failure
 
 ## The Covenant: looking at your own
 
-For most readers in the Western world, the tradition you absorbed before you could choose, whether or not you still believe a word of it, is one of the three faiths that trace themselves to Abraham. And the reflex bred into the modern mind is to file these under a different and opposite heading from "dharma": under *religion*, the thing of belief and faith and the supernatural, as against ethics or philosophy or a way of life. That reflex is mistaken. Judaism, Christianity, and Islam are, by every test we have used, dharmas like any other.
+For most readers in the Western world, the tradition you absorbed before you could choose, whether or not you still believe a word of it, is one of the three faiths that trace themselves to Abraham. And the reflex bred into the modern mind is to file these under a different and opposite heading from "dharma": under *religion*, the thing of belief and faith and the supernatural, as against ethics or philosophy or a way of life. That reflex is mistaken, and I should own that the bookshelf behind this series shares its tilt — heavy on evolution and secular philosophy, light on the faiths of Abraham — which is exactly why this stop on the tour gets its full weight. Judaism, Christianity, and Islam are, by every test we have used, dharmas like any other.
 
 The clinching evidence is sitting in their own vocabulary. *Halakha*, the word for the whole body of Jewish practice, comes from a root meaning "to walk," and it is best translated not as "law" but as "the way to walk." *Sharia*, in Islam, literally means "the path to water." And the very first Christians, before anyone called them Christians, called themselves followers of "the Way." The same image in all three: a *path one walks*. That is precisely the image buried in the word *dharma* itself, and in its cousin *mārga*, the Sanskrit word for a road or path. These traditions describe themselves, in their own oldest language, exactly as a dharma does.
 
