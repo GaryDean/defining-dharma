@@ -8,7 +8,11 @@ updated: YYYY-MM-DD
 
 # 1.1 Core Etymology
 
-**Question:** <verbatim question text from Questions.md>
+**Question:** <verbatim question text from Questions.md. A note may instead carry a
+deliberate expansion of the registry wording where the note's job is to fact-check or
+sharpen a claim the essays make (as 7.6 and 7.7 do) — the expansion states the precise
+proposition under test. Keep the registry question recognisable inside it, and never
+let the expansion drift into a *different* question.>
 
 ## Synthesis
 <3-6 sentence evidence-based answer — the "so what". This is the distilled claim

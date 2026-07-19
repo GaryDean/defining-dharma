@@ -112,19 +112,19 @@ So: that is where all this comes from, who helped make it, and how it was built.
 
 Research notes used in this essay series are published on [GitHub](https://github.com/GaryDean/defining-dharma).
 
-- 0.1 Life & Formation -- Perth origins, the migration to Indonesia and citizenship, the temperament, and the personal history sketched here.
-- 0.2 Politics & Anarchism -- the Communist Party and anarchist years, and the "anarchism as plain natural history" thread.
-- 0.3 The Sangha & the Retreat -- Bodhi College, the 2018 retreats, Stephen Batchelor, and the 'a secular dharma?' conversations with Rupert Bozeat and Elfie Klinger.
-- 0.4 Network & Publishing -- the secular-dharma publishing network: the Tuwhiri Project, the Secular Buddhist Network and Mike Slott's *Mindful Solidarity*, Winton Higgins, and the lapsed `seculardharma.net`, with Ramsey Margolis as one node.
-- 0.5 The Thesis -- dharma as evolved cultural technology, and the convergence of Batchelor and Graeber.
-- 0.6 The Knowledgebase as Method -- the forty-year collection, the RAG knowledgebase, and the two-stage method.
-- 0.7 Influences & Acknowledgements -- the real network behind the essays and the knowledgebase, set in proportion: Irfan Kortschak's source-texts, Paul Stange and Java's Sumarah movement, the Bodhi College teachers and the wider cohort, and the Tuwhiri / Secular Buddhist Network cluster with Ramsey Margolis as one node.
+- 0.1 Life & Formation — Perth origins, the migration to Indonesia and citizenship, the temperament, and the personal history sketched here.
+- 0.2 Politics & Anarchism — the Communist Party and anarchist years, and the "anarchism as plain natural history" thread.
+- 0.3 The Sangha & the Retreat — Bodhi College, the 2018 retreats, Stephen Batchelor, and the 'a secular dharma?' conversations with Rupert Bozeat and Elfie Klinger.
+- 0.4 Network & Publishing — the secular-dharma publishing network: the Tuwhiri Project, the Secular Buddhist Network and Mike Slott's *Mindful Solidarity*, Winton Higgins, and the lapsed `seculardharma.net`, with Ramsey Margolis as one node.
+- 0.5 The Thesis — dharma as evolved cultural technology, and the convergence of Batchelor and Graeber.
+- 0.6 The Knowledgebase as Method — the forty-year collection, the RAG knowledgebase, and the two-stage method.
+- 0.7 Influences & Acknowledgements — the real network behind the essays and the knowledgebase, set in proportion: Irfan Kortschak's source-texts, Paul Stange and Java's Sumarah movement, the Bodhi College teachers and the wider cohort, and the Tuwhiri / Secular Buddhist Network cluster with Ramsey Margolis as one node.
 
 **Key works**
 
-- Paul Stange, *The Logic of Rasa in Java* (1984) -- the scholarship on Java's Sumarah movement behind the preface's account of the author's earliest secular-dharma analogue.
-- David Graeber, *Fragments of an Anarchist Anthropology* (2004) -- the anthropology of self-organising mutual aid that converges with secular dharma.
-- Peter Kropotkin, *Mutual Aid: A Factor of Evolution* (1902) -- cooperation as a natural force in evolution.
-- Robert Sapolsky, *Behave* (2017) -- the human behavioural biology that underpins the frame.
-- Stephen Batchelor, *After Buddhism: Rethinking the Dharma for a Secular Age* (2015) -- the dharma as task-based ethics rather than belief; the book behind the retreat.
-- Christopher Boehm, *Hierarchy in the Forest* (1999); Sarah Blaffer Hrdy, *Mothers and Others* (2009); David Sloan Wilson, *This View of Life* (2019) -- the evolution of cooperation, egalitarianism, and prosociality.
+- Paul Stange, *The Logic of Rasa in Java* (1984) — the scholarship on Java's Sumarah movement behind the preface's account of the author's earliest secular-dharma analogue.
+- David Graeber, *Fragments of an Anarchist Anthropology* (2004) — the anthropology of self-organising mutual aid that converges with secular dharma.
+- Peter Kropotkin, *Mutual Aid: A Factor of Evolution* (1902) — cooperation as a natural force in evolution.
+- Robert Sapolsky, *Behave* (2017) — the human behavioural biology that underpins the frame.
+- Stephen Batchelor, *After Buddhism: Rethinking the Dharma for a Secular Age* (2015) — the dharma as task-based ethics rather than belief; the book behind the retreat.
+- Christopher Boehm, *Hierarchy in the Forest* (1999); Sarah Blaffer Hrdy, *Mothers and Others* (2009); David Sloan Wilson, *This View of Life* (2019) — the evolution of cooperation, egalitarianism, and prosociality.
