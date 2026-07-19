@@ -3,13 +3,15 @@ part: 9
 title: "Coda"
 slug: coda
 status: done
-words: 551
+words: 563
 reading_level: year-12
 updated: 2026-07-19
 draws_on: []
 ---
 
 # 9: Coda
+
+<image r 40 "/images/9-defining-dharma_watercolor.webp" "What is dharma?" "">
 
 > *Eight parts of searching have earned one plain answer. So here it is, stated rather than argued: what a dharma is ...*
 
@@ -38,6 +40,7 @@ A dharma usually includes:
 - **Practices** — what one repeatedly does
 - **Stories** — why life is this way
 - **Duties** — what one owes to self, others, community, or world
+- **Community** — whom one belongs to, and who holds one to the path
 - **Identity** — who "we" are, or who "I" am trying to become
 - **Discipline** — how one trains conduct, attention, speech, desire, and response
 
