@@ -14,7 +14,7 @@ set -euo pipefail
 shopt -s inherit_errexit nullglob
 declare -rx PATH=/usr/local/bin:/usr/bin:/bin
 
-declare -r VERSION='1.2.3'
+declare -r VERSION='1.3.0'
 declare -- SCRIPT_DIR
 SCRIPT_DIR=$(dirname -- "$(realpath -- "$0")")
 readonly -- SCRIPT_DIR
@@ -24,6 +24,13 @@ declare -r PROD_CMD='ok3'
 declare -r PROD_DB='/var/www/vhosts/garydean.id/data.db'
 declare -r URL_GLOB='[0-9]-in-search-of-dharma'
 declare -ri REMOTE_TIMEOUT=120
+
+# Research-note links. Each essay's "Sources & further reading" section links its
+# notes by repo-relative path, which on the web resolves against /works/ and 404s.
+# Rewritten to absolute GitHub URLs on the way into the database; the notes are
+# all tracked, so every generated URL is live. main (not a tag) is deliberate:
+# note IDs and filenames are stable, and readers should see current corrections.
+declare -r REPO_BLOB='https://github.com/GaryDean/defining-dharma/blob/main'
 
 declare -i DRY_RUN=1 DEV_ONLY=0
 declare -- DB=''
@@ -61,7 +68,11 @@ cleanup() {
   exit "$ec"
 }
 
-# Strip YAML frontmatter and the leading H1, then print the body.
+# Strip YAML frontmatter and the leading H1, rewrite research-note links to
+# absolute GitHub URLs, then print the body. The optional "../" prefix is
+# captured and discarded so both editions would yield the same URL; anchoring on
+# the leading digit scopes the rule to the eight category directories, and
+# excluding ":" from the path stops an already-absolute link being prefixed twice.
 clean_essay() {
   local -- file=$1
   awk '
@@ -73,7 +84,8 @@ clean_essay() {
       body=1
     }
     { print }
-  ' "$file"
+  ' "$file" \
+    | sed -E "s#\]\((\.\./)?([0-9]-[^):]*\.md)\)#]($REPO_BLOB/\2)#g"
 }
 
 essay_lengths() {  # $1 = sql source: 'dev' | 'prod'

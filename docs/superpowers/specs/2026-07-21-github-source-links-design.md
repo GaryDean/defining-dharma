@@ -8,8 +8,8 @@
 Each essay ends with a *Sources & further reading* section listing the research
 notes it draws on. Those listings link to the notes with repo-relative paths —
 `[1.1 Core Etymology](1-foundational/1.1-etymology.md)` in the English edition,
-`../1-foundational/…` in the Indonesian. There are 68 such links per edition,
-136 in total, across 41 distinct note files. None appear in the preface or coda.
+`../1-foundational/…` in the Indonesian. There are 58 such links per edition,
+116 in total, across 41 distinct note files. None appear in the preface or coda.
 
 The links resolve for exactly one class of reader:
 
@@ -48,7 +48,7 @@ point there.
 
 ### The rewrite rule
 
-All 136 links share one shape: `](` + optional `../` + `N-category/….md` + `)`.
+All 116 links share one shape: `](` + optional `../` + `N-category/….md` + `)`.
 A single rule covers them:
 
 ```sed
@@ -113,7 +113,7 @@ No canonical `.md` file is modified by any part of this work.
 ## Verification
 
 - `./mk-book.sh all` — epubcheck clean; staged markdown has zero remaining
-  `](N-…md)` targets and 68 `blob/main` URLs; the span renders in the PDF and
+  `](N-…md)` targets and 58 `blob/main` URLs; the span renders in the PDF and
   not in the EPUB.
 - `./id/mk-book.sh all` — same counts.
 - `./sync-essays-to-db.sh` dry run, then inspect a dev DB row for `blob/main`

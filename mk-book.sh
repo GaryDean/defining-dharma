@@ -36,7 +36,7 @@ shopt -s inherit_errexit
 declare -rx PATH=/usr/local/bin:/usr/bin:/bin
 
 # correct — handles every install pattern, including symlinked wrappers
-declare -r VERSION=1.0.0
+declare -r VERSION=1.1.0
 #shellcheck disable=SC2155
 declare -r SCRIPT_PATH=$(realpath -- "$0")
 declare -r SCRIPT_DIR=${SCRIPT_PATH%/*} SCRIPT_NAME=${SCRIPT_PATH##*/}
@@ -72,6 +72,16 @@ declare -r AUDIO_SRC_DIR=/var/www/vhosts/garydean.id/html/audio
 declare -r AUDIO_WEBROOT=${AUDIO_SRC_DIR%/audio}
 declare -r AUDIO_BASE_URL=https://garydean.id/audio
 declare -r AUDIO_STEM=in-search-of-dharma
+
+# Research-note links. Each essay's "Sources & further reading" section links the
+# notes it draws on by repo-relative path (../ prefixed in the Indonesian
+# edition), which resolves only for someone browsing the repository. Those paths
+# are rewritten to absolute GitHub URLs at build time so they resolve from an
+# EPUB or PDF too; the notes are all tracked, so every generated URL is live.
+# main (not a tag) is deliberate: note IDs and filenames are stable, so later
+# corrections reach readers holding an older build.
+declare -r REPO_URL=https://github.com/GaryDean/defining-dharma
+declare -r REPO_BLOB="$REPO_URL"/blob/main
 
 # Speaker glyph for the audio link, as inline SVG. Inline SVG renders identically
 # in EPUB3 and weasyprint and scales with the font (width/height 1em), whereas an
@@ -168,9 +178,19 @@ slugify() {
 #     can swallow whole following chapters -> dropped headings, dangling TOC links.)
 #   - strip any other stray HTML comments (e.g. <!--audio start/stop--> narration
 #     markers); they render nothing and risk the same block-swallowing.
-#   - de-link cross-references that live outside the book (research-note .md files
-#     and /works/ prev-next nav), keeping the link text; these would otherwise be
-#     dangling references (epubcheck RSC-007).
+#   - research-note links -> absolute REPO_BLOB URLs. The optional "../" prefix
+#     (Indonesian edition) is captured and dropped, so both editions produce the
+#     same valid URL. Anchoring on the leading digit scopes the rule to the eight
+#     category directories, and excluding ":" from the path means an
+#     already-absolute link can never be prefixed twice. External https targets
+#     do not trip epubcheck RSC-007, which governs dangling *internal* refs.
+#   - the repo-URL link in the "published on GitHub" line gains a trailing span
+#     carrying the bare URL, hidden in the EPUB and shown in the PDF (a hyperlink
+#     is useless on paper). Keyed on the URL, not the prose, so it works in both
+#     languages. Safe after the rule above, whose output ends in ".md)" and so
+#     cannot match a pattern requiring ")" straight after the repo name.
+#   - de-link /works/ prev-next nav, keeping the link text; those live outside the
+#     book and would otherwise be dangling references (epubcheck RSC-007).
 #   - spaced em dash " — " -> spaced en dash " – " (the typesetter's house style
 #     for the book; British/NZ practice). Sources keep their em dashes -- this is
 #     a book-build concern, not a change to the canonical essays. All source em
@@ -194,7 +214,8 @@ preprocess() {
         -e 's#^[[:space:]]*\\newpage[[:space:]]*$#<div class="pagebreak"></div>#' \
         -e 's#^[[:space:]]*<!--[[:space:]]*\\?newpage[[:space:]]*-->[[:space:]]*$#\n<div class="pagebreak"></div>\n#' \
         -e 's#<!--.*-->##g' \
-        -e 's#\[([^]]+)\]\([^)]*\.md\)#\1#g' \
+        -e "s#\]\((\.\./)?([0-9]-[^):]*\.md)\)#]($REPO_BLOB/\2)#g" \
+        -e "s#(\[[^]]+\]\($REPO_URL\))#\1<span class=\"repo-url\"> — $REPO_URL</span>#g" \
         -e 's#\[([^]]+)\]\(/works/[^)]*\)#\1#g' \
         -e 's# — # – #g' \
         -e 's#f?fj#<span class="dlig">&</span>#g'
@@ -536,6 +557,7 @@ p.audio{font-family:"Lato","DejaVu Sans",sans-serif;font-size:0.9em;margin:0.2em
 p.audio a{text-decoration:none}
 p.audio .audio-url{display:none}
 .audio-icon{vertical-align:-0.12em;margin-right:0.4em}
+.repo-url{display:none}
 img.ornament{width:25px;height:auto;margin:0 auto;opacity:0.6}
 section.contents h1{font-variant:small-caps;letter-spacing:0.08em}
 section.contents p{margin:0.9em 0}
@@ -629,6 +651,7 @@ p.audio{font-family:"Lato","DejaVu Sans",sans-serif;font-size:0.9em;margin:0.2em
 p.audio a{text-decoration:none;color:inherit}
 p.audio .audio-listen{display:none}
 .audio-icon{vertical-align:-0.12em;margin-right:0.4em}
+.repo-url{font-family:"Lato","DejaVu Sans",sans-serif;font-size:0.85em;overflow-wrap:break-word}
 img{max-width:100%}
 img.ornament{width:25px;height:auto;margin:0 auto;opacity:0.6}
 header#title-block-header{display:none}
