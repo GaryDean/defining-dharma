@@ -5,7 +5,7 @@ slug: preface
 lang: id
 translated_from: ../0-preface.md
 status: done
-words: 3391
+words: 3390
 reading_level: year-12
 updated: 2026-07-20
 draws_on: ["0.1", "0.2", "0.3", "0.4", "0.5", "0.6", "0.7"]
@@ -96,7 +96,7 @@ Penolakan ini bukan relativisme yang lembek, dan saya akan mencoba menunjukkan m
 
 Jadi: dari situlah semua ini berasal, merekalah yang membantu mewujudkannya, dan begitulah karya ini dibangun. Dehemnya sudah selesai.
 
-***Biksu Okusi**, Mei 2026, Bali, Indonesia*
+***Biksu Okusi**, Bali, Mei 2026*
 
 <!--audio stop-->
 
