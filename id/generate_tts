@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# generate_tts - TTS narration for the Indonesian essays (Mencari Dharma).
+# Thin launcher: runs generate_tts.py under the shared TTS venv in ../www/tts/.
+set -euo pipefail
+#shellcheck disable=SC2155
+declare -r SCRIPT_DIR=$(dirname -- "$(realpath -- "$0")")
+declare -r VENV_PYTHON="${SCRIPT_DIR}/../www/tts/.venv/bin/python3"
+[[ -x $VENV_PYTHON ]] || { >&2 echo "✗ TTS venv python not found: ${VENV_PYTHON@Q}"; exit 3; }
+exec "$VENV_PYTHON" "${SCRIPT_DIR}/generate_tts.py" "$@"
+#fin
