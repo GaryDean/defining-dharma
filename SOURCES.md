@@ -87,6 +87,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: unverified
 - note: prov=gd_keep_notes and filename ends .expanded.txt
 
+### alexander-grace-female-power-decline-west
+- status: barred
+- barred: ephemera
+- medium: transcript
+- kb: `Alexander-Grace_How-Female-Power-Caused-The-Decline-Of-The-West.md`
+- verified: unverified
+- note: YouTube monologue by "Alexander Grace" (youtube.com/watch?v=bOeaRd5Izoc) arguing that "female power" caused the West's decline — opinion/polemic, not scholarship, carrying no evidential weight. Barred so it cannot be cited as a source. Relevant to [[6.4-gender-and-dharma]] **only as a specimen** of the gendered anti-"woke" grievance genre — i.e. an object of analysis, never a citation supporting a claim. Surfaced on the KB-review probes (2026-07-24) and typed here to keep it out of the citable pool.
+
 ### amodei-2024-machines-of-loving-grace
 - status: usable
 - medium: text
@@ -225,6 +233,30 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `What-if-Buddhists-Ran-the-World.md`
 - verified: video (https://www.youtube.com/watch?v=izowdNr6tJY; Berggruen Institute Futurology, recorded Venice, Nov 2024)
 
+### batistoni-barclay-raihani-2022-third-party-punishers
+- status: usable
+- medium: text
+- cite: Tommaso Batistoni, Pat Barclay & Nichola J. Raihani, "Third-party punishers do not compete to be chosen as partners in an experimental game", *Proceedings of the Royal Society B* 289 (2022), PMCID PMC8753170
+- kb: `PMC8753170-third-party-punishers-do-not-compete-to-be-chosen-as-partner.md`
+- verified: web (PMC8753170; authors confirmed via Europe PMC authorString "Batistoni T, Barclay P, Raihani NJ")
+- note: experimental test of punishment-as-costly-signal; no partner-choice escalation; punishment "a more ambiguous signal of cooperative intent compared to help". ▲ Partly falsifies 5.5's peacock's-tail claim.
+
+### baum-richerson-2025-lab-cultural-evolution-punishing
+- status: usable
+- medium: text
+- cite: William M. Baum & Peter J. Richerson, "Cultural evolution in the laboratory: evolution of cooperative altruistic punishing", *Evolutionary Human Sciences* 7 (2025), PMCID PMC12645323
+- kb: `PMC12645323-cultural-evolution-in-the-laboratory-evolution-of-cooperativ.md`
+- verified: web (PMC12645323; authors confirmed via Europe PMC authorString "Baum WM, Richerson PJ")
+- note: multi-generation public-goods experiments; cooperative altruistic punishing evolves only when punishment is cheap; "canny defectors achieved the highest payoffs, always by a small margin". Live-human anchor for the "exploiter held down, never eliminated" claim, replacing a Behave gloss.
+
+### ben-oren-2023-specialization-double-edged
+- status: usable
+- medium: text
+- cite: Yotam Ben-Oren, Oren Kolodny & Nicole Creanza, "Cultural specialization as a double-edged sword: division into specialized guilds might promote cultural complexity at the cost of higher susceptibility to cultural loss", *Philosophical Transactions of the Royal Society B* (2023), PMCID PMC9869445
+- kb: `PMC9869445-cultural-specialization-as-a-double-edged-sword-division-int.md`
+- verified: web (PMC9869445; authors confirmed via Europe PMC authorString "Ben-Oren Y, Kolodny O, Creanza N")
+- note: specialist custodianship raises attainable cultural complexity but concentrates knowledge, amplifying loss under demographic/environmental shock — the transmission-theoretic form of note 2.4's institutionalisation paradox, independent of Batchelor.
+
 ### berkman-1929-what-is-communist-anarchism
 - status: usable
 - medium: text
@@ -232,6 +264,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `alexander-berkman_what-is-communist-anarchism.md`
 - verified: web (repr. https://theanarchistlibrary.org/library/alexander-berkman-what-is-communist-anarchism)
 - note: cited in 7.7 [S2]; corpus also holds the .epub under workshops/anarchy/epubs/.
+
+### berl-2021-prestige-content-biases
+- status: usable
+- medium: text
+- cite: Richard E.W. Berl, Alarna N. Samarasinghe, Seán G. Roberts, Fiona M. Jordan & Michael C. Gavin, "Prestige and content biases together shape the cultural transmission of narratives", *Evolutionary Human Sciences* (2021), PMCID PMC10427335
+- kb: `PMC10427335-prestige-and-content-biases-together-shape-the-cultural-tran.md`
+- verified: web (PMC10427335; authors confirmed via Europe PMC authorString "Berl REW, Samarasinghe AN, Roberts SG, Jordan FM, Gavin MC")
+- note: transmission-chain experiment; prestige bias real but the *smallest* measured effect (+15% recall); content biases (social, survival, negative-emotional, counterintuitive) dominate. ▲ Qualifies rather than supports the standard prestige-led account.
 
 ### bettera-2024-secondo-natura
 - status: usable
@@ -248,6 +288,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `Secondo_Natura.*.md`
 - verified: web (ISBN 9788828215592)
 - note: NEEDS-HUMAN: input filename is literally "Secondo_Natura.\*.md" (unexpanded glob, not a real file). DB has four variants under staging.text/Stefano_Bettera/ (chatgpt-4o-latest.en, gpt-4o-latest.en, gpt-4o-mini.en, it) -- confirm which specific file/language was actually cited; the .en variants are LLM translations/summaries of the Italian original.
+
+### bhagavad-gita-oevortex
+- status: usable
+- medium: text
+- cite: *Bhagavad Gītā*, chs. 1–18, anonymous English rendering — corpus copy extracted (700 verses → 18 chapter files) from the HuggingFace dataset `OEvortex/Bhagavad_Gita` (MIT licence); underlying scripture public domain. Cite **by chapter.verse**, never by page.
+- kb: `bhagavad-gita-ch01.md`, `bhagavad-gita-ch02.md`, `bhagavad-gita-ch03.md`, `bhagavad-gita-ch04.md`, `bhagavad-gita-ch05.md`, `bhagavad-gita-ch06.md`, `bhagavad-gita-ch07.md`, `bhagavad-gita-ch08.md`, `bhagavad-gita-ch09.md`, `bhagavad-gita-ch10.md`, `bhagavad-gita-ch11.md`, `bhagavad-gita-ch12.md`, `bhagavad-gita-ch13.md`, `bhagavad-gita-ch14.md`, `bhagavad-gita-ch15.md`, `bhagavad-gita-ch16.md`, `bhagavad-gita-ch17.md`, `bhagavad-gita-ch18.md`
+- verified: unverified
+- note: ▲ TRANSLATOR/EDITION UNRESOLVED. Chapter-file headers state only "Source: OEvortex/Bhagavad_Gita (MIT). English translation." — no translator, publisher, year or base edition (confirmed in `$VECTORDBS/appliedanthropology/workshops/hf/bhagavad-gita/README.md`). The English is a loose, expansive paraphrase with typos and interpolated glosses; it renders the key term inconsistently (3.35 "one's own duty (Dharma)"; 18.47 "one's own tasks") and at 18.66 renders *sarva-dharmān parityajya* ("abandoning all dharmas") as "Detach yourself from all worldly things" — the word *dharma* vanishes; 3.35 also carries an uncorrected typo ("filles with menace"). **Usable only for citing the STRUCTURE of the text's argument, by chapter.verse; NOT usable for word-level or philological claims, and no wording may be quoted as authoritative, until cross-checked against a named scholarly edition (van Buitenen, Zaehner, Miller, or public-domain Telang/SBE vol. 8).** Chapter-file frontmatter categories are `myth-religion-culture` / `philosophy-ethics` (not `secular-dharma`), consistent with the dataset README's "traditional, not secular-dharma canon". Enters notes per the non-privileging stance as one tradition's self-theorisation to be tested against the checklist, never as an authority over it. Reconciles three keys three review agents proposed independently (`bhagavad-gita-hf-oevortex`, `bhagavad-gita-primary-text`, `bhagavad-gita-oevortex`). Note 3.1 additionally cites the Gita's *argument* via secondary web commentary (wisdomlib/TIJER) at its own [S6]; that secondary citation stands separately and is not this entry.
 
 ### biglan-2020-big-pharma-death-of-americans
 - status: usable
@@ -288,6 +336,22 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `rutger-bregman_humankind_a-hopeful-history.md`
 - verified: web (ISBN 978-1-4088-9893-2)
 - note: anchor source of note 8.5 — the 1965–66 'Ata shipwreck ("real Lord of the Flies") and the Robbers Cave / Middle Grove correction (via Gina Perry's archive work). Reviewers have criticised Bregman's use of sources; weigh popular-synthesis claims accordingly.
+
+### bretl-goering-2022-moral-intuitions
+- status: usable
+- medium: text
+- cite: Brandon L. Bretl & Marlon Goering, "Age- and sex-based differences in the moral intuitions of American early adolescents", *Evolutionary Human Sciences* 4 (2022), PMCID PMC10426028
+- kb: `PMC10426028-age-and-sex-based-differences-in-the-moral-intuitions-of-ame.md`
+- verified: web (PMC10426028; authors confirmed via Europe PMC authorString "Bretl BL, Goering M")
+- note: within-population (age/sex) variation in autonomy, loyalty and empathy/animal-harm intuitions among American early adolescents, with a pubertal-onset hypothesis; also states the is/ought guard explicitly — evolutionary functional fitness "does not necessarily have anything to say about how beneficial these… mechanisms are in the contexts of modern-day societies". Descriptive psychology only — must not license any normative "better/worse" claim.
+
+### bryant-smaldino-2025-distortion-music
+- status: usable
+- medium: text
+- cite: Gregory A. Bryant & Paul E. Smaldino, "The cultural evolution of distortion in music (and other norms of mixed appeal)", *Philosophical Transactions of the Royal Society B* 380(1923):20240014 (2025), PMCID PMC11966159
+- kb: `PMC11966159-the-cultural-evolution-of-distortion-in-music-and-other-norm.md`
+- verified: web (PMC11966159; authors confirmed via Europe PMC authorString "Bryant GA, Smaldino PE" and UCLA faculty page)
+- note: norms of mixed appeal driven by intra-group cohesion and inter-group differentiation; general account of subgroup-differentiating markers. ▲ The corpus file's `authors:` frontmatter field is EMPTY — author attribution comes from Europe PMC, not the corpus.
 
 ### byy4khbb-fk-discussion-transcript
 - status: barred
@@ -334,6 +398,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `Kate-Crawford_The-Atlas-of-AI-Power-Politics-and-the-Planetary-Costs_2021.md`
 - verified: web (ISBN 9780300209570)
 - note: Title/author/year well established (filename itself is Author_Title_Year); ISBN not independently tool-verified.
+
+### currie-2021-evolution-of-institutions
+- status: usable
+- medium: text
+- cite: Thomas E. Currie, Marco Campenni, Adam Flitton, Tim Njagi, Enoch Ontiri, Cedric Perret & Lindsay Walker, "The cultural evolution and ecology of institutions", *Philosophical Transactions of the Royal Society B* (2021), PMCID PMC8126459
+- kb: `PMC8126459-the-cultural-evolution-and-ecology-of-institutions.md`
+- verified: web (PMC8126459; authors confirmed via Europe PMC authorString "Currie TE, Campenni M, Flitton A, Njagi T, Ontiri E, Perret C, Walker L")
+- note: institutions as "socially created and culturally inherited proscriptions on behaviour that define roles and set expectations about social interactions"; institutions-as-rules vs as-equilibria; institutions may be "designed by a minority for a minority" and enforce socially detrimental behaviour.
 
 ### curry-2019-seven-moral-rules
 - status: usable
@@ -422,6 +494,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: unverified
 - note: prov=gd_keep_notes and filename ends .expanded.txt -- double match on barred:self criteria
 
+### dores-cruz-2021-gossip-everyday-life
+- status: usable
+- medium: text
+- cite: Terence D. Dores Cruz, Isabel Thielmann, Simon Columbus, Catherine Molho, Junhui Wu, Francesca Righetti, Reinout E. de Vries, Antonis Koutsoumpis, Paul A. M. van Lange, Bianca Beersma & Daniel Balliet, "Gossip and reputation in everyday life", *Philosophical Transactions of the Royal Society B* 376 (2021), PMCID PMC8487731
+- kb: `PMC8487731-gossip-and-reputation-in-everyday-life.md`
+- verified: web (PMC8487731; authors confirmed via Europe PMC authorString)
+- note: ten-day experience-sampling study (N = 309; 5,284 gossip events) showing everyday gossip concerns targets' cooperativeness and drives reputation updating, partner selection and indirect reciprocity. Field evidence replacing Brown-via-Wikipedia for the gossip universal.
+
 ### einzelganger-2021-wu-wei-cook-ding
 - status: usable
 - medium: transcript
@@ -445,6 +525,22 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `-IlG32Pb43g.transcript.txt`
 - verified: video-URL (https://www.youtube.com/watch?v=-IlG32Pb43g)
 - note: Discusses Frankl's paradoxical intention / hyper-intention (stutterer example); philosophy-essay channel, not an academic source.
+
+### ene-wong-salali-2022-is-it-good-to-be-bad
+- status: usable
+- medium: text
+- cite: Ioana Ene, Keri Ka-Yee Wong & Gul Deniz Salali, "Is it good to be bad? An evolutionary analysis of the adaptive potential of psychopathic traits", *Evolutionary Human Sciences* 4 (2022), PMCID PMC10426111
+- kb: `PMC10426111-is-it-good-to-be-bad-an-evolutionary-analysis-of-the-adaptiv.md`
+- verified: web (PMC10426111; authors confirmed via Europe PMC authorString "Ene I, Wong KK, Salali GD"; ▲ year is 2022 per doc header and Europe PMC, corrected from an earlier note reference to 2023)
+- note: review of frequency-dependent and life-history models of psychopathy; dimensional not categorical; adaptiveness mediated by cultural norms (whether people "tolerate, ostracise or are easily deceived by psychopaths"). Now corpus-internal (was an external PMC link in note 5.5).
+
+### espin-branas-garza-2022-group-functional-punishment
+- status: usable
+- medium: text
+- cite: Antonio M. Espín, Pablo Brañas-Garza, Juan F. Gamella, Benedikt Herrmann & Jesús Martín, "Culture and group-functional punishment behaviour", *Evolutionary Human Sciences* 4 (2022), PMCID PMC10426100
+- kb: `PMC10426100-culture-and-group-functional-punishment-behaviour.md`
+- verified: web (PMC10426100; authors confirmed via Europe PMC authorString "Espín AM, Brañas-Garza P, Gamella JF, Herrmann B, Martín J")
+- note: altruistic punishers "condemned to a lower evolutionary success within their group"; the sanctioning system as a "second-order social dilemma"; cultural group selection picks which norms proliferate, but punishment stabilises any norm, adaptive or maladaptive. Primary-literature anchor for the third-party-punishment claim previously on a prosocial.world post.
 
 ### etymology-origins-of-dharma-md
 - status: barred
@@ -522,12 +618,44 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: web (prosocial.world/posts/the-formations-of-a-spiritual-society)
 - note: Byline not confirmed via search.
 
+### foster-postma-lamba-mesoudi-2026-microfinance-cooperation
+- status: usable
+- medium: text
+- cite: Dugald Foster, Erik Postma, Shakti Lamba & Alex Mesoudi, "Testing evolutionary theories of human cooperation via meta-analysis of microfinance repayment", *Evolutionary Human Sciences* 8 (2026), PMCID PMC13122405
+- kb: `PMC13122405-testing-evolutionary-theories-of-human-cooperation-via-meta-.md`
+- verified: web (PMC13122405; authors confirmed via Europe PMC authorString "Foster D, Postma E, Lamba S, Mesoudi A")
+- note: preregistered Bayesian meta-analysis of evolutionary cooperation mechanisms in real-world joint-liability microfinance (73 effect estimates, largely non-WEIRD); only punishment robustly positive, kin selection weakly negative (65% posterior more-related groups repay less), high heterogeneity and reproducibility concerns. Quantitative backing for 5.2's adaptationism hedge.
+
 ### four-paths-to-atheism-emergence-non-religiosity
 - status: usable
 - medium: text
 - cite: "Four Paths to Atheism - The Emergence of Non-Religiosity," prosocial.world (discussing Ara Norenzayan & Will M. Gervais's research on pathways to religious disbelief, including "mind-blind atheism")
 - kb: `four-paths-to-atheism-the-emergence-of-non-religiosity.md`
 - verified: web (prosocial.world/posts/four-paths-to-atheism-the-emergence-of-non-religiosity)
+
+### gary-dean-aggressive-coalitions-in-primates
+- status: barred
+- barred: self
+- medium: text
+- kb: `Gary-Dean_Aggressive-Coalitions-in-Primates.md`
+- verified: unverified
+- note: prov=Gary-Dean, author's own prose in the corpus. Sits squarely in 5.2/5.5 territory and will surface on primate-cooperation probes — barred so it cannot be mistaken for a third-party source. Underlying primate science must be cited to its own primaries.
+
+### gary-dean-primate-cooperation-strategies
+- status: barred
+- barred: self
+- medium: text
+- kb: `Gary-Dean_Primate-Cooperation-Strategies.md`
+- verified: unverified
+- note: prov=Gary-Dean, author's own prose in the corpus. As above — cite the primary literature (now available via the evobio fold-in), not this summary.
+
+### gary-dean-what-is-a-dharma
+- status: barred
+- barred: self
+- medium: text
+- kb: `Gary-Dean_What-is-a-dharma.md`
+- verified: unverified
+- note: prov=Gary-Dean, author's own prose in the corpus. Author's-own positions belong in notes as [A], never as [S#].
 
 ### gd-keep-0475
 - status: barred
@@ -684,6 +812,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: web (prosocial.world/posts/in-the-eye-of-the-beholder-parochial-altruism-radicalization-and-extremism)
 - note: Specific byline not surfaced in search results.
 
+### ishungisa-2025-prestige-gender-ideology
+- status: usable
+- medium: text
+- cite: Alexander M. Ishungisa, Joseph A. Kilgallen, Elisha Mabula, Charlotte O. Brand, Mark Urassa & David W. Lawson, "Prestige and gender role ideology: a study of young Tanzanian men", *Evolutionary Human Sciences* (2025), PMCID PMC11949630
+- kb: `PMC11949630-prestige-and-gender-role-ideology-a-study-of-young-tanzanian.md`
+- verified: web (PMC11949630; authors confirmed via Europe PMC authorString "Ishungisa AM, Kilgallen JA, Mabula E, Brand CO, Urassa M, Lawson DW")
+- note: field evidence for model-based social learning of *norms*; elders prestigious as "preservers and teachers of societal norms"; prestige empirically hard to separate from dominance.
+
 ### jakarta-post-australian-reporter-tale-of-living-the-news
 - status: usable
 - medium: text
@@ -804,6 +940,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: web (prosocial.world/posts/john-dewey-the-first-evolutionary-educational-philosopher)
 - note: Byline not surfaced in search results; page attributes the "Evolution's First Philosopher" label to Dewey scholar Jerome Popp.
 
+### jonason-li-czarna-2013-dark-triad-three-countries
+- status: usable
+- medium: text
+- cite: Peter K. Jonason, Norman P. Li & Anna Z. Czarna, "Quick and dirty: some psychosocial costs associated with the Dark Triad in three countries", *Evolutionary Psychology* 11(5) (2013), PMCID PMC10426975
+- kb: `PMC10426975-quick-and-dirty-some-psychosocial-costs-associated-with-the-.md`
+- verified: web (PMC10426975; authors confirmed via Europe PMC authorString "Jonason PK, Li NP, Czarna AZ")
+- note: US/Singapore/Poland samples; the fast Dark-Triad strategy carries familial, romantic and platonic psychosocial costs. Cross-national ballast against overstating adaptiveness of the fast strategy.
+
 ### jordan-2016-evolution-moral-outrage
 - status: usable
 - medium: text
@@ -836,12 +980,52 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: web
 - note: Cites Turkle, *Alone Together* (2011) per gloss; full title truncated with "..." in the input filename.
 
+### khan-2026-institutionalised-commitment
+- status: usable
+- medium: text
+- cite: Saira Khan, "Institutionalised commitment and its origins", *Human Nature* 37 (2026), PMCID PMC13079463
+- kb: `PMC13079463-institutionalised-commitment-and-its-origins.md`
+- verified: web (PMC13079463; author confirmed via Europe PMC authorString "Khan S")
+- note: transition from reputationally- to institutionally-enforced commitment, dated to Neolithic sedentism/agriculture/hierarchy; institutional third-party punishment enables cooperation with strangers absent reputational information. Author flags it as a narrative hypothesis. Converts an [A] in note 2.3 to a citable [S#].
+
+### kido-takezawa-2024-norm-psychology
+- status: usable
+- medium: text
+- cite: Yuta Kido & Masanori Takezawa, "Coevolution of norm psychology and cooperation through exapted conformity", *Evolutionary Human Sciences* 6 (2024), PMCID PMC11503932
+- kb: `PMC11503932-coevolution-of-norm-psychology-and-cooperation-through-exapt.md`
+- verified: web (PMC11503932; authors confirmed via Europe PMC authorString "Kido Y, Takezawa M")
+- note: gene-culture coevolutionary model of norm psychology; injunctive vs descriptive norms; internalisation evidenced by early norm acquisition in children and reward-circuit activation making "norm compliance a goal rather than a burden".
+
+### kish-bar-on-lamm-2023-norm-psychology-identity
+- status: usable
+- medium: text
+- cite: Kati Kish Bar-On & Ehud Lamm, "The interplay of social identity and norm psychology in the evolution of human groups", *Philosophical Transactions of the Royal Society B* 378 (2023), PMCID PMC9869443
+- kb: `PMC9869443-the-interplay-of-social-identity-and-norm-psychology-in-the-.md`
+- verified: web (PMC9869443; authors confirmed via Europe PMC authorString "Kish Bar-On K, Lamm E" — surname is the compound "Kish Bar-On")
+- note: canonical definition of norm psychology as "the suite of psychological adaptations involved in humans' capacity to establish and enforce social norms"; argues norm psychology and social identity must be integrated.
+
 ### kline-shamsudheen-broesch-2018-variation-is-the-universal
 - status: usable
 - medium: text
-- cite: Michelle A. Kline, Rabi'a Shamsudheen and Tanya Broesch, "Variation Is the Universal: Making Cultural Evolution Work in Developmental Psychology," Philosophical Transactions of the Royal Society B 373(1743) (2018)
+- cite: Michelle A. Kline, Rubeena Shamsudheen and Tanya Broesch, "Variation Is the Universal: Making Cultural Evolution Work in Developmental Psychology," Philosophical Transactions of the Royal Society B 373(1743) (2018)
 - kb: `variation-is-the-universal.md`
 - verified: web (DOI 10.1098/rstb.2017.0059)
+
+### klocova-kundt-puryag-lang-2025-extreme-ritual-mauritius
+- status: usable
+- medium: text
+- cite: Eva Kundtová Klocová, Radek Kundt, Pushkar Varma Puryag & Martin Lang, "Estimated costs and benefits of participation in an extreme ritual in Mauritius", *Evolutionary Human Sciences* 7 (2025), PMCID PMC12645328
+- kb: `PMC12645328-estimated-costs-and-benefits-of-participation-in-an-extreme-.md`
+- verified: web (PMC12645328; authors confirmed via Europe PMC authorString "Kundtová Klocová E, Kundt R, Puryag PV, Lang M" — lead surname is the compound "Kundtová Klocová")
+- note: preregistered Thaipusam Kavadi study (N = 369; Tamil Hindu in-group vs Christian out-group). ▲ In-group estimated physical costs lower but *material* costs higher; concludes "differential estimation of ritual benefits, not costs, are key to the persistence of extreme rituals" — refines rather than confirms Sosis's differential-cost-estimation account. Replaces the YouTube-transcript source for 5.2's Thaipusam claim.
+
+### lightner-2021-ethnoscientific-expertise
+- status: usable
+- medium: text
+- cite: Aaron D. Lightner, Cynthiann Heckelsmiller & Edward H. Hagen, "Ethnoscientific expertise and knowledge specialisation in 55 traditional cultures", *Evolutionary Human Sciences* (2021), PMCID PMC10427309
+- kb: `PMC10427309-ethnoscientific-expertise-and-knowledge-specialisation-in-55.md`
+- verified: web (PMC10427309; authors confirmed via Europe PMC authorString "Lightner AD, Heckelsmiller C, Hagen EH")
+- note: cross-cultural coding of knowledge specialists; religious/spiritual leaders are ethnoscientific experts in 19% of records; competing cultural-transmission vs proprietary-knowledge (secretive, gatekept) models of expertise.
 
 ### lucid-dreaming-new-perspectives-2014
 - status: usable
@@ -850,6 +1034,22 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `Lucid-Dreaming_New-Perspectives-on-Consciousness-in-Sleep_2014.md`
 - verified: web (ISBN 978-1-4408-2947-5)
 - note: NEEDS-HUMAN: was under _unprocessed_ staging dir; genuine third-party work reclassified usable — confirm bibliographic details
+
+### manning-2024-norm-reinforcement
+- status: usable
+- medium: text
+- cite: Mason L. Manning, Bill Thompson & Thomas J. H. Morgan, "Norm reinforcement, not conformity or environmental factors, is predicted to sustain cultural variation", *Evolutionary Human Sciences* (2024), PMCID PMC11658947
+- kb: `PMC11658947-norm-reinforcement-not-conformity-or-environmental-factors-i.md`
+- verified: web (PMC11658947; authors confirmed via Europe PMC authorString "Manning ML, Thompson B, Morgan TJH")
+- note: conformist transmission alone cannot stabilise traditions; punishment/reward-based norm reinforcement can; generates historical contingency, multi-generational adaptive lag, and boundary-driven divergence between culturally similar neighbouring groups.
+
+### manson-2020-narcissism-lhs-instrument
+- status: usable
+- medium: text
+- cite: Joseph H. Manson, "Is narcissism a slow life history strategy indicator?: the answer depends on the LHS instrument", *Evolutionary Psychology* 18 (2020), PMCID PMC10358412
+- kb: `PMC10358412-is-narcissism-a-slow-life-history-strategy-indicator-the-ans.md`
+- verified: web (PMC10358412; author confirmed via Europe PMC authorString "Manson JH")
+- note: N = 929; callousness and secondary psychopathy are fast-LHS indicators across two psychometric LHS instruments, while narcissism's status is instrument-dependent. Measurement-robustness reinforcement for the psychopathy/fast-LHS mapping.
 
 ### marks-2015-evolutionary-psychology-is-neither
 - status: usable
@@ -874,6 +1074,30 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: web
 - note: prov=sumarah (explicit usable-topic dir).
 
+### mesoudi-thornton-2018-what-is-cce
+- status: usable
+- medium: text
+- cite: Alex Mesoudi & Alex Thornton, "What is cumulative cultural evolution?", *Proceedings of the Royal Society B* (2018), PMCID PMC6015846
+- kb: `PMC6015846-what-is-cumulative-cultural-evolution.md`
+- verified: web (PMC6015846; authors confirmed via Europe PMC authorString "Mesoudi A, Thornton A")
+- note: core vs extended criteria for cumulative cultural evolution; the standard definitional reference for transmission fidelity and trait retention.
+
+### migliano-vinicius-2022-foraging-niche
+- status: usable
+- medium: text
+- cite: Andrea Bamberg Migliano & Lucio Vinicius, "The origins of human cumulative culture: from the foraging niche to collective intelligence", *Philosophical Transactions of the Royal Society B* (2022), PMCID PMC8666907
+- kb: `PMC8666907-the-origins-of-human-cumulative-culture-from-the-foraging-ni.md`
+- verified: web (PMC8666907; authors confirmed via Europe PMC authorString "Migliano AB, Vinicius L")
+- note: transmission fidelity, teaching, specialisation, recombination and ratcheting as adaptations of the forager niche. ▲ Argues *reduced* hierarchy raised transmission fidelity — cuts against note 2.4's hierarchical paradigm carriers.
+
+### milinski-2016-reputation-universal-currency
+- status: usable
+- medium: text
+- cite: Manfred Milinski, "Reputation, a universal currency for human social interactions", *Philosophical Transactions of the Royal Society B* 371 (2016), PMCID PMC4760200
+- kb: `PMC4760200-reputation-a-universal-currency-for-human-social-interaction.md`
+- verified: web (PMC4760200; author confirmed via Europe PMC authorString "Milinski M")
+- note: direct vs indirect reciprocity; reputation as a socially maintained score updated by observation and gossip, functioning "like money that can be used whenever the person needs help", attracting help from strangers and out-group members.
+
 ### mydharma-ourdharma-28258
 - status: barred
 - barred: self
@@ -881,6 +1105,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `mydharma-ourdharma-28258.expanded.txt`
 - verified: unverified
 - note: prov=gd_keep_notes; filename ends .expanded.txt; matches explicit "mydharma/ourdharma" barred:self example.
+
+### nedelec-dirienzo-2023-moffitt-lht
+- status: usable
+- medium: text
+- cite: Joseph L. Nedelec & Francesco DiRienzo, "Predicting Moffitt's developmental taxonomy of antisocial behavior using life history theory: a partial test of the evolutionary taxonomy", *Evolutionary Psychology* 21 (2023), PMCID PMC10655648
+- kb: `PMC10655648-predicting-moffitt-s-developmental-taxonomy-of-antisocial-be.md`
+- verified: web (PMC10655648; authors confirmed via Europe PMC authorString "Nedelec JL, DiRienzo F")
+- note: Add Health test; harshness and unpredictability distinguish life-course-persistent from adolescence-limited offenders, but other life-history measures do not — "a lack of support for the evolutionary taxonomy" on those measures. Corroborates the harshness/unpredictability channel while curbing the broader fast-LHS story.
 
 ### on-not-being-a-buddhist-expanded
 - status: barred
@@ -913,6 +1145,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `s2ZHzpwoFnc.transcript.txt`
 - verified: video-URL (https://www.youtube.com/shorts/s2ZHzpwoFnc)
 - note: Secondary/popular source — a creator's paraphrase of Yann LeCun's LLM critiques, NOT LeCun's own words (its chain-of-thought mechanism description is the creator's garbling). Resolve to LeCun primary sources for citation-grade claims. Transcript at appliedanthropology/workshops/transcripts/ (not indexed in the shared DB at query time); summary + assessment note at appliedanthropology/workshops/DD/lecun-five-problems-with-llms.md.
+
+### peoples-duda-marlowe-2016-hg-religion
+- status: usable
+- medium: text
+- cite: Hervey C. Peoples, Pavel Duda & Frank W. Marlowe, "Hunter-gatherers and the origins of religion", *Human Nature* 27 (2016), PMCID PMC4958132
+- kb: `PMC4958132-hunter-gatherers-and-the-origins-of-religion.md`
+- verified: web (PMC4958132; authors confirmed via Europe PMC authorString "Peoples HC, Duda P, Marlowe FW")
+- note: phylogenetic reconstruction of religiosity across a global hunter-gatherer sample using a time-calibrated supertree; animism ancestral; moralising active high gods "absent in early humans". Method-independent corroboration of the moralising-gods-are-late caveat, not reliant on the retracted Seshat analysis.
 
 ### pinker-2018-enlightenment-now
 - status: usable
@@ -1119,14 +1359,6 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: unverified
 - note: prosocial.world events_ page (workshop promo/listing), not an attributable essay. P3 (2026-07-02): alexander-technique [S13] converted to a plain-text corpus-pointer (the note's subject is the corpus's near-absence of Alexander material); no live [S#] cites this.
 
-### prosocial-world-generalizing-core-design-principles
-- status: usable
-- medium: text
-- cite: Michael E. Cox, "Generalizing the Core Design Principles for the Efficacy of Groups" (prosocial.world, 4 Jul 2013)
-- kb: `posts_generalizing-the-core-design-principles-for-the-efficacy-of-groups.md`
-- verified: web (prosocial.world/posts/generalizing-the-core-design-principles-for-the-efficacy-of-groups; 4 Jul 2013)
-- note: Confirmed present in shared corpus DB under prosocial.world/ (no posts_ prefix, same slug)
-
 ### prosocial-world-indigenous-kincentricity-reciprocity
 - status: usable
 - medium: text
@@ -1191,12 +1423,36 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - verified: web (https://www.prosocial.world/posts/why-immigration-drives-innovation)
 - note: Confirmed URL: prosocial.world/posts/why-immigration-drives-innovation; also syndicated at evonomics.com
 
+### pullman-refaie-lalumiere-krupp-2021-psychopathy-handedness
+- status: usable
+- medium: text
+- cite: Lesleigh E. Pullman, Nabhan Refaie, Martin L. Lalumière & DB Krupp, "Is psychopathy a mental disorder or an adaptation? Evidence from a meta-analysis of the association between psychopathy and handedness", *Evolutionary Psychology* 19 (2021), PMCID PMC10358405
+- kb: `PMC10358405-is-psychopathy-a-mental-disorder-or-an-adaptation-evidence-f.md`
+- verified: web (PMC10358405; authors confirmed via Europe PMC authorString "Pullman LE, Refaie N, Lalumière ML, Krupp DB")
+- note: 16-study meta-analysis; no elevation of non-right-handedness in psychopathy across community, offender and forensic samples; "fail[s] to support the mental disorder model", "partly support[s] the adaptive strategy model", Factor 1 vs Factor 2 divergent. Empirical test of the harmful-dysfunction argument.
+
+### puurtinen-mappes-2009-between-group-competition
+- status: usable
+- medium: text
+- cite: Mikael Puurtinen & Tapio Mappes, "Between-group competition and human cooperation", *Proceedings of the Royal Society B* 276 (2009), PMCID PMC2581672
+- kb: `PMC2581672-between-group-competition-and-human-cooperation.md`
+- verified: web (PMC2581672; authors confirmed via Europe PMC authorString "Puurtinen M, Mappes T"; ▲ Europe PMC gives year 2009, vol. 276 — some secondary citations give 2008 from the online-first date)
+- note: experimental demonstration that between-group competition resolves the public-goods dilemma, raises within-group cooperation, and "intensifies the moral emotions of anger and guilt associated with violations of the cooperative norm".
+
 ### quinn-2024-how-the-world-made-the-west
 - status: usable
 - medium: text
 - cite: Josephine Quinn, *How the World Made the West: A 4,000-Year History* (Bloomsbury, 2024)
 - kb: `Josephine-Quinn_How-the-World-Made-the-West_a-4000-Year-History.md`
 - verified: web (ISBN 978-1-5266-0518-4)
+
+### rebers-koopmans-2012-altruistic-punishment
+- status: usable
+- medium: text
+- cite: Susanne Rebers & Ruud Koopmans, "Altruistic punishment and between-group competition: evidence from n-person prisoner's dilemmas", *Human Nature* 23 (2012), PMCID PMC3387358
+- kb: `PMC3387358-altruistic-punishment-and-between-group-competition.md`
+- verified: web (PMC3387358; authors and full subtitle confirmed via Europe PMC)
+- note: tests two cultural-group-selection predictions about costly punishment under intergroup competition; both confirmed, but the effect is fully explained by conditionality on *expected* punishment levels — a deflationary caveat that belongs in any note leaning on CGS.
 
 ### religion-for-breakfast-2019-atheist-churches
 - status: usable
@@ -1304,6 +1560,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `introduction-to-sumarah.md`
 - verified: web (https://www.sumarah.net/en/introduction/introduction-to-sumarah.html)
 - note: Author identified from document header ('# Introduction to Sumarah Meditation / ### Laura Romano')
+
+### rusch-2013-altruism-asymmetries-intergroup-conflict
+- status: usable
+- medium: text
+- cite: Hannes Rusch, "Asymmetries in altruistic behavior during violent intergroup conflict", *Evolutionary Psychology* 11(5) (2013), PMCID PMC10437105
+- kb: `PMC10437105-asymmetries-in-altruistic-behavior-during-violent-intergroup.md`
+- verified: web (PMC10437105; author confirmed via Europe PMC authorString "Rusch H")
+- note: critiques the symmetric n-person-prisoner's-dilemma model underlying Choi & Bowles parochial-altruism theory; historical 20th-century data show in-group altruism concentrated in defence rather than attack; "calls for a refinement of theories".
 
 ### rybanska-addressing-field-site-concept
 - status: usable
@@ -1475,6 +1739,54 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `james-c-scott_the-art-of-not-being-governed.md`
 - verified: web (ISBN 978-0-300-15228-9)
 - note: Well-known monograph; title/publisher/year known with high confidence, ISBN not explicitly re-verified
+
+### shutters-2013-detrimental-side-of-punishment
+- status: usable
+- medium: text
+- cite: Shade T. Shutters, "Collective action and the detrimental side of punishment", *Evolutionary Psychology* 11 (2013), PMCID PMC10481089
+- kb: `PMC10481089-collective-action-and-the-detrimental-side-of-punishment.md`
+- verified: web (PMC10481089; author confirmed via Europe PMC authorString "Shutters ST")
+- note: agent-based simulation; when retaliation against punishers or second-order punishment is permitted, "the cooperative effects of punishment are reduced or eliminated", modulated by network density. ▲ Complicates the "layered punishment sustains cooperation" claim in 5.5 §4.
+
+### silva-mace-2014-northern-ireland-field-experiments
+- status: usable
+- medium: text
+- cite: Antonio S. Silva & Ruth Mace, "Cooperation and conflict: field experiments in Northern Ireland", *Proceedings of the Royal Society B* 281:1792 (2014), art. 20141435, PMCID PMC4150329
+- kb: `PMC4150329-cooperation-and-conflict-field-experiments-in-northern-irela.md`
+- verified: web (PMC4150329; authors confirmed via Europe PMC authorString "Silva AS, Mace R")
+- note: naturalistic field experiments (donations, lost-letter returns) with Catholics and Protestants; conflict reduced out-group but showed "no evidence that it influences in-group cooperation", SES dominant; "a challenge to dominant perspectives on the origins of human cooperation". Counter-evidence to Choi & Bowles, bears on 5.2 and 7.1's "same machinery" thesis.
+
+### singh-henrich-2020-mentawai-taboos
+- status: usable
+- medium: text
+- cite: Manvir Singh & Joseph Henrich, "Why do religious leaders observe costly prohibitions? Examining taboos on Mentawai shamans", *Evolutionary Human Sciences* 2 (2020), PMCID PMC10427447
+- kb: `PMC10427447-why-do-religious-leaders-observe-costly-prohibitions-examini.md`
+- verified: web (PMC10427447; authors confirmed via Europe PMC authorString "Singh M, Henrich J")
+- note: field experiment among Mentawai shamans (Siberut) testing cooperative costly signalling, CREDs and supernatural otherness; all three supported, strongest effect on perceived belief. Non-WEIRD animist/shamanic setting; co-authored by Henrich. Full-text anchor for 5.2's CREDs claim.
+
+### smaldino-2025-similarity-biased-learning
+- status: usable
+- medium: text
+- cite: Paul E. Smaldino & Alejandro Pérez Velilla, "The evolution of similarity-biased social learning", *Evolutionary Human Sciences* (2025), PMCID PMC11859121
+- kb: `PMC11859121-the-evolution-of-similarity-biased-social-learning.md`
+- verified: web (PMC11859121; authors confirmed via Europe PMC authorString "Smaldino PE, Velilla AP" — the double surname "Pérez Velilla" is indexed under Velilla)
+- note: identity-cued (parochial) social learning as an adaptive strategy; grounds the "learn from our kind" mechanism behind sectarian in-group transmission.
+
+### smolla-akcay-2023-pathways-cultural-adaptation
+- status: usable
+- medium: text
+- cite: Marco Smolla & Erol Akçay, "Pathways to cultural adaptation: the coevolution of cumulative culture and social networks", *Evolutionary Human Sciences* (2023), PMCID PMC10565192
+- kb: `PMC10565192-pathways-to-cultural-adaptation-the-coevolution-of-cumulativ.md`
+- verified: web (PMC10565192; authors confirmed via Europe PMC authorString "Smolla M, Akçay E")
+- note: high-proficiency culture requires dense networks, norms suppressing individual innovation, and specialised transmitters — a formal mechanism for scholastic conservatism and for the emergence of teaching lineages.
+
+### sparks-burleigh-barclay-2024-expressed-disapproval
+- status: usable
+- medium: text
+- cite: Adam Sparks, Tyler Burleigh & Pat Barclay, "Expressed disapproval does not sustain long-term cooperation as effectively as costly punishment", *Evolutionary Human Sciences* 6 (2024), PMCID PMC11706683
+- kb: `PMC11706683-expressed-disapproval-does-not-sustain-long-term-cooperation.md`
+- verified: web (PMC11706683; authors confirmed via Europe PMC authorString "Sparks A, Burleigh T, Barclay P")
+- note: 40-round experiment; expressed disapproval raises cooperation initially then decays while tangible punishment holds; disapproval "has no impact on an offender's fitness" unless backed by "physical punishment, monetary fines or fewer cooperative interactions because of ostracism" — the "teeth" argument. Explains why forager gossip works and predicts where it fails at scale.
 
 ### spinoza-1677-ethics
 - status: usable
@@ -1750,6 +2062,14 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - kb: `posts_mismatch-an-interview-with-mark-van-vugt.md`
 - verified: web (https://www.prosocial.world/posts/mismatch-an-interview-with-mark-van-vugt)
 
+### vinicius-2025-social-ratcheting
+- status: usable
+- medium: text
+- cite: Lucio Vinicius, Leonardo Rizzo, Federico Battiston & Andrea Bamberg Migliano, "Cultural evolution, social ratcheting and the evolution of human division of labour", *Philosophical Transactions of the Royal Society B* (2025), PMCID PMC11969390
+- kb: `PMC11969390-cultural-evolution-social-ratcheting-and-the-evolution-of-hu.md`
+- verified: web (PMC11969390; authors confirmed via Europe PMC authorString "Vinicius L, Rizzo L, Battiston F, Migliano AB")
+- note: social ratcheting — irreversible interdependence among cultural specialists; individual memory limits force distribution of a repertoire across a corporate body.
+
 ### von-rueden-large-scale-societies-outliers-moral-judgment
 - status: usable
 - medium: text
@@ -1918,8 +2238,8 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - medium: text
 - cite: David Sloan Wilson, Elinor Ostrom and Michael E. Cox, "Generalizing the Core Design Principles for the Efficacy of Groups," Journal of Economic Behavior & Organization 90S (2013): S21-S32; reposted as "Generalizing the Core Design Principles for the Efficacy of Groups," prosocial.world
 - kb: `posts_generalizing-the-core-design-principles-for-the-efficacy-of-groups.md`
-- verified: web (prosocial.world/posts/generalizing-the-core-design-principles-for-the-efficacy-of-groups)
-- note: Truncated batch filename resolved via web search.
+- verified: web (prosocial.world/posts/generalizing-the-core-design-principles-for-the-efficacy-of-groups; repost dated 4 Jul 2013)
+- note: Truncated batch filename resolved via web search. Merged 2026-07-24 with a duplicate entry keyed `prosocial-world-generalizing-core-design-principles`, which pointed at the same corpus file but credited the piece to Michael E. Cox alone (the prosocial.world repost byline). This entry's fuller attribution — Wilson, Ostrom & Cox, the JEBO 2013 paper — is the correct one and matches how note 3.1 cites it at [S3]. Neither key was referenced via [src:].
 
 ### wilson-sloan-price-is-there-a-universal-morality-overview
 - status: usable
@@ -1976,18 +2296,10 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 ### wrangham-2019-goodness-paradox
 - status: usable
 - medium: text
-- cite: Richard Wrangham, The Goodness Paradox: The Strange Relationship Between Virtue and Violence in Human Evolution (Pantheon Books, 2019)
-- kb: `the-goodness-paradox-the-strange-relationship-between-virtue-and-violence-in-human-evolution-2018028837-9781101870907-9781101870914_compress.md`
-- verified: web (ISBN 9781101870907)
-- note: Full filename resolved via DB path (staging.text/Wrangham/...9781101870907-9781101870914_compress.md), which itself embeds the ISBNs.
-
-### wrangham-2019-the-goodness-paradox
-- status: usable
-- medium: text
 - cite: Richard Wrangham, *The Goodness Paradox: The Strange Relationship Between Virtue and Violence in Human Evolution* (Pantheon Books, 2019)
 - kb: `the-goodness-paradox-the-strange-relationship-between-virtue-and-violence-in-human-evolution-2018028837-9781101870907-9781101870914_compress.md`
 - verified: web (ISBN 978-1-101-87090-7)
-- note: Truncated filename resolved via shared corpus DB match: staging.text/Wrangham/the-goodness-paradox-...-9781101870907-9781101870914_compress.md
+- note: Filename resolved via DB path (staging.text/Wrangham/...9781101870907-9781101870914_compress.md), which itself embeds the ISBNs. Merged 2026-07-24 with a duplicate entry keyed `wrangham-2019-the-goodness-paradox`; both described the same work and the same corpus file, which double-counted it in the `kb:` delta index. Neither key was referenced by any note.
 
 ### yt-aliran-kepercayaan-paguyuban-sumarah
 - status: usable
@@ -2019,4 +2331,3 @@ A note's `[S#]` line points here via `[src:<key>]`. No `[S#]` may point at a `st
 - cite: John Zerzan, "The Catastrophe of Postmodernism" (1991; repr. The Anarchist Library)
 - kb: `john-zerzan_the-catastrophe-of-postmodernism.md`
 - verified: web (https://theanarchistlibrary.org/library/john-zerzan-the-catastrophe-of-postmodernism)
-
