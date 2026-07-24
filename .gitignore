@@ -22,6 +22,12 @@ ramsey-*.md
 BASH-CODING-STANDARD.md
 critical-review*.md
 
+# Prose-hygiene sub-project: harvested source material (transcripts, comment
+# threads, style teardowns) used to identify and strip AI-generated tics,
+# structures and word choices from the manuscript. Third-party content and
+# working notes — kept local, never published.
+docs/ai-writing/
+
 # Assets not yet cleared for publication
 # (no trailing slash: www is a symlink, and dir-only patterns skip symlinks)
 www
